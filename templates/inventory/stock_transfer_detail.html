@@ -1,0 +1,179 @@
+{% extends 'base.html' %}
+
+{% block title %}Stock Transfer #{{ transfer.transfer_number }}{% endblock %}
+
+{% block page_title %}Stock Transfer Details{% endblock %}
+
+{% block page_actions %}
+<div class="btn-group" role="group">
+    <a href="{% url 'inventory:stock_transfer_list' %}" class="btn btn-secondary">
+        <i class="fas fa-arrow-left"></i> Back to Stock Transfers
+    </a>
+    {% if request.user.is_superuser %}
+    <a href="{% url 'inventory:stock_transfer_update' pk=transfer.pk %}" class="btn btn-warning">
+        <i class="fas fa-edit"></i> Edit Transfer
+    </a>
+    {% endif %}
+    <button onclick="window.print();" class="btn btn-primary">
+        <i class="fas fa-print"></i> Print Transfer
+    </button>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-8">
+        <!-- Transfer Info -->
+        <div class="card mb-4">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <h5 class="mb-0">Transfer Information</h5>
+                <span class="badge bg-{% if transfer.status == 'completed' %}success{% elif transfer.status == 'in_transit' %}primary{% elif transfer.status == 'pending' %}warning{% else %}secondary{% endif %} badge-lg">
+                    {{ transfer.get_status_display }}
+                </span>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p><strong>Transfer Number:</strong> {{ transfer.transfer_number }}</p>
+                        <p><strong>From Store:</strong> {{ transfer.source_store.name }}</p>
+                        <p><strong>To Store:</strong> {{ transfer.destination_store.name }}</p>
+                    </div>
+                    <div class="col-md-6">
+                        <p><strong>Transfer Date:</strong> {{ transfer.transfer_date|date:"M d, Y" }}</p>
+                        <p><strong>Created By:</strong> {{ transfer.created_by.get_full_name|default:transfer.created_by.username }}</p>
+                        <p><strong>Created On:</strong> {{ transfer.created_at|date:"M d, Y H:i" }}</p>
+                    </div>
+                </div>
+                {% if transfer.notes %}
+                <div class="row mt-3">
+                    <div class="col-12">
+                        <p><strong>Notes:</strong></p>
+                        <p class="text-muted">{{ transfer.notes }}</p>
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+
+        <!-- Transfer Items -->
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0">Transfer Items</h5>
+            </div>
+            <div class="card-body">
+                {% if transfer_items %}
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Part Number</th>
+                                    <th>Part Name</th>
+                                    <th>Quantity</th>
+                                    <th>Category</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for item in transfer_items %}
+                                    <tr>
+                                        <td>{{ item.part.part_number }}</td>
+                                        <td>{{ item.part.name }}</td>
+                                        <td>
+                                            {% if item.quantity == item.quantity|floatformat:0 %}
+                                                {{ item.quantity|floatformat:0 }}
+                                            {% else %}
+                                                {{ item.quantity|floatformat:2 }}
+                                            {% endif %}
+                                        </td>
+                                        <td>{{ item.part.category|default:"N/A" }}</td>
+                                    </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                {% else %}
+                    <p class="text-muted">No items in this transfer.</p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <!-- Quick Stats -->
+        <div class="card mb-4">
+            <div class="card-header">
+                <h6 class="mb-0">Transfer Summary</h6>
+            </div>
+            <div class="card-body">
+                <div class="d-flex justify-content-between">
+                    <span>Total Items:</span>
+                    <strong>{{ transfer_items.count }}</strong>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <span>Total Quantity:</span>
+                    <strong>
+                        {% widthratio transfer_items.count 1 transfer_items.count %}
+                        {{ transfer_items|length|add:"0" }}
+                    </strong>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-between">
+                    <span>Status:</span>
+                    <span class="badge bg-{% if transfer.status == 'completed' %}success{% elif transfer.status == 'in_transit' %}primary{% elif transfer.status == 'pending' %}warning{% else %}secondary{% endif %}">
+                        {{ transfer.get_status_display }}
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Store Information -->
+        <div class="card">
+            <div class="card-header">
+                <h6 class="mb-0">Store Details</h6>
+            </div>
+            <div class="card-body">
+                <div class="mb-3">
+                    <strong>Source Store:</strong><br>
+                    <div class="ms-2">
+                        <strong>{{ transfer.source_store.name }}</strong><br>
+                        {% if transfer.source_store.address %}
+                            <small class="text-muted">{{ transfer.source_store.address }}</small><br>
+                        {% endif %}
+                        {% if transfer.source_store.phone %}
+                            <small class="text-muted">{{ transfer.source_store.phone }}</small>
+                        {% endif %}
+                    </div>
+                </div>
+                <div>
+                    <strong>Destination Store:</strong><br>
+                    <div class="ms-2">
+                        <strong>{{ transfer.destination_store.name }}</strong><br>
+                        {% if transfer.destination_store.address %}
+                            <small class="text-muted">{{ transfer.destination_store.address }}</small><br>
+                        {% endif %}
+                        {% if transfer.destination_store.phone %}
+                            <small class="text-muted">{{ transfer.destination_store.phone }}</small>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Add print styling
+        const style = document.createElement('style');
+        style.innerHTML = `
+            @media print {
+                .btn, .card-header .badge { display: none !important; }
+                .card { border: 1px solid #000 !important; }
+                .table { font-size: 12px; }
+            }
+        `;
+        document.head.appendChild(style);
+    });
+</script>
+{% endblock %}
