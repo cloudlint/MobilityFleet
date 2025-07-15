@@ -1,0 +1,244 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Purchase Details{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1>Purchase Invoice: {{ purchase.invoice_number }}</h1>
+        <div>
+            <a href="{% url 'inventory:purchase_update' purchase.id %}" class="btn btn-warning">
+                <i class="fas fa-edit"></i> Edit Invoice
+            </a>
+            <a href="{% url 'inventory:purchase_list' %}" class="btn btn-secondary ms-2">
+                <i class="fas fa-arrow-left"></i> Back to Purchases
+            </a>
+        </div>
+    </div>
+
+    <!-- Messages are already shown in base.html -->
+
+    <div class="row">
+        <div class="col-md-8">
+            <div class="card shadow mb-4">
+                <div class="card-header bg-primary text-white">
+                    <h5 class="mb-0">Invoice Items</h5>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Description</th>
+                                    <th>Part/Scooter</th>
+                                    <th>Quantity</th>
+                                    <th>Unit Price</th>
+                                    <th>Total</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for item in items %}
+                                    <tr>
+                                        <td>{{ item.description }}</td>
+                                        <td>
+                                            {% if item.part %}
+                                                Part: {{ item.part.name }}
+                                            {% elif item.scooter %}
+                                                Scooter: {{ item.scooter.make }} {{ item.scooter.model }}
+                                            {% else %}
+                                                -
+                                            {% endif %}
+                                        </td>
+                                        <td>{{ item.quantity }}</td>
+                                        <td>R {{ item.unit_price }}</td>
+                                        <td>R {{ item.item_total }}</td>
+                                    </tr>
+                                {% empty %}
+                                    <tr>
+                                        <td colspan="5" class="text-center">No items found for this invoice.</td>
+                                    </tr>
+                                {% endfor %}
+                            </tbody>
+                            <tfoot class="table-light">
+                                <tr>
+                                    <th colspan="4" class="text-end">Subtotal:</th>
+                                    <th>R {{ purchase.subtotal|floatformat:2|default:"0.00" }}</th>
+                                </tr>
+                                {% if purchase.discount_percent > 0 or purchase.discount_amount > 0 %}
+                                <tr>
+                                    <th colspan="4" class="text-end">
+                                        Discount 
+                                        {% if purchase.discount_percent > 0 %}
+                                            ({{ purchase.discount_percent }}%):
+                                        {% else %}
+                                            :
+                                        {% endif %}
+                                    </th>
+                                    <th class="text-danger">-R {{ purchase.discount_amount|floatformat:2|default:"0.00" }}</th>
+                                </tr>
+                                {% endif %}
+                                {% if purchase.vat_percent > 0 %}
+                                <tr>
+                                    <th colspan="4" class="text-end">VAT ({{ purchase.vat_percent }}%):</th>
+                                    <th>R {{ purchase.vat_amount|floatformat:2|default:"0.00" }}</th>
+                                </tr>
+                                {% endif %}
+                                <tr class="table-primary">
+                                    <th colspan="4" class="text-end">Total Amount:</th>
+                                    <th>R {{ purchase.total_amount|floatformat:2 }}</th>
+                                </tr>
+                                <tr>
+                                    <th colspan="4" class="text-end">Amount Paid:</th>
+                                    <th class="text-success">R {{ purchase.amount_paid|floatformat:2 }}</th>
+                                </tr>
+                                <tr class="table-warning">
+                                    <th colspan="4" class="text-end">Balance Due:</th>
+                                    <th class="{% if purchase.balance_due > 0 %}text-danger{% else %}text-success{% endif %}">
+                                        R {{ purchase.balance_due|floatformat:2 }}
+                                    </th>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4">
+            <div class="card shadow mb-4">
+                <div class="card-header bg-primary text-white">
+                    <h5 class="mb-0">Invoice Information</h5>
+                </div>
+                <div class="card-body">
+                    <div class="row mb-2">
+                        <div class="col-md-5 fw-bold">Supplier:</div>
+                        <div class="col-md-7">
+                            <a href="{% url 'inventory:supplier_detail' purchase.supplier.id %}">
+                                {{ purchase.supplier.name }}
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                        <div class="col-md-5 fw-bold">Invoice Date:</div>
+                        <div class="col-md-7">{{ purchase.invoice_date }}</div>
+                    </div>
+                    <div class="row mb-2">
+                        <div class="col-md-5 fw-bold">Due Date:</div>
+                        <div class="col-md-7">{{ purchase.due_date }}</div>
+                    </div>
+                    <div class="row mb-2">
+                        <div class="col-md-5 fw-bold">Status:</div>
+                        <div class="col-md-7">
+                            <span class="badge 
+                                {% if purchase.status == 'paid' %}bg-success
+                                {% elif purchase.status == 'partial' %}bg-warning
+                                {% elif purchase.status == 'cancelled' %}bg-danger
+                                {% else %}bg-info{% endif %}">
+                                {{ purchase.get_status_display }}
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                        <div class="col-md-5 fw-bold">Payment:</div>
+                        <div class="col-md-7">
+                            <div class="progress mb-1" style="height: 10px;">
+                                <div class="progress-bar 
+                                    {% if purchase.status == 'paid' %}bg-success
+                                    {% elif purchase.status == 'partial' %}bg-warning
+                                    {% elif purchase.status == 'cancelled' %}bg-danger
+                                    {% else %}bg-info{% endif %}" 
+                                    role="progressbar" 
+                                    style="width: {{ purchase.payment_status_percent }}%;" 
+                                    aria-valuenow="{{ purchase.payment_status_percent }}" 
+                                    aria-valuemin="0" 
+                                    aria-valuemax="100">
+                                </div>
+                            </div>
+                            <small>{{ purchase.payment_status_percent }}% paid</small>
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                        <div class="col-md-5 fw-bold">Created By:</div>
+                        <div class="col-md-7">{{ purchase.created_by.get_full_name|default:purchase.created_by.username }}</div>
+                    </div>
+                    <div class="row mb-2">
+                        <div class="col-md-5 fw-bold">Created On:</div>
+                        <div class="col-md-7">{{ purchase.date_created|date:"d/m/Y H:i" }}</div>
+                    </div>
+                    <div class="row mb-2">
+                        <div class="col-md-5 fw-bold">Last Updated:</div>
+                        <div class="col-md-7">{{ purchase.date_updated|date:"d/m/Y H:i" }}</div>
+                    </div>
+                    <div class="row mb-2">
+                        <div class="col-md-5 fw-bold">Notes:</div>
+                        <div class="col-md-7">{{ purchase.notes|linebreaks|default:"None" }}</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Financial Summary Card -->
+            <div class="card shadow">
+                <div class="card-header bg-success text-white">
+                    <h5 class="mb-0">Financial Summary</h5>
+                </div>
+                <div class="card-body">
+                    <div class="row mb-3">
+                        <div class="col-md-6 fw-bold">Subtotal:</div>
+                        <div class="col-md-6 text-end">R {{ purchase.subtotal|floatformat:2|default:"0.00" }}</div>
+                    </div>
+                    
+                    {% if purchase.discount_percent > 0 or purchase.discount_amount > 0 %}
+                    <div class="row mb-3">
+                        <div class="col-md-6 fw-bold text-danger">
+                            Discount
+                            {% if purchase.discount_percent > 0 %}
+                                <small>({{ purchase.discount_percent }}%)</small>
+                            {% endif %}
+                            :
+                        </div>
+                        <div class="col-md-6 text-end text-danger">-R {{ purchase.discount_amount|floatformat:2|default:"0.00" }}</div>
+                    </div>
+                    {% endif %}
+                    
+                    {% if purchase.vat_percent > 0 %}
+                    <div class="row mb-3">
+                        <div class="col-md-6 fw-bold">VAT ({{ purchase.vat_percent }}%):</div>
+                        <div class="col-md-6 text-end">R {{ purchase.vat_amount|floatformat:2|default:"0.00" }}</div>
+                    </div>
+                    {% endif %}
+                    
+                    <hr>
+                    
+                    <div class="row mb-3">
+                        <div class="col-md-6 fw-bold fs-5">Total Amount:</div>
+                        <div class="col-md-6 text-end fs-5 fw-bold text-primary">R {{ purchase.total_amount|floatformat:2 }}</div>
+                    </div>
+                    
+                    <div class="row mb-3">
+                        <div class="col-md-6 fw-bold">Amount Paid:</div>
+                        <div class="col-md-6 text-end text-success">R {{ purchase.amount_paid|floatformat:2 }}</div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-md-6 fw-bold">Balance Due:</div>
+                        <div class="col-md-6 text-end {% if purchase.balance_due > 0 %}text-danger fw-bold{% else %}text-success{% endif %}">
+                            R {{ purchase.balance_due|floatformat:2 }}
+                        </div>
+                    </div>
+                    
+                    {% if purchase.balance_due > 0 %}
+                    <div class="alert alert-warning mt-3 mb-0">
+                        <i class="fas fa-exclamation-triangle"></i> Outstanding balance of R {{ purchase.balance_due|floatformat:2 }}
+                    </div>
+                    {% else %}
+                    <div class="alert alert-success mt-3 mb-0">
+                        <i class="fas fa-check-circle"></i> Invoice fully paid
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
