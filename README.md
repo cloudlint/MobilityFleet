@@ -152,3 +152,4 @@ ScootDR is a comprehensive Django-based web application for managing scooter ren
 
 ## User Preferences
 Preferred communication style: Simple, everyday language.# MobilityFleet
+# MobilityFleet
