@@ -4,7 +4,8 @@ from django.contrib.auth import login, authenticate, logout
 from django.contrib.auth.models import User
 from django.contrib import messages
 from django.core.paginator import Paginator
-from .models import Category, Brand, Product, HomepageVideo
+from .models import Category, Brand, Product, HomepageVideo, RentalCategory, RestorationGallery
+from cart.models import Order
 
 # The following sample data functions will eventually be removed once we have real data in database
 # Kept here temporarily for backwards compatibility
@@ -306,11 +307,12 @@ def account(request):
     if not request.user.is_authenticated:
         return render(request, 'landing/login.html', {'next': request.path})
     
-    # If user is authenticated, show their account
-    # In a real app, this would fetch the user's orders, rentals, etc.
+    # Fetch user's orders from the database
+    user_orders = Order.objects.filter(user=request.user).order_by('-created_at')
+    
     context = {
         'user_scooters': [],  # User's registered scooters
-        'orders': [],         # User's orders
+        'orders': user_orders,  # User's orders from database
         'rentals': [],        # User's rentals
         'services': [],       # User's service history
         'favorites': []       # User's favorite products
@@ -319,9 +321,13 @@ def account(request):
     return render(request, 'landing/account.html', context)
 
 def login_view(request):
-    """Handle customer login"""
+    """Handle both customer and staff login"""
     if request.user.is_authenticated:
-        return redirect('landing:account')
+        # Redirect authenticated users based on their role
+        if request.user.is_staff:
+            return redirect('dashboard:index')
+        else:
+            return redirect('landing:account')
     
     if request.method == 'POST':
         username = request.POST.get('username')
@@ -331,8 +337,15 @@ def login_view(request):
         if user is not None:
             login(request, user)
             messages.success(request, f"Welcome back, {user.username}!")
-            next_url = request.POST.get('next', 'landing:account')
-            return redirect(next_url)
+            next_url = request.POST.get('next')
+            if next_url and next_url.strip():
+                return redirect(next_url)
+            elif user.is_staff:
+                # Staff users go to dashboard
+                return redirect('dashboard:index')
+            else:
+                # Regular users go to their account
+                return redirect('landing:account')
         else:
             messages.error(request, "Invalid username or password.")
             return render(request, 'landing/login.html', {'form_errors': True})
@@ -340,10 +353,46 @@ def login_view(request):
     # If not POST, show the login form
     return render(request, 'landing/login.html')
 
+def staff_login_view(request):
+    """Handle staff login specifically using dashboard login template"""
+    if request.user.is_authenticated:
+        # Always redirect authenticated staff users to dashboard
+        if request.user.is_staff:
+            return redirect('dashboard:index')
+        else:
+            # Non-staff users should not access staff login
+            messages.error(request, "Access denied. Staff credentials required.")
+            return redirect('landing:home')
+    
+    if request.method == 'POST':
+        username = request.POST.get('username')
+        password = request.POST.get('password')
+        user = authenticate(request, username=username, password=password)
+        
+        if user is not None:
+            if user.is_staff:
+                login(request, user)
+                messages.success(request, f"Welcome to the Dashboard, {user.username}!")
+                # ALWAYS redirect staff users to dashboard, ignore next parameter
+                return redirect('dashboard:index')
+            else:
+                messages.error(request, "Access denied. Only staff members can access the dashboard.")
+                return render(request, 'dashboard_login.html', {'form_errors': True})
+        else:
+            messages.error(request, "Invalid username or password.")
+            return render(request, 'dashboard_login.html', {'form_errors': True})
+    
+    # If not POST, show the staff login form
+    return render(request, 'dashboard_login.html')
+
 def register(request):
     """Handle user registration for customer accounts only"""
     if request.user.is_authenticated:
-        return redirect('landing:account')
+        # Redirect authenticated users based on their role
+        if request.user.is_staff:
+            return redirect('dashboard:index')
+        else:
+            return redirect('landing:account')
     
     if request.method == 'POST':
         username = request.POST.get('username')
@@ -389,6 +438,7 @@ def register(request):
             # Log the user in after registration
             login(request, user)
             messages.success(request, f"Welcome to ScootDR, {user.first_name}! Your account has been created.")
+            # Since registration is for customers only, they go to account page
             return redirect('landing:account')
             
         except Exception as e:
@@ -459,3 +509,15 @@ def password_reset(request):
     
     # If not POST, show the password reset form
     return render(request, 'landing/password_reset.html')
+
+@login_required
+def order_detail(request, order_id):
+    """Order detail page"""
+    order = get_object_or_404(Order, id=order_id, user=request.user)
+    
+    context = {
+        'order': order,
+        'order_items': order.items.all()
+    }
+    
+    return render(request, 'landing/order_detail.html', context)

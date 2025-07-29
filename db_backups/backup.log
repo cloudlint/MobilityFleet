@@ -5,3 +5,61 @@
 [Tue Jul  8 19:00:00 SAST 2025] Backup created: scooter_db2_2025-07-08_19-00-00.sql
 [Wed Jul  9 19:00:08 SAST 2025] Backup created: scooter_db2_2025-07-09_19-00-07.sql
 [Thu Jul 10 19:00:01 SAST 2025] Backup created: scooter_db2_2025-07-10_19-00-00.sql
+----- 2025-07-28 10:33:33 -----
+Starting backup for scooter_db2...
+pg_dump: option requires an argument -- f
+pg_dump: hint: Try "pg_dump --help" for more information.
+/Volumes/Data/Business/scootdr/scripts/backup_db.sh: line 19: /Volumes/Data/Business/scootdr/db_backups/scooter_backup_2025-07-28.sql: No such file or directory
+Backup FAILED!
+Cleaning up backups older than 3 days...
+find: -exec: no terminating ";" or "+"
+rm: {}: No such file or directory
+rm: ;: No such file or directory
+Done.
+
+----- 2025-07-28 10:35:08 -----
+Starting backup for scooter_db2...
+pg_dump: option requires an argument -- f
+pg_dump: hint: Try "pg_dump --help" for more information.
+/Volumes/Data/Business/scootdr/scripts/backup_db.sh: line 19: /Volumes/Data/Business/scootdr/db_backups/scooter_backup_2025-07-28.sql: No such file or directory
+Backup FAILED!
+Cleaning up backups older than 3 days...
+find: -exec: no terminating ";" or "+"
+rm: {}: No such file or directory
+rm: ;: No such file or directory
+Done.
+
+----- 2025-07-28 10:40:47 -----
+Starting backup for scooter_db2...
+pg_dump: option requires an argument -- f
+pg_dump: hint: Try "pg_dump --help" for more information.
+/Volumes/Data/Business/scootdr/scripts/backup_db.sh: line 19: /Volumes/Data/Business/scootdr/db_backups/scooter_backup_2025-07-28.sql: No such file or directory
+Backup FAILED!
+Cleaning up backups older than 3 days...
+Done.
+
+----- 2025-07-28 10:43:28 -----
+Starting backup for scooter_db2...
+Backup successful: scooter_backup_2025-07-28.sql
+Cleaning up backups older than 3 days...
+Done.
+
+----- 2025-07-28 10:49:44 -----
+Starting backup for scooter_db2...
+Backup successful: scooter_backup_2025-07-28.sql
+Cleaning up backups older than 3 days...
+Done.
+
+----- 2025-07-28 10:56:15 -----
+Starting backup for scooter_db2...
+Backup successful: scooter_backup_2025-07-28.sql.gz
+Cleaning up backups older than 3 days...
+Done.
+
+----- 2025-07-29 02:56:42 -----
+Starting backup for scooter_db2...
+/Volumes/Data/Business/scootdr/scripts/backup_db.sh: line 27: pg_dump: command not found
+Backup successful: scooter_backup_2025-07-29.sql.gz
+Cleaning up backups older than 3 days...
+Done.
+

@@ -911,12 +911,12 @@ body.logged-in .sticky-table-header th {
 
 /* Products page - Popular Products text */
 .list-group-item p {
-    color: #333333 !important;
+    color: #ffffff !important;
 }
 
 /* Products page - Price font color */
 .fw-bold {
-    color: #333333 !important;
+    color: #ffffff !important;
 }
 
 /* Products page - View Details button text */
@@ -926,32 +926,32 @@ body.logged-in .sticky-table-header th {
 
 /* Buy page - Scooter Buying Guide heading */
 .card h3 {
-    color: #333333 !important;
+    color: #ffffff !important;
 }
 
 /* Buy page - Scooter Buying Guide text */
 .card h4 {
-    color: #333333 !important;
+    color: #ffffff !important;
 }
 
 /* Rent page - How Rental Works heading */
 .rental-process h3 {
-    color: #333333 !important;
+    color: #ffffff !important;
 }
 
 /* Rent page - How Rental Works text */
 .rental-process h4 {
-    color: #333333 !important;
+    color: #ffffff !important;
 }
 
 /* Restore page - Our Restoration Process heading */
 .restoration-process h3 {
-    color: #333333 !important;
+    color: #ffffff !important;
 }
 
 /* Restore page - Our Restoration Process text */
 .restoration-process h4 {
-    color: #333333 !important;
+    color: #ffffff !important;
 }
 
 /* General text color fixes for better visibility */
@@ -961,17 +961,17 @@ body.logged-in .sticky-table-header th {
 
 /* Card body text */
 .card-body p {
-    color: #333333 !important;
+    color: #ffffff !important;
 }
 
 /* Card title */
 .card-title {
-    color: #333333 !important;
+    color: #ffffff !important;
 }
 
 /* Section headings */
 h1, h2, h3, h4, h5, h6 {
-    color: #333333 !important;
+    color: #ffffff !important;
 }
 
 /* Override for white text on dark backgrounds */
@@ -985,7 +985,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Specific fixes for rental process steps */
 .rental-step h4 {
-    color: #333333 !important;
+    color: #ffffff !important;
 }
 
 .rental-step p {
@@ -994,7 +994,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Specific fixes for restoration process steps */
 .restoration-step h4 {
-    color: #333333 !important;
+    color: #ffffff !important;
 }
 
 .restoration-step p {

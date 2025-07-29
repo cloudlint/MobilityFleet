@@ -1,7 +1,9 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib import messages
+from django.contrib.auth.decorators import login_required
 from django.http import JsonResponse
 from landing.models import Product
+from .models import Order, OrderItem
 import uuid
 
 def get_cart_id(request):
@@ -34,7 +36,7 @@ def cart_add(request, product_id):
             'quantity': 1,
             'price': float(product.price),
             'name': product.name,
-            'image': product.image.url if product.image else '/static/images/products/placeholder.jpg'
+            'image': product.get_image_url()
         }
     
     request.session['cart'] = cart
@@ -99,6 +101,7 @@ def cart_detail(request):
         'total': total
     })
 
+@login_required
 def checkout(request):
     """Checkout process"""
     cart = request.session.get('cart', {})
@@ -125,17 +128,52 @@ def checkout(request):
         })
     
     if request.method == 'POST':
-        # In a real app, this would validate form data and process payment
-        # For now, just clear the cart and show confirmation
-        request.session['cart'] = {}
-        messages.success(request, "Your order has been placed successfully")
+        # Create the order in the database
+        order = Order.objects.create(
+            user=request.user,
+            total_amount=total,
+            billing_first_name=request.POST.get('billing_first_name', request.user.first_name or 'Customer'),
+            billing_last_name=request.POST.get('billing_last_name', request.user.last_name or ''),
+            billing_email=request.POST.get('billing_email', request.user.email),
+            billing_phone=request.POST.get('billing_phone', ''),
+            billing_address=request.POST.get('billing_address', '123 Default Street'),
+            billing_city=request.POST.get('billing_city', 'Cape Town'),
+            billing_postal_code=request.POST.get('billing_postal_code', '8001'),
+            billing_province=request.POST.get('billing_province', 'Western Cape'),
+            # Use billing address as shipping if not provided separately
+            shipping_first_name=request.POST.get('shipping_first_name', request.POST.get('billing_first_name', request.user.first_name or 'Customer')),
+            shipping_last_name=request.POST.get('shipping_last_name', request.POST.get('billing_last_name', '')),
+            shipping_address=request.POST.get('shipping_address', request.POST.get('billing_address', '123 Default Street')),
+            shipping_city=request.POST.get('shipping_city', request.POST.get('billing_city', 'Cape Town')),
+            shipping_postal_code=request.POST.get('shipping_postal_code', request.POST.get('billing_postal_code', '8001')),
+            shipping_province=request.POST.get('shipping_province', request.POST.get('billing_province', 'Western Cape')),
+        )
         
-        # You would typically save the order to the database here
+        # Create order items
+        for product_id, item_data in cart.items():
+            try:
+                product = Product.objects.get(id=int(product_id))
+                OrderItem.objects.create(
+                    order=order,
+                    product=product,
+                    product_name=item_data['name'],
+                    product_price=item_data['price'],
+                    product_image=item_data['image'],
+                    quantity=item_data['quantity']
+                )
+            except Product.DoesNotExist:
+                # Handle case where product was deleted after being added to cart
+                continue
+        
+        # Clear the cart
+        request.session['cart'] = {}
+        messages.success(request, f"Your order #{order.order_number} has been placed successfully")
         
         return render(request, 'cart/checkout_success.html', {
             'cart_items': cart_items,
             'total': total,
-            'order_id': str(uuid.uuid4())[:8].upper()  # Generate a simple order ID
+            'order_id': order.order_number,
+            'order': order
         })
     
     return render(request, 'cart/checkout.html', {

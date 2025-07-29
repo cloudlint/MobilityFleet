@@ -124,9 +124,13 @@ MEDIA_ROOT = BASE_DIR / 'media'
 # Default primary key field type
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# Login URL
-LOGIN_URL = '/staff-login/'
-LOGIN_REDIRECT_URL = '/dashboard/'
+# Login URL - For staff (dashboard access)
+STAFF_LOGIN_URL = '/staff-login/'
+STAFF_LOGIN_REDIRECT_URL = '/dashboard/'
+
+# Login URL - For customers (checkout access)  
+LOGIN_URL = '/login/'
+LOGIN_REDIRECT_URL = '/account/'
 LOGOUT_REDIRECT_URL = '/'
 
 # Session expires after 5 minutes of inactivity

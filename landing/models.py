@@ -139,7 +139,8 @@ class RentalCategory(models.Model):
     name = models.CharField(max_length=200)
     slug = models.SlugField(unique=True, blank=True)
     description = models.TextField()
-    image = models.CharField(max_length=255, blank=True, null=True)
+    image = models.CharField(max_length=255, blank=True, null=True, 
+                           help_text="URL for the rental category card image (displayed on Rent page)")
     daily_rate = models.DecimalField(max_digits=10, decimal_places=2)
     weekly_rate = models.DecimalField(max_digits=10, decimal_places=2)
     monthly_rate = models.DecimalField(max_digits=10, decimal_places=2)

@@ -1,0 +1,140 @@
+{% extends 'landing/base.html' %}
+
+{% block title %}Order {{ order.order_number }} - ScootDr{% endblock %}
+
+{% block content %}
+<section class="py-5">
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h1>Order {{ order.order_number }}</h1>
+            <a href="{% url 'landing:account' %}" class="btn btn-outline-primary">
+                <i class="fas fa-arrow-left me-2"></i> Back to My Account
+            </a>
+        </div>
+        
+        <div class="row">
+            <!-- Order Information -->
+            <div class="col-md-8">
+                <div class="card mb-4">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="mb-0" style="color: #2c3f52;">Order Items</h5>
+                    </div>
+                    <div class="card-body p-0">
+                        <div class="table-responsive">
+                            <table class="table table-hover mb-0">
+                                <thead class="table-light">
+                                    <tr>
+                                        <th style="width: 50%">Product</th>
+                                        <th>Price</th>
+                                        <th>Quantity</th>
+                                        <th>Total</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for item in order_items %}
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                {% if item.product_image %}
+                                                <img src="{{ item.product_image }}" alt="{{ item.product_name }}" class="img-thumbnail me-3" style="width: 80px; height: 80px; object-fit: cover;">
+                                                {% endif %}
+                                                <span>{{ item.product_name }}</span>
+                                            </div>
+                                        </td>
+                                        <td>R{{ item.product_price }}</td>
+                                        <td>{{ item.quantity }}</td>
+                                        <td>R{{ item.subtotal }}</td>
+                                    </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="card-footer bg-light d-flex justify-content-between">
+                        <span class="fw-bold">Total: R{{ order.total_amount }}</span>
+                        <span class="badge bg-{{ order.status_color }} fs-6">{{ order.get_status_display }}</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Order Details Sidebar -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-header bg-light">
+                        <h5 class="mb-0" style="color: #2c3f52;">Order Information</h5>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>Order Date:</strong> {{ order.created_at|date:"F d, Y" }}</p>
+                        <p><strong>Order Status:</strong> 
+                            <span class="badge bg-{{ order.status_color }}">{{ order.get_status_display }}</span>
+                        </p>
+                        <p><strong>Items:</strong> {{ order.item_count }} item(s)</p>
+                        <p><strong>Total:</strong> R{{ order.total_amount }}</p>
+                    </div>
+                </div>
+                
+                <div class="card mb-4">
+                    <div class="card-header bg-light">
+                        <h5 class="mb-0" style="color: #2c3f52;">Billing Address</h5>
+                    </div>
+                    <div class="card-body">
+                        <p class="mb-1">{{ order.billing_first_name }} {{ order.billing_last_name }}</p>
+                        <p class="mb-1">{{ order.billing_address }}</p>
+                        <p class="mb-1">{{ order.billing_city }}, {{ order.billing_postal_code }}</p>
+                        <p class="mb-1">{{ order.billing_province }}</p>
+                        {% if order.billing_phone %}
+                        <p class="mb-1">{{ order.billing_phone }}</p>
+                        {% endif %}
+                        <p class="mb-0">{{ order.billing_email }}</p>
+                    </div>
+                </div>
+                
+                {% if order.shipping_address %}
+                <div class="card mb-4">
+                    <div class="card-header bg-light">
+                        <h5 class="mb-0" style="color: #2c3f52;">Shipping Address</h5>
+                    </div>
+                    <div class="card-body">
+                        <p class="mb-1">{{ order.shipping_first_name }} {{ order.shipping_last_name }}</p>
+                        <p class="mb-1">{{ order.shipping_address }}</p>
+                        <p class="mb-1">{{ order.shipping_city }}, {{ order.shipping_postal_code }}</p>
+                        <p class="mb-0">{{ order.shipping_province }}</p>
+                    </div>
+                </div>
+                {% endif %}
+                
+                <div class="card">
+                    <div class="card-header bg-light">
+                        <h5 class="mb-0" style="color: #2c3f52;">Order Actions</h5>
+                    </div>
+                    <div class="card-body">
+                        {% if order.status == 'pending' %}
+                        <p class="text-muted mb-2">Your order is being processed.</p>
+                        {% elif order.status == 'processing' %}
+                        <p class="text-muted mb-2">Your order is being prepared for shipment.</p>
+                        {% elif order.status == 'shipped' %}
+                        <p class="text-muted mb-2">Your order has been shipped and is on the way.</p>
+                        {% elif order.status == 'delivered' %}
+                        <p class="text-success mb-2">Your order has been delivered!</p>
+                        {% endif %}
+                        
+                        <div class="d-grid gap-2">
+                            {% if order.status in 'pending,processing' %}
+                            <button class="btn btn-outline-danger btn-sm" onclick="alert('Contact support to cancel your order.')">
+                                Cancel Order
+                            </button>
+                            {% endif %}
+                            <button class="btn btn-outline-primary btn-sm" onclick="alert('Order tracking will be implemented in a future update.')">
+                                Track Order
+                            </button>
+                            <a href="{% url 'landing:contact' %}" class="btn btn-outline-secondary btn-sm">
+                                Contact Support
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

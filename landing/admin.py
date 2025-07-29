@@ -88,13 +88,18 @@ class ProductAdmin(admin.ModelAdmin):
     remove_featured.short_description = "Remove selected products from featured"
 
 class RentalCategoryAdmin(admin.ModelAdmin):
-    list_display = ('name', 'daily_rate', 'weekly_rate', 'monthly_rate', 'is_active')
+    list_display = ('name', 'image_preview', 'daily_rate', 'weekly_rate', 'monthly_rate', 'is_active')
     prepopulated_fields = {'slug': ('name',)}
     search_fields = ('name', 'description')
     list_filter = ('is_active',)
+    readonly_fields = ('image_preview',)
     fieldsets = (
         (None, {
-            'fields': ('name', 'slug', 'description', 'image')
+            'fields': ('name', 'slug', 'description')
+        }),
+        ('Card Image', {
+            'fields': ('image', 'image_preview'),
+            'description': 'Provide a URL for the rental category card image. This image will be displayed on the "Rent a Scooter" page.'
         }),
         ('Pricing', {
             'fields': ('daily_rate', 'weekly_rate', 'monthly_rate')
@@ -103,6 +108,18 @@ class RentalCategoryAdmin(admin.ModelAdmin):
             'fields': ('is_active',)
         }),
     )
+    
+    def image_preview(self, obj):
+        """Display a preview of the rental category image"""
+        if obj.image:
+            return format_html(
+                '<img src="{}" alt="{}" style="max-width: 150px; max-height: 100px; border-radius: 5px; border: 1px solid #ddd; padding: 2px;" />',
+                obj.get_image_url(),
+                obj.name
+            )
+        return format_html('<span style="color: #999; font-style: italic;">No image provided</span>')
+    
+    image_preview.short_description = 'Image Preview'
 
 admin.site.register(Category, CategoryAdmin)
 admin.site.register(Brand, BrandAdmin)

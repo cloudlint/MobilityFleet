@@ -16,6 +16,7 @@ urlpatterns = [
     
     # Account related pages
     path('account/', views.account, name='account'),
+    path('account/order/<int:order_id>/', views.order_detail, name='order_detail'),
     path('login/', views.login_view, name='login'),
     path('register/', views.register, name='register'),
     path('logout/', views.logout_view, name='logout'),
