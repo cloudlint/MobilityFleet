@@ -70,3 +70,10 @@ Backup successful: scooter_backup_2025-07-30.sql.gz
 Cleaning up backups older than 3 days...
 Done.
 
+----- 2025-07-31 02:56:02 -----
+Starting backup for scooter_db2...
+/Volumes/Data/Business/scootdr/scripts/backup_db.sh: line 27: pg_dump: command not found
+Backup successful: scooter_backup_2025-07-31.sql.gz
+Cleaning up backups older than 3 days...
+Done.
+
