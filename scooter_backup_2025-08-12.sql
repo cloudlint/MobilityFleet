@@ -2086,7 +2086,7 @@ COPY public.auth_user (id, password, last_login, is_superuser, username, first_n
 5	pbkdf2_sha256$1000000$1iJQ3t8RB49M8u48YjudBL$sFYDcic6I84CrAg1JPTPBmjhIhfQ8DNBNCAQCz9xlkQ=	2025-05-24 20:34:17.647844+00	f	kato12	Kato	Amos	mmhussein13@yahoo.ca	f	t	2025-05-15 13:37:27.995041+00
 2	pbkdf2_sha256$1000000$PbAO8ViibaigsbGjDLrsEn$D41LoG1vfWqEYeixnJE1cMYY74nrYoRPJnT74Piesbs=	2025-05-24 20:34:26+00	f	Elleck	Elleck			t	t	2025-05-08 05:01:36+00
 6	pbkdf2_sha256$1000000$gW0XaR5oueAWIaUbkUJmuu$kM9m2ZVjqvwD9PcDONNFqkBHovzdnimO8aXLpNkFuQA=	\N	f	Adrich				f	t	2025-06-27 07:30:01.331008+00
-1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2025-08-12 07:25:39.409082+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
+1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2025-08-12 11:16:05.097006+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
 \.
 
 
@@ -2945,6 +2945,8 @@ hwd7vlhy6ez0akif9lt8izh3hf2kstiz	.eJxVjDsOgzAQBe_iGpBhbS-mTJ8zoPWuHUgikPhUiLsnJD
 gdc7uxrxblu0koj715s5ms4i32e6saz3	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1ueGBx:ND_0gOk8u-Xm8fH--fAXH8mMZNhwmp142nW7mxdNq-Q	2025-07-22 16:55:13.542377+00
 9x8iyceje00cc0650dgjkv1afonaxmek	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1uljQX:jk5PiLrEdwxx3klGWFOMnjTUpvmTgd71M6V7ZwU8TkM	2025-08-12 07:33:09.96524+00
 5azs1ssjbi80v3z3qqx1xnlyjuqjszhu	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1ueGXn:r1xZIy0DtHZ55OgeI9WdLZEHm1HeA7J6-oI7d468wuc	2025-07-22 17:17:47.180616+00
+suftxkfuda37y1t9c3vcmd7kfac7tiyk	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1uljaq:txYL8PbN8EcdjRPOSIYgMz4Y3TfWNwj6XrcGFJkUKzg	2025-08-12 07:43:48.427591+00
+8yemglrczgdipziomxt943843lgksm83	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1ulnDU:eb4eaODM3-GVvA4YfI66w_QY-C4PbHtGsX17JVwxZig	2025-08-12 11:35:56.593401+00
 \.
 
 
@@ -3152,7 +3154,6 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 154	12251-XJA-0000	Cylinder Head Gasket Jet14		3.00	0.00	48.18	Engine & Transmission		2025-06-09 12:42:57.17773+00	2025-06-09 12:47:59.644335+00	1
 150	31120-F6N-0000	Stator Jet14		2.00	0.00	1460.93	Engine & Transmission		2025-05-15 19:07:38.676738+00	2025-06-09 12:51:26.119333+00	1
 70	2902200	Tyre FF 90/80-16		1.00	0.00	800.00	Wheels and Tires		2025-05-06 07:34:54.756421+00	2025-06-18 17:42:48.019949+00	1
-155	96700-08020-00	Socket Bolt 8*20		9.00	1.00	14.70	Frame and Body		2025-06-19 12:42:37.82335+00	2025-06-19 12:45:29.753744+00	1
 134	384-BTX7A-BS	Battery Motorsport		6.00	0.00	429.00	Electrical Components		2025-05-06 08:28:03.415966+00	2025-06-23 13:43:33.441157+00	1
 161	KMF12V7-1A	Battery YTX7A-BS		8.00	1.00	500.00	Electrical Components		2025-07-02 09:41:47.276324+00	2025-07-02 10:58:27.969478+00	2
 162	45121-XMC-0001	Brake Disk FR		1.00	1.00	111.00	Brakes		2025-07-02 09:42:53.26031+00	2025-07-02 09:42:53.260333+00	2
@@ -3201,6 +3202,7 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 198	1275-CR8E	Spark Plug		14.00	3.00	90.00	Engine & Transmission		2025-07-02 10:29:08.453565+00	2025-07-02 10:29:08.453587+00	2
 199	2902200	Tyre FF 90/80-16		2.00	1.00	900.00	Wheels and Tires		2025-07-02 10:29:32.874915+00	2025-07-02 10:29:32.874947+00	2
 200	2772400	Tyre RR 140/70-16		4.00	1.00	890.00	w		2025-07-02 10:30:09.298897+00	2025-07-02 10:30:09.298918+00	2
+155	96700-08020-00	Socket Bolt 8*20		10.00	1.00	14.70	Frame and Body		2025-06-19 12:42:37.82335+00	2025-08-12 11:22:42.240563+00	1
 9	23100-XMA-0001	Drive Belt		9.00	5.00	996.52	Engine & Transmission		2025-05-05 21:28:13.605717+00	2025-08-04 09:18:34.546546+00	1
 10	22132-ARA-0000	Slide Piece		73.00	15.00	10.00	Engine & Transmission		2025-05-05 21:28:57.890263+00	2025-08-04 09:18:34.54475+00	1
 135	MCT-YTX7A-BS	Battery Auto-X		0.00	3.00	800.00	Electrical Components		2025-05-06 08:28:44.934208+00	2025-08-05 09:19:49.568214+00	1
@@ -3285,6 +3287,7 @@ COPY public.inventory_purchase (id, invoice_number, invoice_date, due_date, stat
 26	66556650	2025-07-23	2025-07-23	paid	1191.40	1191.40		2025-07-23 17:30:54.430813+00	2025-07-23 17:31:19.816992+00	1	5	1	0.00	0.00	1036.00	155.40	15.00
 27	10AIPAAZ6527	2025-07-29	2025-07-29	paid	266.78	0.00		2025-07-29 11:24:42.689653+00	2025-07-29 11:24:42.753064+00	1	1	1	115.82	33.30	347.80	34.80	15.00
 28	10AIPAAZ6668	2025-07-31	2025-07-31	paid	266.78	0.00		2025-07-31 10:27:00.8231+00	2025-07-31 10:27:00.920765+00	1	1	1	115.82	33.30	347.80	34.80	15.00
+29	10AIPAAZ7485	2025-08-12	2025-08-12	paid	11.28	0.00		2025-08-12 11:22:42.124593+00	2025-08-12 11:22:42.28786+00	1	1	1	4.90	33.30	14.70	1.47	15.00
 \.
 
 
@@ -3346,6 +3349,7 @@ COPY public.inventory_purchaseitem (id, description, quantity, unit_price, part_
 67	Tyre FR 100/90-14" - TYM-139610	2.00	518.00	242	26	\N	1
 68	Ignition Coil Cap - XD10F	10.00	34.78	243	27	\N	1
 69	Ignition Coil Cap - XD10F	10.00	34.78	243	28	\N	1
+70	Socket Bolt 8*20 - 96700-08020-00	1.00	14.70	155	29	\N	1
 \.
 
 
@@ -4736,7 +4740,7 @@ COPY public.users_userprofile (id, phone, "position", bio, date_updated, store_i
 5				2025-05-24 20:34:17.737734+00	\N	5
 2				2025-06-27 07:24:45.974895+00	2	2
 6				2025-06-27 07:30:02.18664+00	\N	6
-1				2025-08-12 07:25:39.607321+00	\N	1
+1				2025-08-12 11:16:05.142932+00	\N	1
 \.
 
 
@@ -4912,14 +4916,14 @@ SELECT pg_catalog.setval('public.inventory_parts_id_seq', 243, true);
 -- Name: inventory_purchase_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_purchase_id_seq', 28, true);
+SELECT pg_catalog.setval('public.inventory_purchase_id_seq', 29, true);
 
 
 --
 -- Name: inventory_purchaseitem_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_purchaseitem_id_seq', 69, true);
+SELECT pg_catalog.setval('public.inventory_purchaseitem_id_seq', 70, true);
 
 
 --
