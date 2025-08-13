@@ -2087,7 +2087,7 @@ COPY public.auth_user (id, password, last_login, is_superuser, username, first_n
 2	pbkdf2_sha256$1000000$PbAO8ViibaigsbGjDLrsEn$D41LoG1vfWqEYeixnJE1cMYY74nrYoRPJnT74Piesbs=	2025-05-24 20:34:26+00	f	Elleck	Elleck			t	t	2025-05-08 05:01:36+00
 6	pbkdf2_sha256$1000000$gW0XaR5oueAWIaUbkUJmuu$kM9m2ZVjqvwD9PcDONNFqkBHovzdnimO8aXLpNkFuQA=	\N	f	Adrich				f	t	2025-06-27 07:30:01.331008+00
 1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2025-08-13 06:53:08.219028+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
-7	pbkdf2_sha256$1000000$QcBQvDuhOqoH7okJF00ujH$WiPYDJ+ob3Qa8cGm5344NFYslWqbEgZyNLCzZj5LaVo=	2025-08-13 06:59:54.767027+00	t	Hussein			mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
+7	pbkdf2_sha256$1000000$QcBQvDuhOqoH7okJF00ujH$WiPYDJ+ob3Qa8cGm5344NFYslWqbEgZyNLCzZj5LaVo=	2025-08-13 08:52:28.301835+00	t	Hussein			mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
 \.
 
 
@@ -2950,6 +2950,7 @@ gdc7uxrxblu0koj715s5ms4i32e6saz3	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdK
 suftxkfuda37y1t9c3vcmd7kfac7tiyk	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1uljaq:txYL8PbN8EcdjRPOSIYgMz4Y3TfWNwj6XrcGFJkUKzg	2025-08-12 07:43:48.427591+00
 acargkod65hcpo3ip1a3jmqrlj0myrh7	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1um5Sx:GCI8Zz2qFB0YE_4-Wo3D6WLyeUA8ueLdoWAVZgmSQs4	2025-08-13 07:05:07.350318+00
 8yemglrczgdipziomxt943843lgksm83	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1ulnDU:eb4eaODM3-GVvA4YfI66w_QY-C4PbHtGsX17JVwxZig	2025-08-12 11:35:56.593401+00
+7spgqsvo9btu0c98wj6b20gmptbirgyr	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1um7Eb:bJmudSAXMKJdexVM3sb1clqYjEq8J3Zn_2OWvqtiMzQ	2025-08-13 08:58:25.163241+00
 \.
 
 
@@ -3137,8 +3138,6 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 128	91201-M9Q-3000-M2	Oil Seal		6.00	0.00	41.76	Engine & Transmission		2025-05-06 08:21:57.874753+00	2025-05-27 10:37:33.56045+00	1
 129	2812A-XJA-0000	Starter Clutch Outer Assy		1.00	0.00	200.00	Engine & Transmission		2025-05-06 08:22:20.427184+00	2025-05-06 08:22:20.427211+00	1
 130	90034-HMA-000	Special Stud Bolt 8		2.00	0.00	50.00	Miscellaneous / Universal Parts		2025-05-06 08:25:45.469494+00	2025-05-06 08:25:45.469519+00	1
-131	90103-KN8-000	Special Bolt 8MM		5.00	0.00	50.00	Miscellaneous / Universal Parts		2025-05-06 08:26:13.732585+00	2025-05-06 08:26:13.732612+00	1
-132	90474-333-000-KD	Washer Xpro		5.00	2.00	10.00	Miscellaneous / Universal Parts		2025-05-06 08:26:47.240428+00	2025-05-06 08:26:47.240448+00	1
 133	90043-XB1-0000	Cap Nut 8mm		2.00	0.00	50.00	Miscellaneous / Universal Parts		2025-05-06 08:27:15.154942+00	2025-05-06 08:27:15.154963+00	1
 137	91003-M8Q-0000	Radial Ball Bearing		2.00	0.00	50.00	Engine & Transmission		2025-05-06 08:29:41.197184+00	2025-05-06 08:29:41.197205+00	1
 138	91104-KN7-6700-M1	Radial Ball Bearing		2.00	0.00	50.00	Engine & Transmission		2025-05-06 08:30:09.738883+00	2025-05-06 08:30:09.738905+00	1
@@ -3148,6 +3147,7 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 141	96100-62033-10	Radial Ball Bearing  6203 c3		2.00	0.00	50.00	Engine & Transmission		2025-05-06 08:31:20.251768+00	2025-05-06 08:31:20.251799+00	1
 142	96150-62050-10	Radial Ball Bearing 6205LLU		2.00	0.00	50.00	Engine & Transmission		2025-05-06 08:31:51.739186+00	2025-05-06 08:31:51.739217+00	1
 143	91203-A6A-0000	Seal-Oil Xpro125		2.00	0.00	50.00	Engine & Transmission		2025-05-06 08:32:17.429735+00	2025-05-06 08:32:17.429755+00	1
+132	90474-333-000-KD	Washer Xpro		4.00	2.00	10.00	Miscellaneous / Universal Parts		2025-05-06 08:26:47.240428+00	2025-08-13 08:53:24.269259+00	1
 144	23420-Z7P-0100-M1	Counter Shaft Jet14		2.00	0.00	200.00	Engine & Transmission		2025-05-06 08:32:40.822658+00	2025-05-06 08:32:40.822677+00	1
 145	12391-F8A-0001	Head Cover Packing Jet14		3.00	0.00	120.00	Engine & Transmission		2025-05-06 08:33:10.560434+00	2025-05-06 08:33:10.560463+00	1
 146	14751-ARA-0000	Valve Spring		2.00	0.00	30.00	Engine & Transmission		2025-05-06 08:33:37.996101+00	2025-05-06 08:33:37.996131+00	1
@@ -3264,6 +3264,7 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 242	TYM-139610	Tyre FR 100/90-14"		4.00	0.00	900.00	Tyres		2025-07-09 15:39:06.134916+00	2025-07-23 17:30:54.87597+00	1
 61	95701-06012-07	Flange Bolt 6*12		0.00	0.00	10.00	Miscellaneous / Universal Parts		2025-05-06 07:27:57.530288+00	2025-08-12 15:16:22.022943+00	1
 1	130460	Engine Oil		135.80	5.00	560.00	Lubricants & Fluids		2025-05-05 19:18:03.334943+00	2025-08-13 06:56:07.001461+00	1
+131	90103-KN8-000	Special Bolt 8MM		4.00	0.00	50.00	Miscellaneous / Universal Parts		2025-05-06 08:26:13.732585+00	2025-08-13 08:53:02.627127+00	1
 \.
 
 
@@ -4770,7 +4771,7 @@ COPY public.users_userprofile (id, phone, "position", bio, date_updated, store_i
 2				2025-06-27 07:24:45.974895+00	2	2
 6				2025-06-27 07:30:02.18664+00	\N	6
 1				2025-08-13 06:53:08.225653+00	\N	1
-7				2025-08-13 06:59:54.775533+00	\N	7
+7				2025-08-13 08:52:28.30975+00	\N	7
 \.
 
 
