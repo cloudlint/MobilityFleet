@@ -2086,7 +2086,7 @@ COPY public.auth_user (id, password, last_login, is_superuser, username, first_n
 5	pbkdf2_sha256$1000000$1iJQ3t8RB49M8u48YjudBL$sFYDcic6I84CrAg1JPTPBmjhIhfQ8DNBNCAQCz9xlkQ=	2025-05-24 20:34:17.647844+00	f	kato12	Kato	Amos	mmhussein13@yahoo.ca	f	t	2025-05-15 13:37:27.995041+00
 2	pbkdf2_sha256$1000000$PbAO8ViibaigsbGjDLrsEn$D41LoG1vfWqEYeixnJE1cMYY74nrYoRPJnT74Piesbs=	2025-05-24 20:34:26+00	f	Elleck	Elleck			t	t	2025-05-08 05:01:36+00
 6	pbkdf2_sha256$1000000$gW0XaR5oueAWIaUbkUJmuu$kM9m2ZVjqvwD9PcDONNFqkBHovzdnimO8aXLpNkFuQA=	\N	f	Adrich				f	t	2025-06-27 07:30:01.331008+00
-7	pbkdf2_sha256$1000000$QcBQvDuhOqoH7okJF00ujH$WiPYDJ+ob3Qa8cGm5344NFYslWqbEgZyNLCzZj5LaVo=	2025-08-25 07:03:26.730068+00	t	Hussein			mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
+7	pbkdf2_sha256$1000000$QcBQvDuhOqoH7okJF00ujH$WiPYDJ+ob3Qa8cGm5344NFYslWqbEgZyNLCzZj5LaVo=	2025-08-25 08:14:22.267723+00	t	Hussein			mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
 1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2025-08-13 06:53:08.219028+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
 \.
 
@@ -3051,7 +3051,6 @@ COPY public.inventory_inventoryalert (id, alert_type, title, description, severi
 --
 
 COPY public.inventory_parts (id, part_number, name, description, current_stock, reorder_level, unit_price, category, location_in_store, date_created, date_updated, store_id) FROM stdin;
-17	8360A-X8A-0002-WA	Body Cover Assy LH		2.00	1.00	100.00	Frame and Body		2025-05-05 21:40:28.191266+00	2025-05-05 21:40:28.191293+00	1
 23	50512-ARA-0005	Flange Bolt		1.00	0.00	50.00	Miscellaneous / Universal Parts		2025-05-05 21:46:27.306745+00	2025-05-05 21:46:27.306765+00	1
 27	12V/21W/BAU15S	Indicator bulbs		10.00	4.00	50.00	Lighting and Indicators		2025-05-05 21:49:41.520259+00	2025-05-05 21:51:33.921147+00	1
 33	88110-XPA-0004-K	Mirror RH		2.00	1.00	50.00	Frame and Body		2025-05-05 21:56:40.65233+00	2025-05-05 21:56:40.652359+00	1
@@ -3087,7 +3086,6 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 52	93903-34340	Tapping Screw 4x12		9.00	5.00	3.00	Miscellaneous / Universal Parts		2025-05-06 07:20:41.156391+00	2025-06-18 13:09:55.229133+00	1
 72	22121-RB1-001-A1	Weight roller COMP		9.00	0.00	300.00	Engine & Transmission		2025-05-06 07:35:56.318341+00	2025-05-06 07:35:56.318372+00	1
 19	45121-XMC-0001	Brake Disk FR		3.00	2.00	500.00	Brakes		2025-05-05 21:42:42.832656+00	2025-06-26 20:06:58.886824+00	1
-18	8350A-X8A-0001-WD	Body Cover Assy RH		3.00	1.00	300.00	Frame and Body		2025-05-05 21:41:34.328391+00	2025-07-04 16:13:15.805896+00	1
 25	3051A-ARA-0200	Ignition Coil		7.00	4.00	100.00	Engine & Fuel System		2025-05-05 21:48:21.351164+00	2025-07-04 16:36:39.258275+00	1
 73	44301-LEA-000	FR Wheel Axel Citicom		1.00	0.00	50.00	Wheels and Tires		2025-05-06 07:36:38.964846+00	2025-05-06 07:36:38.964873+00	1
 74	90754-LEA-000	Dust Seal 20X35X50		4.00	0.00	120.00	Engine & Transmission		2025-05-06 07:37:13.443406+00	2025-05-06 07:37:13.443434+00	1
@@ -3098,6 +3096,7 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 56	96001-06022-49	Bolt Xpro125 6*22		0.00	2.00	10.00	Miscellaneous / Universal Parts		2025-05-06 07:23:18.396414+00	2025-07-10 17:05:13.840754+00	1
 75	90912-LEA-000	Bearing 6202LLU GTS300I		4.00	0.00	120.00	Engine & Transmission		2025-05-06 07:37:41.222858+00	2025-05-06 07:37:41.222878+00	1
 76	64306-X01-000	FR Cover Collar CITICOM300		20.00	0.00	10.00	Wheels and Tires		2025-05-06 07:40:30.95088+00	2025-05-06 07:40:30.950907+00	1
+17	8360A-X8A-0002-WA	Body Cover Assy LH		1.00	1.00	100.00	Frame and Body		2025-05-05 21:40:28.191266+00	2025-08-25 08:17:03.082207+00	1
 62	91302-M9T-0002	O-ring 30.8mm		9.00	2.00	20.00	Engine & Transmission		2025-05-06 07:28:29.595603+00	2025-08-19 07:49:01.623377+00	1
 28	50504-Z6A-0000	Main Stand Collar		2.00	2.00	40.00	Frame and Body		2025-05-05 21:51:21.965599+00	2025-08-13 10:16:21.760989+00	1
 11	CR7HSA	Spark Plug		17.00	5.00	80.00	Engine & Transmission		2025-05-05 21:30:07.226667+00	2025-08-20 13:53:09.716954+00	1
@@ -3110,6 +3109,7 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 30	5052A-APA-9000	Main Stand SPG.ASSY		5.00	2.00	40.00	Frame and Body		2025-05-05 21:54:55.123104+00	2025-08-20 07:37:27.329203+00	1
 16	90309-M9Q-000-M2	Self Lock Nut		8.00	4.00	20.00	Miscellaneous / Universal Parts		2025-05-05 21:36:48.792632+00	2025-08-20 07:37:27.331619+00	1
 20	43121-XJA-0001	Brake Disk RR		2.00	2.00	421.21	Brakes		2025-05-05 21:43:23.364712+00	2025-08-20 13:53:09.670842+00	1
+18	8350A-X8A-0001-WD	Body Cover Assy RH		2.00	1.00	300.00	Frame and Body		2025-05-05 21:41:34.328391+00	2025-08-25 08:17:03.1331+00	1
 77	S0CT31ST-RA	Topbox Carrier		1.00	0.00	800.00	Miscellaneous / Universal Parts		2025-05-06 07:41:05.202402+00	2025-05-06 07:41:05.202423+00	1
 78	1711A-AR1-0003	Inlet Pipe Sym Jet 14		4.00	2.00	400.00	Engine & Transmission		2025-05-06 07:41:54.094547+00	2025-05-06 07:41:54.094569+00	1
 79	17910-XRA-0000	Throttle Cable Comp Jet 14		4.00	1.00	300.00	Controls and Cables		2025-05-06 07:43:59.529803+00	2025-05-06 07:43:59.529827+00	1
@@ -3290,6 +3290,8 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 7	130469	Gear Oil		0.00	5.00	500.00	Lubricants & Fluids		2025-05-05 21:21:17.375925+00	2025-08-21 11:21:50.165917+00	1
 246	90201-KR8-751-M1	Flange Nut 14MM		1.00	0.00	50.00	Movable Drive Face		2025-08-18 10:16:39.429561+00	2025-08-19 12:34:43.799406+00	1
 242	TYM-139610	Tyre FR 100/90-14"		2.00	0.00	900.00	Tyres		2025-07-09 15:39:06.134916+00	2025-08-20 13:53:09.727435+00	1
+248	8360A-X8A-0002-WA	Body Cover Assy LH		1.00	1.00	100.00	Frame and Body		2025-08-25 08:17:03.085957+00	2025-08-25 08:17:03.131558+00	4
+249	8350A-X8A-0001-WD	Body Cover Assy RH		1.00	1.00	300.00	Frame and Body		2025-08-25 08:17:03.136229+00	2025-08-25 08:17:03.137962+00	4
 \.
 
 
@@ -3528,6 +3530,7 @@ COPY public.inventory_stocktransfer (id, transfer_number, transfer_date, status,
 17	ST20250704001	2025-07-04	completed		2025-07-04 16:44:11.657749+00	2025-07-04 16:44:11.65777+00	1	6	1
 18	ST20250704002	2025-07-04	completed		2025-07-04 16:45:10.256053+00	2025-07-04 16:45:10.256073+00	1	6	1
 19	ST20250813001	2025-08-12	completed		2025-08-13 10:16:21.595205+00	2025-08-13 10:16:21.595227+00	7	6	1
+20	ST20250825001	2025-08-25	in_transit		2025-08-25 08:17:02.860364+00	2025-08-25 08:17:02.860388+00	7	4	1
 \.
 
 
@@ -3555,6 +3558,8 @@ COPY public.inventory_stocktransferitem (id, quantity, date_added, part_id, stoc
 17	1.00	2025-07-04 16:45:10.280405+00	236	18
 18	2.00	2025-08-13 10:16:21.71664+00	28	19
 19	2.00	2025-08-13 10:16:21.759565+00	31	19
+20	1.00	2025-08-25 08:17:03.053122+00	17	20
+21	1.00	2025-08-25 08:17:03.080963+00	18	20
 \.
 
 
@@ -4957,7 +4962,7 @@ COPY public.users_userprofile (id, phone, "position", bio, date_updated, store_i
 2				2025-06-27 07:24:45.974895+00	2	2
 6				2025-06-27 07:30:02.18664+00	\N	6
 1				2025-08-13 06:53:08.225653+00	\N	1
-7				2025-08-25 07:03:26.820441+00	\N	7
+7				2025-08-25 08:14:22.275266+00	\N	7
 \.
 
 
@@ -5126,7 +5131,7 @@ SELECT pg_catalog.setval('public.inventory_inventoryalert_id_seq', 73, true);
 -- Name: inventory_parts_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_parts_id_seq', 247, true);
+SELECT pg_catalog.setval('public.inventory_parts_id_seq', 249, true);
 
 
 --
@@ -5168,14 +5173,14 @@ SELECT pg_catalog.setval('public.inventory_scootermaintenancehistory_id_seq', 1,
 -- Name: inventory_stocktransfer_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_stocktransfer_id_seq', 19, true);
+SELECT pg_catalog.setval('public.inventory_stocktransfer_id_seq', 20, true);
 
 
 --
 -- Name: inventory_stocktransferitem_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_stocktransferitem_id_seq', 19, true);
+SELECT pg_catalog.setval('public.inventory_stocktransferitem_id_seq', 21, true);
 
 
 --
