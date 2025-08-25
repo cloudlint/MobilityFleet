@@ -2086,7 +2086,7 @@ COPY public.auth_user (id, password, last_login, is_superuser, username, first_n
 5	pbkdf2_sha256$1000000$1iJQ3t8RB49M8u48YjudBL$sFYDcic6I84CrAg1JPTPBmjhIhfQ8DNBNCAQCz9xlkQ=	2025-05-24 20:34:17.647844+00	f	kato12	Kato	Amos	mmhussein13@yahoo.ca	f	t	2025-05-15 13:37:27.995041+00
 2	pbkdf2_sha256$1000000$PbAO8ViibaigsbGjDLrsEn$D41LoG1vfWqEYeixnJE1cMYY74nrYoRPJnT74Piesbs=	2025-05-24 20:34:26+00	f	Elleck	Elleck			t	t	2025-05-08 05:01:36+00
 6	pbkdf2_sha256$1000000$gW0XaR5oueAWIaUbkUJmuu$kM9m2ZVjqvwD9PcDONNFqkBHovzdnimO8aXLpNkFuQA=	\N	f	Adrich				f	t	2025-06-27 07:30:01.331008+00
-7	pbkdf2_sha256$1000000$QcBQvDuhOqoH7okJF00ujH$WiPYDJ+ob3Qa8cGm5344NFYslWqbEgZyNLCzZj5LaVo=	2025-08-22 08:31:07.253217+00	t	Hussein			mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
+7	pbkdf2_sha256$1000000$QcBQvDuhOqoH7okJF00ujH$WiPYDJ+ob3Qa8cGm5344NFYslWqbEgZyNLCzZj5LaVo=	2025-08-25 07:03:26.730068+00	t	Hussein			mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
 1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2025-08-13 06:53:08.219028+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
 \.
 
@@ -2959,6 +2959,7 @@ lutranzrir6qsb8ddgcnbk3ho7b5ccg2	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQ
 p6245kcpl9lynckkgxiyaxpntz59szs7	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1upN2P:j3X4QX-NKK4ylJzuyeaC4JPu_BByfBvsHKnzTs9_Kgw	2025-08-22 08:27:17.11413+00
 irjyx1xnb2hq6lct828q1uwozsq66wv4	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1uohXi:Qqc6e62l9lQZDvtp3N7CuYERh9wo5Dx1MxbKIYbLST4	2025-08-20 12:08:50.82589+00
 do2dzfyppsrp6vguika5sroq2wix8j5h	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1upNBn:kvlDyZAoaT3G6j6WBbdacVJoMWPiD7xZXhgIeFqRiwQ	2025-08-22 08:36:59.489614+00
+z3vejei20pjf5hsxekpyxmqmrahhfmzs	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1uqRGP:7ef5c0XYPR-CLhJ992LoZIIyv6WrDGA-6NtIMEkljvY	2025-08-25 07:10:09.402251+00
 ljgvtrz6bxu3md9kebgby2owydt9z0nm	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1uojFb:l_qAVGm7rY-vaWG_sNNzMYJu15VNz592vm5bto4RrCg	2025-08-20 13:58:15.467613+00
 u7qzac8dshzregs043qr5rq5wt4gtazo	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1uoLY4:pwZmmf1eaMcysxO6HEqpQYQeku3VUx1fQKofpZuEh80	2025-08-19 12:39:44.512258+00
 \.
@@ -3275,7 +3276,7 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 241	61100-AAA-0000-WD	FR Fender Xpro125		1.00	0.00	1002.46	Frame and Body		2025-07-04 16:45:10.296619+00	2025-07-04 16:45:10.298275+00	6
 13	91204-HMA-0005-M2	Oil Seal 25*40*7		9.00	1.00	50.00	Engine & Transmission		2025-05-05 21:32:34.243521+00	2025-07-10 17:17:30.873163+00	1
 26	30700-T7A-A000	Ignition Coil Cap		0.00	2.00	62.05	Electrical Components		2025-05-05 21:49:06.538945+00	2025-08-07 08:10:46.288041+00	1
-1	130460	Engine Oil		126.20	5.00	560.00	Lubricants & Fluids		2025-05-05 19:18:03.334943+00	2025-08-21 11:21:50.167398+00	1
+1	130460	Engine Oil		125.40	5.00	560.00	Lubricants & Fluids		2025-05-05 19:18:03.334943+00	2025-08-25 07:05:08.46108+00	1
 69	1275-CR8E	Spark Plug		7.00	0.00	50.00	Engine & Transmission		2025-05-06 07:32:30.375045+00	2025-07-20 06:12:32.692587+00	1
 247	17211-LEA-000	Air Cleaner Element		0.00	0.00	2500.00	Air/C Assy		2025-08-18 10:19:34.522727+00	2025-08-19 12:34:43.797497+00	1
 244	50504-Z6A-0000	Main Stand Collar		2.00	2.00	40.00	Frame and Body		2025-08-13 10:16:21.765996+00	2025-08-13 10:16:21.768121+00	6
@@ -3408,7 +3409,6 @@ COPY public.inventory_scooter (id, vin, make, model, year, color, status, hourly
 9	LXMXCA501RXA35882	Sym	Jet 14 200	2023	White	available	25.00	100.00	2025-04-01	30779.00	0	2025-06-23		2025-05-08 08:07:17.503582+00	2025-06-23 13:25:46.403125+00	1	MG 15 XL GP	\N	\N	B
 50	LXMXCA501PX020380	Sym	Jet 14 200	2023	White	available	25.00	400.00	2024-06-25	30775.00	15640	2025-04-10		2025-05-19 07:37:27.254695+00	2025-05-19 07:37:27.254715+00	1	LV 14 GZ GP	\N	\N	B
 27	LXMXCA501NX021501	Sym	Jet 14 200	2022	White	available	25.00	400.00	2022-10-28	30775.00	21044	2025-07-04		2025-05-13 08:55:32.309347+00	2025-07-04 16:28:17.632907+00	1	KR 93 JM GP	\N	\N	B
-5	LXMXCA501MX023518	Sym	Jet 14 200	2023	White	available	25.00	650.00	2023-01-07	30779.00	44882	2025-07-04		2025-05-07 18:26:44.546692+00	2025-07-04 16:36:38.706237+00	1	KF 56 XK GP	\N	\N	B
 22	LXMXCA501MX024492	Sym	Jet 14 200	2022	White	available	100.00	100.00	2022-11-02	30775.00	12111	2025-07-08		2025-05-13 08:39:20.870625+00	2025-07-09 16:12:29.9512+00	1	KP 13 SB GP	\N	\N	B
 34	LXMXCA501NX022994	Sym	Jet 14 200	2022	White	available	25.00	400.00	2022-10-18	30775.00	42083	2025-07-10		2025-05-13 09:57:53.916279+00	2025-07-10 10:30:14.209688+00	1	KS 28 KK GP	\N	\N	B
 33	LXMXCA501NX022993	Sym	Jet 14 200	2002	White	available	25.00	400.00	2022-10-19	30779.00	45011	2025-07-11		2025-05-13 09:55:41.511881+00	2025-07-11 08:08:15.402557+00	1	KS 28 HS GP	\N	\N	B
@@ -3416,6 +3416,7 @@ COPY public.inventory_scooter (id, vin, make, model, year, color, status, hourly
 53	LXMXCA501RXA35871	Sym	Jet 14 200	2023	White	available	25.00	400.00	2025-02-25	30775.00	0	2025-07-18		2025-05-19 07:47:34.290663+00	2025-07-20 06:14:59.398731+00	1	MF 41 CS GP	\N	\N	B
 55	LXMXCA501RXA28095	Sym	Jet 14 200	2023	White	available	25.00	400.00	2024-06-25	30775.00	6019	2025-07-18		2025-05-19 07:51:09.969848+00	2025-07-20 06:15:58.095544+00	1	LV 14 KR GP	\N	\N	B
 32	LXMXCA501NX022992	Sym	Jet 14 200	2022	White	available	25.00	400.00	2022-10-13	30775.00	30085	2025-08-14		2025-05-13 09:53:27.324978+00	2025-08-14 11:58:46.67025+00	1	KS 92 GW GP	\N	\N	B
+5	LXMXCA501MX023518	Sym	Jet 14 200	2023	White	available	25.00	650.00	2023-01-07	30779.00	44882	2025-08-25		2025-05-07 18:26:44.546692+00	2025-08-25 07:05:08.157553+00	1	KF 56 XK GP	\N	\N	B
 16	LXMXCA501MX024488	Sym	Jet 14 200	2023	White	available	25.00	100.00	2023-01-18	30779.00	20635	2025-07-28		2025-05-12 12:15:51.437705+00	2025-07-28 08:16:27.5185+00	1	KP 13 SM GP	\N	\N	B
 12	LXMXCA501NX026504	Sym	Jet 14 200	2023	White	available	25.00	100.00	2023-06-02	30779.00	32566	2025-07-25		2025-05-09 08:06:34.967184+00	2025-07-25 20:21:05.030435+00	1	LD 90 DT GP	\N	\N	B
 57	LXMXCA501PXA21919	Sym	Jet 14 200	2023	White	available	25.00	400.00	2024-06-25	30775.00	12083	2025-07-29		2025-05-19 07:54:43.187371+00	2025-07-29 10:04:29.180011+00	1	LV 14 GB GP	\N	\N	B
@@ -3815,6 +3816,7 @@ COPY public.service_jobcard (id, job_card_number, status, priority, description,
 131	JC000114	completed	high	45,950 km Service	45950	2025-08-19 07:49:01.474983+00	2025-08-19 07:49:01.70639+00	2025-08-19	2025-08-19	1.50	650.00	0.00		15	7	available	1	service	0.00	0.00	0.00	0.00	0.00
 134	JC000117	completed	high	15,000 km Service	15012	2025-08-20 07:39:04.230351+00	2025-08-20 07:39:04.283194+00	2025-08-20	2025-08-20	1.50	650.00	0.00		38	7	available	1	service	0.00	0.00	0.00	0.00	0.00
 136	JC000119	completed	high	36,000km service	35531	2025-08-20 13:53:09.520333+00	2025-08-20 15:05:46.06426+00	2025-08-20	2025-08-20	3.50	650.00	0.00		21	7	available	\N	service	0.00	0.00	0.00	0.00	0.00
+140	JC000123	completed	low	51,000 km Service	51000	2025-08-25 07:05:08.220849+00	2025-08-25 07:05:08.58106+00	2025-08-25	2025-08-25	0.00	0.00	0.00		5	7	available	1	service	0.00	0.00	0.00	0.00	0.00
 139	JC000122	completed	high	42,000km Service	41969	2025-08-21 11:21:49.460071+00	2025-08-21 11:21:50.467603+00	2025-08-21	2025-08-21	1.50	650.00	0.00		18	7	available	1	service	0.00	0.00	0.00	0.00	0.00
 138	JC000121	completed	medium	9,000km Service	9030	2025-08-21 07:56:49.989599+00	2025-08-21 07:56:50.026483+00	2025-08-21	2025-08-21	1.50	650.00	0.00		41	7	available	1	service	0.00	0.00	0.00	0.00	0.00
 \.
@@ -4224,6 +4226,7 @@ COPY public.service_jobcarditem (id, quantity, unit_price, total_price, date_add
 403	1.00	34.78	34.78	2025-08-21 11:21:50.366026+00	139	243
 404	0.30	500.00	150.00	2025-08-21 11:21:50.370239+00	139	7
 405	0.80	560.00	448.00	2025-08-21 11:21:50.374691+00	139	1
+406	0.80	560.00	448.00	2025-08-25 07:05:08.502773+00	140	1
 \.
 
 
@@ -4934,6 +4937,12 @@ COPY public.service_servicechecklist (id, item_name, is_checked, notes, date_cre
 718	Lights and signals testing	f		2025-08-21 11:21:50.424143+00	2025-08-21 11:21:50.424163+00	139
 719	Electrical system check	f		2025-08-21 11:21:50.463568+00	2025-08-21 11:21:50.463594+00	139
 720	Frame and suspension inspection	f		2025-08-21 11:21:50.465739+00	2025-08-21 11:21:50.465762+00	139
+721	Brake inspection	f		2025-08-25 07:05:08.520661+00	2025-08-25 07:05:08.520681+00	140
+722	Battery check	f		2025-08-25 07:05:08.574671+00	2025-08-25 07:05:08.574692+00	140
+723	Tire pressure and condition	f		2025-08-25 07:05:08.575975+00	2025-08-25 07:05:08.575991+00	140
+724	Lights and signals testing	f		2025-08-25 07:05:08.577196+00	2025-08-25 07:05:08.577211+00	140
+725	Electrical system check	f		2025-08-25 07:05:08.578341+00	2025-08-25 07:05:08.578356+00	140
+726	Frame and suspension inspection	f		2025-08-25 07:05:08.579846+00	2025-08-25 07:05:08.579863+00	140
 \.
 
 
@@ -4947,8 +4956,8 @@ COPY public.users_userprofile (id, phone, "position", bio, date_updated, store_i
 5				2025-05-24 20:34:17.737734+00	\N	5
 2				2025-06-27 07:24:45.974895+00	2	2
 6				2025-06-27 07:30:02.18664+00	\N	6
-7				2025-08-22 08:31:07.282303+00	\N	7
 1				2025-08-13 06:53:08.225653+00	\N	1
+7				2025-08-25 07:03:26.820441+00	\N	7
 \.
 
 
@@ -5264,21 +5273,21 @@ SELECT pg_catalog.setval('public.landing_wishlist_products_id_seq', 1, false);
 -- Name: service_jobcard_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.service_jobcard_id_seq', 139, true);
+SELECT pg_catalog.setval('public.service_jobcard_id_seq', 140, true);
 
 
 --
 -- Name: service_jobcarditem_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.service_jobcarditem_id_seq', 405, true);
+SELECT pg_catalog.setval('public.service_jobcarditem_id_seq', 406, true);
 
 
 --
 -- Name: service_servicechecklist_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.service_servicechecklist_id_seq', 720, true);
+SELECT pg_catalog.setval('public.service_servicechecklist_id_seq', 726, true);
 
 
 --
