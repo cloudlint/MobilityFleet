@@ -8,14 +8,15 @@
 <section class="homepage-video-section">
     <div class="container-fluid p-0">
         <div class="video-container">
-            <video autoplay muted loop playsinline class="homepage-video">
+            <video autoplay muted loop playsinline class="homepage-video" preload="auto">
                 <source src="{{ homepage_video.video_file.url }}" type="video/mp4">
+                <source src="{% load static %}{% static 'videos/homepage_video.mp4' %}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
             <div class="video-overlay">
                 <div class="container text-center text-white">
-                    <h1 class="display-4 fw-bold mb-4">{{ homepage_video.title }}</h1>
-                    <p class="lead mb-5">{{ homepage_video.description }}</p>
+                    <h1 class="display-4 fw-bold mb-4" style="color:#2c3f52;">{{ homepage_video.title }}</h1>
+                    <p class="lead mb-5" style="color:#2c3f52;">{{ homepage_video.description }}</p>
                     <div class="d-flex flex-wrap justify-content-center gap-3">
                         <a href="{% url 'landing:buy' %}" class="btn btn-primary btn-lg">Shop Now</a>
                         <a href="{% url 'landing:service' %}" class="btn btn-primary btn-lg">Book a Service</a>
@@ -29,8 +30,8 @@
 <!-- Hero Section -->
 <section class="hero-section text-center">
     <div class="container">
-        <h1 style="color:#2c3f52;" class="display-4 fw-bold mb-4" style="color:#2c3f52;">Welcome to ScootDr</h1>
-        <p style="color:#2c3f52;" class="lead mb-5" style="color:#2c3f52;">Your one-stop solution for scooter sales, rentals, restoration, and service</p>
+        <h1 class="display-4 fw-bold mb-4" style="color:#2c3f52;">Welcome to ScootDr</h1>
+        <p class="lead mb-5" style="color:#2c3f52;">Your one-stop solution for scooter sales, rentals, restoration, and service</p>
         <div class="d-flex flex-wrap justify-content-center gap-3">
             <a href="{% url 'landing:buy' %}" class="btn btn-primary btn-lg">Shop Now</a>
             <a href="{% url 'landing:service' %}" class="btn btn-primary btn-lg">Book a Service</a>

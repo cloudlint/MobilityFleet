@@ -329,7 +329,8 @@ def store_update(request, pk):
 # Stock Transfer views
 @login_required
 def stock_transfer_list(request):
-    transfers_queryset = StockTransfer.objects.all().select_related('source_store', 'destination_store').prefetch_related('transfer_items__part')
+    # Use order_by to ensure newest stock transfers appear at the top (like Service Job Cards)
+    transfers_queryset = StockTransfer.objects.all().select_related('source_store', 'destination_store').prefetch_related('transfer_items__part').order_by('-date_created')
     
     # Apply store-based access control for non-admin users
     transfers_queryset = filter_by_user_store(transfers_queryset, request.user)
