@@ -23,7 +23,6 @@ urlpatterns = [
     path('analytics/', include('analytics.urls')),
     path('users/', include('users.urls', namespace='users')),
     path('staff-login/', landing_views.staff_login_view, name='staff_login'),
-    path('logout/', auth_views.LogoutView.as_view(next_page='landing:home'), name='logout'),
     path('profile/', auth_views.TemplateView.as_view(template_name='profile.html'), name='profile'),
     path('settings/', auth_views.TemplateView.as_view(template_name='settings.html'), name='settings'),
 ]

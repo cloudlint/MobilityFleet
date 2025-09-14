@@ -17,6 +17,74 @@
     #store-filter option {
         color: #212529;
     }
+    
+    /* Dashboard Card Minimize/Maximize Styles */
+    .card-toggle {
+        border: none;
+        padding: 0.25rem 0.5rem;
+        transition: all 0.2s ease-in-out;
+        border-radius: 0.25rem;
+    }
+    
+    .card-toggle:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+        transform: scale(1.05);
+    }
+    
+    .card-toggle i {
+        transition: transform 0.2s ease-in-out;
+        font-size: 0.875rem;
+    }
+    
+    .card-body {
+        transition: all 0.3s ease-in-out;
+        overflow: hidden;
+    }
+    
+    .card.minimized .card-body {
+        max-height: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        opacity: 0;
+    }
+    
+    .minimized-preview {
+        font-size: 0.875rem;
+        font-weight: 500;
+        transition: all 0.2s ease-in-out;
+        display: none;
+        opacity: 0;
+    }
+    
+    .card.minimized .minimized-preview {
+        display: inline !important;
+        opacity: 1 !important;
+    }
+    
+    /* Button group fixes for minimized state */
+    .card.minimized .button-group {
+        display: none !important;
+    }
+    
+    /* Ensure chart canvases are hidden when minimized */
+    .card.minimized canvas {
+        display: none;
+    }
+    
+    /* Accessibility improvements */
+    .card-toggle:focus {
+        outline: 2px solid #0d6efd;
+        outline-offset: 2px;
+    }
+    
+    /* Dark theme support for card toggles */
+    .bg-dark .card-toggle:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+    
+    .bg-info .card-toggle:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+    }
 </style>
 {% endblock %}
 
@@ -168,13 +236,19 @@
     <div class="row">
         <!-- Recent Rentals -->
         <div class="col-lg-6 col-12">
-            <div class="card mb-4">
+            <div class="card mb-4" id="recent-rentals-card">
                 <div class="card-header d-flex justify-content-between align-items-center">
                     <h5 class="mb-0 fs-5">Recent Rentals</h5>
-                    <a href="{% url 'customers:rental_list' %}" class="btn btn-sm btn-outline-secondary">
-                        <i class="fas fa-list d-inline d-md-none"></i>
-                        <span class="d-none d-md-inline">View All</span>
-                    </a>
+                    <div class="d-flex align-items-center">
+                        <span class="minimized-preview text-muted me-3" id="recent-rentals-preview">{{ active_rentals_count }} Active</span>
+                        <a href="{% url 'customers:rental_list' %}" class="btn btn-sm btn-outline-secondary me-2">
+                            <i class="fas fa-list d-inline d-md-none"></i>
+                            <span class="d-none d-md-inline">View All</span>
+                        </a>
+                        <button class="btn btn-sm btn-outline-secondary card-toggle" data-card="recent-rentals" aria-label="Minimize card">
+                            <i class="fas fa-chevron-up"></i>
+                        </button>
+                    </div>
                 </div>
                 <div class="card-body p-0 p-md-3">
                     <div class="table-responsive table-container">
@@ -226,13 +300,19 @@
 
         <!-- Recent Job Cards -->
         <div class="col-lg-6 col-12">
-            <div class="card mb-4">
+            <div class="card mb-4" id="recent-job-cards-card">
                 <div class="card-header d-flex justify-content-between align-items-center">
                     <h5 class="mb-0 fs-5">Recent Job Cards</h5>
-                    <a href="{% url 'service:job_card_list' %}" class="btn btn-sm btn-outline-secondary">
-                        <i class="fas fa-list d-inline d-md-none"></i>
-                        <span class="d-none d-md-inline">View All</span>
-                    </a>
+                    <div class="d-flex align-items-center">
+                        <span class="minimized-preview text-muted me-3" id="recent-job-cards-preview">{{ active_job_cards }} Active</span>
+                        <a href="{% url 'service:job_card_list' %}" class="btn btn-sm btn-outline-secondary me-2">
+                            <i class="fas fa-list d-inline d-md-none"></i>
+                            <span class="d-none d-md-inline">View All</span>
+                        </a>
+                        <button class="btn btn-sm btn-outline-secondary card-toggle" data-card="recent-job-cards" aria-label="Minimize card">
+                            <i class="fas fa-chevron-up"></i>
+                        </button>
+                    </div>
                 </div>
                 <div class="card-body p-0 p-md-3">
                     <div class="table-responsive table-container">
@@ -293,12 +373,18 @@
     <div class="row">
         <!-- Inventory Alerts Widget -->
         <div class="col-md-6">
-            <div class="card mb-4">
+            <div class="card mb-4" id="inventory-alerts-card">
                 <div class="card-header d-flex justify-content-between align-items-center bg-dark text-white">
                     <h5 class="mb-0"><i class="fas fa-bell me-2"></i>Inventory Alerts</h5>
-                    <a href="{% url 'analytics:alerts_dashboard' %}" class="btn btn-sm btn-primary">
-                        View All <span class="badge bg-danger">{{ all_alerts_count }}</span>
-                    </a>
+                    <div class="d-flex align-items-center">
+                        <span class="minimized-preview text-light me-3" id="inventory-alerts-preview">{{ all_alerts_count }} Alerts</span>
+                        <a href="{% url 'analytics:alerts_dashboard' %}" class="btn btn-sm btn-primary me-2">
+                            View All <span class="badge bg-danger">{{ all_alerts_count }}</span>
+                        </a>
+                        <button class="btn btn-sm btn-outline-light card-toggle" data-card="inventory-alerts" aria-label="Minimize card">
+                            <i class="fas fa-chevron-up"></i>
+                        </button>
+                    </div>
                 </div>
                 <div class="card-body p-0">
                     {% include 'analytics/widgets/low_stock_widget.html' with low_stock_items=low_stock_items_widget %}
@@ -308,14 +394,20 @@
         
         <!-- Low Stock Alerts -->
         <div class="col-md-6">
-            <div class="card mb-4">
+            <div class="card mb-4" id="low-stock-items-card">
                 <div class="card-header d-flex justify-content-between align-items-center" style="background-color: #FFF8E1;">
                     <h5 class="mb-0 text-danger"><i class="fas fa-exclamation-circle me-2"></i>Low Stock Items</h5>
-                    <div class="button-group">
-                        <a href="{% url 'inventory:purchase_quote' %}" class="btn btn-sm btn-success me-2">
-                            <i class="fas fa-file-invoice-dollar me-1"></i> Create Purchase Quote
-                        </a>
-                        <a href="{% url 'inventory:parts_list' %}" class="btn btn-sm btn-danger">View All Parts</a>
+                    <div class="d-flex align-items-center">
+                        <span class="minimized-preview text-danger me-3" id="low-stock-items-preview">{{ low_stock_count }} Items</span>
+                        <div class="button-group me-2">
+                            <a href="{% url 'inventory:purchase_quote' %}" class="btn btn-sm btn-success me-2">
+                                <i class="fas fa-file-invoice-dollar me-1"></i> Create Purchase Quote
+                            </a>
+                            <a href="{% url 'inventory:parts_list' %}" class="btn btn-sm btn-danger">View All Parts</a>
+                        </div>
+                        <button class="btn btn-sm btn-outline-danger card-toggle" data-card="low-stock-items" aria-label="Minimize card">
+                            <i class="fas fa-chevron-up"></i>
+                        </button>
                     </div>
                 </div>
                 <div class="card-body">
@@ -384,10 +476,16 @@
 
         <!-- Recent Stock Transfers -->
         <div class="col-md-6">
-            <div class="card mb-4">
+            <div class="card mb-4" id="recent-stock-transfers-card">
                 <div class="card-header d-flex justify-content-between align-items-center bg-info text-dark">
                     <h5 class="mb-0"><i class="fas fa-exchange-alt me-2"></i>Recent Stock Transfers</h5>
-                    <a href="{% url 'inventory:stock_transfer_list' %}" class="btn btn-sm btn-dark">View All</a>
+                    <div class="d-flex align-items-center">
+                        <span class="minimized-preview text-dark me-3" id="recent-stock-transfers-preview">{{ pending_transfers_count }} Pending</span>
+                        <a href="{% url 'inventory:stock_transfer_list' %}" class="btn btn-sm btn-dark me-2">View All</a>
+                        <button class="btn btn-sm btn-outline-dark card-toggle" data-card="recent-stock-transfers" aria-label="Minimize card">
+                            <i class="fas fa-chevron-up"></i>
+                        </button>
+                    </div>
                 </div>
                 <div class="card-body">
                     <div class="table-responsive">
@@ -503,9 +601,15 @@
     <div class="row">
         <!-- Scooter Status Chart -->
         <div class="col-md-6">
-            <div class="card mb-4">
+            <div class="card mb-4" id="scooter-status-card">
                 <div class="card-header d-flex justify-content-between align-items-center">
                     <h5 class="mb-0">Scooter Status Distribution</h5>
+                    <div class="d-flex align-items-center">
+                        <span class="minimized-preview text-muted me-3" id="scooter-status-preview">{{ total_scooters }} Total</span>
+                        <button class="btn btn-sm btn-outline-secondary card-toggle" data-card="scooter-status" aria-label="Minimize card">
+                            <i class="fas fa-chevron-up"></i>
+                        </button>
+                    </div>
                 </div>
                 <div class="card-body">
                     <canvas id="scooterStatusChart" height="300"></canvas>
@@ -515,9 +619,15 @@
 
         <!-- Job Card Status Chart -->
         <div class="col-md-6">
-            <div class="card mb-4">
+            <div class="card mb-4" id="job-card-status-card">
                 <div class="card-header d-flex justify-content-between align-items-center">
                     <h5 class="mb-0">Job Card Status</h5>
+                    <div class="d-flex align-items-center">
+                        <span class="minimized-preview text-muted me-3" id="job-card-status-preview">{{ active_job_cards }} Active</span>
+                        <button class="btn btn-sm btn-outline-secondary card-toggle" data-card="job-card-status" aria-label="Minimize card">
+                            <i class="fas fa-chevron-up"></i>
+                        </button>
+                    </div>
                 </div>
                 <div class="card-body">
                     <canvas id="jobCardStatusChart" height="300"></canvas>
@@ -529,9 +639,15 @@
     <div class="row">
         <!-- Rental Trends -->
         <div class="col-md-6">
-            <div class="card mb-4">
+            <div class="card mb-4" id="rental-trends-card">
                 <div class="card-header d-flex justify-content-between align-items-center">
                     <h5 class="mb-0">Rental Trends (Last 6 Months)</h5>
+                    <div class="d-flex align-items-center">
+                        <span class="minimized-preview text-muted me-3" id="rental-trends-preview">{{ active_rentals_count }} Current</span>
+                        <button class="btn btn-sm btn-outline-secondary card-toggle" data-card="rental-trends" aria-label="Minimize card">
+                            <i class="fas fa-chevron-up"></i>
+                        </button>
+                    </div>
                 </div>
                 <div class="card-body">
                     <canvas id="rentalTrendsChart" height="300"></canvas>
@@ -541,9 +657,15 @@
 
         <!-- Weekly Revenue Chart -->
         <div class="col-md-6">
-            <div class="card mb-4">
+            <div class="card mb-4" id="weekly-revenue-card">
                 <div class="card-header d-flex justify-content-between align-items-center">
                     <h5 class="mb-0">Weekly Revenue (Last 8 Weeks)</h5>
+                    <div class="d-flex align-items-center">
+                        <span class="minimized-preview text-muted me-3" id="weekly-revenue-preview">This Week</span>
+                        <button class="btn btn-sm btn-outline-secondary card-toggle" data-card="weekly-revenue" aria-label="Minimize card">
+                            <i class="fas fa-chevron-up"></i>
+                        </button>
+                    </div>
                 </div>
                 <div class="card-body">
                     <canvas id="weeklyRevenueChart" height="300"></canvas>
@@ -555,9 +677,15 @@
     <div class="row">
         <!-- Top Rented Scooters -->
         <div class="col-md-6">
-            <div class="card mb-4">
+            <div class="card mb-4" id="top-scooters-card">
                 <div class="card-header d-flex justify-content-between align-items-center">
                     <h5 class="mb-0">Top 5 Rented Scooter Models</h5>
+                    <div class="d-flex align-items-center">
+                        <span class="minimized-preview text-muted me-3" id="top-scooters-preview">Top 5 Models</span>
+                        <button class="btn btn-sm btn-outline-secondary card-toggle" data-card="top-scooters" aria-label="Minimize card">
+                            <i class="fas fa-chevron-up"></i>
+                        </button>
+                    </div>
                 </div>
                 <div class="card-body">
                     <canvas id="topScootersChart" height="300"></canvas>
@@ -567,9 +695,15 @@
 
         <!-- Maintenance Trends -->
         <div class="col-md-6">
-            <div class="card mb-4">
+            <div class="card mb-4" id="maintenance-trends-card">
                 <div class="card-header d-flex justify-content-between align-items-center">
                     <h5 class="mb-0">Maintenance Trends (Last 6 Months)</h5>
+                    <div class="d-flex align-items-center">
+                        <span class="minimized-preview text-muted me-3" id="maintenance-trends-preview">6 Month View</span>
+                        <button class="btn btn-sm btn-outline-secondary card-toggle" data-card="maintenance-trends" aria-label="Minimize card">
+                            <i class="fas fa-chevron-up"></i>
+                        </button>
+                    </div>
                 </div>
                 <div class="card-body">
                     <canvas id="maintenanceTrendsChart" height="300"></canvas>
@@ -584,7 +718,182 @@
 <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
 
 <script>
+    // Dashboard Card Minimize/Maximize Functionality
+    function initializeCardToggleFeature() {
+        console.log('Initializing dashboard card toggle feature...');
+        
+        // Define all cards that support minimize/maximize
+        const cardList = [
+            'recent-rentals', 'recent-job-cards', 'inventory-alerts', 
+            'low-stock-items', 'recent-stock-transfers', 'scooter-status',
+            'job-card-status', 'rental-trends', 'weekly-revenue', 
+            'top-scooters', 'maintenance-trends'
+        ];
+        
+        console.log('Card list:', cardList);
+        
+        // Load saved states from localStorage
+        const savedStates = JSON.parse(localStorage.getItem('dashboardCardStates') || '{}');
+        console.log('Saved states:', savedStates);
+        
+        // Initialize each card with its saved state
+        cardList.forEach(cardName => {
+            console.log('Processing card:', cardName);
+            
+            const card = document.getElementById(cardName + '-card');
+            const toggle = card?.querySelector('.card-toggle');
+            const preview = document.getElementById(cardName + '-preview');
+            
+            console.log(`Card ${cardName}:`, { card, toggle, preview });
+            
+            if (!card || !toggle) {
+                console.warn(`Card or toggle not found for: ${cardName}`);
+                return;
+            }
+            
+            // Set initial ARIA attributes
+            toggle.setAttribute('aria-expanded', 'true');
+            
+            // Apply saved state
+            if (savedStates[cardName] === 'minimized') {
+                console.log(`Restoring minimized state for: ${cardName}`);
+                minimizeCard(card, toggle, preview);
+            } else {
+                // Ensure preview is hidden for maximized cards
+                if (preview) {
+                    preview.style.display = 'none';
+                    preview.style.opacity = '0';
+                }
+            }
+            
+            // Add click event listener
+            toggle.addEventListener('click', function(e) {
+                console.log(`Toggle clicked for: ${cardName}`);
+                e.preventDefault();
+                toggleCard(cardName, card, toggle, preview);
+            });
+            
+            // Add keyboard support
+            toggle.addEventListener('keydown', function(e) {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    console.log(`Keyboard toggle for: ${cardName}`);
+                    e.preventDefault();
+                    toggleCard(cardName, card, toggle, preview);
+                }
+            });
+            
+            console.log(`Successfully initialized card: ${cardName}`);
+        });
+        
+        console.log('Card toggle feature initialization complete');
+    }
+    
+    function toggleCard(cardName, card, toggle, preview) {
+        console.log(`Toggling card: ${cardName}`);
+        
+        try {
+            if (card.classList.contains('minimized')) {
+                console.log(`Maximizing card: ${cardName}`);
+                maximizeCard(card, toggle, preview);
+                saveCardState(cardName, 'maximized');
+            } else {
+                console.log(`Minimizing card: ${cardName}`);
+                minimizeCard(card, toggle, preview);
+                saveCardState(cardName, 'minimized');
+            }
+        } catch (error) {
+            console.error(`Error toggling card ${cardName}:`, error);
+        }
+    }
+    
+    function minimizeCard(card, toggle, preview) {
+        console.log('Minimizing card...');
+        
+        try {
+            card.classList.add('minimized');
+            const icon = toggle.querySelector('i');
+            
+            if (icon) {
+                icon.classList.remove('fa-chevron-up');
+                icon.classList.add('fa-chevron-down');
+            } else {
+                console.warn('No icon found in toggle button');
+            }
+            
+            toggle.setAttribute('aria-label', 'Maximize card');
+            toggle.setAttribute('aria-expanded', 'false');
+            
+            if (preview) {
+                preview.style.display = 'inline';
+                preview.style.opacity = '1';
+            }
+            
+            console.log('Card minimized successfully');
+        } catch (error) {
+            console.error('Error minimizing card:', error);
+        }
+    }
+    
+    function maximizeCard(card, toggle, preview) {
+        console.log('Maximizing card...');
+        
+        try {
+            card.classList.remove('minimized');
+            const icon = toggle.querySelector('i');
+            
+            if (icon) {
+                icon.classList.remove('fa-chevron-down');
+                icon.classList.add('fa-chevron-up');
+            } else {
+                console.warn('No icon found in toggle button');
+            }
+            
+            toggle.setAttribute('aria-label', 'Minimize card');
+            toggle.setAttribute('aria-expanded', 'true');
+            
+            if (preview) {
+                preview.style.display = 'none';
+                preview.style.opacity = '0';
+            }
+            
+            // Trigger chart resize after a short delay to ensure DOM updates are complete
+            setTimeout(() => {
+                const chartCanvas = card.querySelector('canvas');
+                if (chartCanvas) {
+                    console.log('Triggering chart resize...');
+                    // Trigger a window resize event to make charts redraw properly
+                    window.dispatchEvent(new Event('resize'));
+                }
+            }, 100);
+            
+            console.log('Card maximized successfully');
+        } catch (error) {
+            console.error('Error maximizing card:', error);
+        }
+    }
+    
+    function saveCardState(cardName, state) {
+        try {
+            const savedStates = JSON.parse(localStorage.getItem('dashboardCardStates') || '{}');
+            savedStates[cardName] = state;
+            localStorage.setItem('dashboardCardStates', JSON.stringify(savedStates));
+            console.log(`Saved card state: ${cardName} = ${state}`);
+        } catch (error) {
+            console.error('Error saving card state:', error);
+        }
+    }
+
     document.addEventListener('DOMContentLoaded', function() {
+        console.log('DOM Content Loaded - Starting dashboard initialization...');
+        
+        // Dashboard Card Minimize/Maximize Functionality
+        try {
+            initializeCardToggleFeature();
+            console.log('Dashboard card toggle feature initialized successfully');
+        } catch (error) {
+            console.error('Error initializing card toggle feature:', error);
+        }
+        
         // Store filter functionality
         const storeFilter = document.getElementById('store-filter');
         

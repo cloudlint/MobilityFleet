@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect
 from django.contrib.auth.decorators import login_required, user_passes_test
-from django.contrib.auth import logout
+# logout import removed - consolidated to landing app
 from django.http import HttpResponseForbidden, JsonResponse
 from functools import wraps
 
@@ -241,12 +241,4 @@ def get_scooter_counts(request):
         'unavailable': unavailable
     })
 
-@login_required
-@staff_required
-def custom_logout(request):
-    """
-    Custom logout view to ensure proper redirection to landing page home
-    """
-    logout(request)
-    messages.success(request, 'You have been successfully logged out.')
-    return redirect('landing:home')
+# Logout functionality consolidated to landing app to avoid duplicate messages
