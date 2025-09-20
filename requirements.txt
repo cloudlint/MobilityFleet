@@ -20,7 +20,7 @@ django-widget-tweaks==1.5.0
 dnspython==2.7.0
 email_validator==2.2.0
 et_xmlfile==2.0.0
-Flask==3.1.0
+Flask
 Flask-SQLAlchemy==3.1.1
 fonttools==4.57.0
 frozenlist==1.6.0
@@ -52,7 +52,7 @@ python-http-client==3.3.7
 reportlab==4.4.2
 requests==2.32.3
 selenium==4.15.2
-sendgrid==6.12.0
+sendgrid
 sniffio==1.3.1
 sortedcontainers==2.4.0
 soupsieve==2.7
@@ -69,7 +69,7 @@ typing_extensions==4.13.2
 urllib3==2.4.0
 weasyprint==65.1
 webencodings==0.5.1
-Werkzeug==3.1.3
+Werkzeug
 wsproto==1.2.0
 yarl==1.20.0
 zopfli==0.2.3.post1
