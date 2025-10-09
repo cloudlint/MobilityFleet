@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict OMS9YptQf0YwgcgO700ghM9cJxF5VpwSUvEJomV5qMIFiGqWM7AsTU6NcpgVCsX
+\restrict 0ti4Jm1dWIjaJ1fhtFYYl3fGxVwTkYT8AzRLrDyr66HNVVbDDqSdrkFNumbutrb
 
 -- Dumped from database version 14.19 (Homebrew)
 -- Dumped by pg_dump version 14.19 (Homebrew)
@@ -2088,7 +2088,7 @@ COPY public.auth_user (id, password, last_login, is_superuser, username, first_n
 2	pbkdf2_sha256$1000000$PbAO8ViibaigsbGjDLrsEn$D41LoG1vfWqEYeixnJE1cMYY74nrYoRPJnT74Piesbs=	2025-05-24 20:34:26+00	f	Elleck	Elleck			t	t	2025-05-08 05:01:36+00
 6	pbkdf2_sha256$1000000$gW0XaR5oueAWIaUbkUJmuu$kM9m2ZVjqvwD9PcDONNFqkBHovzdnimO8aXLpNkFuQA=	\N	f	Adrich				f	t	2025-06-27 07:30:01.331008+00
 1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2025-09-03 08:09:36.691425+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
-7	pbkdf2_sha256$1000000$QcBQvDuhOqoH7okJF00ujH$WiPYDJ+ob3Qa8cGm5344NFYslWqbEgZyNLCzZj5LaVo=	2025-10-07 08:06:03.761685+00	t	Hussein			mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
+7	pbkdf2_sha256$1000000$QcBQvDuhOqoH7okJF00ujH$WiPYDJ+ob3Qa8cGm5344NFYslWqbEgZyNLCzZj5LaVo=	2025-10-09 10:04:39.749433+00	t	Hussein			mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
 \.
 
 
@@ -3040,6 +3040,7 @@ o0gb6jot0drkr9k1e1kk9e9713r93m3i	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQ
 9xqn4w7334lh0b3hviz60bhoovn39dy9	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1v4biK:MTIr0tX43pRjoiasaaTWI2pALT1wpVwcszPYm0IR4qo	2025-10-03 09:09:32.290369+00
 tyf0icmg4gs4apl0y4yhew312ikih21r	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1v62oC:QzN4ry8-f95zyo6kPslbJ0VdPmJp51um3VlCPCYLGj0	2025-10-07 08:17:32.94223+00
 6ggn7f3emnmisifrxtmkxrnruc9ikzqc	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1v4byv:0c6iuZpzA__8eFwnxL9ra5GILTrNA3Lfyl33_ivDZt0	2025-10-03 09:26:41.650475+00
+bp3qoyvdhtmi84fg4ivr78mdmoyt500z	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1v6neb:9OYqknY2_SGKFiYeJM-6VpefqtHb6yyX8t6fIAv-w3E	2025-10-09 10:18:45.124969+00
 qutkadrkb1805m9krz05d58h3hwk8eay	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1v4cWN:wpmDW2MfUq77siuCt1i1MJ8w0iSw95IpIXscQD15HKQ	2025-10-03 10:01:15.79218+00
 \.
 
@@ -3474,6 +3475,8 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 134	384-BTX7A-BS	Battery Motorsport		10.00	0.00	429.00	Electrical Components		2025-05-06 08:28:03.415966+00	2025-10-02 07:13:34.782808+00	1
 39	328-1108014144	Tyre RR 110/80-14” Vee Rubber Motorsport		3.00	0.00	700.00	Wheels and Tires		2025-05-06 06:58:05.9813+00	2025-10-03 09:14:26.625555+00	1
 1	173460	Engine Oil		98.20	5.00	560.00	Lubricants & Fluids		2025-05-05 19:18:03.334943+00	2025-10-07 08:10:56.463803+00	1
+283	44710-X0A-0000	Tyre Fr 100/90-14		4.00	0.00	755.50	Wheels & Tires		2025-10-09 10:08:12.37167+00	2025-10-09 10:12:08.093037+00	1
+284	42710-X8A-0000	Tyre Rr 110/80-14		5.00	0.00	793.50	Wheels & Tires		2025-10-09 10:10:13.038713+00	2025-10-09 10:12:08.147367+00	1
 \.
 
 
@@ -3512,6 +3515,7 @@ COPY public.inventory_purchase (id, invoice_number, invoice_date, due_date, stat
 37	10AIPABA0279	2025-09-17	2025-09-17	paid	68.50	68.50		2025-09-20 17:13:27.363715+00	2025-09-20 17:13:27.413292+00	7	1	1	39.71	40.00	99.28	8.94	15.00
 38	10AIPABA0237	2025-09-22	2025-09-22	paid	7221.06	7338.56		2025-09-22 08:30:06.500148+00	2025-09-22 08:30:35.432774+00	7	1	1	4186.12	40.00	10465.30	941.88	15.00
 39	10AIPABA0748	2025-09-23	2025-09-23	paid	506.87	506.87		2025-09-23 11:46:06.794946+00	2025-09-23 11:46:07.038547+00	7	1	1	220.05	33.30	660.80	66.11	15.00
+40	10AIPABA1927	2025-10-09	2025-10-09	paid	4822.76	4920.51		2025-10-09 10:12:07.970235+00	2025-10-09 10:12:08.15228+00	7	1	1	2795.80	40.00	6989.50	629.06	15.00
 \.
 
 
@@ -3594,6 +3598,8 @@ COPY public.inventory_purchaseitem (id, description, quantity, unit_price, part_
 82	Weight Roller - 22121-M9B-0000	60.00	22.34	12	38	\N	1
 83	Brake Disk RR - 43121-XJA-0001	5.00	421.21	20	38	\N	1
 90	Ignition Coil Cap - XD10F	20.00	33.04	243	39	\N	1
+92	Tyre Rr 110/80-14 - 42710-X8A-0000	5.00	793.50	284	40	\N	1
+91	Tyre Fr 100/90-14 - 44710-X0A-0000	4.00	755.50	283	40	\N	1
 \.
 
 
@@ -5642,7 +5648,7 @@ COPY public.users_userprofile (id, phone, "position", bio, date_updated, store_i
 2				2025-06-27 07:24:45.974895+00	2	2
 6				2025-06-27 07:30:02.18664+00	\N	6
 1				2025-09-03 08:09:36.898828+00	\N	1
-7				2025-10-07 08:06:03.80819+00	\N	7
+7				2025-10-09 10:04:40.074961+00	\N	7
 \.
 
 
@@ -5811,21 +5817,21 @@ SELECT pg_catalog.setval('public.inventory_inventoryalert_id_seq', 143, true);
 -- Name: inventory_parts_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_parts_id_seq', 282, true);
+SELECT pg_catalog.setval('public.inventory_parts_id_seq', 284, true);
 
 
 --
 -- Name: inventory_purchase_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_purchase_id_seq', 39, true);
+SELECT pg_catalog.setval('public.inventory_purchase_id_seq', 40, true);
 
 
 --
 -- Name: inventory_purchaseitem_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_purchaseitem_id_seq', 90, true);
+SELECT pg_catalog.setval('public.inventory_purchaseitem_id_seq', 92, true);
 
 
 --
@@ -7729,5 +7735,5 @@ GRANT ALL ON SCHEMA public TO PUBLIC;
 -- PostgreSQL database dump complete
 --
 
-\unrestrict OMS9YptQf0YwgcgO700ghM9cJxF5VpwSUvEJomV5qMIFiGqWM7AsTU6NcpgVCsX
+\unrestrict 0ti4Jm1dWIjaJ1fhtFYYl3fGxVwTkYT8AzRLrDyr66HNVVbDDqSdrkFNumbutrb
 
