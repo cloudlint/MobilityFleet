@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict vARpJoeYhzFNx60k7ZTaExd2SeThkcJTS6XxWu9mzi781ateQJl5oNCsIHKEASR
+\restrict iU1wDC7KeSU77hQeLzV2SwUtecXwChM553dd5ZGkdRfzy1cCgAY39f6GGO8zgmf
 
 -- Dumped from database version 14.19 (Homebrew)
 -- Dumped by pg_dump version 14.19 (Homebrew)
@@ -2088,7 +2088,7 @@ COPY public.auth_user (id, password, last_login, is_superuser, username, first_n
 2	pbkdf2_sha256$1000000$PbAO8ViibaigsbGjDLrsEn$D41LoG1vfWqEYeixnJE1cMYY74nrYoRPJnT74Piesbs=	2025-05-24 20:34:26+00	f	Elleck	Elleck			t	t	2025-05-08 05:01:36+00
 6	pbkdf2_sha256$1000000$gW0XaR5oueAWIaUbkUJmuu$kM9m2ZVjqvwD9PcDONNFqkBHovzdnimO8aXLpNkFuQA=	\N	f	Adrich				f	t	2025-06-27 07:30:01.331008+00
 1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2025-09-03 08:09:36.691425+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
-7	pbkdf2_sha256$1000000$QcBQvDuhOqoH7okJF00ujH$WiPYDJ+ob3Qa8cGm5344NFYslWqbEgZyNLCzZj5LaVo=	2025-10-17 11:56:14.723682+00	t	Hussein			mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
+7	pbkdf2_sha256$1000000$QcBQvDuhOqoH7okJF00ujH$WiPYDJ+ob3Qa8cGm5344NFYslWqbEgZyNLCzZj5LaVo=	2025-10-20 09:31:33.23463+00	t	Hussein			mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
 \.
 
 
@@ -3044,6 +3044,7 @@ tyf0icmg4gs4apl0y4yhew312ikih21r	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQ
 5nms1jhe0ta2al6xwyckfjeqhc7qb5cv	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1v9Jt8:VxVWN_fdyaXYF7W00DLQ6_dTlKqKZUaLBd-kwU00S8w	2025-10-16 09:08:10.571933+00
 63kt38m78erdcylhyt7c6wqfujj90l9p	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1v9ho7:RcIC8eKB4n_VwEc_PfRxNIgV8QpJpdq4pjoIKR839Jo	2025-10-17 10:40:35.777167+00
 9rymoe3vcctoty1t0euaqrmnaxp28cws	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1v9htP:tqLTjPSmagAjpUOwluWL5fUhSGKtbloMFffPOkFrm-w	2025-10-17 10:46:03.731668+00
+p7irzmsxdtjlsy1k8d6aka2xqiz40oi2	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vAmHp:PIYCWiYtd4BIauZD7O-66M9-qMC39xc17HbkO0B5m3M	2025-10-20 09:39:41.678242+00
 6ggn7f3emnmisifrxtmkxrnruc9ikzqc	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1v4byv:0c6iuZpzA__8eFwnxL9ra5GILTrNA3Lfyl33_ivDZt0	2025-10-03 09:26:41.650475+00
 bp3qoyvdhtmi84fg4ivr78mdmoyt500z	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1v6neb:9OYqknY2_SGKFiYeJM-6VpefqtHb6yyX8t6fIAv-w3E	2025-10-09 10:18:45.124969+00
 qutkadrkb1805m9krz05d58h3hwk8eay	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1v4cWN:wpmDW2MfUq77siuCt1i1MJ8w0iSw95IpIXscQD15HKQ	2025-10-03 10:01:15.79218+00
@@ -3053,6 +3054,7 @@ rjstxdy2hb5lzd3si4cn9c9awi61qfdz	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQ
 zu6kjsi9be6h1jfzvij30v17wwiyqj26	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1v9ikS:qK9w5P4K9jIErJ48tFffdCtTzQS0jGYzmk-Ujfx2eeU	2025-10-17 11:40:52.889524+00
 pwg5zwq0mjpnnygjx477pcbk6cibywjf	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1v9j4f:FxGpElHbabnKYBL97BpSBg-5abjp0uvSIgYtgglkBq4	2025-10-17 12:01:45.66215+00
 ssix67nbw023v67k1l65xbdch77vaqx7	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1v9LOe:n85tYbVg-Tm8PEmJ6X7xJKSYy1O25ZzX8mW_3f8CI9k	2025-10-16 10:44:48.075441+00
+pqcm64coxlik6ptckr3atzcuikok9y4i	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vAUNq:R-Exq8HtkhV1YH5piQkLWax_tVMUXP4ltxwLFHuDqcQ	2025-10-19 14:32:42.484474+00
 \.
 
 
@@ -3448,11 +3450,11 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 242	TYM-139610	Tyre FR 100/90-14"		5.00	0.00	900.00	Tyres		2025-07-09 15:39:06.134916+00	2025-10-02 07:13:34.778177+00	1
 243	XD10F	Ignition Coil Cap		16.00	3.00	34.78	Electrical Components		2025-07-29 11:22:45.243579+00	2025-10-17 10:58:54.506495+00	1
 9	23100-XMA-0000	Drive Belt		9.00	5.00	996.52	Engine & Transmission		2025-05-05 21:28:13.605717+00	2025-10-17 10:49:27.001819+00	1
+15	FDB2190EF	Brake Pads FF		16.00	5.00	119.00	Brakes		2025-05-05 21:34:44.654682+00	2025-10-20 09:24:47.751792+00	1
 7	173469	Gear Oil		11.10	5.00	500.00	Lubricants & Fluids		2025-05-05 21:21:17.375925+00	2025-10-17 10:58:54.382697+00	1
 103	2211A-ARA-0002	Face-Drive Xpro125		2.00	1.00	120.00	Engine & Transmission		2025-05-06 08:06:05.065674+00	2025-10-03 09:17:53.383159+00	1
 116	93404-06012-07	Washer Bolt 6*12		8.00	4.00	20.00	Miscellaneous / Universal Parts		2025-05-06 08:13:38.874667+00	2025-10-17 10:58:54.50885+00	1
 11	CR7HSA	Spark Plug		19.00	5.00	80.00	Engine & Transmission		2025-05-05 21:30:07.226667+00	2025-10-17 10:49:26.945135+00	1
-15	FDB2190EF	Brake Pads FF		6.00	5.00	119.00	Brakes		2025-05-05 21:34:44.654682+00	2025-10-16 07:43:55.480145+00	1
 14	43105-ARB-000-A-9	Brake Pads RR		5.00	5.00	140.00	Brakes		2025-05-05 21:33:50.092617+00	2025-10-16 07:46:35.874005+00	1
 8	17211-ADB-0000	Air Filter Element		14.00	5.00	111.80	Consumables and Accessories		2025-05-05 21:25:15.716942+00	2025-10-17 10:58:54.504325+00	1
 254	C0778	Tyre Plug		23.00	5.00	20.00	Wheels & Tyres		2025-09-23 11:27:21.394649+00	2025-10-16 09:03:09.881549+00	1
@@ -3491,6 +3493,7 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 1	173460	Engine Oil		91.00	5.00	560.00	Lubricants & Fluids		2025-05-05 19:18:03.334943+00	2025-10-17 10:58:54.501576+00	1
 39	328-1108014144	Tyre RR 110/80-14” Vee Rubber Motorsport		2.00	0.00	700.00	Wheels and Tires		2025-05-06 06:58:05.9813+00	2025-10-17 10:58:54.512597+00	1
 47	211412	Valve Ruber Rim		33.00	5.00	10.00	Wheels and Tires		2025-05-06 07:15:31.536846+00	2025-10-17 10:58:54.586586+00	1
+285	FDB2057EF	Brake Pads RR		20.00	0.00	125.00	Brakes		2025-10-20 09:21:10.265988+00	2025-10-20 09:24:47.82167+00	1
 \.
 
 
@@ -3532,6 +3535,7 @@ COPY public.inventory_purchase (id, invoice_number, invoice_date, due_date, stat
 40	10AIPABA1927	2025-10-09	2025-10-09	paid	4822.76	4920.51		2025-10-09 10:12:07.970235+00	2025-10-09 10:12:08.15228+00	7	1	1	2795.80	40.00	6989.50	629.06	15.00
 41	10AIPABA2653	2025-10-17	2025-10-17	paid	4565.12	4662.87		2025-10-17 10:31:08.143233+00	2025-10-17 10:31:08.614497+00	7	1	1	2646.45	40.00	6616.12	595.45	15.00
 42	10AIPABA2640	2025-10-17	2025-10-17	paid	556.28	682.78		2025-10-17 10:35:35.234983+00	2025-10-17 10:35:35.315673+00	7	1	1	241.50	33.30	725.22	72.56	15.00
+43	INV-135900	2025-10-20	2025-10-20	paid	3819.15	4049.15		2025-10-20 09:24:47.549167+00	2025-10-20 09:24:47.835855+00	7	2	1	369.00	10.00	3690.00	498.15	15.00
 \.
 
 
@@ -3623,6 +3627,8 @@ COPY public.inventory_purchaseitem (id, description, quantity, unit_price, part_
 97	Air Filter Element - 17211-ADB-0000	10.00	111.80	8	41	\N	1
 98	Ignition Coil Cap - XD10F	8.00	33.04	243	42	\N	1
 99	Spark Plug - CR7HSA	10.00	46.09	11	42	\N	1
+100	Brake Pads FF - FDB2190EF	10.00	119.00	15	43	\N	1
+101	Brake Pads RR - FDB2057EF	20.00	125.00	285	43	\N	1
 \.
 
 
@@ -5821,7 +5827,7 @@ COPY public.users_userprofile (id, phone, "position", bio, date_updated, store_i
 2				2025-06-27 07:24:45.974895+00	2	2
 6				2025-06-27 07:30:02.18664+00	\N	6
 1				2025-09-03 08:09:36.898828+00	\N	1
-7				2025-10-17 11:56:14.73185+00	\N	7
+7				2025-10-20 09:31:33.241645+00	\N	7
 \.
 
 
@@ -5990,21 +5996,21 @@ SELECT pg_catalog.setval('public.inventory_inventoryalert_id_seq', 146, true);
 -- Name: inventory_parts_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_parts_id_seq', 284, true);
+SELECT pg_catalog.setval('public.inventory_parts_id_seq', 285, true);
 
 
 --
 -- Name: inventory_purchase_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_purchase_id_seq', 42, true);
+SELECT pg_catalog.setval('public.inventory_purchase_id_seq', 43, true);
 
 
 --
 -- Name: inventory_purchaseitem_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_purchaseitem_id_seq', 99, true);
+SELECT pg_catalog.setval('public.inventory_purchaseitem_id_seq', 101, true);
 
 
 --
@@ -7908,5 +7914,5 @@ GRANT ALL ON SCHEMA public TO PUBLIC;
 -- PostgreSQL database dump complete
 --
 
-\unrestrict vARpJoeYhzFNx60k7ZTaExd2SeThkcJTS6XxWu9mzi781ateQJl5oNCsIHKEASR
+\unrestrict iU1wDC7KeSU77hQeLzV2SwUtecXwChM553dd5ZGkdRfzy1cCgAY39f6GGO8zgmf
 
