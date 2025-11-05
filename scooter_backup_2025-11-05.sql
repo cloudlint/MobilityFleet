@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict agUmiXw34uvmAPF0oGSYmskLM0TGhGCuuBs3R7GLpDpsj0OAX71G3VzUh6KzUpi
+\restrict UJnvR5hacVBrfA1R5RuzvEXAdz7VkhJNwJpv9Rn5bwNMBvCdh8C0lmIERDhcYIK
 
 -- Dumped from database version 14.19 (Homebrew)
 -- Dumped by pg_dump version 14.19 (Homebrew)
@@ -2088,7 +2088,7 @@ COPY public.auth_user (id, password, last_login, is_superuser, username, first_n
 2	pbkdf2_sha256$1000000$PbAO8ViibaigsbGjDLrsEn$D41LoG1vfWqEYeixnJE1cMYY74nrYoRPJnT74Piesbs=	2025-05-24 20:34:26+00	f	Elleck	Elleck			t	t	2025-05-08 05:01:36+00
 6	pbkdf2_sha256$1000000$gW0XaR5oueAWIaUbkUJmuu$kM9m2ZVjqvwD9PcDONNFqkBHovzdnimO8aXLpNkFuQA=	\N	f	Adrich				f	t	2025-06-27 07:30:01.331008+00
 1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2025-09-03 08:09:36.691425+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
-7	pbkdf2_sha256$1000000$QcBQvDuhOqoH7okJF00ujH$WiPYDJ+ob3Qa8cGm5344NFYslWqbEgZyNLCzZj5LaVo=	2025-11-05 07:07:15.728491+00	t	Hussein			mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
+7	pbkdf2_sha256$1000000$QcBQvDuhOqoH7okJF00ujH$WiPYDJ+ob3Qa8cGm5344NFYslWqbEgZyNLCzZj5LaVo=	2025-11-05 11:58:10.946919+00	t	Hussein			mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
 \.
 
 
@@ -3064,6 +3064,7 @@ wgfjdkk7etxujsngh64qhhomx424gl89	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQ
 w8kx3j499o7zac7p7w3pa5bugs1ywbzf	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vF4o9:8uvGxHednIKBwgel-RU6EC-cF81HendDvscdku8peIA	2025-11-01 06:14:49.923075+00
 9v6zwko70kw3672s05oaiumuk4qhqgbn	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vGXeW:Q4ebLoGABPpXhR8gBcyGrwudrd-IV3PBVrXGuLfhs7c	2025-11-05 07:14:56.443222+00
 dmsr6tjzr20j6wjgcwyzck6rnsunsw8o	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vENGX:p2BuZzHGvlwSJwwqtPQuiyjVP3DsCIje-89mHZrfffk	2025-10-30 07:45:13.624845+00
+v9497epzirf7glyeq5l89rh53nbc8g3o	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vGcBY:OlMM0chjMDAPh_-6GFGt3RhunqqqpzeRMzRyMo8PjiY	2025-11-05 12:05:20.902264+00
 mw40yhms8o2abpize5w1j9zeg9pd4etm	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vFscK:zEMN54TYd25JzuWb516yQpFAv8IT5iRPh835N4IT7j8	2025-11-03 11:25:56.341448+00
 \.
 
@@ -3220,6 +3221,7 @@ COPY public.inventory_inventoryalert (id, alert_type, title, description, severi
 145	low_stock	Low Stock: Brake Pads RR	Inventory level for Brake Pads RR (43105-ARB-000-A-9) is below reorder level. Current stock: 5.00, Reorder level: 5.00	medium	new	5.00	5.00	f	t	2025-10-16 08:15:00.065276+00	2025-10-16 08:15:00.065297+00	\N	\N	\N	\N	14	\N	\N	1
 146	low_stock	Low Stock: Flange Bolt	Inventory level for Flange Bolt (50512-ARA-0005) is below reorder level. Current stock: 0.00, Reorder level: 0.00	high	new	0.00	0.00	f	t	2025-10-16 09:01:43.888399+00	2025-10-16 09:01:43.888419+00	\N	\N	\N	\N	23	\N	\N	1
 147	maintenance_due	Maintenance Due: Sym Jet 14 200	Scooter Sym Jet 14 200 (LXMXCA501PX020386) is due for maintenance. Last maintenance was 91 days ago.	medium	new	\N	\N	f	t	2025-11-05 06:57:41.090994+00	2025-11-05 06:57:41.091028+00	\N	\N	\N	\N	\N	\N	17	1
+148	low_stock	Low Stock: Main Stand SPG.ASSY	Inventory level for Main Stand SPG.ASSY (5052A-APA-9000) is below reorder level. Current stock: 2.00, Reorder level: 2.00	medium	new	2.00	2.00	f	t	2025-11-05 11:58:11.233082+00	2025-11-05 11:58:11.23313+00	\N	\N	\N	\N	30	\N	\N	1
 \.
 
 
@@ -3466,10 +3468,10 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 26	30700-T7A-A000	Ignition Coil Cap		10.00	2.00	62.05	Electrical Components		2025-05-05 21:49:06.538945+00	2025-11-04 12:07:23.101599+00	1
 9	23100-XMA-0000	Drive Belt		11.00	5.00	996.52	Engine & Transmission		2025-05-05 21:28:13.605717+00	2025-11-04 12:07:23.112664+00	1
 11	CR7HSA	Spark Plug		11.00	5.00	80.00	Engine & Transmission		2025-05-05 21:30:07.226667+00	2025-11-03 11:06:59.415905+00	1
+7	173469	Gear Oil		27.70	5.00	500.00	Lubricants & Fluids		2025-05-05 21:21:17.375925+00	2025-11-05 12:00:20.531549+00	1
 242	TYM-139610	Tyre FR 100/90-14"		2.00	0.00	900.00	Tyres		2025-07-09 15:39:06.134916+00	2025-11-03 11:06:59.420495+00	1
 243	XD10F	Ignition Coil Cap		7.00	3.00	34.78	Electrical Components		2025-07-29 11:22:45.243579+00	2025-11-03 11:10:22.834014+00	1
 254	C0778	Tyre Plug		22.00	5.00	20.00	Wheels & Tyres		2025-09-23 11:27:21.394649+00	2025-10-30 07:39:11.400557+00	1
-7	173469	Gear Oil		7.70	5.00	500.00	Lubricants & Fluids		2025-05-05 21:21:17.375925+00	2025-11-03 11:10:22.822875+00	1
 12	22121-M9B-0000	Weight Roller		60.00	18.00	120.00	Engine & Transmission		2025-05-05 21:31:05.995356+00	2025-11-04 12:07:23.105424+00	1
 259	90754-LEA-000	Dust Seal 20X35X50		4.00	0.00	120.00	Engine & Transmission		2025-09-25 11:03:46.891684+00	2025-09-25 11:03:46.893326+00	5
 260	44601-LEA-000-KB1	FR Cast Wheel Comp B Citicom30i		1.00	0.00	100.00	Wheels and Tires		2025-09-25 11:03:46.898008+00	2025-09-25 11:03:46.899669+00	5
@@ -3500,10 +3502,10 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 15	FDB2190EF	Brake Pads FF		13.00	5.00	119.00	Brakes		2025-05-05 21:34:44.654682+00	2025-11-03 11:03:49.78937+00	1
 47	211412	Valve Ruber Rim		30.00	5.00	10.00	Wheels and Tires		2025-05-06 07:15:31.536846+00	2025-11-03 11:06:59.418261+00	1
 134	384-BTX7A-BS	Battery Motorsport		8.00	0.00	429.00	Electrical Components		2025-05-06 08:28:03.415966+00	2025-11-03 11:08:05.851903+00	1
-1	173460	Engine Oil		76.40	5.00	560.00	Lubricants & Fluids		2025-05-05 19:18:03.334943+00	2025-11-03 11:10:22.825329+00	1
 285	FDB2057EF	Brake Pads RR		14.00	0.00	125.00	Brakes		2025-10-20 09:21:10.265988+00	2025-11-05 07:08:36.14962+00	1
 29	50500-X8A-0002	Main Stand COMP		3.00	1.00	561.36	Frame and Body		2025-05-05 21:54:23.332383+00	2025-11-05 07:09:54.257164+00	1
 155	96700-08020-00	Socket Bolt 8*20		9.00	1.00	14.70	Frame and Body		2025-06-19 12:42:37.82335+00	2025-10-29 17:58:45.874139+00	1
+1	173460	Engine Oil		286.40	5.00	560.00	Lubricants & Fluids		2025-05-05 19:18:03.334943+00	2025-11-05 12:00:20.443778+00	1
 39	328-1108014144	Tyre RR 110/80-14” Vee Rubber Motorsport		1.00	0.00	700.00	Wheels and Tires		2025-05-06 06:58:05.9813+00	2025-11-03 10:58:25.347059+00	1
 \.
 
@@ -3548,6 +3550,7 @@ COPY public.inventory_purchase (id, invoice_number, invoice_date, due_date, stat
 42	10AIPABA2640	2025-10-17	2025-10-17	paid	556.28	682.78		2025-10-17 10:35:35.234983+00	2025-10-17 10:35:35.315673+00	7	1	1	241.50	33.30	725.22	72.56	15.00
 43	INV-135900	2025-10-20	2025-10-20	paid	3819.15	4049.15		2025-10-20 09:24:47.549167+00	2025-10-20 09:24:47.835855+00	7	2	1	369.00	10.00	3690.00	498.15	15.00
 44	10AIPABA3890	2025-11-04	2025-11-04	paid	9101.03	91198.79		2025-11-04 12:07:22.875101+00	2025-11-04 12:07:23.116193+00	7	1	1	5275.96	40.00	13189.90	1187.09	15.00
+45	SO033669	2025-11-05	2025-11-05	paid	2140000.00	0.00		2025-11-05 12:00:20.305296+00	2025-11-05 12:00:20.547226+00	7	4	1	0.00	0.00	2140000.00	0.00	0.00
 \.
 
 
@@ -3646,6 +3649,8 @@ COPY public.inventory_purchaseitem (id, description, quantity, unit_price, part_
 104	Weight Roller - 22121-M9B-0000	60.00	22.34	12	44	\N	1
 105	Air Filter Element - 17211-ADB-0000	10.00	111.80	8	44	\N	1
 106	Drive Belt - 23100-XMA-0000	10.00	996.52	9	44	\N	1
+107	Engine Oil - 173460	210.00	10000.00	1	45	\N	1
+108	Gear Oil - 173469	20.00	2000.00	7	45	\N	1
 \.
 
 
@@ -6105,7 +6110,7 @@ COPY public.users_userprofile (id, phone, "position", bio, date_updated, store_i
 2				2025-06-27 07:24:45.974895+00	2	2
 6				2025-06-27 07:30:02.18664+00	\N	6
 1				2025-09-03 08:09:36.898828+00	\N	1
-7				2025-11-05 07:07:15.74815+00	\N	7
+7				2025-11-05 11:58:10.972407+00	\N	7
 \.
 
 
@@ -6267,7 +6272,7 @@ SELECT pg_catalog.setval('public.django_migrations_id_seq', 52, true);
 -- Name: inventory_inventoryalert_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_inventoryalert_id_seq', 147, true);
+SELECT pg_catalog.setval('public.inventory_inventoryalert_id_seq', 148, true);
 
 
 --
@@ -6281,14 +6286,14 @@ SELECT pg_catalog.setval('public.inventory_parts_id_seq', 285, true);
 -- Name: inventory_purchase_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_purchase_id_seq', 44, true);
+SELECT pg_catalog.setval('public.inventory_purchase_id_seq', 45, true);
 
 
 --
 -- Name: inventory_purchaseitem_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_purchaseitem_id_seq', 106, true);
+SELECT pg_catalog.setval('public.inventory_purchaseitem_id_seq', 108, true);
 
 
 --
@@ -8192,5 +8197,5 @@ GRANT ALL ON SCHEMA public TO PUBLIC;
 -- PostgreSQL database dump complete
 --
 
-\unrestrict agUmiXw34uvmAPF0oGSYmskLM0TGhGCuuBs3R7GLpDpsj0OAX71G3VzUh6KzUpi
+\unrestrict UJnvR5hacVBrfA1R5RuzvEXAdz7VkhJNwJpv9Rn5bwNMBvCdh8C0lmIERDhcYIK
 
