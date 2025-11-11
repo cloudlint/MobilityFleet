@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict 0JwcZyEIB4lrXbA51LVxrpnp9LaIXqiCQ2EDS4v0PnX5JkluKw7JghlRha1zaYT
+\restrict b1LaL0Prbade82csRT45wR6y44Usu0bH65lKYRMzn14DRlFsA7nGcApqdyLjpii
 
 -- Dumped from database version 14.19 (Homebrew)
 -- Dumped by pg_dump version 14.19 (Homebrew)
@@ -2088,7 +2088,7 @@ COPY public.auth_user (id, password, last_login, is_superuser, username, first_n
 2	pbkdf2_sha256$1000000$PbAO8ViibaigsbGjDLrsEn$D41LoG1vfWqEYeixnJE1cMYY74nrYoRPJnT74Piesbs=	2025-05-24 20:34:26+00	f	Elleck	Elleck			t	t	2025-05-08 05:01:36+00
 6	pbkdf2_sha256$1000000$gW0XaR5oueAWIaUbkUJmuu$kM9m2ZVjqvwD9PcDONNFqkBHovzdnimO8aXLpNkFuQA=	\N	f	Adrich				f	t	2025-06-27 07:30:01.331008+00
 1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2025-09-03 08:09:36.691425+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
-7	pbkdf2_sha256$1000000$QcBQvDuhOqoH7okJF00ujH$WiPYDJ+ob3Qa8cGm5344NFYslWqbEgZyNLCzZj5LaVo=	2025-11-11 09:05:28.424411+00	t	Hussein			mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
+7	pbkdf2_sha256$1000000$QcBQvDuhOqoH7okJF00ujH$WiPYDJ+ob3Qa8cGm5344NFYslWqbEgZyNLCzZj5LaVo=	2025-11-11 10:25:38.424066+00	t	Hussein			mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
 \.
 
 
@@ -3063,8 +3063,8 @@ lvw0f5hlzab4qxc1zv1frq1fstxl0evv	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQ
 6lmc50ga125wea0w72an7rocawpvgrw6	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vCFrH:7IXx8UVtlRLnlzm6KuJVN4LZoAUlDzpntgg3RnGD-I4	2025-10-24 11:26:23.001179+00
 y3gg84kx0e7pwm54gq0e6fc5ilsxksng	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vIQKm:VH0qCmBTDTRN9JCeDe8aYiRI30sMBssDGCKLWw_hUgQ	2025-11-10 11:50:20.000496+00
 wgfjdkk7etxujsngh64qhhomx424gl89	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vEAZ2:Xe_SSlsIf5rE3CQJSQiHVyFs9OQhtc39VFSxKjD67PE	2025-10-29 18:11:28.293037+00
-k26xsy2atmxvyxfhsi3zesrlafbljhew	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vIkSd:jHNrUfBl_9Kg00n8cNoamZKe9wJm-4QI4GNFnRLHHBs	2025-11-11 09:19:47.240248+00
 w8kx3j499o7zac7p7w3pa5bugs1ywbzf	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vF4o9:8uvGxHednIKBwgel-RU6EC-cF81HendDvscdku8peIA	2025-11-01 06:14:49.923075+00
+eo0wos03ex5how45axhowcd28kzcy5uf	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vIlde:eLTmLfRBEqLP81JdI2rAcTMkuhLw5k2tsy5iCW8TAmI	2025-11-11 10:35:14.326849+00
 9v6zwko70kw3672s05oaiumuk4qhqgbn	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vGXeW:Q4ebLoGABPpXhR8gBcyGrwudrd-IV3PBVrXGuLfhs7c	2025-11-05 07:14:56.443222+00
 dmsr6tjzr20j6wjgcwyzck6rnsunsw8o	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vENGX:p2BuZzHGvlwSJwwqtPQuiyjVP3DsCIje-89mHZrfffk	2025-10-30 07:45:13.624845+00
 v9497epzirf7glyeq5l89rh53nbc8g3o	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vGcBY:OlMM0chjMDAPh_-6GFGt3RhunqqqpzeRMzRyMo8PjiY	2025-11-05 12:05:20.902264+00
@@ -3282,7 +3282,6 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 72	22121-RB1-001-A1	Weight roller COMP		0.00	0.00	300.00	Engine & Transmission		2025-05-06 07:35:56.318341+00	2025-09-25 11:03:47.069371+00	1
 79	17910-XRA-0000	Throttle Cable Comp Jet 14		4.00	1.00	300.00	Controls and Cables		2025-05-06 07:43:59.529803+00	2025-05-06 07:43:59.529827+00	1
 81	90108-Z7C-0101	Side Stand Bolt Xpro125		3.00	1.00	50.00	Frame and Body		2025-05-06 07:46:36.890682+00	2025-05-06 07:46:36.890705+00	1
-66	18317-XPA-0001-K	Exhaust Protector Jet14		1.00	0.00	300.00	Frame and Body		2025-05-06 07:30:48.985752+00	2025-10-02 13:32:37.157734+00	1
 52	93903-34340	Tapping Screw 4x12		7.00	5.00	3.00	Miscellaneous / Universal Parts		2025-05-06 07:20:41.156391+00	2025-10-13 08:56:30.319434+00	1
 28	50504-Z6A-0000	Main Stand Collar		6.00	2.00	40.00	Frame and Body		2025-05-05 21:51:21.965599+00	2025-10-17 10:31:08.595951+00	1
 62	91302-M9T-0002	O-ring 30.8mm		8.00	2.00	20.00	Engine & Transmission		2025-05-06 07:28:29.595603+00	2025-10-16 07:52:01.608796+00	1
@@ -3297,6 +3296,7 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 44	3585A-35A-A000	Start MAG SW SET JET 14		4.00	1.00	300.00	Electrical Components		2025-05-06 07:12:36.605176+00	2025-11-10 11:45:18.82007+00	1
 20	43121-XJA-0001	Brake Disk RR		5.00	2.00	421.21	Brakes		2025-05-05 21:43:23.364712+00	2025-11-11 09:08:45.641524+00	1
 56	96001-06022-49	Bolt Xpro125 6*22		9.00	2.00	10.00	Miscellaneous / Universal Parts		2025-05-06 07:23:18.396414+00	2025-11-11 09:08:45.643317+00	1
+66	18317-XPA-0001-K	Exhaust Protector Jet14		4.00	0.00	300.00	Frame and Body		2025-05-06 07:30:48.985752+00	2025-11-11 10:28:13.589679+00	1
 86	14711-F8A-0000	Intake Valve Jet14		3.00	1.00	60.00	Engine & Transmission		2025-05-06 07:50:56.11066+00	2025-05-06 07:50:56.110692+00	1
 87	14721-F8A-0000	Exhaust Valve Jet 14		3.00	1.00	70.00	Engine & Transmission		2025-05-06 07:51:23.669093+00	2025-05-06 07:51:23.669124+00	1
 88	12209-H6B-9000	Valve Stem Seal Jet 14		3.00	1.00	20.00	Engine & Transmission		2025-05-06 07:51:54.971641+00	2025-05-06 07:51:54.971669+00	1
@@ -3417,7 +3417,7 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 212	96001-06016-08	Flange bolt 616		4.00	1.00	50.00	Frame and Body		2025-07-02 10:44:40.934197+00	2025-07-02 10:44:40.934226+00	2
 213	35150-X9C-0000	R. handle SW		2.00	0.00	300.00	Electrical Components		2025-07-02 10:45:08.688125+00	2025-07-02 10:45:08.688147+00	2
 214	38301-RFA-000	Winker relay comp citycom		1.00	0.00	200.00	Electrical Components		2025-07-02 10:45:46.722319+00	2025-07-02 10:45:46.72234+00	2
-117	22300-ANT-0001	Plate Xpro125		0.00	0.00	763.92	Engine & Transmission		2025-05-06 08:14:07.124182+00	2025-11-07 07:32:23.758005+00	1
+117	22300-ANT-0001	Plate Xpro125		4.00	0.00	763.92	Engine & Transmission		2025-05-06 08:14:07.124182+00	2025-11-11 10:28:13.594668+00	1
 10	22132-ARA-0000	Slide Piece		40.00	15.00	10.00	Engine & Transmission		2025-05-05 21:28:57.890263+00	2025-11-04 12:07:23.042019+00	1
 215	53104-N02-0002	Handle pipe WT CITYCOM		2.00	0.00	200.00	Frame and Body		2025-07-02 10:46:10.272545+00	2025-07-02 10:46:10.272571+00	2
 216	2211A-ARA-0002	Movable drive face jet14		3.00	1.00	600.00	Engine & Transmission		2025-07-02 10:46:41.291807+00	2025-07-02 10:46:41.291829+00	2
@@ -3476,7 +3476,7 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 11	CR7HSA	Spark Plug		11.00	5.00	80.00	Engine & Transmission		2025-05-05 21:30:07.226667+00	2025-11-03 11:06:59.415905+00	1
 8	17211-ADB-0000	Air Filter Element		14.00	5.00	111.80	Consumables and Accessories		2025-05-05 21:25:15.716942+00	2025-11-11 09:14:46.093158+00	1
 242	TYM-139610	Tyre FR 100/90-14"		2.00	0.00	900.00	Tyres		2025-07-09 15:39:06.134916+00	2025-11-03 11:06:59.420495+00	1
-103	2211A-ARA-0002	Face-Drive Xpro125		0.00	1.00	120.00	Engine & Transmission		2025-05-06 08:06:05.065674+00	2025-11-07 07:32:23.753645+00	1
+103	2211A-ARA-0002	Face-Drive Xpro125		5.00	1.00	120.00	Engine & Transmission		2025-05-06 08:06:05.065674+00	2025-11-11 10:28:13.598618+00	1
 7	173469	Gear Oil		27.40	5.00	500.00	Lubricants & Fluids		2025-05-05 21:21:17.375925+00	2025-11-11 09:14:46.091465+00	1
 12	22121-M9B-0000	Weight Roller		60.00	18.00	120.00	Engine & Transmission		2025-05-05 21:31:05.995356+00	2025-11-04 12:07:23.105424+00	1
 9	23100-XMA-0000	Drive Belt		10.00	5.00	996.52	Engine & Transmission		2025-05-05 21:28:13.605717+00	2025-11-06 11:58:08.971323+00	1
@@ -3558,6 +3558,7 @@ COPY public.inventory_purchase (id, invoice_number, invoice_date, due_date, stat
 43	INV-135900	2025-10-20	2025-10-20	paid	3819.15	4049.15		2025-10-20 09:24:47.549167+00	2025-10-20 09:24:47.835855+00	7	2	1	369.00	10.00	3690.00	498.15	15.00
 44	10AIPABA3890	2025-11-04	2025-11-04	paid	9101.03	91198.79		2025-11-04 12:07:22.875101+00	2025-11-04 12:07:23.116193+00	7	1	1	5275.96	40.00	13189.90	1187.09	15.00
 45	SO033669	2025-11-05	2025-11-05	paid	2140000.00	0.00		2025-11-05 12:00:20.305296+00	2025-11-05 12:00:20.547226+00	7	4	1	0.00	0.00	2140000.00	0.00	0.00
+46	10AIPABA4334	2025-11-11	2025-11-11	paid	4990.59	5088.35		2025-11-11 10:28:13.443031+00	2025-11-11 10:29:47.649403+00	7	1	1	2893.10	40.00	7232.74	650.95	15.00
 \.
 
 
@@ -3658,6 +3659,9 @@ COPY public.inventory_purchaseitem (id, description, quantity, unit_price, part_
 106	Drive Belt - 23100-XMA-0000	10.00	996.52	9	44	\N	1
 107	Engine Oil - 173460	210.00	10000.00	1	45	\N	1
 108	Gear Oil - 173469	20.00	2000.00	7	45	\N	1
+109	Exhaust Protector Jet14 - 18317-XPA-0001-K	3.00	393.47	66	46	\N	1
+110	Plate Xpro125 - 22300-ANT-0001	4.00	763.92	117	46	\N	1
+111	Face-Drive Xpro125 - 2211A-ARA-0002	5.00	599.33	103	46	\N	1
 \.
 
 
@@ -6200,7 +6204,7 @@ COPY public.users_userprofile (id, phone, "position", bio, date_updated, store_i
 2				2025-06-27 07:24:45.974895+00	2	2
 6				2025-06-27 07:30:02.18664+00	\N	6
 1				2025-09-03 08:09:36.898828+00	\N	1
-7				2025-11-11 09:05:28.458801+00	\N	7
+7				2025-11-11 10:25:38.433633+00	\N	7
 \.
 
 
@@ -6376,14 +6380,14 @@ SELECT pg_catalog.setval('public.inventory_parts_id_seq', 285, true);
 -- Name: inventory_purchase_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_purchase_id_seq', 45, true);
+SELECT pg_catalog.setval('public.inventory_purchase_id_seq', 46, true);
 
 
 --
 -- Name: inventory_purchaseitem_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_purchaseitem_id_seq', 108, true);
+SELECT pg_catalog.setval('public.inventory_purchaseitem_id_seq', 111, true);
 
 
 --
@@ -8287,5 +8291,5 @@ GRANT ALL ON SCHEMA public TO PUBLIC;
 -- PostgreSQL database dump complete
 --
 
-\unrestrict 0JwcZyEIB4lrXbA51LVxrpnp9LaIXqiCQ2EDS4v0PnX5JkluKw7JghlRha1zaYT
+\unrestrict b1LaL0Prbade82csRT45wR6y44Usu0bH65lKYRMzn14DRlFsA7nGcApqdyLjpii
 
