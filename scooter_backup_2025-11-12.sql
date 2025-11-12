@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict b1LaL0Prbade82csRT45wR6y44Usu0bH65lKYRMzn14DRlFsA7nGcApqdyLjpii
+\restrict ifsQtizGWri4YmpYhJkmZ2pibtNUH5kFiz7kly6dSQMh6mOGhHjGpd58UCSlu4b
 
 -- Dumped from database version 14.19 (Homebrew)
 -- Dumped by pg_dump version 14.19 (Homebrew)
@@ -2088,7 +2088,7 @@ COPY public.auth_user (id, password, last_login, is_superuser, username, first_n
 2	pbkdf2_sha256$1000000$PbAO8ViibaigsbGjDLrsEn$D41LoG1vfWqEYeixnJE1cMYY74nrYoRPJnT74Piesbs=	2025-05-24 20:34:26+00	f	Elleck	Elleck			t	t	2025-05-08 05:01:36+00
 6	pbkdf2_sha256$1000000$gW0XaR5oueAWIaUbkUJmuu$kM9m2ZVjqvwD9PcDONNFqkBHovzdnimO8aXLpNkFuQA=	\N	f	Adrich				f	t	2025-06-27 07:30:01.331008+00
 1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2025-09-03 08:09:36.691425+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
-7	pbkdf2_sha256$1000000$QcBQvDuhOqoH7okJF00ujH$WiPYDJ+ob3Qa8cGm5344NFYslWqbEgZyNLCzZj5LaVo=	2025-11-11 10:25:38.424066+00	t	Hussein			mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
+7	pbkdf2_sha256$1000000$QcBQvDuhOqoH7okJF00ujH$WiPYDJ+ob3Qa8cGm5344NFYslWqbEgZyNLCzZj5LaVo=	2025-11-12 13:06:49.437277+00	t	Hussein			mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
 \.
 
 
@@ -3067,6 +3067,7 @@ w8kx3j499o7zac7p7w3pa5bugs1ywbzf	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQ
 eo0wos03ex5how45axhowcd28kzcy5uf	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vIlde:eLTmLfRBEqLP81JdI2rAcTMkuhLw5k2tsy5iCW8TAmI	2025-11-11 10:35:14.326849+00
 9v6zwko70kw3672s05oaiumuk4qhqgbn	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vGXeW:Q4ebLoGABPpXhR8gBcyGrwudrd-IV3PBVrXGuLfhs7c	2025-11-05 07:14:56.443222+00
 dmsr6tjzr20j6wjgcwyzck6rnsunsw8o	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vENGX:p2BuZzHGvlwSJwwqtPQuiyjVP3DsCIje-89mHZrfffk	2025-10-30 07:45:13.624845+00
+nhl2v213vc5txei79lafuvnt12d3819j	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vJAk3:muU-I1r-3vZRtzRqsL3Ein1GRvu4WfT4q-W1sc4rU6U	2025-11-12 13:23:31.920356+00
 v9497epzirf7glyeq5l89rh53nbc8g3o	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vGcBY:OlMM0chjMDAPh_-6GFGt3RhunqqqpzeRMzRyMo8PjiY	2025-11-05 12:05:20.902264+00
 3uob6lv59ktin1ch5ao938npboei5v7e	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vGym7:z6sI3djQ-3EM2dR3hJmqvES7dpMr02e48dbPhRlpexw	2025-11-06 12:12:35.746607+00
 zifcyriffv5um13hqvsgs68pxlnh66oz	.eJwdTNEOgjAQ-xVzz4zdAOfkB_wAja_mckMyE3Cyw8QQ_t1BH5q2absA0ySP4KEFi8i-Iq-ss6wa25A6O3NS7J1x1dMgNwzFPoB2gXqjz0yjBPlBawqIU-AuqyNmlFjASEP2cO9SpMPldj3UiPkhDNRvuU5CEljvPuk4vf3MkvR366teUq6Xr9jDuq5_JFkzQQ:1vI6r0:quMqkgbNgiRLHzVsvsDhJ__z-9VL3_MI3BKwufwFDVw	2025-11-09 15:02:18.043706+00
@@ -3506,9 +3507,15 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 282	50535-Z7C-0002	Spring stand xpro125		0.00	0.00	40.88	Engine & Transmission		2025-09-26 07:44:56.815444+00	2025-09-26 07:46:58.66693+00	5
 283	44710-X0A-0000	Tyre Fr 100/90-14		4.00	0.00	755.50	Wheels & Tires		2025-10-09 10:08:12.37167+00	2025-10-09 10:12:08.093037+00	1
 15	FDB2190EF	Brake Pads FF		13.00	5.00	119.00	Brakes		2025-05-05 21:34:44.654682+00	2025-11-03 11:03:49.78937+00	1
+286	13010-VVC-0000	Piston Ring Set Jet14		1.00	0.00	248.93	Engine & Transmission		2025-11-12 13:10:01.540807+00	2025-11-12 13:18:31.568054+00	1
 134	384-BTX7A-BS	Battery Motorsport		8.00	0.00	429.00	Electrical Components		2025-05-06 08:28:03.415966+00	2025-11-03 11:08:05.851903+00	1
+287	13101-XJA-0001	Piston Jet 14		1.00	0.00	185.42	Engine & Transmission		2025-11-12 13:10:45.068762+00	2025-11-12 13:18:31.588308+00	1
+288	13111-M4Q-0001	Piston Pin Symphony		1.00	0.00	29.42	Engine & Transmission		2025-11-12 13:11:33.6768+00	2025-11-12 13:18:31.592589+00	1
+289	94601-15000	Piston Pin Clip		2.00	0.00	1.90	Engine & Transmission		2025-11-12 13:12:38.126684+00	2025-11-12 13:18:31.596292+00	1
+290	12100-XJA-0101	Cylinder Jet 14		1.00	0.00	704.45	Engine & Transmission		2025-11-12 13:13:33.72002+00	2025-11-12 13:18:31.599977+00	1
 29	50500-X8A-0002	Main Stand COMP		3.00	1.00	561.36	Frame and Body		2025-05-05 21:54:23.332383+00	2025-11-05 07:09:54.257164+00	1
 155	96700-08020-00	Socket Bolt 8*20		9.00	1.00	14.70	Frame and Body		2025-06-19 12:42:37.82335+00	2025-10-29 17:58:45.874139+00	1
+291	12191-Z2D-0000	Cylinder Gasket Xpro125		1.00	0.00	42.71	Engine & Transmission		2025-11-12 13:14:16.128185+00	2025-11-12 13:18:31.606368+00	1
 39	328-1108014144	Tyre RR 110/80-14” Vee Rubber Motorsport		0.00	0.00	700.00	Wheels and Tires		2025-05-06 06:58:05.9813+00	2025-11-06 12:00:14.825884+00	1
 1	173460	Engine Oil		283.00	5.00	560.00	Lubricants & Fluids		2025-05-05 19:18:03.334943+00	2025-11-11 09:14:46.0897+00	1
 285	FDB2057EF	Brake Pads RR		12.00	0.00	125.00	Brakes		2025-10-20 09:21:10.265988+00	2025-11-11 09:14:46.135434+00	1
@@ -3559,6 +3566,7 @@ COPY public.inventory_purchase (id, invoice_number, invoice_date, due_date, stat
 44	10AIPABA3890	2025-11-04	2025-11-04	paid	9101.03	91198.79		2025-11-04 12:07:22.875101+00	2025-11-04 12:07:23.116193+00	7	1	1	5275.96	40.00	13189.90	1187.09	15.00
 45	SO033669	2025-11-05	2025-11-05	paid	2140000.00	0.00		2025-11-05 12:00:20.305296+00	2025-11-05 12:00:20.547226+00	7	4	1	0.00	0.00	2140000.00	0.00	0.00
 46	10AIPABA4334	2025-11-11	2025-11-11	paid	4990.59	5088.35		2025-11-11 10:28:13.443031+00	2025-11-11 10:29:47.649403+00	7	1	1	2893.10	40.00	7232.74	650.95	15.00
+47	10AIPABA4534	2025-11-12	2025-11-12	paid	838.16	935.91		2025-11-12 13:18:31.421036+00	2025-11-12 13:18:31.610367+00	7	1	1	485.89	40.00	1214.73	109.33	15.00
 \.
 
 
@@ -3662,6 +3670,12 @@ COPY public.inventory_purchaseitem (id, description, quantity, unit_price, part_
 109	Exhaust Protector Jet14 - 18317-XPA-0001-K	3.00	393.47	66	46	\N	1
 110	Plate Xpro125 - 22300-ANT-0001	4.00	763.92	117	46	\N	1
 111	Face-Drive Xpro125 - 2211A-ARA-0002	5.00	599.33	103	46	\N	1
+112	Piston Ring Set Jet14 - 13010-VVC-0000	1.00	248.93	286	47	\N	1
+113	Piston Jet 14 - 13101-XJA-0001	1.00	185.42	287	47	\N	1
+114	Piston Pin Symphony - 13111-M4Q-0001	1.00	29.42	288	47	\N	1
+115	Piston Pin Clip - 94601-15000	2.00	1.90	289	47	\N	1
+116	Cylinder Jet 14 - 12100-XJA-0101	1.00	704.45	290	47	\N	1
+117	Cylinder Gasket Xpro125 - 12191-Z2D-0000	1.00	42.71	291	47	\N	1
 \.
 
 
@@ -6204,7 +6218,7 @@ COPY public.users_userprofile (id, phone, "position", bio, date_updated, store_i
 2				2025-06-27 07:24:45.974895+00	2	2
 6				2025-06-27 07:30:02.18664+00	\N	6
 1				2025-09-03 08:09:36.898828+00	\N	1
-7				2025-11-11 10:25:38.433633+00	\N	7
+7				2025-11-12 13:06:49.846803+00	\N	7
 \.
 
 
@@ -6373,21 +6387,21 @@ SELECT pg_catalog.setval('public.inventory_inventoryalert_id_seq', 150, true);
 -- Name: inventory_parts_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_parts_id_seq', 285, true);
+SELECT pg_catalog.setval('public.inventory_parts_id_seq', 291, true);
 
 
 --
 -- Name: inventory_purchase_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_purchase_id_seq', 46, true);
+SELECT pg_catalog.setval('public.inventory_purchase_id_seq', 47, true);
 
 
 --
 -- Name: inventory_purchaseitem_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_purchaseitem_id_seq', 111, true);
+SELECT pg_catalog.setval('public.inventory_purchaseitem_id_seq', 117, true);
 
 
 --
@@ -8291,5 +8305,5 @@ GRANT ALL ON SCHEMA public TO PUBLIC;
 -- PostgreSQL database dump complete
 --
 
-\unrestrict b1LaL0Prbade82csRT45wR6y44Usu0bH65lKYRMzn14DRlFsA7nGcApqdyLjpii
+\unrestrict ifsQtizGWri4YmpYhJkmZ2pibtNUH5kFiz7kly6dSQMh6mOGhHjGpd58UCSlu4b
 
