@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict jFJCmGZGdWTARjCkMCt9mlRycChCQonlNdWuWFoVqLqHp74po8CDIJHoLo5P60h
+\restrict Ild69bYU2aJydsE97KouDYMQGnIRvVtByfENTsScu4pLRnYPw8pynYkKekwXS97
 
 -- Dumped from database version 14.19 (Homebrew)
 -- Dumped by pg_dump version 14.19 (Homebrew)
@@ -2088,7 +2088,7 @@ COPY public.auth_user (id, password, last_login, is_superuser, username, first_n
 2	pbkdf2_sha256$1000000$PbAO8ViibaigsbGjDLrsEn$D41LoG1vfWqEYeixnJE1cMYY74nrYoRPJnT74Piesbs=	2025-05-24 20:34:26+00	f	Elleck	Elleck			t	t	2025-05-08 05:01:36+00
 6	pbkdf2_sha256$1000000$gW0XaR5oueAWIaUbkUJmuu$kM9m2ZVjqvwD9PcDONNFqkBHovzdnimO8aXLpNkFuQA=	\N	f	Adrich				f	t	2025-06-27 07:30:01.331008+00
 1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2025-09-03 08:09:36.691425+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
-7	pbkdf2_sha256$1000000$QcBQvDuhOqoH7okJF00ujH$WiPYDJ+ob3Qa8cGm5344NFYslWqbEgZyNLCzZj5LaVo=	2025-11-21 12:14:42.052376+00	t	Hussein			mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
+7	pbkdf2_sha256$1000000$QcBQvDuhOqoH7okJF00ujH$WiPYDJ+ob3Qa8cGm5344NFYslWqbEgZyNLCzZj5LaVo=	2025-11-21 12:52:51.106028+00	t	Hussein			mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
 \.
 
 
@@ -3077,6 +3077,7 @@ mw40yhms8o2abpize5w1j9zeg9pd4etm	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQ
 wwdzl58rinmhbqi27ppy1yd14x5q0qgj	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vLOKE:XfPVz7YpiwEmaeeFvPV8fp8ujCtMo_n12lPEnbRsG9g	2025-11-18 16:18:02.305652+00
 cnb6jqmwax37hqsyjssuzrm8mhghhik1	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vLgsr:YFPczMh1zMttK7GDO8Z3Qriw-gQ8ApKwOaSgH2EsQpg	2025-11-19 12:07:01.679696+00
 bt4i4jkoxn5ypx0e03uwyglbu9vdpaia	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vMLoA:TnNM-hvmlgk1lpTpOkvj8SuZl6B7vHgpktTD4i78QhE	2025-11-21 07:48:54.978516+00
+sn9sjlbf40xw5ekbg8vyv7i0p6pyvvxc	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vMQe0:X6AlVfpR1izt6M27GArReydlbPI91RmyotIHgkXfue8	2025-11-21 12:58:44.160785+00
 \.
 
 
@@ -3532,9 +3533,9 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 86	14711-F8A-0000	Intake Valve Jet14		2.00	1.00	60.00	Engine & Transmission		2025-05-06 07:50:56.11066+00	2025-11-17 15:56:01.065143+00	1
 47	211412	Valve Ruber Rim		27.00	5.00	10.00	Wheels and Tires		2025-05-06 07:15:31.536846+00	2025-11-18 16:12:59.276942+00	1
 284	42710-X8A-0000	Tyre Rr 110/80-14		2.00	0.00	793.50	Wheels & Tires		2025-10-09 10:10:13.038713+00	2025-11-18 16:12:59.279876+00	1
-1	173460	Engine Oil		276.30	5.00	560.00	Lubricants & Fluids		2025-05-05 19:18:03.334943+00	2025-11-21 07:43:20.164601+00	1
 285	FDB2057EF	Brake Pads RR		6.00	0.00	125.00	Brakes		2025-10-20 09:21:10.265988+00	2025-11-21 07:43:20.169984+00	1
 7	173469	Gear Oil		36.20	5.00	500.00	Lubricants & Fluids		2025-05-05 21:21:17.375925+00	2025-11-21 07:43:51.167984+00	1
+1	173460	Engine Oil		246.30	5.00	560.00	Lubricants & Fluids		2025-05-05 19:18:03.334943+00	2025-11-21 12:53:41.676527+00	1
 \.
 
 
@@ -6378,7 +6379,7 @@ COPY public.users_userprofile (id, phone, "position", bio, date_updated, store_i
 2				2025-06-27 07:24:45.974895+00	2	2
 6				2025-06-27 07:30:02.18664+00	\N	6
 1				2025-09-03 08:09:36.898828+00	\N	1
-7				2025-11-21 12:14:42.271194+00	\N	7
+7				2025-11-21 12:52:51.134004+00	\N	7
 \.
 
 
@@ -8465,5 +8466,5 @@ GRANT ALL ON SCHEMA public TO PUBLIC;
 -- PostgreSQL database dump complete
 --
 
-\unrestrict jFJCmGZGdWTARjCkMCt9mlRycChCQonlNdWuWFoVqLqHp74po8CDIJHoLo5P60h
+\unrestrict Ild69bYU2aJydsE97KouDYMQGnIRvVtByfENTsScu4pLRnYPw8pynYkKekwXS97
 
