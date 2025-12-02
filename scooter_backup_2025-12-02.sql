@@ -2,10 +2,10 @@
 -- PostgreSQL database dump
 --
 
-\restrict ntW6nBqJNkQBPVfTxogoXB8eRIk1a0m8wEdJ9ogO0tTCYXLxf9y5Q1Ad34R5QQQ
+\restrict L778EhIwUScTVkd2Wewuanony5wki4NjLUMtSwkp7zPdJc4ZabUpbqJ90O5fvNA
 
--- Dumped from database version 14.19 (Homebrew)
--- Dumped by pg_dump version 14.19 (Homebrew)
+-- Dumped from database version 16.11 (Homebrew)
+-- Dumped by pg_dump version 16.11 (Homebrew)
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -17,6 +17,15 @@ SET check_function_bodies = false;
 SET xmloption = content;
 SET client_min_messages = warning;
 SET row_security = off;
+
+--
+-- Name: public; Type: SCHEMA; Schema: -; Owner: scooteruser
+--
+
+-- *not* creating schema, since initdb creates it
+
+
+ALTER SCHEMA public OWNER TO scooteruser;
 
 SET default_tablespace = '';
 
@@ -986,7 +995,7 @@ CREATE SEQUENCE public.inventory_scootercategory_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.inventory_scootercategory_id_seq OWNER TO scooteruser;
+ALTER SEQUENCE public.inventory_scootercategory_id_seq OWNER TO scooteruser;
 
 --
 -- Name: inventory_scootercategory_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: scooteruser
@@ -2088,7 +2097,7 @@ COPY public.auth_user (id, password, last_login, is_superuser, username, first_n
 2	pbkdf2_sha256$1000000$PbAO8ViibaigsbGjDLrsEn$D41LoG1vfWqEYeixnJE1cMYY74nrYoRPJnT74Piesbs=	2025-05-24 20:34:26+00	f	Elleck	Elleck			t	t	2025-05-08 05:01:36+00
 6	pbkdf2_sha256$1000000$gW0XaR5oueAWIaUbkUJmuu$kM9m2ZVjqvwD9PcDONNFqkBHovzdnimO8aXLpNkFuQA=	\N	f	Adrich				f	t	2025-06-27 07:30:01.331008+00
 1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2025-09-03 08:09:36.691425+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
-7	pbkdf2_sha256$1000000$QcBQvDuhOqoH7okJF00ujH$WiPYDJ+ob3Qa8cGm5344NFYslWqbEgZyNLCzZj5LaVo=	2025-12-01 09:27:23.354993+00	t	Hussein			mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
+7	pbkdf2_sha256$1000000$QcBQvDuhOqoH7okJF00ujH$WiPYDJ+ob3Qa8cGm5344NFYslWqbEgZyNLCzZj5LaVo=	2025-12-02 12:23:26.664049+00	t	Hussein			mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
 \.
 
 
@@ -3284,7 +3293,6 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 35	3445700	Tyre FF 100/90-14 Pireli Bikewise		0.00	2.00	1000.00	Wheels and Tires		2025-05-05 22:05:17.849359+00	2025-07-10 17:03:30.317233+00	1
 55	90106-N02-0002	Bolt-Disk FR Crox125		4.00	2.00	150.00	Wheels and Tires		2025-05-06 07:22:47.029718+00	2025-07-14 18:06:51.850408+00	1
 17	8360A-X8A-0002-WA	Body Cover Assy LH		1.00	1.00	100.00	Frame and Body		2025-05-05 21:40:28.191266+00	2025-08-25 08:17:03.082207+00	1
-38	2902800	Tyre RR 110/80-14” Pireli Bikewise		0.00	5.00	800.00	Wheels and Tires		2025-05-06 06:57:41.482487+00	2025-08-26 08:13:12.159392+00	1
 18	8350A-X8A-0001-WD	Body Cover Assy RH		2.00	1.00	300.00	Frame and Body		2025-05-05 21:41:34.328391+00	2025-08-25 08:17:03.1331+00	1
 78	1711A-AR1-0003	Inlet Pipe Sym Jet 14		4.00	2.00	400.00	Engine & Transmission		2025-05-06 07:41:54.094547+00	2025-05-06 07:41:54.094569+00	1
 64	83620-LEA-000-QU	Side Cover  LH white		0.00	0.00	200.00	Frame and Body		2025-05-06 07:29:40.993296+00	2025-09-25 11:03:46.968455+00	1
@@ -3435,7 +3443,6 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 213	35150-X9C-0000	R. handle SW		2.00	0.00	300.00	Electrical Components		2025-07-02 10:45:08.688125+00	2025-07-02 10:45:08.688147+00	2
 214	38301-RFA-000	Winker relay comp citycom		1.00	0.00	200.00	Electrical Components		2025-07-02 10:45:46.722319+00	2025-07-02 10:45:46.72234+00	2
 117	22300-ANT-0001	Plate Xpro125		4.00	0.00	763.92	Engine & Transmission		2025-05-06 08:14:07.124182+00	2025-11-11 10:28:13.594668+00	1
-10	22132-ARA-0000	Slide Piece		34.00	15.00	10.00	Engine & Transmission		2025-05-05 21:28:57.890263+00	2025-11-27 07:36:54.433085+00	1
 215	53104-N02-0002	Handle pipe WT CITYCOM		2.00	0.00	200.00	Frame and Body		2025-07-02 10:46:10.272545+00	2025-07-02 10:46:10.272571+00	2
 216	2211A-ARA-0002	Movable drive face jet14		3.00	1.00	600.00	Engine & Transmission		2025-07-02 10:46:41.291807+00	2025-07-02 10:46:41.291829+00	2
 217	2812A-XJA-0000	Starting clutch outer assy jet14		1.00	0.00	700.00	Engine & Transmission		2025-07-02 10:47:12.301613+00	2025-07-02 10:47:12.301635+00	2
@@ -3481,27 +3488,26 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 246	90201-KR8-751-M1	Flange Nut 14MM		0.00	0.00	50.00	Movable Drive Face		2025-08-18 10:16:39.429561+00	2025-09-25 11:03:47.054671+00	1
 277	31200-HMA-100	Start Motor Assy		1.00	0.00	200.00	Engine & Transmission		2025-09-25 11:03:47.022967+00	2025-09-25 11:03:47.044329+00	5
 278	5052A-H9A-000	Main Stand SPG.ASSY		2.00	0.00	1500.00	Frame and Body		2025-09-25 11:03:47.050251+00	2025-09-25 11:03:47.052927+00	5
-116	93404-06012-07	Washer Bolt 6*12		8.00	4.00	20.00	Miscellaneous / Universal Parts		2025-05-06 08:13:38.874667+00	2025-10-17 10:58:54.50885+00	1
 255	90912-LEA-000	Bearing 6202LLU GTS300I		4.00	0.00	120.00	Engine & Transmission		2025-09-25 11:03:46.781103+00	2025-09-25 11:03:46.836701+00	5
 256	1137A-HMA-000	Bearing Stay Collar GTS300I		2.00	0.00	50.00	Engine & Transmission		2025-09-25 11:03:46.843761+00	2025-09-25 11:03:46.84565+00	5
 257	43121-LEA-000-KB	Brake Disk RR		1.00	0.00	200.00	Brakes		2025-09-25 11:03:46.85199+00	2025-09-25 11:03:46.869771+00	5
 258	91256-LEA-000	Dust Oil Seal		4.00	0.00	30.00	Engine & Transmission		2025-09-25 11:03:46.876639+00	2025-09-25 11:03:46.88654+00	5
-14	43105-ARB-000-A-9	Brake Pads RR		0.00	5.00	140.00	Brakes		2025-05-05 21:33:50.092617+00	2025-10-29 17:58:45.868925+00	1
-11	CR7HSA	Spark Plug		7.00	5.00	80.00	Engine & Transmission		2025-05-05 21:30:07.226667+00	2025-11-27 08:50:13.633599+00	1
-12	22121-M9B-0000	Weight Roller		42.00	18.00	120.00	Engine & Transmission		2025-05-05 21:31:05.995356+00	2025-11-27 08:52:33.347548+00	1
 26	30700-T7A-A000	Ignition Coil Cap		9.00	2.00	62.05	Electrical Components		2025-05-05 21:49:06.538945+00	2025-11-27 08:49:03.224629+00	1
 243	XD10F	Ignition Coil Cap		2.00	0.00	34.78	Electrical Components		2025-07-29 11:22:45.243579+00	2025-12-01 09:00:54.212016+00	1
 242	TYM-139610	Tyre FR 100/90-14"		2.00	0.00	900.00	Tyres		2025-07-09 15:39:06.134916+00	2025-11-03 11:06:59.420495+00	1
 103	2211A-ARA-0002	Face-Drive Xpro125		5.00	1.00	120.00	Engine & Transmission		2025-05-06 08:06:05.065674+00	2025-11-11 10:28:13.598618+00	1
 254	C0778	Tyre Plug		20.00	5.00	20.00	Wheels & Tyres		2025-09-23 11:27:21.394649+00	2025-11-14 11:29:52.772205+00	1
-9	23100-XMA-0000	Drive Belt		7.00	5.00	996.52	Engine & Transmission		2025-05-05 21:28:13.605717+00	2025-11-27 08:51:13.08891+00	1
 7	173469	Gear Oil		29.50	5.00	500.00	Lubricants & Fluids		2025-05-05 21:21:17.375925+00	2025-12-01 09:00:54.209041+00	1
-8	17211-ADB-0000	Air Filter Element		8.00	5.00	111.80	Consumables and Accessories		2025-05-05 21:25:15.716942+00	2025-12-01 09:00:54.218302+00	1
 259	90754-LEA-000	Dust Seal 20X35X50		4.00	0.00	120.00	Engine & Transmission		2025-09-25 11:03:46.891684+00	2025-09-25 11:03:46.893326+00	5
 260	44601-LEA-000-KB1	FR Cast Wheel Comp B Citicom30i		1.00	0.00	100.00	Wheels and Tires		2025-09-25 11:03:46.898008+00	2025-09-25 11:03:46.899669+00	5
 261	64306-X01-000	FR Cover Collar CITICOM300		20.00	0.00	10.00	Wheels and Tires		2025-09-25 11:03:46.905753+00	2025-09-25 11:03:46.907392+00	5
 262	44301-LEA-000	FR Wheel Axel Citicom		1.00	0.00	50.00	Wheels and Tires		2025-09-25 11:03:46.912187+00	2025-09-25 11:03:46.914032+00	5
 263	11344-HMA-000	L Side Cover Element GTS300I		1.00	0.00	100.00	Frame and Body		2025-09-25 11:03:46.919634+00	2025-09-25 11:03:46.922073+00	5
+14	43105-ARB-000-A-9	Brake Pads RR		30.00	5.00	140.00	Brakes		2025-05-05 21:33:50.092617+00	2025-12-02 12:29:22.082073+00	1
+12	22121-M9B-0000	Weight Roller		162.00	18.00	120.00	Engine & Transmission		2025-05-05 21:31:05.995356+00	2025-12-02 12:29:22.114691+00	1
+9	23100-XMA-0000	Drive Belt		22.00	5.00	996.52	Engine & Transmission		2025-05-05 21:28:13.605717+00	2025-12-02 12:29:22.119169+00	1
+8	17211-ADB-0000	Air Filter Element		38.00	5.00	111.80	Consumables and Accessories		2025-05-05 21:25:15.716942+00	2025-12-02 12:29:22.12337+00	1
+116	93404-06012-07	Washer Bolt 6*12		11.00	4.00	20.00	Miscellaneous / Universal Parts		2025-05-06 08:13:38.874667+00	2025-12-02 12:29:22.144512+00	1
 264	1565A-LEA-000	Oil Level Guage Assy GTS300I		1.00	0.00	50.00	Engine & Transmission		2025-09-25 11:03:46.927094+00	2025-09-25 11:03:46.928676+00	5
 265	91255-LEA-000	Oil Seal Citicom 300		4.00	0.00	30.00	Engine & Transmission		2025-09-25 11:03:46.933444+00	2025-09-25 11:03:46.935931+00	5
 266	96150-60060-10	Radial Ball Bearing GTS300I		2.00	0.00	50.00	Engine & Transmission		2025-09-25 11:03:46.941014+00	2025-09-25 11:03:46.942621+00	5
@@ -3539,6 +3545,9 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 291	12191-Z2D-0000	Cylinder Gasket Xpro125		0.00	0.00	42.71	Engine & Transmission		2025-11-12 13:14:16.128185+00	2025-11-17 15:56:01.152411+00	1
 86	14711-F8A-0000	Intake Valve Jet14		2.00	1.00	60.00	Engine & Transmission		2025-05-06 07:50:56.11066+00	2025-11-17 15:56:01.065143+00	1
 284	42710-X8A-0000	Tyre Rr 110/80-14		2.00	0.00	793.50	Wheels & Tires		2025-10-09 10:10:13.038713+00	2025-11-27 08:57:01.009112+00	1
+11	CR7HSA	Spark Plug		27.00	5.00	80.00	Engine & Transmission		2025-05-05 21:30:07.226667+00	2025-12-02 12:25:27.009643+00	1
+38	2902800	Tyre RR 110/80-14” Pireli Bikewise		10.00	5.00	800.00	Wheels and Tires		2025-05-06 06:57:41.482487+00	2025-12-02 12:25:27.074133+00	1
+10	22132-ARA-0000	Slide Piece		94.00	15.00	10.00	Engine & Transmission		2025-05-05 21:28:57.890263+00	2025-12-02 12:29:22.005322+00	1
 \.
 
 
@@ -3586,6 +3595,8 @@ COPY public.inventory_purchase (id, invoice_number, invoice_date, due_date, stat
 46	10AIPABA4334	2025-11-11	2025-11-11	paid	4990.59	5088.35		2025-11-11 10:28:13.443031+00	2025-11-11 10:29:47.649403+00	7	1	1	2893.10	40.00	7232.74	650.95	15.00
 47	10AIPABA4534	2025-11-12	2025-11-12	paid	838.16	935.91		2025-11-12 13:18:31.421036+00	2025-11-12 13:18:31.610367+00	7	1	1	485.89	40.00	1214.73	109.33	15.00
 48	INV1054302	2025-11-14	2025-11-14	paid	6345.49	9237.50		2025-11-17 07:08:14.371352+00	2025-11-17 07:12:31.787953+00	7	6	1	2364.78	30.00	7882.60	827.67	15.00
+50	10AIPABA6011	2025-12-02	2025-12-02	paid	17610.01	17707.75		2025-12-02 12:29:21.890018+00	2025-12-02 12:29:22.14998+00	7	1	1	10208.70	40.00	25521.75	2296.96	15.00
+49	10AIPABA6014	2025-12-02	2025-12-02	paid	17655.10	11058.77		2025-12-02 12:25:26.881989+00	2025-12-02 12:31:18.219261+00	7	1	1	10234.84	40.00	25587.10	2302.84	15.00
 \.
 
 
@@ -3696,6 +3707,14 @@ COPY public.inventory_purchaseitem (id, description, quantity, unit_price, part_
 116	Cylinder Jet 14 - 12100-XJA-0101	1.00	704.45	290	47	\N	1
 117	Cylinder Gasket Xpro125 - 12191-Z2D-0000	1.00	42.71	291	47	\N	1
 118	Carrier Topbox Sym Jet 14 - SR7055	10.00	788.26	63	48	\N	1
+121	Slide Piece - 22132-ARA-0000	60.00	4.86	10	50	\N	1
+122	Brake Pads RR - 43105-ARB-000-A-9	30.00	140.16	14	50	\N	1
+123	Weight Roller - 22121-M9B-0000	120.00	22.34	12	50	\N	1
+124	Drive Belt - 23100-XMA-0000	15.00	996.52	9	50	\N	1
+125	Air Filter Element - 17211-ADB-0000	30.00	111.80	8	50	\N	1
+126	Washer Bolt 6*12 - 93404-06012-07	3.00	14.25	116	50	\N	1
+119	Spark Plug - CR7HSA	20.00	638.05	11	49	\N	1
+120	Tyre RR 110/80-14” Pireli Bikewise - 2902800	10.00	1282.61	38	49	\N	1
 \.
 
 
@@ -6370,7 +6389,7 @@ COPY public.users_userprofile (id, phone, "position", bio, date_updated, store_i
 2				2025-06-27 07:24:45.974895+00	2	2
 6				2025-06-27 07:30:02.18664+00	\N	6
 1				2025-09-03 08:09:36.898828+00	\N	1
-7				2025-12-01 09:27:23.373713+00	\N	7
+7				2025-12-02 12:23:26.677532+00	\N	7
 \.
 
 
@@ -6546,14 +6565,14 @@ SELECT pg_catalog.setval('public.inventory_parts_id_seq', 291, true);
 -- Name: inventory_purchase_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_purchase_id_seq', 48, true);
+SELECT pg_catalog.setval('public.inventory_purchase_id_seq', 50, true);
 
 
 --
 -- Name: inventory_purchaseitem_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_purchaseitem_id_seq', 118, true);
+SELECT pg_catalog.setval('public.inventory_purchaseitem_id_seq', 126, true);
 
 
 --
@@ -8447,9 +8466,7 @@ ALTER TABLE ONLY public.users_userprofile
 -- Name: SCHEMA public; Type: ACL; Schema: -; Owner: scooteruser
 --
 
-REVOKE ALL ON SCHEMA public FROM h;
-REVOKE ALL ON SCHEMA public FROM PUBLIC;
-GRANT ALL ON SCHEMA public TO scooteruser;
+REVOKE USAGE ON SCHEMA public FROM PUBLIC;
 GRANT ALL ON SCHEMA public TO PUBLIC;
 
 
@@ -8457,5 +8474,5 @@ GRANT ALL ON SCHEMA public TO PUBLIC;
 -- PostgreSQL database dump complete
 --
 
-\unrestrict ntW6nBqJNkQBPVfTxogoXB8eRIk1a0m8wEdJ9ogO0tTCYXLxf9y5Q1Ad34R5QQQ
+\unrestrict L778EhIwUScTVkd2Wewuanony5wki4NjLUMtSwkp7zPdJc4ZabUpbqJ90O5fvNA
 
