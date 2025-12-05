@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict 4hioYwey9DkTbR4R4sbiUOtJXIDcL5vsNh2ATny96USN3DHfet1wba734TtvFKp
+\restrict S2kUniy3tab1VZmmmVliDuyVI98dCDxuovsMEfU2jE2ZJfpAwceIyvFoc2bZhtu
 
 -- Dumped from database version 16.11 (Homebrew)
 -- Dumped by pg_dump version 16.11 (Homebrew)
@@ -2097,7 +2097,7 @@ COPY public.auth_user (id, password, last_login, is_superuser, username, first_n
 2	pbkdf2_sha256$1000000$PbAO8ViibaigsbGjDLrsEn$D41LoG1vfWqEYeixnJE1cMYY74nrYoRPJnT74Piesbs=	2025-05-24 20:34:26+00	f	Elleck	Elleck			t	t	2025-05-08 05:01:36+00
 6	pbkdf2_sha256$1000000$gW0XaR5oueAWIaUbkUJmuu$kM9m2ZVjqvwD9PcDONNFqkBHovzdnimO8aXLpNkFuQA=	\N	f	Adrich				f	t	2025-06-27 07:30:01.331008+00
 1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2025-09-03 08:09:36.691425+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
-7	pbkdf2_sha256$1000000$QcBQvDuhOqoH7okJF00ujH$WiPYDJ+ob3Qa8cGm5344NFYslWqbEgZyNLCzZj5LaVo=	2025-12-04 11:41:23.563952+00	t	Hussein			mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
+7	pbkdf2_sha256$1000000$QcBQvDuhOqoH7okJF00ujH$WiPYDJ+ob3Qa8cGm5344NFYslWqbEgZyNLCzZj5LaVo=	2025-12-05 07:25:17.427981+00	t	Hussein			mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
 \.
 
 
@@ -3089,6 +3089,7 @@ pw8u1ldjb7xckg41x0ndeinr6hozplla	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQ
 zifcyriffv5um13hqvsgs68pxlnh66oz	.eJwdTNEOgjAQ-xVzz4zdAOfkB_wAja_mckMyE3Cyw8QQ_t1BH5q2absA0ySP4KEFi8i-Iq-ss6wa25A6O3NS7J1x1dMgNwzFPoB2gXqjz0yjBPlBawqIU-AuqyNmlFjASEP2cO9SpMPldj3UiPkhDNRvuU5CEljvPuk4vf3MkvR366teUq6Xr9jDuq5_JFkzQQ:1vI6r0:quMqkgbNgiRLHzVsvsDhJ__z-9VL3_MI3BKwufwFDVw	2025-11-09 15:02:18.043706+00
 mw40yhms8o2abpize5w1j9zeg9pd4etm	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vFscK:zEMN54TYd25JzuWb516yQpFAv8IT5iRPh835N4IT7j8	2025-11-03 11:25:56.341448+00
 01fsfg8lpdwg2o4nle2jkswfyl0koyaz	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vOY2d:lm0jOt0mk2l0HlY2JbEPlWGGGwfdmaGBdj7dTN5FpVA	2025-11-27 09:16:55.781223+00
+oef1b4ne9xc0nxnml3qjwyrj6jqn4pl6	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vRQGd:owjWbPmvf6VYp01_d3TxI91FVatbld1PP_Q7dKz1HC4	2025-12-05 07:35:15.763897+00
 v2bmndlzk0hvnl2ltq0ncbkdiuq3hgcs	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vQica:6gwZA_HTYVysM6cUSuwl-0BX8UI_s_CzFFU8M1LlnvY	2025-12-03 08:59:00.038371+00
 gmuwm6o56p1xqmdri94tt2bysvebm3kw	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vR7kw:gi6u9W1n6Tk7f1tKWOtrHrqdDYRG5njRFmuT1ouba9w	2025-12-04 11:49:18.197622+00
 \.
@@ -3531,7 +3532,6 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 282	50535-Z7C-0002	Spring stand xpro125		0.00	0.00	40.88	Engine & Transmission		2025-09-26 07:44:56.815444+00	2025-09-26 07:46:58.66693+00	5
 283	44710-X0A-0000	Tyre Fr 100/90-14		4.00	0.00	755.50	Wheels & Tires		2025-10-09 10:08:12.37167+00	2025-10-09 10:12:08.093037+00	1
 287	13101-XJA-0001	Piston Jet 14		0.00	0.00	185.42	Engine & Transmission		2025-11-12 13:10:45.068762+00	2025-11-17 15:56:01.111367+00	1
-134	384-BTX7A-BS	Battery Motorsport		8.00	0.00	429.00	Electrical Components		2025-05-06 08:28:03.415966+00	2025-11-03 11:08:05.851903+00	1
 47	211412	Valve Ruber Rim		26.00	5.00	10.00	Wheels and Tires		2025-05-06 07:15:31.536846+00	2025-11-27 09:06:53.427352+00	1
 29	50500-X8A-0002	Main Stand COMP		3.00	1.00	561.36	Frame and Body		2025-05-05 21:54:23.332383+00	2025-11-05 07:09:54.257164+00	1
 155	96700-08020-00	Socket Bolt 8*20		9.00	1.00	14.70	Frame and Body		2025-06-19 12:42:37.82335+00	2025-10-29 17:58:45.874139+00	1
@@ -3550,6 +3550,7 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 1	173460	Engine Oil		226.60	5.00	560.00	Lubricants & Fluids		2025-05-05 19:18:03.334943+00	2025-12-04 11:44:16.105204+00	1
 10	22132-ARA-0000	Slide Piece		91.00	15.00	10.00	Engine & Transmission		2025-05-05 21:28:57.890263+00	2025-12-04 11:44:16.156593+00	1
 11	CR7HSA	Spark Plug		26.00	5.00	80.00	Engine & Transmission		2025-05-05 21:30:07.226667+00	2025-12-04 11:44:16.160842+00	1
+134	384-BTX7A-BS	Battery Motorsport		14.00	0.00	429.00	Electrical Components		2025-05-06 08:28:03.415966+00	2025-12-05 07:29:51.350013+00	1
 \.
 
 
@@ -3599,6 +3600,7 @@ COPY public.inventory_purchase (id, invoice_number, invoice_date, due_date, stat
 48	INV1054302	2025-11-14	2025-11-14	paid	6345.49	9237.50		2025-11-17 07:08:14.371352+00	2025-11-17 07:12:31.787953+00	7	6	1	2364.78	30.00	7882.60	827.67	15.00
 50	10AIPABA6011	2025-12-02	2025-12-02	paid	17610.01	17707.75		2025-12-02 12:29:21.890018+00	2025-12-02 12:29:22.14998+00	7	1	1	10208.70	40.00	25521.75	2296.96	15.00
 49	10AIPABA6014	2025-12-02	2025-12-02	paid	17655.10	11058.77		2025-12-02 12:25:26.881989+00	2025-12-02 12:31:18.219261+00	7	1	1	10234.84	40.00	25587.10	2302.84	15.00
+51	INV-137766	2025-12-05	2025-12-05	paid	3057.60	2664.32		2025-12-05 07:29:51.038797+00	2025-12-05 07:30:14.939907+00	7	2	1	0.00	0.00	2352.00	705.60	30.00
 \.
 
 
@@ -3717,6 +3719,7 @@ COPY public.inventory_purchaseitem (id, description, quantity, unit_price, part_
 126	Washer Bolt 6*12 - 93404-06012-07	3.00	14.25	116	50	\N	1
 119	Spark Plug - CR7HSA	20.00	638.05	11	49	\N	1
 120	Tyre RR 110/80-14” Pireli Bikewise - 2902800	10.00	1282.61	38	49	\N	1
+127	Battery Motorsport - 384-BTX7A-BS	6.00	392.00	134	51	\N	1
 \.
 
 
@@ -6419,7 +6422,7 @@ COPY public.users_userprofile (id, phone, "position", bio, date_updated, store_i
 2				2025-06-27 07:24:45.974895+00	2	2
 6				2025-06-27 07:30:02.18664+00	\N	6
 1				2025-09-03 08:09:36.898828+00	\N	1
-7				2025-12-04 11:41:23.588203+00	\N	7
+7				2025-12-05 07:25:17.473448+00	\N	7
 \.
 
 
@@ -6595,14 +6598,14 @@ SELECT pg_catalog.setval('public.inventory_parts_id_seq', 291, true);
 -- Name: inventory_purchase_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_purchase_id_seq', 50, true);
+SELECT pg_catalog.setval('public.inventory_purchase_id_seq', 51, true);
 
 
 --
 -- Name: inventory_purchaseitem_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_purchaseitem_id_seq', 126, true);
+SELECT pg_catalog.setval('public.inventory_purchaseitem_id_seq', 127, true);
 
 
 --
@@ -8504,5 +8507,5 @@ GRANT ALL ON SCHEMA public TO PUBLIC;
 -- PostgreSQL database dump complete
 --
 
-\unrestrict 4hioYwey9DkTbR4R4sbiUOtJXIDcL5vsNh2ATny96USN3DHfet1wba734TtvFKp
+\unrestrict S2kUniy3tab1VZmmmVliDuyVI98dCDxuovsMEfU2jE2ZJfpAwceIyvFoc2bZhtu
 
