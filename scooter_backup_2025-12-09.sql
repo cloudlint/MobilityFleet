@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict RmTa0L29KD7bOlZRYeY5tbhrKcL2gGmpia0OdtDJcgcvnizM5uq6LL64EYEEiUB
+\restrict OBUCotqW3eUcpFg7SBc0yUnLTaMC7fxDjQYqWWoMkDZ1LiD3mY8RlxQ1B6fXfCq
 
 -- Dumped from database version 16.11 (Homebrew)
 -- Dumped by pg_dump version 16.11 (Homebrew)
@@ -2097,7 +2097,7 @@ COPY public.auth_user (id, password, last_login, is_superuser, username, first_n
 2	pbkdf2_sha256$1000000$PbAO8ViibaigsbGjDLrsEn$D41LoG1vfWqEYeixnJE1cMYY74nrYoRPJnT74Piesbs=	2025-05-24 20:34:26+00	f	Elleck	Elleck			t	t	2025-05-08 05:01:36+00
 6	pbkdf2_sha256$1000000$gW0XaR5oueAWIaUbkUJmuu$kM9m2ZVjqvwD9PcDONNFqkBHovzdnimO8aXLpNkFuQA=	\N	f	Adrich				f	t	2025-06-27 07:30:01.331008+00
 1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2025-09-03 08:09:36.691425+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
-7	pbkdf2_sha256$1000000$QcBQvDuhOqoH7okJF00ujH$WiPYDJ+ob3Qa8cGm5344NFYslWqbEgZyNLCzZj5LaVo=	2025-12-08 09:16:50.426765+00	t	Hussein			mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
+7	pbkdf2_sha256$1000000$QcBQvDuhOqoH7okJF00ujH$WiPYDJ+ob3Qa8cGm5344NFYslWqbEgZyNLCzZj5LaVo=	2025-12-09 13:43:22.265825+00	t	Hussein			mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
 \.
 
 
@@ -3089,6 +3089,7 @@ pw8u1ldjb7xckg41x0ndeinr6hozplla	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQ
 zifcyriffv5um13hqvsgs68pxlnh66oz	.eJwdTNEOgjAQ-xVzz4zdAOfkB_wAja_mckMyE3Cyw8QQ_t1BH5q2absA0ySP4KEFi8i-Iq-ss6wa25A6O3NS7J1x1dMgNwzFPoB2gXqjz0yjBPlBawqIU-AuqyNmlFjASEP2cO9SpMPldj3UiPkhDNRvuU5CEljvPuk4vf3MkvR366teUq6Xr9jDuq5_JFkzQQ:1vI6r0:quMqkgbNgiRLHzVsvsDhJ__z-9VL3_MI3BKwufwFDVw	2025-11-09 15:02:18.043706+00
 mw40yhms8o2abpize5w1j9zeg9pd4etm	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vFscK:zEMN54TYd25JzuWb516yQpFAv8IT5iRPh835N4IT7j8	2025-11-03 11:25:56.341448+00
 01fsfg8lpdwg2o4nle2jkswfyl0koyaz	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vOY2d:lm0jOt0mk2l0HlY2JbEPlWGGGwfdmaGBdj7dTN5FpVA	2025-11-27 09:16:55.781223+00
+nuzmtreh2ezhmnihovnnz798r0hyzfe6	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vSy09:cvkZz-q6Oy0KMWms7Pim9F1T3YQ4IemzO7wuNEx7Re8	2025-12-09 13:48:37.577816+00
 oef1b4ne9xc0nxnml3qjwyrj6jqn4pl6	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vRQGd:owjWbPmvf6VYp01_d3TxI91FVatbld1PP_Q7dKz1HC4	2025-12-05 07:35:15.763897+00
 sjtzzq2s30mdhilynqbqjvbwn36da0mn	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vRpHJ:gBsQCQrBogEJGCkV5vHYHrGkJZ0VJRbQzp5OH1x95QE	2025-12-06 10:17:37.422406+00
 2c3gsa6r903es0t0ctx45dcw49vei6kk	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vSXYf:uTMCbTumSdL2fx7psizJwZ3qJFjYYDcNgusWvqYj6jA	2025-12-08 09:34:29.237044+00
@@ -3263,6 +3264,7 @@ COPY public.inventory_inventoryalert (id, alert_type, title, description, severi
 158	low_stock	Low Stock: Cylinder Gasket Xpro125	Inventory level for Cylinder Gasket Xpro125 (12191-Z2D-0000) is below reorder level. Current stock: 0.00, Reorder level: 0.00	high	new	0.00	0.00	f	t	2025-11-26 11:06:22.700948+00	2025-11-26 11:06:22.701008+00	\N	\N	\N	\N	291	\N	\N	1
 159	maintenance_due	Maintenance Due: Sym Jet 14 200	Scooter Sym Jet 14 200 (LXMXCA501MX023518) is due for maintenance. Last maintenance was 93 days ago.	medium	new	\N	\N	f	t	2025-11-26 11:06:22.81869+00	2025-11-26 11:06:22.818729+00	\N	\N	\N	\N	\N	\N	5	1
 160	maintenance_due	Maintenance Due: Sym Citycom 300	Scooter Sym Citycom 300 (RFGLLA700NS700236) is due for maintenance. Last maintenance was 99 days ago.	medium	new	\N	\N	f	t	2025-11-26 11:06:23.018244+00	2025-11-26 11:06:23.018283+00	\N	\N	\N	\N	\N	\N	13	1
+161	low_stock	Low Stock: Tyre Rr 110/80-14	Inventory level for Tyre Rr 110/80-14 (42710-X8A-0000) is below reorder level. Current stock: 0.00, Reorder level: 0.00	high	new	0.00	0.00	f	t	2025-12-09 13:43:23.365953+00	2025-12-09 13:43:23.366005+00	\N	\N	\N	\N	284	\N	\N	1
 \.
 
 
@@ -6493,7 +6495,7 @@ COPY public.users_userprofile (id, phone, "position", bio, date_updated, store_i
 2				2025-06-27 07:24:45.974895+00	2	2
 6				2025-06-27 07:30:02.18664+00	\N	6
 1				2025-09-03 08:09:36.898828+00	\N	1
-7				2025-12-08 09:16:50.501234+00	\N	7
+7				2025-12-09 13:43:22.463569+00	\N	7
 \.
 
 
@@ -6655,7 +6657,7 @@ SELECT pg_catalog.setval('public.django_migrations_id_seq', 52, true);
 -- Name: inventory_inventoryalert_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_inventoryalert_id_seq', 160, true);
+SELECT pg_catalog.setval('public.inventory_inventoryalert_id_seq', 161, true);
 
 
 --
@@ -8578,5 +8580,5 @@ GRANT ALL ON SCHEMA public TO PUBLIC;
 -- PostgreSQL database dump complete
 --
 
-\unrestrict RmTa0L29KD7bOlZRYeY5tbhrKcL2gGmpia0OdtDJcgcvnizM5uq6LL64EYEEiUB
+\unrestrict OBUCotqW3eUcpFg7SBc0yUnLTaMC7fxDjQYqWWoMkDZ1LiD3mY8RlxQ1B6fXfCq
 
