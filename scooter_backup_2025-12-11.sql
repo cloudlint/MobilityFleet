@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict 8TggD3kVsuFfIK4J6laGQ9UeTJpmSQ6JQDIbjNfZjbBfZmIbhw8EPL32YOcdmgY
+\restrict t36RkKPdmztWt8gI7oUEIJFYbSjAEem0LfDLUZIYr3yvgjBuK1d6EyTQJRGRCDz
 
 -- Dumped from database version 16.11 (Homebrew)
 -- Dumped by pg_dump version 16.11 (Homebrew)
@@ -2097,7 +2097,7 @@ COPY public.auth_user (id, password, last_login, is_superuser, username, first_n
 2	pbkdf2_sha256$1000000$PbAO8ViibaigsbGjDLrsEn$D41LoG1vfWqEYeixnJE1cMYY74nrYoRPJnT74Piesbs=	2025-05-24 20:34:26+00	f	Elleck	Elleck			t	t	2025-05-08 05:01:36+00
 6	pbkdf2_sha256$1000000$gW0XaR5oueAWIaUbkUJmuu$kM9m2ZVjqvwD9PcDONNFqkBHovzdnimO8aXLpNkFuQA=	\N	f	Adrich				f	t	2025-06-27 07:30:01.331008+00
 1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2025-09-03 08:09:36.691425+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
-7	pbkdf2_sha256$1000000$QcBQvDuhOqoH7okJF00ujH$WiPYDJ+ob3Qa8cGm5344NFYslWqbEgZyNLCzZj5LaVo=	2025-12-11 07:07:36.01402+00	t	Hussein			mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
+7	pbkdf2_sha256$1000000$QcBQvDuhOqoH7okJF00ujH$WiPYDJ+ob3Qa8cGm5344NFYslWqbEgZyNLCzZj5LaVo=	2025-12-11 12:46:56.936387+00	t	Hussein			mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
 \.
 
 
@@ -3096,6 +3096,7 @@ sjtzzq2s30mdhilynqbqjvbwn36da0mn	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQ
 2c3gsa6r903es0t0ctx45dcw49vei6kk	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vSXYf:uTMCbTumSdL2fx7psizJwZ3qJFjYYDcNgusWvqYj6jA	2025-12-08 09:34:29.237044+00
 n3j3pmt2ogt02g534tyqe260jgcxovgp	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vRSTp:nSSCOTw5xZ5BvDGp5KkM8esC4v6CU9eEmTe4662aSzE	2025-12-05 09:57:01.426757+00
 cyeq68ponun7ek4ialhugfc84xbcqwd1	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vTEOo:uYUg1stmlDTm_Wa2pHLrHrewc30oPeOI2-D15jhhiGs	2025-12-10 07:19:10.729973+00
+xu7ouas7a31e22aldeqf1nar8f71inqh	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vTg78:jY75enFGlDgt205T2_A6J3FTGc7bmj9WgFZXLnZyNMU	2025-12-11 12:54:46.388997+00
 v2bmndlzk0hvnl2ltq0ncbkdiuq3hgcs	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vQica:6gwZA_HTYVysM6cUSuwl-0BX8UI_s_CzFFU8M1LlnvY	2025-12-03 08:59:00.038371+00
 gmuwm6o56p1xqmdri94tt2bysvebm3kw	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vR7kw:gi6u9W1n6Tk7f1tKWOtrHrqdDYRG5njRFmuT1ouba9w	2025-12-04 11:49:18.197622+00
 7wql99l1sk7oa0ferugo5a00tznik048	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vTGy8:wc5U1xZXEQGAUroOKTDIW3-Pd91l2wxDh2P06lJu8QQ	2025-12-10 10:03:48.838242+00
@@ -3841,6 +3842,7 @@ COPY public.inventory_scooter (id, vin, make, model, year, color, status, hourly
 40	LXMXCA501RXA30428	Sym	Jet 14 200	2023	White	available	25.00	400.00	2024-12-13	30775.00	4444	2025-12-08		2025-05-13 10:23:59.922266+00	2025-12-08 09:28:14.297776+00	1	MB 96 XY GP	\N	\N	B
 103	LXMXCA501SXA24097	Sym	Jet 14 200	2025	White	available	650.00	540.00	2025-10-21	31300.00	0	2025-12-10		2025-12-10 07:08:36.48986+00	2025-12-10 07:14:10.324779+00	1	MR 01 JZ GP	\N	\N	B
 95	LXMXCA501SXA22583	Sym	Jet14	2024	White	available	650.00	450.00	2025-07-14	33000.00	0	2025-12-10		2025-07-14 13:18:53.668239+00	2025-12-10 09:58:45.685671+00	1	MK 81 DT GP	\N	\N	B
+104	LXMXCA501SXA24094	Sym	Jet 14 200	2025	White	available	650.00	450.00	2025-12-11	31300.00	0	2025-12-11		2025-12-11 12:48:24.281567+00	2025-12-11 12:48:24.281591+00	1	MR 01 HX GP	\N	\N	B
 \.
 
 
@@ -6554,7 +6556,7 @@ COPY public.users_userprofile (id, phone, "position", bio, date_updated, store_i
 2				2025-06-27 07:24:45.974895+00	2	2
 6				2025-06-27 07:30:02.18664+00	\N	6
 1				2025-09-03 08:09:36.898828+00	\N	1
-7				2025-12-11 07:07:36.023807+00	\N	7
+7				2025-12-11 12:46:57.786256+00	\N	7
 \.
 
 
@@ -6744,7 +6746,7 @@ SELECT pg_catalog.setval('public.inventory_purchaseitem_id_seq', 128, true);
 -- Name: inventory_scooter_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_scooter_id_seq', 103, true);
+SELECT pg_catalog.setval('public.inventory_scooter_id_seq', 104, true);
 
 
 --
@@ -8639,5 +8641,5 @@ GRANT ALL ON SCHEMA public TO PUBLIC;
 -- PostgreSQL database dump complete
 --
 
-\unrestrict 8TggD3kVsuFfIK4J6laGQ9UeTJpmSQ6JQDIbjNfZjbBfZmIbhw8EPL32YOcdmgY
+\unrestrict t36RkKPdmztWt8gI7oUEIJFYbSjAEem0LfDLUZIYr3yvgjBuK1d6EyTQJRGRCDz
 
