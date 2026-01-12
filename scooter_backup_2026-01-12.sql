@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict t57yb4Lpn6caUKw2w9zofSiOW4VfD9PEATox1UDxqWtud0Hp4F4qDw1swI0orB6
+\restrict iJvBh66XoxzKODarxBf8J3VBD3byjyztaiSTcc6DEiBLevRojcvfzc5TOZihCna
 
 -- Dumped from database version 16.11 (Homebrew)
 -- Dumped by pg_dump version 16.11 (Homebrew)
@@ -2097,7 +2097,7 @@ COPY public.auth_user (id, password, last_login, is_superuser, username, first_n
 2	pbkdf2_sha256$1000000$PbAO8ViibaigsbGjDLrsEn$D41LoG1vfWqEYeixnJE1cMYY74nrYoRPJnT74Piesbs=	2025-05-24 20:34:26+00	f	Elleck	Elleck			t	t	2025-05-08 05:01:36+00
 6	pbkdf2_sha256$1000000$gW0XaR5oueAWIaUbkUJmuu$kM9m2ZVjqvwD9PcDONNFqkBHovzdnimO8aXLpNkFuQA=	\N	f	Adrich				f	t	2025-06-27 07:30:01.331008+00
 1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2025-09-03 08:09:36.691425+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
-7	pbkdf2_sha256$1000000$QcBQvDuhOqoH7okJF00ujH$WiPYDJ+ob3Qa8cGm5344NFYslWqbEgZyNLCzZj5LaVo=	2026-01-12 09:02:04.957532+00	t	Hussein			mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
+7	pbkdf2_sha256$1000000$QcBQvDuhOqoH7okJF00ujH$WiPYDJ+ob3Qa8cGm5344NFYslWqbEgZyNLCzZj5LaVo=	2026-01-12 09:41:31.181009+00	t	Hussein			mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
 \.
 
 
@@ -3114,6 +3114,7 @@ ga0yjihcy99yobgnk7xgck32gvbf8jk5	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQ
 e225481ih6u7ik8j3nklg4ksrn9gc9tm	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vd2Jj:t7rF6uAs0X0UBTW8NNlxDzt4_HALJlnIAv5NRqbQ4vA	2026-01-06 08:26:27.87362+00
 hlgilq1ossbjf9kk926miw8pomeguvel	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vfCeC:HjBTm4m1q_94BfWucmqAbzcAYtFKG8g5Co5sHqHoiF0	2026-01-12 07:52:32.803203+00
 5cfa1qxpqd133aka5d6q0v01nfss7uyk	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vfDob:uxFhUqrYh0tlngmFCNkK-xJfbFg24-XWpqBgBEL5X9k	2026-01-12 09:07:21.050255+00
+md94paloqzsdh6vzmbseq4twm9a068ql	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vfESN:eDaITGRenDWo6qPa5m-YWaPNkKcD9OZ-Gj_9n4oD0nU	2026-01-12 09:48:27.080004+00
 \.
 
 
@@ -3543,7 +3544,6 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 268	8375G-LHA-000-QU	RR Center Cover Assy Citycom		1.00	0.00	80.00	Frame and Body		2025-09-25 11:03:46.956731+00	2025-09-25 11:03:46.958994+00	5
 243	XD10F	Ignition Coil Cap		21.00	0.00	34.78	Electrical Components		2025-07-29 11:22:45.243579+00	2026-01-12 07:47:31.186778+00	1
 12	22121-M9B-0000	Weight Roller		120.00	18.00	120.00	Engine & Transmission		2025-05-05 21:31:05.995356+00	2026-01-08 08:59:05.199484+00	1
-9	23100-XMA-0000	Drive Belt		15.00	5.00	996.52	Engine & Transmission		2025-05-05 21:28:13.605717+00	2026-01-08 08:59:05.20352+00	1
 7	173469	Gear Oil		24.10	5.00	500.00	Lubricants & Fluids		2025-05-05 21:21:17.375925+00	2026-01-12 07:47:31.181011+00	1
 269	22132-HMA-000-A1	Slide piece		21.00	0.00	30.00	Engine & Transmission		2025-09-25 11:03:46.964612+00	2025-09-25 11:03:46.966447+00	5
 270	83620-LEA-000-QU	Side Cover  LH white		2.00	0.00	200.00	Frame and Body		2025-09-25 11:03:46.972001+00	2025-09-25 11:03:46.973711+00	5
@@ -3583,6 +3583,8 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 1	173460	Engine Oil		204.20	5.00	560.00	Lubricants & Fluids		2025-05-05 19:18:03.334943+00	2026-01-12 07:47:31.177566+00	1
 14	43105-ARB-000-A-9	Brake Pads RR		24.00	5.00	140.00	Brakes		2025-05-05 21:33:50.092617+00	2026-01-12 07:47:31.183454+00	1
 8	17211-ADB-0000	Air Filter Element		27.00	5.00	111.80	Consumables and Accessories		2025-05-05 21:25:15.716942+00	2026-01-12 07:47:31.189054+00	1
+9	23100-XMA-0000	Drive Belt		10.00	5.00	996.52	Engine & Transmission		2025-05-05 21:28:13.605717+00	2026-01-12 09:42:08.260159+00	1
+292	23100-XMA-0000	Drive Belt		5.00	5.00	996.52	Engine & Transmission		2026-01-12 09:42:08.326686+00	2026-01-12 09:42:08.334369+00	5
 \.
 
 
@@ -3915,6 +3917,7 @@ COPY public.inventory_stocktransfer (id, transfer_number, transfer_date, status,
 24	ST20250923001	2025-09-23	completed		2025-09-23 08:08:39.270016+00	2025-09-25 08:02:10.61974+00	7	5	1
 26	ST20250925002	2025-09-25	pending		2025-09-25 11:03:46.530812+00	2025-09-25 11:03:46.530836+00	7	5	1
 27	ST20250926001	2025-09-26	completed		2025-09-26 07:46:58.559655+00	2025-09-26 07:46:58.559681+00	7	1	5
+28	ST20260112001	2026-01-12	in_transit		2026-01-12 09:42:08.011055+00	2026-01-12 09:42:08.011079+00	7	5	1
 \.
 
 
@@ -3979,6 +3982,7 @@ COPY public.inventory_stocktransferitem (id, quantity, date_added, part_id, stoc
 55	54.00	2025-09-25 11:03:46.774904+00	72	26
 56	5.00	2025-09-25 11:03:46.776075+00	146	26
 57	5.00	2025-09-26 07:46:58.664137+00	282	27
+58	5.00	2026-01-12 09:42:08.219059+00	9	28
 \.
 
 
@@ -6846,7 +6850,7 @@ COPY public.users_userprofile (id, phone, "position", bio, date_updated, store_i
 2				2025-06-27 07:24:45.974895+00	2	2
 6				2025-06-27 07:30:02.18664+00	\N	6
 1				2025-09-03 08:09:36.898828+00	\N	1
-7				2026-01-12 09:02:05.011663+00	\N	7
+7				2026-01-12 09:41:31.23138+00	\N	7
 \.
 
 
@@ -7015,7 +7019,7 @@ SELECT pg_catalog.setval('public.inventory_inventoryalert_id_seq', 170, true);
 -- Name: inventory_parts_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_parts_id_seq', 291, true);
+SELECT pg_catalog.setval('public.inventory_parts_id_seq', 292, true);
 
 
 --
@@ -7057,14 +7061,14 @@ SELECT pg_catalog.setval('public.inventory_scootermaintenancehistory_id_seq', 1,
 -- Name: inventory_stocktransfer_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_stocktransfer_id_seq', 27, true);
+SELECT pg_catalog.setval('public.inventory_stocktransfer_id_seq', 28, true);
 
 
 --
 -- Name: inventory_stocktransferitem_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_stocktransferitem_id_seq', 57, true);
+SELECT pg_catalog.setval('public.inventory_stocktransferitem_id_seq', 58, true);
 
 
 --
@@ -8931,5 +8935,5 @@ GRANT ALL ON SCHEMA public TO PUBLIC;
 -- PostgreSQL database dump complete
 --
 
-\unrestrict t57yb4Lpn6caUKw2w9zofSiOW4VfD9PEATox1UDxqWtud0Hp4F4qDw1swI0orB6
+\unrestrict iJvBh66XoxzKODarxBf8J3VBD3byjyztaiSTcc6DEiBLevRojcvfzc5TOZihCna
 
