@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict h0if1ZUrz4Md38pWDySHWoBwK9oJAt9j6bsCew3FL8gohp0KQVXejtPgRSeZZHN
+\restrict mmsAI5z5FIamcCHuDgk1qKCiSH4obl7sOyKhc3n7ITn1BK5ege7opNk3HxHZabt
 
 -- Dumped from database version 16.11 (Homebrew)
 -- Dumped by pg_dump version 16.11 (Homebrew)
@@ -2097,7 +2097,7 @@ COPY public.auth_user (id, password, last_login, is_superuser, username, first_n
 2	pbkdf2_sha256$1000000$PbAO8ViibaigsbGjDLrsEn$D41LoG1vfWqEYeixnJE1cMYY74nrYoRPJnT74Piesbs=	2025-05-24 20:34:26+00	f	Elleck	Elleck			t	t	2025-05-08 05:01:36+00
 6	pbkdf2_sha256$1000000$gW0XaR5oueAWIaUbkUJmuu$kM9m2ZVjqvwD9PcDONNFqkBHovzdnimO8aXLpNkFuQA=	\N	f	Adrich				f	t	2025-06-27 07:30:01.331008+00
 1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2025-09-03 08:09:36.691425+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
-7	pbkdf2_sha256$1000000$QcBQvDuhOqoH7okJF00ujH$WiPYDJ+ob3Qa8cGm5344NFYslWqbEgZyNLCzZj5LaVo=	2026-01-16 06:47:45.314883+00	t	Hussein			mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
+7	pbkdf2_sha256$1000000$QcBQvDuhOqoH7okJF00ujH$WiPYDJ+ob3Qa8cGm5344NFYslWqbEgZyNLCzZj5LaVo=	2026-01-16 12:09:58.603939+00	t	Hussein			mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
 \.
 
 
@@ -3112,12 +3112,15 @@ vkf2hcat23tnxkd711ecyb91jgqr3i9u	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQ
 eitvjak8tmckxuqp3brd7ujb9uk7385w	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1va9YM:HgSYiCbh7JyZJV0noxQhE0r-8-3BqPC7nx3VubScsVY	2025-12-29 09:33:38.843354+00
 ga0yjihcy99yobgnk7xgck32gvbf8jk5	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vaUbq:YQiqxj9jqG3Ew4qukaYX2SfPVc6xUWzZuT7uWovY6C0	2025-12-30 08:02:38.522762+00
 seh4wjqcw3es6sk9ii2yrldw0lxuk1nw	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vgddw:UqfZYRHfzSEc2U1DfEHHAKdMYG91uZo2gu6Z5uIVDhg	2026-01-16 06:54:12.633716+00
+ah8rko69cdjaaio69a04kcdsclp7j03c	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vgiku:lZqbMmGrlnsKn78tZdlcHwmSQmQDW0IPzkwFyr40mgU	2026-01-16 12:21:44.20165+00
 j07lt0bf0u56autgwanou8xfjnu3lblj	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vfwuF:fPMsPhfACagby1OzPDY0LIoDU7tdEl5b-i29rbjCNL0	2026-01-14 09:16:11.498215+00
 sj2awfds7270fi6wl71txpiiau7g9r8d	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vg1fI:esLfHUHq521oJQMKO-F7K1WX5F1RNLdEoJcLgX8ilyQ	2026-01-14 14:21:04.429106+00
 e225481ih6u7ik8j3nklg4ksrn9gc9tm	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vd2Jj:t7rF6uAs0X0UBTW8NNlxDzt4_HALJlnIAv5NRqbQ4vA	2026-01-06 08:26:27.87362+00
 p5vt4f9j12st1wkpvuwc4exya6l3x78g	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vfxmh:6sncWVh7y0pVovsD0PEw5Aj1pzsvgBsXDxpJqy6iFrs	2026-01-14 10:12:27.192848+00
+e63vuu2cqozth7h1cu6g2kcpw7rgwtp2	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vgi74:rYyQFsp5BndtzqPPHPTPoPOwDdOvcrWMcunzGt6ccQ4	2026-01-16 11:40:34.695545+00
 4g0g6yfzlvyhkwbydqpurzjky2yz6tb2	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vfz1M:lbS4-up7D9AHvK_f1Dc9epu6MipaIjP_ODs4zi24n4c	2026-01-14 11:31:40.659373+00
 hlgilq1ossbjf9kk926miw8pomeguvel	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vfCeC:HjBTm4m1q_94BfWucmqAbzcAYtFKG8g5Co5sHqHoiF0	2026-01-12 07:52:32.803203+00
+xp6k82im8abqgaxhtx76ot2uqbt64mif	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vgiVn:y1L18Ls6MNoi3MWkahEK5SJ2nrJcjQPnZn-1la9O_0U	2026-01-16 12:06:07.40452+00
 5cfa1qxpqd133aka5d6q0v01nfss7uyk	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vfDob:uxFhUqrYh0tlngmFCNkK-xJfbFg24-XWpqBgBEL5X9k	2026-01-12 09:07:21.050255+00
 md94paloqzsdh6vzmbseq4twm9a068ql	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vfESN:eDaITGRenDWo6qPa5m-YWaPNkKcD9OZ-Gj_9n4oD0nU	2026-01-12 09:48:27.080004+00
 fzzeqx4ll8xilh5851205ubr3rbg9xj9	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vfYqV:ygTBCjCs6_K1cNsq18FLdN_TeKUtGKrtphaz6TS5B-w	2026-01-13 07:34:43.447938+00
@@ -3301,6 +3304,15 @@ COPY public.inventory_inventoryalert (id, alert_type, title, description, severi
 170	maintenance_due	Maintenance Due: Sym Jet 14 200	Scooter Sym Jet 14 200 (LXMXCA501MX025160) is due for maintenance. Last maintenance was 91 days ago.	medium	new	\N	\N	f	t	2026-01-06 08:20:58.399062+00	2026-01-06 08:20:58.399102+00	\N	\N	\N	\N	\N	\N	15	1
 171	low_stock	Low Stock: Drive Belt	Inventory level for Drive Belt (23100-XMA-0000) is below reorder level. Current stock: 5.00, Reorder level: 5.00	medium	new	5.00	5.00	f	t	2026-01-13 07:28:15.40263+00	2026-01-13 07:28:15.402667+00	\N	\N	\N	\N	292	\N	\N	5
 172	low_stock	Low Stock: Tyre FR 100/90-14"	Inventory level for Tyre FR 100/90-14" (TYM-139610) is below reorder level. Current stock: 0.00, Reorder level: 0.00	high	new	0.00	0.00	f	t	2026-01-14 10:03:02.092818+00	2026-01-14 10:03:02.09284+00	\N	\N	\N	\N	242	\N	\N	1
+173	low_stock	Low Stock: Balls And Retainer	Inventory level for Balls And Retainer (50303-AAA-0000) is below reorder level. Current stock: 0.00, Reorder level: 0.00	high	new	0.00	0.00	f	t	2026-01-16 11:40:51.196221+00	2026-01-16 11:40:51.196253+00	\N	\N	\N	\N	299	\N	\N	1
+174	low_stock	Low Stock: Cone Steering Top Crox1	Inventory level for Cone Steering Top Crox1 (53211-M9Q-0000-CN2) is below reorder level. Current stock: 0.00, Reorder level: 0.00	high	new	0.00	0.00	f	t	2026-01-16 11:40:51.44138+00	2026-01-16 11:40:51.441419+00	\N	\N	\N	\N	300	\N	\N	1
+175	low_stock	Low Stock: Ball Steering Xpro125	Inventory level for Ball Steering Xpro125 (50301-M9Q-0002-CN2) is below reorder level. Current stock: 0.00, Reorder level: 0.00	high	new	0.00	0.00	f	t	2026-01-16 11:40:51.448927+00	2026-01-16 11:40:51.448962+00	\N	\N	\N	\N	301	\N	\N	1
+176	low_stock	Low Stock: Steering Stem Comp Jet14	Inventory level for Steering Stem Comp Jet14 (53200-X8A-0000-CN1) is below reorder level. Current stock: 0.00, Reorder level: 0.00	high	new	0.00	0.00	f	t	2026-01-16 11:40:51.470875+00	2026-01-16 11:40:51.470911+00	\N	\N	\N	\N	293	\N	\N	1
+177	low_stock	Low Stock: Steering Head Dust Seal	Inventory level for Steering Head Dust Seal (53215-M9Q-000) is below reorder level. Current stock: 0.00, Reorder level: 0.00	high	new	0.00	0.00	f	t	2026-01-16 11:40:51.496294+00	2026-01-16 11:40:51.496329+00	\N	\N	\N	\N	294	\N	\N	1
+178	low_stock	Low Stock: Steering Head Dust Seal1	Inventory level for Steering Head Dust Seal1 (53214-M9Q-0000) is below reorder level. Current stock: 0.00, Reorder level: 0.00	high	new	0.00	0.00	f	t	2026-01-16 11:40:51.507655+00	2026-01-16 11:40:51.50769+00	\N	\N	\N	\N	295	\N	\N	1
+179	low_stock	Low Stock: Cone bottom Steering	Inventory level for Cone bottom Steering (53212-M9Q-0000-CN2) is below reorder level. Current stock: 0.00, Reorder level: 0.00	high	new	0.00	0.00	f	t	2026-01-16 11:40:51.516491+00	2026-01-16 11:40:51.516525+00	\N	\N	\N	\N	296	\N	\N	1
+180	low_stock	Low Stock: Ball Bearing Xpro125	Inventory level for Ball Bearing Xpro125 (50304-AAA-0000) is below reorder level. Current stock: 0.00, Reorder level: 0.00	high	new	0.00	0.00	f	t	2026-01-16 11:40:51.52562+00	2026-01-16 11:40:51.525641+00	\N	\N	\N	\N	297	\N	\N	1
+181	low_stock	Low Stock: Under Steering Ball Race	Inventory level for Under Steering Ball Race (50302-M9Q-0000-CN2) is below reorder level. Current stock: 0.00, Reorder level: 0.00	high	new	0.00	0.00	f	t	2026-01-16 11:40:51.531543+00	2026-01-16 11:40:51.531572+00	\N	\N	\N	\N	298	\N	\N	1
 \.
 
 
@@ -3457,7 +3469,6 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 191	90912-M9Q-0000-M1	Radial Ball BRG 6201U Xpro125		3.00	1.00	300.00	Engine & Transmission		2025-07-02 10:22:15.02114+00	2025-07-02 10:22:15.021171+00	2
 153	14781-A01-A000	VALVE COTTER		12.00	0.00	6.32	Engine & Transmission		2025-06-09 12:42:06.466422+00	2025-07-09 16:09:16.855999+00	1
 136	90202-M9Q-000	Special Nut 28 mm		5.00	0.00	29.20	Miscellaneous / Universal Parts		2025-05-06 08:29:16.499241+00	2025-07-10 17:16:56.621506+00	1
-151	95801-08040-00	Flange Bolt 8*40		4.00	1.00	19.58	Miscellaneous / Universal Parts		2025-05-15 19:09:19.412309+00	2025-07-10 17:33:34.334577+00	1
 192	E450N	TopBox GIVI		2.00	0.00	3000.00	Frame and Body		2025-07-02 10:23:35.049908+00	2025-07-02 10:23:35.049931+00	2
 193	91302-M9T-0002	O-ring 30.8mm		4.00	1.00	30.00	Engine & Transmission		2025-07-02 10:24:03.4831+00	2025-07-02 10:24:03.48312+00	2
 194	YTX12-BS	Battery		1.00	0.00	600.00	Electrical Components		2025-07-02 10:25:39.914042+00	2025-07-02 10:25:39.914064+00	2
@@ -3491,6 +3502,7 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 218	13111-GYB2-A000	Rear wheel nut		1.00	0.00	100.00	Wheels and Tires		2025-07-02 10:47:46.773986+00	2025-07-02 10:47:46.774018+00	2
 219	17230-ARA-0102	Air/C case comp		1.00	0.00	3000.00	Engine & Transmission		2025-07-02 10:48:27.567613+00	2025-07-02 10:48:27.567643+00	2
 220	44800-XPA-0101	SPDMT Gear box jet14		2.00	0.00	300.00	Frame and Body		2025-07-02 10:48:56.776355+00	2025-07-02 10:48:56.776376+00	2
+151	95801-08040-00	Flange Bolt 8*40		6.00	1.00	19.58	Miscellaneous / Universal Parts		2025-05-15 19:09:19.412309+00	2026-01-16 12:01:06.474232+00	1
 221	91051-H9A-0000	Bearing symphony150		3.00	1.00	500.00	Engine & Transmission		2025-07-02 10:49:52.7107+00	2025-07-02 10:49:52.710729+00	2
 222	18000-X9C-0002-K	Exh Muffler jet14		2.00	0.00	400.00	Frame and Body		2025-07-02 10:50:15.373498+00	2025-07-02 10:50:15.37352+00	2
 223	45500-AAA-0002	FR MIC XPRO 125		2.00	0.00	300.00	Engine & Transmission		2025-07-02 10:50:53.639278+00	2025-07-02 10:50:53.639299+00	2
@@ -3581,18 +3593,27 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 284	42710-X8A-0000	Tyre Rr 110/80-14		0.00	0.00	793.50	Wheels & Tires		2025-10-09 10:10:13.038713+00	2025-12-08 09:29:27.829648+00	1
 134	384-BTX7A-BS	Battery Motorsport		12.00	0.00	429.00	Electrical Components		2025-05-06 08:28:03.415966+00	2025-12-29 08:49:28.853881+00	1
 9	23100-XMA-0000	Drive Belt		9.00	5.00	996.52	Engine & Transmission		2025-05-05 21:28:13.605717+00	2026-01-14 10:07:25.488615+00	1
+299	50303-AAA-0000	Balls And Retainer		0.00	0.00	9.49	Frame and Body		2026-01-16 11:33:10.151446+00	2026-01-16 11:33:10.151483+00	1
 14	43105-ARB-000-A-9	Brake Pads RR		20.00	5.00	140.00	Brakes		2025-05-05 21:33:50.092617+00	2026-01-15 07:32:17.118862+00	1
 10	22132-ARA-0000	Slide Piece		73.00	15.00	10.00	Engine & Transmission		2025-05-05 21:28:57.890263+00	2026-01-08 08:59:05.195339+00	1
+293	53200-X8A-0000-CN1	Steering Stem Comp Jet14		1.00	0.00	956.30	Frame and Body		2026-01-16 11:24:38.696844+00	2026-01-16 12:01:06.427105+00	1
 38	2902800	Tyre RR 110/80-14” Pireli Bikewise		8.00	5.00	800.00	Wheels and Tires		2025-05-06 06:57:41.482487+00	2026-01-12 07:45:54.540883+00	1
 15	FDB2190EF	Brake Pads FF		13.00	5.00	119.00	Brakes		2025-05-05 21:34:44.654682+00	2026-01-15 07:32:51.490721+00	1
 1	173460	Engine Oil		200.10	5.00	560.00	Lubricants & Fluids		2025-05-05 19:18:03.334943+00	2026-01-16 06:49:03.041608+00	1
 292	23100-XMA-0000	Drive Belt		5.00	5.00	996.52	Engine & Transmission		2026-01-12 09:42:08.326686+00	2026-01-12 09:42:08.334369+00	5
 145	12391-F8A-0001	Head Cover Packing Jet14		2.00	0.00	120.00	Engine & Transmission		2025-05-06 08:33:10.560434+00	2026-01-13 10:06:17.517321+00	1
+297	50304-AAA-0000	Ball Bearing Xpro125		0.00	0.00	13.52	Frame and Body		2026-01-16 11:31:12.190644+00	2026-01-16 11:31:12.190741+00	1
+294	53215-M9Q-000	Steering Head Dust Seal		1.00	0.00	29.01	Frame and Body		2026-01-16 11:27:28.251722+00	2026-01-16 12:01:06.479773+00	1
+295	53214-M9Q-0000	Steering Head Dust Seal1		1.00	0.00	12.35	Frame and Body		2026-01-16 11:28:56.025506+00	2026-01-16 12:01:06.483549+00	1
 8	17211-ADB-0000	Air Filter Element		26.00	5.00	111.80	Consumables and Accessories		2025-05-05 21:25:15.716942+00	2026-01-14 10:07:25.469047+00	1
+296	53212-M9Q-0000-CN2	Cone bottom Steering		1.00	0.00	31.32	Frame and Body		2026-01-16 11:30:03.841668+00	2026-01-16 12:01:06.487607+00	1
 47	211412	Valve Ruber Rim		20.00	5.00	10.00	Wheels and Tires		2025-05-06 07:15:31.536846+00	2026-01-14 10:07:25.476342+00	1
 242	TYM-139610	Tyre FR 100/90-14"		0.00	0.00	900.00	Tyres		2025-07-09 15:39:06.134916+00	2026-01-14 10:07:25.478093+00	1
 11	CR7HSA	Spark Plug		17.00	5.00	80.00	Engine & Transmission		2025-05-05 21:30:07.226667+00	2026-01-14 10:07:25.480099+00	1
 117	22300-ANT-0001	Plate Xpro125		3.00	0.00	763.92	Engine & Transmission		2025-05-06 08:14:07.124182+00	2026-01-14 10:07:25.484435+00	1
+298	50302-M9Q-0000-CN2	Under Steering Ball Race		1.00	0.00	31.39	Frame and Body		2026-01-16 11:32:02.443205+00	2026-01-16 12:01:06.491903+00	1
+300	53211-M9Q-0000-CN2	Cone Steering Top Crox1		1.00	0.00	46.50	Frame and Body		2026-01-16 11:34:07.465453+00	2026-01-16 12:01:06.496486+00	1
+301	50301-M9Q-0002-CN2	Ball Steering Xpro125		1.00	0.00	36.06	Frame and Body		2026-01-16 11:35:32.019637+00	2026-01-16 12:01:06.516427+00	1
 \.
 
 
@@ -3646,6 +3667,7 @@ COPY public.inventory_purchase (id, invoice_number, invoice_date, due_date, stat
 53	10AIPABA6736	2025-12-12	2025-12-12	paid	98.33	98.33		2025-12-12 12:43:17.804977+00	2025-12-12 12:43:17.953034+00	7	1	1	57.00	40.00	142.50	12.83	15.00
 51	INV-137766	2025-12-05	2025-12-05	paid	3057.60	2664.32		2025-12-05 07:29:51.038797+00	2025-12-05 07:30:14.939907+00	7	2	1	0.00	0.00	2352.00	705.60	30.00
 54	66721318	2025-12-12	2025-12-12	paid	23.00	23.00		2025-12-12 13:06:29.559431+00	2025-12-12 13:06:29.627664+00	7	5	1	0.00	0.00	20.00	3.00	15.00
+55	10AIPABA8683	2026-01-16	2026-01-16	paid	815.64	913.41		2026-01-16 12:01:06.091513+00	2026-01-16 12:01:06.542872+00	7	1	1	472.84	40.00	1182.09	106.39	15.00
 \.
 
 
@@ -3768,6 +3790,14 @@ COPY public.inventory_purchaseitem (id, description, quantity, unit_price, part_
 128	Ignition Coil Cap - XD10F	29.00	20.00	243	52	\N	1
 129	Washer Bolt 6*12 - 93404-06012-07	10.00	14.25	116	53	\N	1
 130	Ignition Coil Cap - XD10F	1.00	20.00	243	54	\N	1
+131	Steering Stem Comp Jet14 - 53200-X8A-0000-CN1	1.00	956.30	293	55	\N	1
+132	Flange Bolt 8*40 - 95801-08040-00	2.00	19.58	151	55	\N	1
+133	Steering Head Dust Seal - 53215-M9Q-000	1.00	29.01	294	55	\N	1
+134	Steering Head Dust Seal1 - 53214-M9Q-0000	1.00	12.35	295	55	\N	1
+135	Cone bottom Steering - 53212-M9Q-0000-CN2	1.00	31.32	296	55	\N	1
+136	Under Steering Ball Race - 50302-M9Q-0000-CN2	1.00	31.39	298	55	\N	1
+137	Cone Steering Top Crox1 - 53211-M9Q-0000-CN2	1.00	46.50	300	55	\N	1
+138	Ball Steering Xpro125 - 50301-M9Q-0002-CN2	1.00	36.06	301	55	\N	1
 \.
 
 
@@ -6930,7 +6960,7 @@ COPY public.users_userprofile (id, phone, "position", bio, date_updated, store_i
 2				2025-06-27 07:24:45.974895+00	2	2
 6				2025-06-27 07:30:02.18664+00	\N	6
 1				2025-09-03 08:09:36.898828+00	\N	1
-7				2026-01-16 06:47:45.510589+00	\N	7
+7				2026-01-16 12:09:58.61275+00	\N	7
 \.
 
 
@@ -7092,28 +7122,28 @@ SELECT pg_catalog.setval('public.django_migrations_id_seq', 52, true);
 -- Name: inventory_inventoryalert_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_inventoryalert_id_seq', 172, true);
+SELECT pg_catalog.setval('public.inventory_inventoryalert_id_seq', 181, true);
 
 
 --
 -- Name: inventory_parts_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_parts_id_seq', 292, true);
+SELECT pg_catalog.setval('public.inventory_parts_id_seq', 301, true);
 
 
 --
 -- Name: inventory_purchase_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_purchase_id_seq', 54, true);
+SELECT pg_catalog.setval('public.inventory_purchase_id_seq', 55, true);
 
 
 --
 -- Name: inventory_purchaseitem_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_purchaseitem_id_seq', 130, true);
+SELECT pg_catalog.setval('public.inventory_purchaseitem_id_seq', 138, true);
 
 
 --
@@ -9015,5 +9045,5 @@ GRANT ALL ON SCHEMA public TO PUBLIC;
 -- PostgreSQL database dump complete
 --
 
-\unrestrict h0if1ZUrz4Md38pWDySHWoBwK9oJAt9j6bsCew3FL8gohp0KQVXejtPgRSeZZHN
+\unrestrict mmsAI5z5FIamcCHuDgk1qKCiSH4obl7sOyKhc3n7ITn1BK5ege7opNk3HxHZabt
 
