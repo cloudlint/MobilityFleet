@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict rqqGfR5QUN7e59LO7fxJrdDEvCllS6XKKKwanCBiz4LSMcr52qqnc68PykCdk0d
+\restrict FbYQaP7f9u7I66cmmROZKHGB50FOqWdgDnMUYNV03g5hpww1vttwel2HB8HUge8
 
 -- Dumped from database version 16.11 (Homebrew)
 -- Dumped by pg_dump version 16.11 (Homebrew)
@@ -2097,7 +2097,7 @@ COPY public.auth_user (id, password, last_login, is_superuser, username, first_n
 2	pbkdf2_sha256$1000000$PbAO8ViibaigsbGjDLrsEn$D41LoG1vfWqEYeixnJE1cMYY74nrYoRPJnT74Piesbs=	2025-05-24 20:34:26+00	f	Elleck	Elleck			t	t	2025-05-08 05:01:36+00
 6	pbkdf2_sha256$1000000$gW0XaR5oueAWIaUbkUJmuu$kM9m2ZVjqvwD9PcDONNFqkBHovzdnimO8aXLpNkFuQA=	\N	f	Adrich				f	t	2025-06-27 07:30:01.331008+00
 1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2025-09-03 08:09:36.691425+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
-7	pbkdf2_sha256$1000000$QcBQvDuhOqoH7okJF00ujH$WiPYDJ+ob3Qa8cGm5344NFYslWqbEgZyNLCzZj5LaVo=	2026-02-02 08:07:43.881076+00	t	Hussein			mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
+7	pbkdf2_sha256$1000000$QcBQvDuhOqoH7okJF00ujH$WiPYDJ+ob3Qa8cGm5344NFYslWqbEgZyNLCzZj5LaVo=	2026-02-02 11:50:23.024402+00	t	Hussein			mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
 \.
 
 
@@ -3134,6 +3134,7 @@ x8o7qp3n6e939s7otxpvn721c4ks3uil	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQ
 06aaqufp65twym2j6xu754m4qi163mn9	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vljJR:72tURAb2y4ERkv7qjGdo4YdhJ4iYB6BBow3NWU1LuY0	2026-01-30 07:58:05.870395+00
 1h3a968j8ksx7nsddb90xem50yepo8zt	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vkSsg:riADF4rCTxyokyTqv_OyXpaGpz3WDr3w6MFo-xCRY90	2026-01-26 20:13:14.00207+00
 m0laol5whuw031kzrkvc3e2ycqduwtqh	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vmp29:QYwpklf0SIotc9NkIlEKuVIGDH5wXwsg4QF8JReccPM	2026-02-02 08:16:45.405298+00
+ozpzc2g8io3glmp4f22ypq65o73bcgx6	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vmsTN:qf_Yrf74pj8WgBaz7HaWvPC4mBu3eVX3BrUIgwCiyRI	2026-02-02 11:57:05.06902+00
 xgzdmnx356uni9gkkm1vxb4wa47wh0st	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vkeDw:fYAZ93x7leoUEuOrgRHkzRg9fQa6yVU1nWLv4Oq-stU	2026-01-27 08:19:56.85125+00
 cn7o50582udtztjrod17woyep2ksdyql	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vkgfv:Ovdl-zOIOVCpzrNwhprQ35IcqoKV-_Dpyq79jQsD75Y	2026-01-27 10:56:59.18213+00
 pyr1kk1q291epsagvpqjbn7x8ek3u49t	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vl07O:v9Yq8gk4gy_4s3uun1m9oN1VQRTuJnx6Ud4bbsS4mbw	2026-01-28 07:42:38.418351+00
@@ -3571,7 +3572,6 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 261	64306-X01-000	FR Cover Collar CITICOM300		20.00	0.00	10.00	Wheels and Tires		2025-09-25 11:03:46.905753+00	2025-09-25 11:03:46.907392+00	5
 262	44301-LEA-000	FR Wheel Axel Citicom		1.00	0.00	50.00	Wheels and Tires		2025-09-25 11:03:46.912187+00	2025-09-25 11:03:46.914032+00	5
 263	11344-HMA-000	L Side Cover Element GTS300I		1.00	0.00	100.00	Frame and Body		2025-09-25 11:03:46.919634+00	2025-09-25 11:03:46.922073+00	5
-116	93404-06012-07	Washer Bolt 6*12		18.00	4.00	20.00	Miscellaneous / Universal Parts		2025-05-06 08:13:38.874667+00	2025-12-19 07:46:02.285412+00	1
 264	1565A-LEA-000	Oil Level Guage Assy GTS300I		1.00	0.00	50.00	Engine & Transmission		2025-09-25 11:03:46.927094+00	2025-09-25 11:03:46.928676+00	5
 265	91255-LEA-000	Oil Seal Citicom 300		4.00	0.00	30.00	Engine & Transmission		2025-09-25 11:03:46.933444+00	2025-09-25 11:03:46.935931+00	5
 266	96150-60060-10	Radial Ball Bearing GTS300I		2.00	0.00	50.00	Engine & Transmission		2025-09-25 11:03:46.941014+00	2025-09-25 11:03:46.942621+00	5
@@ -3585,6 +3585,7 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 254	C0778	Tyre Plug		16.00	5.00	20.00	Wheels & Tyres		2025-09-23 11:27:21.394649+00	2026-01-21 07:24:17.885091+00	1
 273	S0CT31ST-RA	Topbox Carrier		1.00	0.00	800.00	Miscellaneous / Universal Parts		2025-09-25 11:03:46.993512+00	2025-09-25 11:03:46.995046+00	5
 274	2772400	Tyre RR 140/70-16 Pireli Bikewise		2.00	0.00	800.00	Wheels and Tires		2025-09-25 11:03:46.999695+00	2025-09-25 11:03:47.002151+00	5
+116	93404-06012-07	Washer Bolt 6*12		25.00	4.00	20.00	Miscellaneous / Universal Parts		2025-05-06 08:13:38.874667+00	2026-02-02 11:51:59.53972+00	1
 275	2902200	Tyre FF 90/80-16		1.00	0.00	800.00	Wheels and Tires		2025-09-25 11:03:47.008537+00	2025-09-25 11:03:47.010283+00	5
 276	53104-N02-000	Handle Pipe Wt Assy GTS300i		1.00	0.00	80.00	Frame and Body		2025-09-25 11:03:47.015201+00	2025-09-25 11:03:47.017259+00	5
 279	90201-KR8-751-M1	Flange Nut 14MM		1.00	0.00	50.00	Movable Drive Face		2025-09-25 11:03:47.058084+00	2025-09-25 11:03:47.059678+00	5
@@ -3698,6 +3699,7 @@ COPY public.inventory_purchase (id, invoice_number, invoice_date, due_date, stat
 56	10AIPABA9590	2026-01-29	2026-01-29	paid	603.61	603.61		2026-01-29 18:05:17.321263+00	2026-01-29 18:05:18.182762+00	7	1	1	262.05	33.30	786.93	78.73	15.00
 57	10AIPABA9788	2026-01-29	2026-01-29	paid	15998.49	15998.49		2026-01-29 18:07:24.08727+00	2026-01-29 18:07:24.300059+00	7	1	1	5962.17	30.00	19873.90	2086.76	15.00
 58	10AIPABA9792	2026-01-29	2026-01-29	paid	1881.96	1979.71		2026-01-29 18:14:12.787976+00	2026-01-29 18:14:12.854668+00	7	1	1	1090.99	40.00	2727.48	245.47	15.00
+59	10AIPABA9846	2026-02-02	2026-02-02	paid	68.83	68.83		2026-02-02 11:51:59.356033+00	2026-02-02 11:51:59.63289+00	7	1	1	39.90	40.00	99.75	8.98	15.00
 \.
 
 
@@ -3837,6 +3839,7 @@ COPY public.inventory_purchaseitem (id, description, quantity, unit_price, part_
 145	Tapping Screw 4*12 - 93903-34340	30.00	8.00	52	58	\N	1
 146	Cylinder Xpro125 - 12100-ARA-0000	1.00	2050.57	306	58	\N	1
 147	Cylinder Gasket Xpro125 - 12191-Z2D-0000	1.00	42.71	291	58	\N	1
+148	Washer Bolt 6*12 - 93404-06012-07	7.00	14.25	116	59	\N	1
 \.
 
 
@@ -7259,7 +7262,7 @@ COPY public.users_userprofile (id, phone, "position", bio, date_updated, store_i
 2				2025-06-27 07:24:45.974895+00	2	2
 6				2025-06-27 07:30:02.18664+00	\N	6
 1				2025-09-03 08:09:36.898828+00	\N	1
-7				2026-02-02 08:07:44.023247+00	\N	7
+7				2026-02-02 11:50:23.10871+00	\N	7
 \.
 
 
@@ -7435,14 +7438,14 @@ SELECT pg_catalog.setval('public.inventory_parts_id_seq', 306, true);
 -- Name: inventory_purchase_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_purchase_id_seq', 58, true);
+SELECT pg_catalog.setval('public.inventory_purchase_id_seq', 59, true);
 
 
 --
 -- Name: inventory_purchaseitem_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_purchaseitem_id_seq', 147, true);
+SELECT pg_catalog.setval('public.inventory_purchaseitem_id_seq', 148, true);
 
 
 --
@@ -9344,5 +9347,5 @@ GRANT ALL ON SCHEMA public TO PUBLIC;
 -- PostgreSQL database dump complete
 --
 
-\unrestrict rqqGfR5QUN7e59LO7fxJrdDEvCllS6XKKKwanCBiz4LSMcr52qqnc68PykCdk0d
+\unrestrict FbYQaP7f9u7I66cmmROZKHGB50FOqWdgDnMUYNV03g5hpww1vttwel2HB8HUge8
 
