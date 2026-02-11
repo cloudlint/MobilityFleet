@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict Yx1clzqFl6EhWBd2N78vM8FlOdpQZFifT60NOVpoIHR1WsNNZv3rhbJn6askOSl
+\restrict GAgFIr7HADjOW5AhbcxQubOGtaI9xXXqvI5fSuzLgoapnNyWozzZWQjvgRSHJv4
 
 -- Dumped from database version 16.11 (Homebrew)
 -- Dumped by pg_dump version 16.11 (Homebrew)
@@ -2097,7 +2097,7 @@ COPY public.auth_user (id, password, last_login, is_superuser, username, first_n
 2	pbkdf2_sha256$1000000$PbAO8ViibaigsbGjDLrsEn$D41LoG1vfWqEYeixnJE1cMYY74nrYoRPJnT74Piesbs=	2025-05-24 20:34:26+00	f	Elleck	Elleck			t	t	2025-05-08 05:01:36+00
 6	pbkdf2_sha256$1000000$gW0XaR5oueAWIaUbkUJmuu$kM9m2ZVjqvwD9PcDONNFqkBHovzdnimO8aXLpNkFuQA=	\N	f	Adrich				f	t	2025-06-27 07:30:01.331008+00
 1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2025-09-03 08:09:36.691425+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
-7	pbkdf2_sha256$1000000$QcBQvDuhOqoH7okJF00ujH$WiPYDJ+ob3Qa8cGm5344NFYslWqbEgZyNLCzZj5LaVo=	2026-02-10 14:11:20.276226+00	t	Hussein			mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
+7	pbkdf2_sha256$1000000$QcBQvDuhOqoH7okJF00ujH$WiPYDJ+ob3Qa8cGm5344NFYslWqbEgZyNLCzZj5LaVo=	2026-02-11 05:32:23.394036+00	t	Hussein			mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
 \.
 
 
@@ -3136,9 +3136,11 @@ aw7gxlyw6z6p1w94puu92kmomnrznzlo	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQ
 1h3a968j8ksx7nsddb90xem50yepo8zt	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vkSsg:riADF4rCTxyokyTqv_OyXpaGpz3WDr3w6MFo-xCRY90	2026-01-26 20:13:14.00207+00
 rg7vg7a5dzg1lbbe6sdeo8zf8kwuxjch	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vpoUW:2gqY39MNRmVsd-57CGkPIhAA1rke7I9u5dc5ORIsRIY	2026-02-10 14:18:24.86379+00
 m0laol5whuw031kzrkvc3e2ycqduwtqh	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vmp29:QYwpklf0SIotc9NkIlEKuVIGDH5wXwsg4QF8JReccPM	2026-02-02 08:16:45.405298+00
+gc600vtnmm1dsnfzzi7yn221t5j71kbv	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vpp9e:QUxQOmgWyRhdSy8Xg1vAYxkK0w_4d5zODf77JXD6pTI	2026-02-10 15:00:54.740221+00
 ozpzc2g8io3glmp4f22ypq65o73bcgx6	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vmsTN:qf_Yrf74pj8WgBaz7HaWvPC4mBu3eVX3BrUIgwCiyRI	2026-02-02 11:57:05.06902+00
 xgzdmnx356uni9gkkm1vxb4wa47wh0st	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vkeDw:fYAZ93x7leoUEuOrgRHkzRg9fQa6yVU1nWLv4Oq-stU	2026-01-27 08:19:56.85125+00
 ajrk3imkt5ld2vfx9hb08sszwcisvw2l	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vnG4w:nMIq41yQyE1EM8wfhdrC_q1gvGi22oSj448ZbWQ4qEg	2026-02-03 13:09:26.465381+00
+1budd6t2wocb4w81si01f5rxe9cazoph	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vq2sZ:0eB1Wt6NfG1fyjoz73LKnOwPgXzOwINC64OkELWkY3c	2026-02-11 05:40:11.059084+00
 cn7o50582udtztjrod17woyep2ksdyql	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vkgfv:Ovdl-zOIOVCpzrNwhprQ35IcqoKV-_Dpyq79jQsD75Y	2026-01-27 10:56:59.18213+00
 pyr1kk1q291epsagvpqjbn7x8ek3u49t	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vl07O:v9Yq8gk4gy_4s3uun1m9oN1VQRTuJnx6Ud4bbsS4mbw	2026-01-28 07:42:38.418351+00
 wqbtckix93p5cqw0r0eh0izvi8w5jks3	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1voFhy:0pD_tZMsyve_jIjK3EKSLmn7f-JnQU5zA3Ah7kgp2R8	2026-02-06 06:57:50.056864+00
@@ -3340,6 +3342,7 @@ COPY public.inventory_inventoryalert (id, alert_type, title, description, severi
 186	maintenance_due	Maintenance Due: Sym Jet 14 200	Scooter Sym Jet 14 200 (LXMXCA501NX026504) is due for maintenance. Last maintenance was 91 days ago.	medium	new	\N	\N	f	t	2026-01-30 07:48:14.541357+00	2026-01-30 07:48:14.541392+00	\N	\N	\N	\N	\N	\N	12	1
 187	maintenance_due	Maintenance Due: Sym Jet 14 200	Scooter Sym Jet 14 200 (LXMXCA501PXA21914) is due for maintenance. Last maintenance was 91 days ago.	medium	new	\N	\N	f	t	2026-02-02 08:07:44.954568+00	2026-02-02 08:07:44.95461+00	\N	\N	\N	\N	\N	\N	37	1
 188	maintenance_due	Maintenance Due: Sym Jet 14 200	Scooter Sym Jet 14 200 (LXMXCA501MX024518) is due for maintenance. Last maintenance was 91 days ago.	medium	new	\N	\N	f	t	2026-02-02 08:07:45.151442+00	2026-02-02 08:07:45.151464+00	\N	\N	\N	\N	\N	\N	30	1
+189	low_stock	Low Stock: Vaccum pipe	Inventory level for Vaccum pipe (Fuel Horse 5) is below reorder level. Current stock: 0.00, Reorder level: 0.00	high	new	0.00	0.00	f	t	2026-02-11 05:05:19.216106+00	2026-02-11 05:05:19.216176+00	\N	\N	\N	\N	307	\N	\N	1
 \.
 
 
@@ -3628,13 +3631,13 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 15	FDB2190EF	Brake Pads FF		15.00	5.00	119.00	Brakes		2025-05-05 21:34:44.654682+00	2026-02-04 08:37:30.717051+00	1
 298	50302-M9Q-0000-CN2	Under Steering Ball Race		0.00	0.00	31.39	Frame and Body		2026-01-16 11:32:02.443205+00	2026-01-29 18:20:51.809452+00	1
 283	44710-X8A-0000	Tyre Fr 100/90-14		2.00	0.00	755.50	Wheels & Tires		2025-10-09 10:08:12.37167+00	2026-01-27 08:14:18.516887+00	1
-306	12100-ARA-0000	Cylinder Xpro125		1.00	0.00	2050.57	Engine & Transmission		2026-01-29 18:11:20.476181+00	2026-01-29 18:14:12.843492+00	1
+309	12100-ARA-0000	Cylinder Xpro125		1.00	0.00	2050.57	Engine & Transmission		2026-02-11 05:35:03.32175+00	2026-02-11 05:35:03.325031+00	6
 305	93903-35320	Tapping Screw 4*8		0.00	0.00	5.00	Bolts & Nuts		2026-01-27 10:40:06.977379+00	2026-01-27 10:40:06.977871+00	1
 52	93903-34340	Tapping Screw 4*12		31.00	5.00	3.00	Bolts & Nuts		2025-05-06 07:20:41.156391+00	2026-02-09 10:14:54.607+00	1
 243	XD10F	Ignition Coil Cap		8.00	0.00	34.78	Electrical Components		2025-07-29 11:22:45.243579+00	2026-02-09 10:14:54.597669+00	1
 38	2902800	Tyre RR 110/80-14” Pireli Bikewise		14.00	5.00	800.00	Wheels and Tires		2025-05-06 06:57:41.482487+00	2026-02-02 08:10:23.685591+00	1
 62	91302-M9T-0002	O-ring 30.8mm		5.00	2.00	20.00	Engine & Transmission		2025-05-06 07:28:29.595603+00	2026-02-06 06:52:47.484769+00	1
-291	12191-Z2D-0000	Cylinder Gasket Xpro125		1.00	0.00	42.71	Engine & Transmission		2025-11-12 13:14:16.128185+00	2026-01-29 18:14:12.849804+00	1
+308	12191-Z2D-0000	Cylinder Gasket Xpro125		1.00	0.00	42.71	Engine & Transmission		2026-02-11 05:35:03.291571+00	2026-02-11 05:35:03.312872+00	6
 293	53200-X8A-0000-CN1	Steering Stem Comp Jet14		0.00	0.00	956.30	Frame and Body		2026-01-16 11:24:38.696844+00	2026-01-29 18:20:51.776896+00	1
 151	95801-08040-00	Flange Bolt 8*40		4.00	1.00	19.58	Miscellaneous / Universal Parts		2025-05-15 19:09:19.412309+00	2026-01-29 18:20:51.779157+00	1
 294	53215-M9Q-000	Steering Head Dust Seal		0.00	0.00	29.01	Frame and Body		2026-01-16 11:27:28.251722+00	2026-01-29 18:20:51.799205+00	1
@@ -3646,6 +3649,9 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 1	173460	Engine Oil		180.90	5.00	560.00	Lubricants & Fluids		2025-05-05 19:18:03.334943+00	2026-02-09 10:14:54.551785+00	1
 47	211412	Valve Ruber Rim		14.00	5.00	10.00	Wheels and Tires		2025-05-06 07:15:31.536846+00	2026-02-02 08:10:23.683906+00	1
 7	173469	Gear Oil		19.30	5.00	500.00	Lubricants & Fluids		2025-05-05 21:21:17.375925+00	2026-02-09 10:14:54.595088+00	1
+307	Fuel Horse 5	Vaccum pipe		0.00	0.00	120.00	Engine & Transmission		2026-02-10 14:54:15.152215+00	2026-02-10 14:54:50.249089+00	1
+291	12191-Z2D-0000	Cylinder Gasket Xpro125		0.00	0.00	42.71	Engine & Transmission		2025-11-12 13:14:16.128185+00	2026-02-11 05:35:03.227227+00	1
+306	12100-ARA-0000	Cylinder Xpro125		0.00	0.00	2050.57	Engine & Transmission		2026-01-29 18:11:20.476181+00	2026-02-11 05:35:03.316915+00	1
 \.
 
 
@@ -4004,6 +4010,7 @@ COPY public.inventory_stocktransfer (id, transfer_number, transfer_date, status,
 26	ST20250925002	2025-09-25	pending		2025-09-25 11:03:46.530812+00	2025-09-25 11:03:46.530836+00	7	5	1
 27	ST20250926001	2025-09-26	completed		2025-09-26 07:46:58.559655+00	2025-09-26 07:46:58.559681+00	7	1	5
 28	ST20260112001	2026-01-12	in_transit		2026-01-12 09:42:08.011055+00	2026-01-12 09:42:08.011079+00	7	5	1
+29	ST20260211001	2026-02-11	completed		2026-02-11 05:35:02.957359+00	2026-02-11 05:35:02.957422+00	7	6	1
 \.
 
 
@@ -4069,6 +4076,8 @@ COPY public.inventory_stocktransferitem (id, quantity, date_added, part_id, stoc
 56	5.00	2025-09-25 11:03:46.776075+00	146	26
 57	5.00	2025-09-26 07:46:58.664137+00	282	27
 58	5.00	2026-01-12 09:42:08.219059+00	9	28
+59	1.00	2026-02-11 05:35:03.162618+00	291	29
+60	1.00	2026-02-11 05:35:03.224558+00	306	29
 \.
 
 
@@ -7343,7 +7352,7 @@ COPY public.users_userprofile (id, phone, "position", bio, date_updated, store_i
 2				2025-06-27 07:24:45.974895+00	2	2
 6				2025-06-27 07:30:02.18664+00	\N	6
 1				2025-09-03 08:09:36.898828+00	\N	1
-7				2026-02-10 14:11:20.364222+00	\N	7
+7				2026-02-11 05:32:23.406401+00	\N	7
 \.
 
 
@@ -7505,14 +7514,14 @@ SELECT pg_catalog.setval('public.django_migrations_id_seq', 52, true);
 -- Name: inventory_inventoryalert_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_inventoryalert_id_seq', 188, true);
+SELECT pg_catalog.setval('public.inventory_inventoryalert_id_seq', 189, true);
 
 
 --
 -- Name: inventory_parts_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_parts_id_seq', 306, true);
+SELECT pg_catalog.setval('public.inventory_parts_id_seq', 309, true);
 
 
 --
@@ -7554,14 +7563,14 @@ SELECT pg_catalog.setval('public.inventory_scootermaintenancehistory_id_seq', 1,
 -- Name: inventory_stocktransfer_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_stocktransfer_id_seq', 28, true);
+SELECT pg_catalog.setval('public.inventory_stocktransfer_id_seq', 29, true);
 
 
 --
 -- Name: inventory_stocktransferitem_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_stocktransferitem_id_seq', 58, true);
+SELECT pg_catalog.setval('public.inventory_stocktransferitem_id_seq', 60, true);
 
 
 --
@@ -9428,5 +9437,5 @@ GRANT ALL ON SCHEMA public TO PUBLIC;
 -- PostgreSQL database dump complete
 --
 
-\unrestrict Yx1clzqFl6EhWBd2N78vM8FlOdpQZFifT60NOVpoIHR1WsNNZv3rhbJn6askOSl
+\unrestrict GAgFIr7HADjOW5AhbcxQubOGtaI9xXXqvI5fSuzLgoapnNyWozzZWQjvgRSHJv4
 
