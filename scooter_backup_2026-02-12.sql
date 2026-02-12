@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict h6VebQ9rueAGu6XsyKbFLjDl8KtDpRktYnlpoIar6HeRebEFZlTakwRDF9GdoDk
+\restrict b0sKU8sRf9QgQIW83RlOrrZ8WKPzpFhFem2WJbKgaO8YBc7KfOQJDFL1T1nuBP5
 
 -- Dumped from database version 16.11 (Homebrew)
 -- Dumped by pg_dump version 16.11 (Homebrew)
@@ -2097,7 +2097,7 @@ COPY public.auth_user (id, password, last_login, is_superuser, username, first_n
 2	pbkdf2_sha256$1000000$PbAO8ViibaigsbGjDLrsEn$D41LoG1vfWqEYeixnJE1cMYY74nrYoRPJnT74Piesbs=	2025-05-24 20:34:26+00	f	Elleck	Elleck			t	t	2025-05-08 05:01:36+00
 6	pbkdf2_sha256$1000000$gW0XaR5oueAWIaUbkUJmuu$kM9m2ZVjqvwD9PcDONNFqkBHovzdnimO8aXLpNkFuQA=	\N	f	Adrich				f	t	2025-06-27 07:30:01.331008+00
 1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2025-09-03 08:09:36.691425+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
-7	pbkdf2_sha256$1000000$QcBQvDuhOqoH7okJF00ujH$WiPYDJ+ob3Qa8cGm5344NFYslWqbEgZyNLCzZj5LaVo=	2026-02-12 07:04:40.916379+00	t	Hussein			mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
+7	pbkdf2_sha256$1000000$QcBQvDuhOqoH7okJF00ujH$WiPYDJ+ob3Qa8cGm5344NFYslWqbEgZyNLCzZj5LaVo=	2026-02-12 12:32:14.97679+00	t	Hussein			mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
 \.
 
 
@@ -3148,6 +3148,7 @@ pyr1kk1q291epsagvpqjbn7x8ek3u49t	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQ
 wqbtckix93p5cqw0r0eh0izvi8w5jks3	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1voFhy:0pD_tZMsyve_jIjK3EKSLmn7f-JnQU5zA3Ah7kgp2R8	2026-02-06 06:57:50.056864+00
 ca0jvqxyheivii28w82qpppfb3kyjyd4	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vl0Wy:stj35lAA5IZ5HGJhcpdvIAwcmfFhBSVz8Du7c3RhcOM	2026-01-28 08:09:04.591255+00
 y3b125xby7tlkynj96uvltbowyka9fzv	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vlViB:hdltCEWPP0YnS8fuF9w1BhtCr9ekUzg7x2-_vnvS4zA	2026-01-29 17:26:43.259738+00
+zmvycnjohud1aqmgl535r21xqx05gp2l	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vqVuz:O_LNHKuhq3gR64stcy6lIPCYnDvh5DhEn7NIWm-tfL4	2026-02-12 12:40:37.100975+00
 \.
 
 
@@ -3631,13 +3632,12 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 14	43105-ARB-000-A-9	Brake Pads RR		11.00	5.00	140.00	Brakes		2025-05-05 21:33:50.092617+00	2026-02-11 14:33:34.593596+00	1
 298	50302-M9Q-0000-CN2	Under Steering Ball Race		0.00	0.00	31.39	Frame and Body		2026-01-16 11:32:02.443205+00	2026-01-29 18:20:51.809452+00	1
 283	44710-X8A-0000	Tyre Fr 100/90-14		2.00	0.00	755.50	Wheels & Tires		2025-10-09 10:08:12.37167+00	2026-01-27 08:14:18.516887+00	1
-309	12100-ARA-0000	Cylinder Xpro125		1.00	0.00	2050.57	Engine & Transmission		2026-02-11 05:35:03.32175+00	2026-02-11 05:35:03.325031+00	6
 305	93903-35320	Tapping Screw 4*8		0.00	0.00	5.00	Bolts & Nuts		2026-01-27 10:40:06.977379+00	2026-01-27 10:40:06.977871+00	1
 52	93903-34340	Tapping Screw 4*12		31.00	5.00	3.00	Bolts & Nuts		2025-05-06 07:20:41.156391+00	2026-02-09 10:14:54.607+00	1
 11	CR7HSA	Spark Plug		15.00	5.00	80.00	Engine & Transmission		2025-05-05 21:30:07.226667+00	2026-02-11 08:38:39.987622+00	1
 15	FDB2190EF	Brake Pads FF		14.00	5.00	119.00	Brakes		2025-05-05 21:34:44.654682+00	2026-02-11 14:33:34.518074+00	1
 10	22132-ARA-0000	Slide Piece		67.00	15.00	10.00	Engine & Transmission		2025-05-05 21:28:57.890263+00	2026-02-11 08:38:40.009408+00	1
-308	12191-Z2D-0000	Cylinder Gasket Xpro125		1.00	0.00	42.71	Engine & Transmission		2026-02-11 05:35:03.291571+00	2026-02-11 05:35:03.312872+00	6
+309	12100-ARA-0000	Cylinder Xpro125		0.00	0.00	2050.57	Engine & Transmission		2026-02-11 05:35:03.32175+00	2026-02-12 12:35:18.978628+00	6
 293	53200-X8A-0000-CN1	Steering Stem Comp Jet14		0.00	0.00	956.30	Frame and Body		2026-01-16 11:24:38.696844+00	2026-01-29 18:20:51.776896+00	1
 151	95801-08040-00	Flange Bolt 8*40		4.00	1.00	19.58	Miscellaneous / Universal Parts		2025-05-15 19:09:19.412309+00	2026-01-29 18:20:51.779157+00	1
 294	53215-M9Q-000	Steering Head Dust Seal		0.00	0.00	29.01	Frame and Body		2026-01-16 11:27:28.251722+00	2026-01-29 18:20:51.799205+00	1
@@ -3647,10 +3647,11 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 301	50301-M9Q-0002-CN2	Ball Steering Xpro125		0.00	0.00	36.06	Frame and Body		2026-01-16 11:35:32.019637+00	2026-01-29 18:20:51.811381+00	1
 299	50303-AAA-0000	Balls And Retainer		0.00	0.00	9.49	Frame and Body		2026-01-16 11:33:10.151446+00	2026-01-29 18:20:51.814451+00	1
 7	173469	Gear Oil		19.00	5.00	500.00	Lubricants & Fluids		2025-05-05 21:21:17.375925+00	2026-02-11 08:38:39.978247+00	1
+306	12100-ARA-0000	Cylinder Xpro125		1.00	0.00	2050.57	Engine & Transmission		2026-01-29 18:11:20.476181+00	2026-02-12 12:33:40.217771+00	1
 8	17211-ADB-0000	Air Filter Element		13.00	5.00	111.80	Consumables and Accessories		2025-05-05 21:25:15.716942+00	2026-02-11 08:38:39.983024+00	1
 307	Fuel Horse 5	Vaccum pipe		0.00	0.00	120.00	Engine & Transmission		2026-02-10 14:54:15.152215+00	2026-02-10 14:54:50.249089+00	1
-291	12191-Z2D-0000	Cylinder Gasket Xpro125		0.00	0.00	42.71	Engine & Transmission		2025-11-12 13:14:16.128185+00	2026-02-11 05:35:03.227227+00	1
-306	12100-ARA-0000	Cylinder Xpro125		0.00	0.00	2050.57	Engine & Transmission		2026-01-29 18:11:20.476181+00	2026-02-11 05:35:03.316915+00	1
+308	12191-Z2D-0000	Cylinder Gasket Xpro125		0.00	0.00	42.71	Engine & Transmission		2026-02-11 05:35:03.291571+00	2026-02-12 12:34:56.49741+00	6
+291	12191-Z2D-0000	Cylinder Gasket Xpro125		1.00	0.00	42.71	Engine & Transmission		2025-11-12 13:14:16.128185+00	2026-02-12 12:34:09.192582+00	1
 134	384-BTX7A-BS	Battery Motorsport		9.00	0.00	429.00	Electrical Components		2025-05-06 08:28:03.415966+00	2026-02-11 14:31:59.493889+00	1
 9	23100-XMA-0000	Drive Belt		7.00	5.00	996.52	Engine & Transmission		2025-05-05 21:28:13.605717+00	2026-02-11 08:38:40.001271+00	1
 62	91302-M9T-0002	O-ring 30.8mm		4.00	2.00	20.00	Engine & Transmission		2025-05-06 07:28:29.595603+00	2026-02-11 08:38:40.004056+00	1
@@ -4017,7 +4018,6 @@ COPY public.inventory_stocktransfer (id, transfer_number, transfer_date, status,
 26	ST20250925002	2025-09-25	pending		2025-09-25 11:03:46.530812+00	2025-09-25 11:03:46.530836+00	7	5	1
 27	ST20250926001	2025-09-26	completed		2025-09-26 07:46:58.559655+00	2025-09-26 07:46:58.559681+00	7	1	5
 28	ST20260112001	2026-01-12	in_transit		2026-01-12 09:42:08.011055+00	2026-01-12 09:42:08.011079+00	7	5	1
-29	ST20260211001	2026-02-11	completed		2026-02-11 05:35:02.957359+00	2026-02-11 05:35:02.957422+00	7	6	1
 \.
 
 
@@ -4083,8 +4083,6 @@ COPY public.inventory_stocktransferitem (id, quantity, date_added, part_id, stoc
 56	5.00	2025-09-25 11:03:46.776075+00	146	26
 57	5.00	2025-09-26 07:46:58.664137+00	282	27
 58	5.00	2026-01-12 09:42:08.219059+00	9	28
-59	1.00	2026-02-11 05:35:03.162618+00	291	29
-60	1.00	2026-02-11 05:35:03.224558+00	306	29
 \.
 
 
@@ -7408,7 +7406,7 @@ COPY public.users_userprofile (id, phone, "position", bio, date_updated, store_i
 2				2025-06-27 07:24:45.974895+00	2	2
 6				2025-06-27 07:30:02.18664+00	\N	6
 1				2025-09-03 08:09:36.898828+00	\N	1
-7				2026-02-12 07:04:43.505103+00	\N	7
+7				2026-02-12 12:32:15.011426+00	\N	7
 \.
 
 
@@ -9493,5 +9491,5 @@ GRANT ALL ON SCHEMA public TO PUBLIC;
 -- PostgreSQL database dump complete
 --
 
-\unrestrict h6VebQ9rueAGu6XsyKbFLjDl8KtDpRktYnlpoIar6HeRebEFZlTakwRDF9GdoDk
+\unrestrict b0sKU8sRf9QgQIW83RlOrrZ8WKPzpFhFem2WJbKgaO8YBc7KfOQJDFL1T1nuBP5
 
