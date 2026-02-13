@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict b0sKU8sRf9QgQIW83RlOrrZ8WKPzpFhFem2WJbKgaO8YBc7KfOQJDFL1T1nuBP5
+\restrict 0bdNi0HKjURYuhTY9sr2kWAztcHEhajfNyIokgw8Xu5mpdrbJ21oNQInzjCx5D4
 
 -- Dumped from database version 16.11 (Homebrew)
 -- Dumped by pg_dump version 16.11 (Homebrew)
@@ -2097,7 +2097,7 @@ COPY public.auth_user (id, password, last_login, is_superuser, username, first_n
 2	pbkdf2_sha256$1000000$PbAO8ViibaigsbGjDLrsEn$D41LoG1vfWqEYeixnJE1cMYY74nrYoRPJnT74Piesbs=	2025-05-24 20:34:26+00	f	Elleck	Elleck			t	t	2025-05-08 05:01:36+00
 6	pbkdf2_sha256$1000000$gW0XaR5oueAWIaUbkUJmuu$kM9m2ZVjqvwD9PcDONNFqkBHovzdnimO8aXLpNkFuQA=	\N	f	Adrich				f	t	2025-06-27 07:30:01.331008+00
 1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2025-09-03 08:09:36.691425+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
-7	pbkdf2_sha256$1000000$QcBQvDuhOqoH7okJF00ujH$WiPYDJ+ob3Qa8cGm5344NFYslWqbEgZyNLCzZj5LaVo=	2026-02-12 12:32:14.97679+00	t	Hussein			mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
+7	pbkdf2_sha256$1000000$QcBQvDuhOqoH7okJF00ujH$WiPYDJ+ob3Qa8cGm5344NFYslWqbEgZyNLCzZj5LaVo=	2026-02-13 12:30:19.889468+00	t	Hussein			mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
 \.
 
 
@@ -3149,6 +3149,7 @@ wqbtckix93p5cqw0r0eh0izvi8w5jks3	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQ
 ca0jvqxyheivii28w82qpppfb3kyjyd4	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vl0Wy:stj35lAA5IZ5HGJhcpdvIAwcmfFhBSVz8Du7c3RhcOM	2026-01-28 08:09:04.591255+00
 y3b125xby7tlkynj96uvltbowyka9fzv	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vlViB:hdltCEWPP0YnS8fuF9w1BhtCr9ekUzg7x2-_vnvS4zA	2026-01-29 17:26:43.259738+00
 zmvycnjohud1aqmgl535r21xqx05gp2l	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vqVuz:O_LNHKuhq3gR64stcy6lIPCYnDvh5DhEn7NIWm-tfL4	2026-02-12 12:40:37.100975+00
+19ml9o99cmhdsqiixteikmukkn0iin06	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQW0b2bei_mwrdVvoyx-zuzMLDv9bjGkR2k7yPfQbp2n3tZljnxX-EEHv_ZcnpfD_TuoYdRv7SQIBIUpOoHOkiADqJVA5eRkgyZTrACbyEibISsXMykqRslJF0Bi7w-oFDbK:1vqsLc:8hDUNOs0mMFXP4xRbYhfqUwKRfYWeKMwnK-pPfLWook	2026-02-13 12:37:36.233715+00
 \.
 
 
@@ -3347,6 +3348,8 @@ COPY public.inventory_inventoryalert (id, alert_type, title, description, severi
 188	maintenance_due	Maintenance Due: Sym Jet 14 200	Scooter Sym Jet 14 200 (LXMXCA501MX024518) is due for maintenance. Last maintenance was 91 days ago.	medium	new	\N	\N	f	t	2026-02-02 08:07:45.151442+00	2026-02-02 08:07:45.151464+00	\N	\N	\N	\N	\N	\N	30	1
 189	low_stock	Low Stock: Vaccum pipe	Inventory level for Vaccum pipe (Fuel Horse 5) is below reorder level. Current stock: 0.00, Reorder level: 0.00	high	new	0.00	0.00	f	t	2026-02-11 05:05:19.216106+00	2026-02-11 05:05:19.216176+00	\N	\N	\N	\N	307	\N	\N	1
 190	low_stock	Low Stock: Cylinder Xpro125	Inventory level for Cylinder Xpro125 (12100-ARA-0000) is below reorder level. Current stock: 0.00, Reorder level: 0.00	high	new	0.00	0.00	f	t	2026-02-11 08:29:25.689085+00	2026-02-11 08:29:25.689247+00	\N	\N	\N	\N	306	\N	\N	1
+191	low_stock	Low Stock: Cylinder Xpro125	Inventory level for Cylinder Xpro125 (12100-ARA-0000) is below reorder level. Current stock: 0.00, Reorder level: 0.00	high	new	0.00	0.00	f	t	2026-02-13 12:30:20.565418+00	2026-02-13 12:30:20.56548+00	\N	\N	\N	\N	309	\N	\N	6
+192	low_stock	Low Stock: Cylinder Gasket Xpro125	Inventory level for Cylinder Gasket Xpro125 (12191-Z2D-0000) is below reorder level. Current stock: 0.00, Reorder level: 0.00	high	new	0.00	0.00	f	t	2026-02-13 12:30:20.73423+00	2026-02-13 12:30:20.734252+00	\N	\N	\N	\N	308	\N	\N	6
 \.
 
 
@@ -3370,7 +3373,6 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 60	E450N	TopBox GIVI		2.00	0.00	5000.00	Miscellaneous / Universal Parts		2025-05-06 07:27:22.584344+00	2025-05-06 07:27:22.584364+00	1
 24	GL-R459	Headlight Bulbs 12V 35/35W		13.00	5.00	100.00	Lighting and Indicators		2025-05-05 21:47:48.651835+00	2025-05-13 08:20:17.400869+00	1
 49	Coolant	Coolant		2.00	1.00	150.00	Lubricants & Fluids		2025-05-06 07:17:44.528979+00	2025-05-25 08:52:15.405029+00	1
-50	18291-Z8G-0000	EXH Pipe Gasket Fiddle 150		3.00	1.00	3000.00	Engine & Transmission		2025-05-06 07:18:44.623886+00	2025-05-27 07:51:05.936882+00	1
 32	88120-XPA-0004-K	Mirror LH		1.00	0.00	300.00	Frame and Body		2025-05-05 21:56:15.561909+00	2025-05-28 06:46:09.354943+00	1
 59	52400-AR1-0200-K-M1	Rr Cushion Jet 14		1.00	0.00	600.00	Suspension and Steering		2025-05-06 07:25:20.871868+00	2025-05-28 06:46:58.593997+00	1
 21	30410-T3A-A000	CDI UNIT		4.00	2.00	400.00	Electrical Components		2025-05-05 21:44:52.200515+00	2025-06-09 12:28:19.379778+00	1
@@ -3408,7 +3410,6 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 56	96001-06022-49	Bolt Xpro125 6*22		8.00	2.00	10.00	Miscellaneous / Universal Parts		2025-05-06 07:23:18.396414+00	2025-12-10 09:58:46.767093+00	1
 66	18317-XPA-0001-K	Exhaust Protector Jet14		3.00	0.00	300.00	Frame and Body		2025-05-06 07:30:48.985752+00	2025-12-19 07:46:02.223779+00	1
 95	50530-X8A-0002	Side Stand Comp Jet 14		2.00	1.00	800.00	Frame and Body		2025-05-06 07:58:21.402971+00	2025-05-06 07:58:21.402994+00	1
-96	18000-X9C-0002-K	Exhaust Muffler Assy		3.00	1.00	300.00	Frame and Body		2025-05-06 07:58:48.344813+00	2025-05-06 07:58:48.344835+00	1
 35	3445700	Tyre FF 100/90-14 Pireli Bikewise		5.00	2.00	1000.00	Wheels and Tires		2025-05-05 22:05:17.849359+00	2026-01-29 18:07:24.295838+00	1
 30	5052A-APA-9000	Main Stand SPG.ASSY		5.00	2.00	40.00	Frame and Body		2025-05-05 21:54:55.123104+00	2026-02-11 14:37:14.478874+00	1
 20	43121-XJA-0001	Brake Disk RR		4.00	2.00	421.21	Brakes		2025-05-05 21:43:23.364712+00	2026-02-09 10:14:54.604215+00	1
@@ -3416,6 +3417,7 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 45	12361-M9Q-0001	CAP-OIL XPRO125		4.00	2.00	70.00	Engine & Transmission		2025-05-06 07:13:28.577429+00	2026-02-11 08:38:39.993149+00	1
 54	90912-M9Q-0000-M1	Radial Ball BRG 6201U Xpro125		6.00	2.00	50.00	Engine & Transmission		2025-05-06 07:22:00.143143+00	2026-02-11 08:38:39.996583+00	1
 97	14523-Z8G-0000	Gasket-tens Xpro125		1.00	0.00	30.00	Engine & Transmission		2025-05-06 08:02:58.489471+00	2025-05-06 08:02:58.489493+00	1
+96	18000-X9C-0002-K	Exhaust Muffler Assy		2.00	1.00	300.00	Frame and Body		2025-05-06 07:58:48.344813+00	2026-02-13 12:32:02.027613+00	1
 98	44601-X8A-0001	Fr Wheel Jet 14		2.00	0.00	900.00	Wheels and Tires		2025-05-06 08:03:44.128557+00	2025-05-06 08:03:44.128578+00	1
 99	42601-X9A-0002	RR Cast Wheel Jet14		2.00	0.00	900.00	Wheels and Tires		2025-05-06 08:04:07.29121+00	2025-05-06 08:04:07.29123+00	1
 100	95801-08045-04	Flange Bolt 845		3.00	0.00	10.00	Miscellaneous / Universal Parts		2025-05-06 08:04:35.016433+00	2025-05-06 08:04:35.016454+00	1
@@ -3649,13 +3651,14 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 7	173469	Gear Oil		19.00	5.00	500.00	Lubricants & Fluids		2025-05-05 21:21:17.375925+00	2026-02-11 08:38:39.978247+00	1
 306	12100-ARA-0000	Cylinder Xpro125		1.00	0.00	2050.57	Engine & Transmission		2026-01-29 18:11:20.476181+00	2026-02-12 12:33:40.217771+00	1
 8	17211-ADB-0000	Air Filter Element		13.00	5.00	111.80	Consumables and Accessories		2025-05-05 21:25:15.716942+00	2026-02-11 08:38:39.983024+00	1
-307	Fuel Horse 5	Vaccum pipe		0.00	0.00	120.00	Engine & Transmission		2026-02-10 14:54:15.152215+00	2026-02-10 14:54:50.249089+00	1
 308	12191-Z2D-0000	Cylinder Gasket Xpro125		0.00	0.00	42.71	Engine & Transmission		2026-02-11 05:35:03.291571+00	2026-02-12 12:34:56.49741+00	6
 291	12191-Z2D-0000	Cylinder Gasket Xpro125		1.00	0.00	42.71	Engine & Transmission		2025-11-12 13:14:16.128185+00	2026-02-12 12:34:09.192582+00	1
 134	384-BTX7A-BS	Battery Motorsport		9.00	0.00	429.00	Electrical Components		2025-05-06 08:28:03.415966+00	2026-02-11 14:31:59.493889+00	1
 9	23100-XMA-0000	Drive Belt		7.00	5.00	996.52	Engine & Transmission		2025-05-05 21:28:13.605717+00	2026-02-11 08:38:40.001271+00	1
 62	91302-M9T-0002	O-ring 30.8mm		4.00	2.00	20.00	Engine & Transmission		2025-05-06 07:28:29.595603+00	2026-02-11 08:38:40.004056+00	1
 1	173460	Engine Oil		178.30	5.00	560.00	Lubricants & Fluids		2025-05-05 19:18:03.334943+00	2026-02-12 07:12:16.654542+00	1
+50	18291-Z8G-0000	EXH Pipe Gasket Fiddle 150		2.00	1.00	3000.00	Engine & Transmission		2025-05-06 07:18:44.623886+00	2026-02-13 12:32:01.972812+00	1
+307	Fuel Horse 5	Vaccum pipe		2.00	0.00	120.00	Engine & Transmission		2026-02-10 14:54:15.152215+00	2026-02-13 12:32:34.371856+00	1
 \.
 
 
@@ -3891,7 +3894,6 @@ COPY public.inventory_scooter (id, vin, make, model, year, color, status, hourly
 47	LXMXCA501PXA21918	Sym	Jet 14 200	2023	White	available	25.00	400.00	2024-12-13	30775.00	8972	2025-12-12		2025-05-14 13:50:47.360817+00	2025-12-12 12:40:55.285812+00	1	LV 14 LL GP	\N	\N	B
 53	LXMXCA501RXA35871	Sym	Jet 14 200	2023	White	available	25.00	400.00	2025-02-25	30775.00	0	2025-12-19		2025-05-19 07:47:34.290663+00	2025-12-19 07:49:38.933374+00	1	MF 41 CS GP	\N	\N	B
 64	LXMXCA501RXA36632	Sym	Jet 14 200	2023	White	available	650.00	400.00	2025-07-02	33000.00	3000	2025-07-02		2025-07-02 12:13:55.04674+00	2025-07-02 12:13:55.04676+00	2	MF 41 DW GP	\N	\N	B
-1	LXMXCA501RXA35862	Sym	Jet 14 200	2023	White	available	20.00	100.00	2025-04-01	30779.00	0	2025-12-29		2025-05-05 19:16:25.43611+00	2025-12-29 08:16:19.965462+00	1	MB 15 SB GP	\N	\N	B
 55	LXMXCA501RXA28095	Sym	Jet 14 200	2023	White	available	25.00	400.00	2024-06-25	30775.00	6019	2026-01-05		2025-05-19 07:51:09.969848+00	2026-01-05 08:40:45.303151+00	1	LV 14 KR GP	\N	\N	B
 65	LXMXCA501RXA28096	Sym	Jet 14 200	2023	White	available	650.00	400.00	2025-07-02	33000.00	0	2025-07-02		2025-07-02 12:15:09.018143+00	2025-07-02 12:15:09.018165+00	2	MB 96 XM GP	\N	\N	B
 45	LXMXCA501RXA30421	Sym	Jet 14 200	2023	White	available	25.00	400.00	2024-12-13	30775.00	3187	2026-01-15		2025-05-13 10:36:54.228247+00	2026-01-15 07:32:16.988919+00	1	MB 96 YF GP	\N	\N	B
@@ -3970,6 +3972,7 @@ COPY public.inventory_scooter (id, vin, make, model, year, color, status, hourly
 95	LXMXCA501SXA22583	Sym	Jet14	2024	White	available	650.00	450.00	2025-07-14	33000.00	0	2026-02-06		2025-07-14 13:18:53.668239+00	2026-02-06 06:52:47.202478+00	1	MK 81 DT GP	\N	\N	B
 8	LXMXCA501RXA35901	Sym	Jet 14 200	2023	White	available	25.00	100.00	2025-04-01	30779.00	0	2026-02-10		2025-05-08 08:05:29.886307+00	2026-02-10 14:13:22.403955+00	1	MG 15 TV GP	\N	\N	B
 18	LXMXCA501NX022973	Sym	Jet 14 200	2022	White	available	25.00	100.00	2022-10-12	30775.00	38286	2026-02-11		2025-05-13 08:18:38.306852+00	2026-02-11 08:38:39.665873+00	1	KS 28 KZ GP	\N	\N	B
+1	LXMXCA501RXA35862	Sym	Jet 14 200	2023	White	available	20.00	100.00	2025-04-01	30779.00	0	2026-02-13		2025-05-05 19:16:25.43611+00	2026-02-13 12:32:01.743352+00	1	MB 15 SB GP	\N	\N	B
 \.
 
 
@@ -4522,6 +4525,7 @@ COPY public.service_jobcard (id, job_card_number, status, priority, description,
 313	JC000293	completed	medium	30,000km Service	29918	2026-02-09 10:14:54.350907+00	2026-02-09 10:14:54.681197+00	2026-02-09	2026-02-09	2.00	650.00	0.00		57	7	available	1	service	0.00	0.00	0.00	0.00	0.00
 315	JC000295	completed	low	48,000km Service	48003	2026-02-11 08:38:39.710408+00	2026-02-11 08:38:40.183291+00	2026-02-11	2026-02-11	3.00	650.00	0.00		18	7	available	1	service	0.00	0.00	0.00	0.00	0.00
 314	JC000294	completed	urgent	Rear Brake Pads	13659	2026-02-10 14:13:22.538161+00	2026-02-10 14:13:22.899509+00	2026-02-10	2026-02-10	0.50	650.00	0.00		8	3	available	1	service	0.00	0.00	0.00	0.00	0.00
+319	JC000299	completed	low	Exhaust muffler replaced	9112	2026-02-13 12:32:01.804899+00	2026-02-13 12:32:02.108627+00	2026-02-13	2026-02-13	0.50	650.00	0.00		1	7	available	1	service	0.00	0.00	0.00	0.00	0.00
 \.
 
 
@@ -5632,6 +5636,8 @@ COPY public.service_jobcarditem (id, quantity, unit_price, total_price, date_add
 1133	0.80	560.00	448.00	2026-02-12 07:12:16.7658+00	318	1
 1134	1.00	800.00	800.00	2026-02-12 07:12:16.795588+00	318	38
 1135	1.00	10.00	10.00	2026-02-12 07:12:16.802438+00	318	47
+1136	1.00	3000.00	3000.00	2026-02-13 12:32:02.032276+00	319	50
+1137	1.00	300.00	300.00	2026-02-13 12:32:02.070196+00	319	96
 \.
 
 
@@ -7392,6 +7398,12 @@ COPY public.service_servicechecklist (id, item_name, is_checked, notes, date_cre
 1786	Lights and signals testing	f		2026-02-12 07:12:16.833561+00	2026-02-12 07:12:16.833618+00	318
 1787	Electrical system check	f		2026-02-12 07:12:16.837656+00	2026-02-12 07:12:16.837686+00	318
 1788	Frame and suspension inspection	f		2026-02-12 07:12:16.840777+00	2026-02-12 07:12:16.840805+00	318
+1789	Brake inspection	f		2026-02-13 12:32:02.076405+00	2026-02-13 12:32:02.076433+00	319
+1790	Battery check	f		2026-02-13 12:32:02.095874+00	2026-02-13 12:32:02.095898+00	319
+1791	Tire pressure and condition	f		2026-02-13 12:32:02.098119+00	2026-02-13 12:32:02.098144+00	319
+1792	Lights and signals testing	f		2026-02-13 12:32:02.100814+00	2026-02-13 12:32:02.100846+00	319
+1793	Electrical system check	f		2026-02-13 12:32:02.102918+00	2026-02-13 12:32:02.102948+00	319
+1794	Frame and suspension inspection	f		2026-02-13 12:32:02.105403+00	2026-02-13 12:32:02.105432+00	319
 \.
 
 
@@ -7406,7 +7418,7 @@ COPY public.users_userprofile (id, phone, "position", bio, date_updated, store_i
 2				2025-06-27 07:24:45.974895+00	2	2
 6				2025-06-27 07:30:02.18664+00	\N	6
 1				2025-09-03 08:09:36.898828+00	\N	1
-7				2026-02-12 12:32:15.011426+00	\N	7
+7				2026-02-13 12:30:19.937938+00	\N	7
 \.
 
 
@@ -7568,7 +7580,7 @@ SELECT pg_catalog.setval('public.django_migrations_id_seq', 52, true);
 -- Name: inventory_inventoryalert_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_inventoryalert_id_seq', 190, true);
+SELECT pg_catalog.setval('public.inventory_inventoryalert_id_seq', 192, true);
 
 
 --
@@ -7722,21 +7734,21 @@ SELECT pg_catalog.setval('public.landing_wishlist_products_id_seq', 1, false);
 -- Name: service_jobcard_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.service_jobcard_id_seq', 318, true);
+SELECT pg_catalog.setval('public.service_jobcard_id_seq', 319, true);
 
 
 --
 -- Name: service_jobcarditem_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.service_jobcarditem_id_seq', 1135, true);
+SELECT pg_catalog.setval('public.service_jobcarditem_id_seq', 1137, true);
 
 
 --
 -- Name: service_servicechecklist_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.service_servicechecklist_id_seq', 1788, true);
+SELECT pg_catalog.setval('public.service_servicechecklist_id_seq', 1794, true);
 
 
 --
@@ -9491,5 +9503,5 @@ GRANT ALL ON SCHEMA public TO PUBLIC;
 -- PostgreSQL database dump complete
 --
 
-\unrestrict b0sKU8sRf9QgQIW83RlOrrZ8WKPzpFhFem2WJbKgaO8YBc7KfOQJDFL1T1nuBP5
+\unrestrict 0bdNi0HKjURYuhTY9sr2kWAztcHEhajfNyIokgw8Xu5mpdrbJ21oNQInzjCx5D4
 
