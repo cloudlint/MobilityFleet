@@ -1,0 +1,155 @@
+{% extends 'base.html' %}
+
+{% block title %}User Profile - ScootDr{% endblock %}
+
+{% block page_title %}User Profile{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-lg-4 mb-4">
+        <div class="card">
+            <div class="card-body text-center py-4">
+                <div class="mb-3 position-relative d-inline-block">
+                    {% if profile.avatar %}
+                    <img src="{{ profile.avatar.url }}" alt="Profile Photo" class="rounded-circle" style="width: 120px; height: 120px; object-fit: cover; border: 3px solid var(--dash-gold);" data-testid="img-avatar">
+                    {% else %}
+                    <i class="fas fa-user-circle" style="font-size: 7.5rem; color: var(--dash-gold);" data-testid="icon-avatar-placeholder"></i>
+                    {% endif %}
+                </div>
+                <h5 class="mb-1" data-testid="text-profile-name">{{ request.user.get_full_name|default:request.user.username }}</h5>
+                <p class="text-muted mb-1" style="font-size: 0.85rem;">{{ profile.position|default:"Staff Member" }}</p>
+                {% if profile.store %}
+                <span class="badge bg-primary" data-testid="text-profile-store">{{ profile.store.name }}</span>
+                {% else %}
+                <span class="badge bg-info" data-testid="text-profile-store">All Stores</span>
+                {% endif %}
+
+                <div class="mt-3 pt-3" style="border-top: 1px solid rgba(255,255,255,0.06);">
+                    <form method="post" action="{% url 'profile' %}" enctype="multipart/form-data" class="d-inline-block">
+                        {% csrf_token %}
+                        <input type="hidden" name="action" value="update_profile">
+                        <input type="hidden" name="first_name" value="{{ request.user.first_name }}">
+                        <input type="hidden" name="last_name" value="{{ request.user.last_name }}">
+                        <input type="hidden" name="email" value="{{ request.user.email }}">
+                        <label for="avatarUpload" class="btn btn-sm btn-outline-primary mb-1" style="cursor: pointer;" data-testid="button-change-photo">
+                            <i class="fas fa-camera me-1"></i>Change Photo
+                        </label>
+                        <input type="file" id="avatarUpload" name="avatar" accept="image/jpeg,image/png,image/gif,image/webp" style="display: none;" onchange="this.form.submit();" data-testid="input-avatar">
+                    </form>
+                    {% if profile.avatar %}
+                    <form method="post" action="{% url 'profile' %}" class="d-inline-block">
+                        {% csrf_token %}
+                        <input type="hidden" name="action" value="update_profile">
+                        <input type="hidden" name="remove_avatar" value="1">
+                        <input type="hidden" name="first_name" value="{{ request.user.first_name }}">
+                        <input type="hidden" name="last_name" value="{{ request.user.last_name }}">
+                        <input type="hidden" name="email" value="{{ request.user.email }}">
+                        <button type="submit" class="btn btn-sm btn-outline-danger mb-1" data-testid="button-remove-photo"><i class="fas fa-trash me-1"></i>Remove</button>
+                    </form>
+                    {% endif %}
+                </div>
+                <div class="mt-2">
+                    <small class="text-muted">Member since {{ request.user.date_joined|date:"F Y" }}</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-8">
+        <div class="card mb-4">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <h5 class="mb-0"><i class="fas fa-user-edit me-2"></i>Profile Information</h5>
+            </div>
+            <div class="card-body">
+                <form method="post" action="{% url 'profile' %}">
+                    {% csrf_token %}
+                    <input type="hidden" name="action" value="update_profile">
+                    <div class="row mb-3">
+                        <div class="col-md-6 mb-3">
+                            <label for="username" class="form-label">Username</label>
+                            <input type="text" class="form-control" id="username" value="{{ request.user.username }}" readonly style="opacity: 0.6;" data-testid="input-username">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="email" name="email" value="{{ request.user.email }}" data-testid="input-email">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6 mb-3">
+                            <label for="first_name" class="form-label">First Name</label>
+                            <input type="text" class="form-control" id="first_name" name="first_name" value="{{ request.user.first_name }}" data-testid="input-first-name">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="last_name" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" id="last_name" name="last_name" value="{{ request.user.last_name }}" data-testid="input-last-name">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6 mb-3">
+                            <label for="phone" class="form-label">Phone</label>
+                            <input type="tel" class="form-control" id="phone" name="phone" value="{{ profile.phone }}" data-testid="input-phone">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="position" class="form-label">Position / Role</label>
+                            <input type="text" class="form-control" id="position" name="position" value="{{ profile.position }}" data-testid="input-position">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-12 mb-3">
+                            <label for="address" class="form-label">Address</label>
+                            <input type="text" class="form-control" id="address" name="address" value="{{ profile.address }}" data-testid="input-address">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6 mb-3">
+                            <label for="city" class="form-label">City</label>
+                            <input type="text" class="form-control" id="city" name="city" value="{{ profile.city }}" data-testid="input-city">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="postal_code" class="form-label">Postal Code</label>
+                            <input type="text" class="form-control" id="postal_code" name="postal_code" value="{{ profile.postal_code }}" data-testid="input-postal-code">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="bio" class="form-label">Bio</label>
+                        <textarea class="form-control" id="bio" name="bio" rows="3" data-testid="input-bio">{{ profile.bio }}</textarea>
+                    </div>
+                    <div class="d-flex justify-content-end">
+                        <button type="submit" class="btn btn-success" data-testid="button-save-profile"><i class="fas fa-save me-2"></i>Save Profile</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0"><i class="fas fa-lock me-2"></i>Change Password</h5>
+            </div>
+            <div class="card-body">
+                <form method="post" action="{% url 'profile' %}">
+                    {% csrf_token %}
+                    <input type="hidden" name="action" value="change_password">
+                    <div class="row mb-3">
+                        <div class="col-md-4 mb-3">
+                            <label for="current_password" class="form-label">Current Password</label>
+                            <input type="password" class="form-control" id="current_password" name="current_password" required data-testid="input-current-password">
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label for="new_password" class="form-label">New Password</label>
+                            <input type="password" class="form-control" id="new_password" name="new_password" required minlength="8" data-testid="input-new-password">
+                            <div class="form-text">Minimum 8 characters.</div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label for="confirm_password" class="form-label">Confirm New Password</label>
+                            <input type="password" class="form-control" id="confirm_password" name="confirm_password" required minlength="8" data-testid="input-confirm-password">
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-end">
+                        <button type="submit" class="btn btn-warning" data-testid="button-change-password"><i class="fas fa-key me-2"></i>Change Password</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

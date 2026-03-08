@@ -1,0 +1,151 @@
+{% extends 'landing/base.html' %}
+{% load static %}
+
+{% block title %}Restoration Gallery - ScootDR{% endblock %}
+
+{% block content %}
+<section class="py-5">
+    <div class="container">
+        <div class="row mb-4">
+            <div class="col-lg-8 mx-auto text-center">
+                <h1 class="display-4">Scooter Restoration Gallery</h1>
+                <p class="lead text-muted">Explore our collection of beautifully restored vintage and classic scooters. Each restoration is a labor of love and craftsmanship.</p>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-12 mb-4">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="{% url 'landing:home' %}">Home</a></li>
+                        <li class="breadcrumb-item"><a href="{% url 'landing:restore' %}">Restoration</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Gallery</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        
+        <!-- Gallery filter buttons -->
+        <div class="row mb-4">
+            <div class="col-12 text-center">
+                <div class="btn-group" role="group" aria-label="Gallery filters">
+                    <button type="button" class="btn btn-primary active" data-filter="all">All</button>
+                    <button type="button" class="btn btn-outline-primary" data-filter="vespa">Vespa</button>
+                    <button type="button" class="btn btn-outline-primary" data-filter="lambretta">Lambretta</button>
+                    <button type="button" class="btn btn-outline-primary" data-filter="honda">Honda</button>
+                    <button type="button" class="btn btn-outline-primary" data-filter="other">Other</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Gallery images -->
+        <div class="row" id="gallery">
+            {% for item in restoration_gallery %}
+            <div class="col-lg-4 col-md-6 mb-4 gallery-item {{ item.make|lower|default:'other' }}">
+                <div class="card shadow-sm h-100">
+                    <div class="row g-0">
+                        <div class="col-6">
+                            <img src="{{ item.get_before_image_url }}" class="img-fluid h-100" alt="Before restoration" style="object-fit: cover;">
+                            <div class="position-absolute top-0 start-0 m-2">
+                                <span class="badge bg-danger">Before</span>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <img src="{{ item.get_after_image_url }}" class="img-fluid h-100" alt="After restoration" style="object-fit: cover;">
+                            <div class="position-absolute top-0 end-0 m-2">
+                                <span class="badge bg-success">After</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">{{ item.get_full_title }}</h5>
+                        <p class="card-text">{{ item.description|truncatechars:100 }}</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                {% if item.make %}
+                                <span class="badge bg-info me-1">{{ item.make }}</span>
+                                {% endif %}
+                                <span class="badge bg-secondary">{{ item.get_restoration_type_display }}</span>
+                            </div>
+                            {% if item.date_completed %}
+                            <small class="text-muted">{{ item.date_completed|date:"Y" }}</small>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% empty %}
+            <div class="col-12">
+                <div class="alert alert-info text-center">
+                    <h4>Gallery Coming Soon</h4>
+                    <p>Our restoration gallery is being updated. Check back soon to see our amazing restoration projects!</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        
+        <!-- Contact CTA -->
+        <div class="row mt-5">
+            <div class="col-lg-8 mx-auto text-center">
+                <div class="card shadow bg-light">
+                    <div class="card-body py-5">
+                        <h3>Love what you see?</h3>
+                        <p class="lead">We can restore your vintage scooter to its former glory or beyond.</p>
+                        <a href="{% url 'landing:contact' %}" class="btn btn-primary btn-lg mt-3">Contact Our Restoration Team</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+.gallery-item {
+    transition: opacity 0.3s ease;
+}
+
+.gallery-item.hidden {
+    display: none;
+}
+
+.card {
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    transition: transform 0.2s ease;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const filterButtons = document.querySelectorAll('[data-filter]');
+    const galleryItems = document.querySelectorAll('.gallery-item');
+    
+    filterButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            // Update active button
+            filterButtons.forEach(btn => {
+                btn.classList.remove('active', 'btn-primary');
+                btn.classList.add('btn-outline-primary');
+            });
+            this.classList.remove('btn-outline-primary');
+            this.classList.add('active', 'btn-primary');
+            
+            const filter = this.getAttribute('data-filter');
+            
+            // Show/hide items
+            galleryItems.forEach(item => {
+                if (filter === 'all' || item.classList.contains(filter)) {
+                    item.classList.remove('hidden');
+                } else {
+                    item.classList.add('hidden');
+                }
+            });
+        });
+    });
+});
+</script>
+{% endblock %}

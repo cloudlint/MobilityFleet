@@ -1,0 +1,1023 @@
+/* Main styles for Scooter Rental Management System - Premium Dark Theme */
+
+:root {
+    --metallic-dark: #0f1117;
+    --metallic-medium: #1a1d26;
+    --metallic-light: #282c37;
+    --metallic-silver: #8c9199;
+    --metallic-highlight: #c8ccd4;
+    --metallic-accent: #64686F;
+    --metallic-gradient: linear-gradient(135deg, #1a1d26 0%, #252830 100%);
+    --metallic-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+    --metallic-text-shadow: none;
+    --metallic-blue: #4a8fd4;
+    --metallic-border: 1px solid rgba(255, 255, 255, 0.06);
+    --metallic-glow: 0 0 10px rgba(176, 184, 192, 0.4);
+    --dash-gold: #c9a84c;
+    --dash-success: #34c77b;
+    --dash-warning: #f0b429;
+    --dash-danger: #e74c6f;
+    --dash-info: #5bb5f0;
+    --dash-radius: 12px;
+    --dash-radius-sm: 8px;
+    --dash-transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body {
+    background-color: var(--metallic-dark);
+    color: var(--metallic-highlight);
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6,
+.card-title,
+.card-header h5,
+.card-header h6 {
+    font-family: 'Playfair Display', Georgia, serif !important;
+}
+
+.sidebar .nav-link,
+.btn,
+.nav-link,
+label,
+input,
+select,
+textarea,
+.form-control,
+.form-select,
+.form-label,
+.badge,
+.table,
+.dropdown-item {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.part-number,
+.sku,
+.technical-detail,
+code,
+pre,
+.font-monospace,
+.text-monospace {
+    font-family: 'JetBrains Mono', monospace !important;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--metallic-dark);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--metallic-accent);
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--metallic-silver);
+}
+
+/* Sidebar */
+.sidebar {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    padding-top: 16px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: var(--metallic-dark);
+    border-right: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.sidebar .nav-link {
+    color: var(--metallic-silver) !important;
+    font-weight: 500;
+    font-size: 0.85rem;
+    padding: 0.65rem 1rem;
+    margin-bottom: 2px;
+    border-radius: var(--dash-radius-sm);
+    transition: var(--dash-transition);
+    display: flex;
+    align-items: center;
+    border: 1px solid transparent;
+    background: transparent;
+    letter-spacing: 0.2px;
+}
+
+.sidebar .nav-link i {
+    margin-right: 10px;
+    width: 20px;
+    text-align: center;
+    font-size: 1rem;
+    color: var(--metallic-accent);
+    transition: var(--dash-transition);
+}
+
+.sidebar .nav-link:hover {
+    background: rgba(255, 255, 255, 0.04);
+    color: var(--metallic-highlight) !important;
+    border-color: transparent;
+    transform: none;
+    box-shadow: none;
+}
+
+.sidebar .nav-link:hover i {
+    color: var(--metallic-highlight);
+}
+
+.sidebar .nav-link.active {
+    background: rgba(74, 143, 212, 0.12);
+    color: var(--metallic-blue) !important;
+    font-weight: 600;
+    border: 1px solid rgba(74, 143, 212, 0.15);
+    box-shadow: none;
+}
+
+.sidebar .nav-link.active i {
+    color: var(--metallic-blue);
+}
+
+main {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: var(--metallic-dark);
+    color: var(--metallic-highlight);
+}
+
+.card {
+    margin-bottom: 1.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+    background: var(--metallic-medium) !important;
+    background-image: none !important;
+    border-radius: var(--dash-radius);
+    overflow: hidden;
+    transition: var(--dash-transition);
+}
+
+.card:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+    font-weight: 600;
+    background: rgba(255, 255, 255, 0.03) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06) !important;
+    padding: 1rem 1.25rem;
+    position: relative;
+}
+
+.card-header:after {
+    display: none;
+}
+
+.card-body {
+    color: var(--metallic-highlight) !important;
+    padding: 1.25rem;
+    position: relative;
+}
+
+.card p, .card .text-muted, .card-text {
+    color: var(--metallic-highlight) !important;
+}
+
+.card a, .card span, .card div, .card label, .card h1, .card h2, .card h3, .card h4, .card h5, .card h6 {
+    color: var(--metallic-highlight) !important;
+}
+
+/* Tables */
+.table {
+    margin-bottom: 0;
+    color: var(--metallic-highlight) !important;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: var(--dash-radius-sm);
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.04);
+    font-size: 0.88rem;
+}
+
+.table td, .table td * {
+    color: var(--metallic-highlight) !important;
+}
+
+.table th {
+    border-top: none;
+    background: rgba(255, 255, 255, 0.03) !important;
+    color: var(--metallic-silver) !important;
+    font-weight: 600;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06) !important;
+    padding: 0.75rem 1rem !important;
+    position: relative;
+}
+
+.table th a {
+    color: var(--metallic-silver) !important;
+    text-decoration: none;
+}
+
+.table th a:hover {
+    color: var(--metallic-highlight) !important;
+    text-decoration: none;
+}
+
+.table td {
+    border-color: rgba(255, 255, 255, 0.03) !important;
+    padding: 0.75rem 1rem !important;
+    vertical-align: middle;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: rgba(255, 255, 255, 0.015) !important;
+}
+
+.table-hover > tbody > tr:hover {
+    background-color: rgba(74, 143, 212, 0.04) !important;
+}
+
+/* Badges */
+.badge {
+    font-weight: 600;
+    padding: 0.35em 0.65em;
+    border-radius: 50px;
+    font-size: 0.73rem;
+    letter-spacing: 0.3px;
+    border: none;
+    box-shadow: none;
+}
+
+.badge.bg-secondary, .badge.bg-dark {
+    color: var(--metallic-highlight) !important;
+    background: var(--metallic-light) !important;
+}
+
+.badge.bg-success {
+    background: rgba(52, 199, 123, 0.15) !important;
+    color: var(--dash-success) !important;
+}
+
+.badge.bg-danger {
+    background: rgba(231, 76, 111, 0.15) !important;
+    color: var(--dash-danger) !important;
+}
+
+.badge.bg-warning {
+    background: rgba(240, 180, 41, 0.15) !important;
+    color: var(--dash-warning) !important;
+}
+
+.badge.bg-info {
+    background: rgba(91, 181, 240, 0.15) !important;
+    color: var(--dash-info) !important;
+}
+
+.badge.bg-primary {
+    background: rgba(74, 143, 212, 0.15) !important;
+    color: var(--metallic-blue) !important;
+}
+
+/* Forms */
+.form-control, .form-select {
+    background-color: rgba(255, 255, 255, 0.04) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    color: var(--metallic-highlight) !important;
+    border-radius: var(--dash-radius-sm);
+    box-shadow: none;
+    transition: var(--dash-transition);
+    font-size: 0.88rem;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: var(--metallic-blue);
+    box-shadow: 0 0 0 3px rgba(74, 143, 212, 0.15);
+    background-color: rgba(255, 255, 255, 0.06) !important;
+}
+
+.form-label {
+    font-weight: 600;
+    color: var(--metallic-highlight);
+    margin-bottom: 0.4rem;
+    font-size: 0.82rem;
+    letter-spacing: 0.3px;
+}
+
+/* Buttons */
+.btn {
+    font-weight: 600;
+    padding: 0.5rem 1.1rem;
+    border-radius: var(--dash-radius-sm);
+    position: relative;
+    overflow: hidden;
+    transition: var(--dash-transition);
+    border: 1px solid transparent;
+    box-shadow: none;
+    font-size: 0.85rem;
+    letter-spacing: 0.2px;
+}
+
+.btn-primary {
+    background: var(--metallic-blue) !important;
+    border-color: var(--metallic-blue) !important;
+}
+
+.btn-success {
+    background: var(--dash-success) !important;
+    border-color: var(--dash-success) !important;
+}
+
+.btn-warning {
+    background: var(--dash-warning) !important;
+    border-color: var(--dash-warning) !important;
+    color: var(--metallic-dark) !important;
+}
+
+.btn-danger {
+    background: var(--dash-danger) !important;
+    border-color: var(--dash-danger) !important;
+}
+
+.btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    transform: translateY(0);
+}
+
+.btn-group-sm > .btn, .btn-sm {
+    padding: 0.3rem 0.65rem;
+    font-size: 0.78rem;
+    border-radius: 6px;
+}
+
+/* Status colors */
+.status-available {
+    color: var(--dash-success);
+    font-weight: 600;
+}
+
+.status-rented {
+    color: var(--dash-info);
+    font-weight: 600;
+}
+
+.status-maintenance {
+    color: var(--dash-warning);
+    font-weight: 600;
+}
+
+.status-damaged {
+    color: var(--dash-danger);
+    font-weight: 600;
+}
+
+.status-retired {
+    color: var(--metallic-silver);
+    font-weight: 600;
+}
+
+/* Low stock highlight with metallic theme */
+tr[style*="background-color: #FFF8E1"] {
+    background-color: rgba(255, 152, 0, 0.1) !important;
+    position: relative;
+}
+
+tr[style*="background-color: #FFF8E1"] td {
+    border-bottom: 1px solid rgba(255, 152, 0, 0.3) !important;
+}
+
+tr[style*="background-color: #FFF8E1"] td.text-danger {
+    color: #FF7043 !important;
+    text-shadow: 0 0 5px rgba(255, 112, 67, 0.3);
+}
+
+/* Alerts */
+.alert {
+    animation: fadeIn 0.4s ease;
+    border: none;
+    border-radius: var(--dash-radius-sm);
+    box-shadow: none;
+    background: rgba(255, 255, 255, 0.04) !important;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+    font-size: 0.88rem;
+}
+
+.alert-success {
+    border-left: 3px solid var(--dash-success) !important;
+    color: var(--dash-success) !important;
+}
+
+.alert-warning {
+    border-left: 3px solid var(--dash-warning) !important;
+    color: var(--dash-warning) !important;
+}
+
+.alert-danger {
+    border-left: 3px solid var(--dash-danger) !important;
+    color: var(--dash-danger) !important;
+}
+
+.alert-info {
+    border-left: 3px solid var(--dash-info) !important;
+    color: var(--dash-info) !important;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(-20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Logo styling */
+.circular-logo {
+    border-radius: 50%;
+    border: 2px solid var(--metallic-silver);
+    box-shadow: var(--metallic-shadow);
+    overflow: hidden;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+/* Navbar toggle button styling - updated */
+.navbar-toggler {
+    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x) !important;
+    font-size: var(--bs-navbar-toggler-font-size) !important;
+    line-height: 1 !important;
+    color: var(--bs-navbar-color) !important;
+    background-color: #0d6efd73 !important;
+    border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color) !important;
+    border-radius: var(--bs-navbar-toggler-border-radius) !important;
+    transition: var(--bs-navbar-toggler-transition) !important;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+    .sidebar {
+        height: auto;
+        position: relative;
+    }
+    
+    .btn-group {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .btn-group > .btn {
+        flex: 1 1 auto;
+        margin-bottom: 0.25rem;
+    }
+}
+
+/* Print styles */
+@media print {
+    /* Hide non-printable elements */
+    .sidebar, .btn, .no-print, .btn-toolbar, .navbar, .form-buttons, 
+    #page_actions, .card-header a.btn, .dropdown-menu, .pagination,
+    footer, .alert, nav, .nav-tabs, .search-form, .filters-form {
+        display: none !important;
+    }
+    
+    /* Keep buttons with print class visible */
+    .btn.print-visible {
+        display: inline-block !important;
+    }
+    
+    /* Main layout adjustments */
+    body {
+        padding: 0 !important;
+        margin: 0 !important;
+        background-color: white !important;
+        color: black !important;
+        font-size: 12pt;
+        width: 100%;
+    }
+    
+    .container-fluid, .container, main, .content-wrapper {
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    
+    /* Add header with logo and title */
+    body::before {
+        content: "Scooter Rental Management System";
+        display: block;
+        text-align: center;
+        font-size: 18pt;
+        font-weight: bold;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #000;
+        padding-bottom: 10px;
+    }
+    
+    /* Card styling */
+    .card {
+        border: 1px solid #ddd;
+        box-shadow: none;
+        margin: 0 0 15px 0 !important;
+        break-inside: avoid;
+        page-break-inside: avoid;
+        color: black !important;
+        background-color: white !important;
+    }
+    
+    .card-header, .card-body, .card-footer {
+        background-color: white !important;
+        color: black !important;
+        padding: 10px !important;
+        border-color: #ddd !important;
+    }
+    
+    .card-header {
+        border-bottom: 2px solid #000 !important;
+        font-weight: bold;
+    }
+    
+    /* Table styling */
+    .table {
+        width: 100%;
+        margin-bottom: 1rem;
+        color: black !important;
+        border-collapse: collapse;
+        font-size: 10pt;
+    }
+    
+    .table th, .table td {
+        padding: 5px !important;
+        border: 1px solid #ddd !important;
+        color: black !important;
+        text-align: left;
+    }
+    
+    .table thead th {
+        border-bottom: 2px solid #000 !important;
+        background-color: #f1f1f1 !important;
+        font-weight: bold;
+    }
+    
+    /* Badge and status indicators */
+    .badge {
+        border: 1px solid #000;
+        padding: 2px 5px;
+        color: black !important;
+        background-color: white !important;
+        font-weight: normal;
+    }
+    
+    /* Color-coded statuses in print */
+    .badge.bg-success::before {
+        content: "✓ ";
+    }
+    
+    .badge.bg-danger::before {
+        content: "✗ ";
+    }
+    
+    .badge.bg-warning::before {
+        content: "! ";
+    }
+    
+    .badge.bg-info::before {
+        content: "i ";
+    }
+    
+    /* Footer on each page */
+    .print-footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
+        font-size: 9pt;
+        border-top: 1px solid #ddd;
+        display: block !important;
+    }
+    
+    /* Print date */
+    .print-footer::after {
+        content: "Printed on " attr(data-date);
+        display: block;
+        font-size: 8pt;
+        color: #666;
+    }
+    
+    /* Page formatting */
+    @page {
+        margin: 1.5cm 1cm;
+        size: portrait;
+    }
+    
+    /* Add page numbers */
+    @page {
+        @bottom-right {
+            content: "Page " counter(page) " of " counter(pages);
+            font-size: 8pt;
+        }
+    }
+    
+    /* Avoid breaking inside important elements */
+    h1, h2, h3, h4, h5, h6, .print-section, tr, .avoid-break {
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+    
+    /* Force page breaks where needed */
+    .page-break-after {
+        page-break-after: always;
+        break-after: page;
+    }
+    
+    /* Expand row details in tables */
+    .collapse.show {
+        display: block !important;
+    }
+    
+    /* Special styles for specific templates */
+    /* Rental detail print styles */
+    .rental-detail .card-title {
+        font-size: 14pt;
+        font-weight: bold;
+    }
+    
+    /* Job card print styles */
+    .job-card-detail .checklist-item.completed::before {
+        content: "✓";
+        margin-right: 5px;
+    }
+    
+    /* Parts inventory print styles */
+    .parts-inventory .low-stock {
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    
+    /* Make links visible but without underlines */
+    a {
+        text-decoration: none;
+        color: black !important;
+    }
+    
+    /* Remove box shadows and background colors */
+    * {
+        box-shadow: none !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+    
+    /* Maximize content width */
+    .col-md-3, .col-md-4, .col-md-6, .col-md-8, .col-md-9, .col-md-12,
+    .col-lg-3, .col-lg-4, .col-lg-6, .col-lg-8, .col-lg-9, .col-lg-12 {
+        width: 100% !important;
+        max-width: 100% !important;
+        flex: 0 0 100% !important;
+    }
+}
+
+/* Sticky header styles */
+.sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+    background: var(--metallic-medium);
+    padding: 15px;
+    border-bottom: var(--metallic-border);
+    box-shadow: var(--metallic-shadow);
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+/* Fix table headers when scrolling */
+.table-responsive {
+    position: relative;
+    max-height: 60vh;
+    border-radius: 0.375rem;
+    overflow: auto;
+}
+
+.sticky-table-header {
+    background: var(--metallic-light);
+}
+
+.sticky-table-header th {
+    position: sticky;
+    top: 0;
+    background: var(--metallic-light) !important;
+    z-index: 10;
+}
+
+/* Adjust the height to ensure no overlap */
+.card {
+    margin-top: 10px;
+}
+
+/* Remove sticky behavior from page title to prevent conflicts */
+.d-flex.justify-content-between.flex-wrap {
+    background: var(--metallic-dark);
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Additional styles for fixed headers */
+.table-responsive {
+    margin: -1.25rem;
+}
+
+.card-body .pagination {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+}
+
+.table {
+    margin-bottom: 0 !important;
+}
+
+main {
+    overflow: hidden;
+}
+
+/* Set offset for top when users are logged in */
+body.logged-in .sticky-header {
+    top: 56px;
+}
+
+body.logged-in .sticky-table-header th {
+    top: 56px;
+}
+
+/* Pagination */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    gap: 4px;
+}
+
+.pagination .page-item .page-link {
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    color: var(--metallic-highlight);
+    border-radius: var(--dash-radius-sm);
+    transition: var(--dash-transition);
+    font-size: 0.82rem;
+    padding: 0.45rem 0.75rem;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: var(--metallic-blue);
+    border-color: var(--metallic-blue);
+    color: white;
+    box-shadow: 0 2px 8px rgba(74, 143, 212, 0.3);
+}
+
+.pagination .page-item .page-link:hover {
+    background-color: rgba(255, 255, 255, 0.04);
+    color: var(--metallic-blue);
+    border-color: rgba(74, 143, 212, 0.3);
+}
+
+.pagination .page-item.disabled .page-link {
+    background-color: transparent;
+    border-color: rgba(255, 255, 255, 0.03);
+    color: var(--metallic-accent);
+}
+
+/* Select2 styling consistency with Bootstrap form controls */
+.select2-container--bootstrap-5 .select2-selection--single {
+    background-color: var(--bs-body-bg) !important;
+    border: var(--bs-border-width) solid var(--bs-border-color) !important;
+    color: var(--bs-body-color) !important;
+    font-size: var(--bs-body-font-size) !important;
+    font-weight: var(--bs-body-font-weight) !important;
+    line-height: var(--bs-body-line-height) !important;
+    padding: var(--bs-input-padding-y) var(--bs-input-padding-x) !important;
+    border-radius: var(--bs-border-radius) !important;
+    height: calc(var(--bs-input-height, 2.375rem)) !important;
+    min-height: calc(var(--bs-input-height, 2.375rem)) !important;
+}
+
+.select2-container--bootstrap-5 .select2-selection--single .select2-selection__rendered {
+    color: var(--bs-body-color) !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    line-height: inherit !important;
+}
+
+.select2-container--bootstrap-5 .select2-selection--single .select2-selection__arrow {
+    right: var(--bs-input-padding-x) !important;
+}
+
+/* Focus state for Select2 to match Bootstrap */
+.select2-container--bootstrap-5.select2-container--focus .select2-selection--single {
+    border-color: var(--bs-focus-ring-color) !important;
+    box-shadow: var(--bs-focus-ring-box-shadow) !important;
+}
+
+/* Ensure Select2 dropdown matches dark theme */
+.select2-dropdown {
+    background-color: var(--bs-body-bg) !important;
+    border: var(--bs-border-width) solid var(--bs-border-color) !important;
+    color: var(--bs-body-color) !important;
+}
+
+.select2-results__option {
+    background-color: var(--bs-body-bg) !important;
+    color: var(--bs-body-color) !important;
+}
+
+.select2-results__option--highlighted {
+    background-color: var(--bs-primary) !important;
+    color: var(--bs-primary-text-emphasis) !important;
+}
+
+.select2-results__option--selected {
+    background-color: var(--bs-secondary) !important;
+    color: var(--bs-secondary-text-emphasis) !important;
+}
+
+
+
+/* Homepage Video Styles */
+.homepage-video-section {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.homepage-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    object-fit: cover;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.video-overlay .container {
+    z-index: 3;
+}
+
+.video-overlay h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.video-overlay p {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+/* Responsive video styles */
+@media (max-width: 768px) {
+    .homepage-video-section {
+        height: 70vh;
+    }
+    
+    .video-overlay h1 {
+        font-size: 2rem;
+    }
+    
+    .video-overlay p {
+        font-size: 1rem;
+    }
+}
+
+
+/* Font Color Visibility Fixes */
+
+/* Products page - Filters header */
+.card-header h5 {
+    color: #ffffff !important;
+}
+
+/* Products page - Popular Products header */
+.card-header.bg-primary h5 {
+    color: #ffffff !important;
+}
+
+/* Products page - Popular Products text */
+.list-group-item p {
+    color: #ffffff !important;
+}
+
+/* Products page - Price font color */
+.fw-bold {
+    color: #ffffff !important;
+}
+
+/* Products page - View Details button text */
+.btn-outline-primary {
+    color: #0d6efd !important;
+}
+
+/* Buy page - Scooter Buying Guide heading */
+.card h3 {
+    color: #ffffff !important;
+}
+
+/* Buy page - Scooter Buying Guide text */
+.card h4 {
+    color: #ffffff !important;
+}
+
+/* Rent page - How Rental Works heading */
+.rental-process h3 {
+    color: #ffffff !important;
+}
+
+/* Rent page - How Rental Works text */
+.rental-process h4 {
+    color: #ffffff !important;
+}
+
+/* Restore page - Our Restoration Process heading */
+.restoration-process h3 {
+    color: #ffffff !important;
+}
+
+/* Restore page - Our Restoration Process text */
+.restoration-process h4 {
+    color: #ffffff !important;
+}
+
+/* General text color fixes for better visibility */
+.text-muted {
+    color: #6c757d !important;
+}
+
+/* Card body text */
+.card-body p {
+    color: #ffffff !important;
+}
+
+/* Card title */
+.card-title {
+    color: #ffffff !important;
+}
+
+/* Section headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff !important;
+}
+
+/* Override for white text on dark backgrounds */
+.bg-primary h1, .bg-primary h2, .bg-primary h3, .bg-primary h4, .bg-primary h5, .bg-primary h6 {
+    color: #ffffff !important;
+}
+
+.text-white h1, .text-white h2, .text-white h3, .text-white h4, .text-white h5, .text-white h6 {
+    color: #ffffff !important;
+}
+
+/* Specific fixes for rental process steps */
+.rental-step h4 {
+    color: #ffffff !important;
+}
+
+.rental-step p {
+    color: #666666 !important;
+}
+
+/* Specific fixes for restoration process steps */
+.restoration-step h4 {
+    color: #ffffff !important;
+}
+
+.restoration-step p {
+    color: #666666 !important;
+}

@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: django-cloud-storage
+Version: 1.0.5
+Summary: Custom storage backend tailored for a proprietary cloud storage service.
+Author-email: cybermeh <cybermeh@icloud.com>
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 4.2
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: django >=4.2
+Requires-Dist: requests ==2.31.0
+
+# Django Cloud Storage
+
+
+Django Cloud Storage is a Python package that provides a custom storage backend designed for seamless integration with 
+proprietary cloud storage service.
+
+## Installation
+
+```bash
+pip install django-cloud-storage
+```
+
+## Configuration
+
+In your Django settings file, set the following values:
+
+```python
+CLOUD_STORAGE_URL = 'https://your-cloud-service.com'
+CLOUD_STORAGE_API_TOKEN = 'your-api-token'
+CLOUD_STORAGE_PROJECT_ALIAS = 'myproject'
+```
+
+## Usage
+To integrate the Cloud Storage with a Django model, follow these steps:
+
+* Import the required models and CloudStorage:
+    ```python
+    from django_cloud_storage.storage import CloudStorage
+    ```
+* Define your Django model, using `CloudStorage` as the storage backend for a `FileField`:
+
+    ```python
+    class MyModel(models.Model):
+        file_field = models.FileField(storage=CloudStorage)
+
+        def __str__(self):
+            return self.file_field.name
+    ```

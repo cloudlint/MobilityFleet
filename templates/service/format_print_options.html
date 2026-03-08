@@ -1,0 +1,177 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Format Print Options - Job Card #{{ job_card.job_card_number }}{% endblock %}
+
+{% block page_title %}Format Print Options{% endblock %}
+
+{% block page_actions %}
+<div class="btn-group" role="group">
+    <a href="{% url 'service:job_card_detail' pk=job_card.pk %}" class="btn btn-secondary">
+        <i class="fas fa-arrow-left"></i> Back to Job Card
+    </a>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow">
+                <div class="card-header bg-primary text-white">
+                    <h5 class="mb-0">
+                        <i class="fas fa-print me-2"></i>
+                        Format Print Options for Job Card #{{ job_card.job_card_number }}
+                    </h5>
+                </div>
+                <div class="card-body">
+                    <form id="printOptionsForm">
+                        <div class="row">
+                            <!-- Technician Selection -->
+                            <div class="col-md-6 mb-4">
+                                <div class="form-group">
+                                    <label for="technicianSelect" class="form-label fw-bold">
+                                        <i class="fas fa-user-cog me-2"></i>Select Technician:
+                                    </label>
+                                    <select id="technicianSelect" class="form-select form-select-lg" name="technician">
+                                        <option value="{{ current_technician.get_full_name|default:current_technician.username }}" selected>
+                                            {{ current_technician.get_full_name|default:current_technician.username }} (Current)
+                                        </option>
+                                        {% for technician in technicians %}
+                                            {% if technician != current_technician %}
+                                            <option value="{{ technician.get_full_name|default:technician.username }}">
+                                                {{ technician.get_full_name|default:technician.username }}
+                                            </option>
+                                            {% endif %}
+                                        {% endfor %}
+                                    </select>
+                                    <div class="form-text">
+                                        Choose which technician worked on this service
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Service Type Selection -->
+                            <div class="col-md-6 mb-4">
+                                <div class="form-group">
+                                    <label for="serviceTypeSelect" class="form-label fw-bold">
+                                        <i class="fas fa-tools me-2"></i>Service Type:
+                                    </label>
+                                    <select id="serviceTypeSelect" class="form-select form-select-lg" name="service_type">
+                                        {% for value, display in service_types %}
+                                        <option value="{{ value }}" {% if value == current_service_type %}selected{% endif %}>
+                                            {{ display }}
+                                        </option>
+                                        {% endfor %}
+                                    </select>
+                                    <div class="form-text">
+                                        Specify the type of service performed
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Service Type Descriptions -->
+                        <div class="row mb-4">
+                            <div class="col-12">
+                                <div class="alert alert-info">
+                                    <h6 class="fw-bold mb-2">Service Type Descriptions:</h6>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <ul class="mb-0">
+                                                <li><strong>Service:</strong> Regular maintenance and inspections</li>
+                                                <li><strong>Repair:</strong> Fixing identified issues or faults</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <ul class="mb-0">
+                                                <li><strong>Quote:</strong> Assessment for potential work</li>
+                                                <li><strong>Breakdown:</strong> Emergency or urgent repairs</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Current Job Card Info -->
+                        <div class="row mb-4">
+                            <div class="col-12">
+                                <div class="card bg-light">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Current Job Card Details:</h6>
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <strong>Scooter:</strong> {{ job_card.scooter.make }} {{ job_card.scooter.model }}
+                                            </div>
+                                            <div class="col-md-4">
+                                                <strong>VIN:</strong> {{ job_card.scooter.vin }}
+                                            </div>
+                                            <div class="col-md-4">
+                                                <strong>License:</strong> {{ job_card.scooter.license_number|default:"N/A" }}
+                                            </div>
+                                        </div>
+                                        <div class="row mt-2">
+                                            <div class="col-md-4">
+                                                <strong>Status:</strong> 
+                                                <span class="badge bg-secondary">{{ job_card.get_status_display }}</span>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <strong>Priority:</strong> 
+                                                <span class="badge bg-info">{{ job_card.get_priority_display }}</span>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <strong>Date:</strong> {{ job_card.date_created|date:"d-m-Y" }}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Action Buttons -->
+                        <div class="d-flex justify-content-between">
+                            <button type="button" class="btn btn-success btn-lg" onclick="generatePrint()">
+                                <i class="fas fa-print me-2"></i>
+                                Generate Format Print
+                            </button>
+                            <button type="button" class="btn btn-outline-secondary" onclick="resetToDefaults()">
+                                <i class="fas fa-undo me-2"></i>
+                                Reset to Defaults
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    function generatePrint() {
+        const technician = document.getElementById('technicianSelect').value;
+        const serviceType = document.getElementById('serviceTypeSelect').value;
+        
+        // Construct the print URL with selected options
+        const printUrl = `{% url 'service:job_card_detail' pk=job_card.pk %}?print=true&technician=${encodeURIComponent(technician)}&service_type=${encodeURIComponent(serviceType)}`;
+        
+        // Open in new window for printing
+        window.open(printUrl, '_blank');
+    }
+    
+    function resetToDefaults() {
+        document.getElementById('technicianSelect').selectedIndex = 0;
+        document.getElementById('serviceTypeSelect').value = '{{ current_service_type }}';
+    }
+    
+    // Add keyboard shortcut for quick print (Ctrl+P)
+    document.addEventListener('keydown', function(e) {
+        if (e.ctrlKey && e.key === 'p') {
+            e.preventDefault();
+            generatePrint();
+        }
+    });
+</script>
+{% endblock %}

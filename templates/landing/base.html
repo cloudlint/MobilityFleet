@@ -1,0 +1,179 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}ScootDr - Scooter Sales, Rentals, and Service{% endblock %}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS - Local file for offline support -->
+    <link href="{% static 'css/vendor/bootstrap.min.css' %}" rel="stylesheet">
+    <!-- Font Awesome for icons - Local file for offline support -->
+    <link rel="stylesheet" href="{% static 'css/vendor/fontawesome.min.css' %}">
+    <!-- Landing Page Styles -->
+    <link href="{% static 'css/landing.css' %}" rel="stylesheet">
+    {% block extra_css %}{% endblock %}
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNavbar" data-testid="nav-main">
+        <div class="container">
+            <a class="navbar-brand" href="{% url 'landing:home' %}" data-testid="link-brand">
+                <img src="{% static 'images/scootdr_logo_2.png' %}" alt="ScootDr Logo" height="40" class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" id="navbarToggler">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link {% if request.path == home_url %}active{% endif %}" href="{% url 'landing:home' %}" data-testid="link-home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {% if 'products' in request.path %}active{% endif %}" href="{% url 'landing:products' %}" data-testid="link-products">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {% if 'buy' in request.path %}active{% endif %}" href="{% url 'landing:buy' %}" data-testid="link-buy">Buy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {% if 'rent' in request.path %}active{% endif %}" href="{% url 'landing:rent' %}" data-testid="link-rent">Rent</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {% if 'restore' in request.path %}active{% endif %}" href="{% url 'landing:restore' %}" data-testid="link-restore">Restore</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {% if 'service' in request.path %}active{% endif %}" href="{% url 'landing:service' %}" data-testid="link-service">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {% if 'contact' in request.path %}active{% endif %}" href="{% url 'landing:contact' %}" data-testid="link-contact">Contact</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link nav-cart-link" href="{% url 'cart:cart_detail' %}" data-testid="link-cart">
+                            <div class="cart-icon-wrapper">
+                                <i class="fas fa-shopping-bag"></i>
+                                <span class="cart-badge" data-testid="text-cart-count">
+                                    {% with total_items=request.session.cart|default:0 %}
+                                        {% if total_items %}{{ total_items|length }}{% else %}0{% endif %}
+                                    {% endwith %}
+                                </span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'landing:account' %}" data-testid="link-account"><i class="fas fa-user me-1"></i> My Account</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-dashboard-link" href="{% url 'staff_login' %}" data-testid="link-staff-dashboard"><i class="fas fa-tachometer-alt me-1"></i> Staff</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content Wrapper -->
+    <div class="content-wrapper">
+        {% block content %}{% endblock %}
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer" data-testid="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-brand">
+                            <img src="{% static 'images/scootdr_logo_2.png' %}" alt="ScootDr Logo" height="45" class="mb-3">
+                            <p class="footer-desc">Your premium destination for scooter sales, rentals, restoration, and expert service since 2015.</p>
+                            <div class="footer-social">
+                                <a href="#" class="social-link" data-testid="link-social-facebook"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="social-link" data-testid="link-social-twitter"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="social-link" data-testid="link-social-instagram"><i class="fab fa-instagram"></i></a>
+                                <a href="#" class="social-link" data-testid="link-social-linkedin"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6">
+                        <h6 class="footer-heading">Quick Links</h6>
+                        <ul class="footer-links">
+                            <li><a href="{% url 'landing:home' %}">Home</a></li>
+                            <li><a href="{% url 'landing:products' %}">Products</a></li>
+                            <li><a href="{% url 'landing:rent' %}">Rentals</a></li>
+                            <li><a href="{% url 'landing:service' %}">Service</a></li>
+                            <li><a href="{% url 'landing:contact' %}">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h6 class="footer-heading">Services</h6>
+                        <ul class="footer-links">
+                            <li><a href="{% url 'landing:buy' %}">Buy a Scooter</a></li>
+                            <li><a href="{% url 'landing:rent' %}">Rent a Scooter</a></li>
+                            <li><a href="{% url 'landing:restore' %}">Restoration</a></li>
+                            <li><a href="{% url 'landing:service' %}">Service & Repair</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h6 class="footer-heading">Contact Us</h6>
+                        <ul class="footer-contact">
+                            <li><i class="fas fa-map-marker-alt"></i> Castle Mews, 16 Newmarket St, Cape Town</li>
+                            <li><i class="fas fa-phone"></i> (0) 21-418 5995</li>
+                            <li><i class="fas fa-envelope"></i> enquiries@scootdr.co.za</li>
+                            <li><i class="fas fa-clock"></i> Mon-Fri: 8:00 - 17:00</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 text-center text-md-start">
+                        <p class="mb-0">&copy; {% now "Y" %} ScootDr. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <a href="{% url 'landing:terms' %}" class="footer-bottom-link">Terms & Conditions</a>
+                        <span class="footer-divider">|</span>
+                        <a href="#" class="footer-bottom-link">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="{% static 'js/vendor/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'js/vendor/jquery.min.js' %}"></script>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var navbar = document.getElementById('mainNavbar');
+            function handleScroll() {
+                if (window.scrollY > 50) {
+                    navbar.classList.add('scrolled');
+                } else {
+                    navbar.classList.remove('scrolled');
+                }
+            }
+            window.addEventListener('scroll', handleScroll);
+            handleScroll();
+
+            var observer = new IntersectionObserver(function(entries) {
+                entries.forEach(function(entry) {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('animate-in');
+                    }
+                });
+            }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+            document.querySelectorAll('.fade-up, .fade-in, .slide-left, .slide-right').forEach(function(el) {
+                observer.observe(el);
+            });
+        });
+    </script>
+    
+    {% block extra_js %}{% endblock %}
+</body>
+</html>
