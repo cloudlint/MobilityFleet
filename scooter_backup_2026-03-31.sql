@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict PdKM3UIaIHNHJ8nvqilOPq09520mxVXfbLIkSrWsc2A5ol2yX8gFtB0RFbvBpnE
+\restrict 60uLWBXe3bDRaDbWNUXOc7Dm2nMoqQCvNaliu6lufD2uNlOusdXabqAZ4UATMqk
 
 -- Dumped from database version 16.13 (Homebrew)
 -- Dumped by pg_dump version 16.13 (Homebrew)
@@ -2183,7 +2183,7 @@ COPY public.auth_user (id, password, last_login, is_superuser, username, first_n
 3	pbkdf2_sha256$1000000$rpW7xz0ZPTzlEIe5RN57cp$1rAzp9qQRn4uMfs9Ma5wljFHq65Gy343HP8NFRyjijQ=	2026-03-08 16:12:42.013266+00	f	Trymore	Trymore			t	t	2025-05-12 13:07:03+00
 1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2026-03-07 08:06:14.35867+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
 5	pbkdf2_sha256$1000000$mTLcGYKm140nXcfsVWxdNI$at4VLhSFuPGCuliOP9yX0TDt0EysX1YkMm708or6FBc=	2026-03-08 18:53:13.880278+00	f	kato12	Kato	Amos	mmhussein13@yahoo.ca	f	t	2025-05-15 13:37:27.995041+00
-7	pbkdf2_sha256$1000000$yIZhpFlZKehDqixIHINhcx$/yGeri4tjZzlI6D3ETxaMOEhAz3DD6PS9RjiSXpnNbo=	2026-03-31 09:16:39.20672+00	t	Hussein	Hussein	Migadde	mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
+7	pbkdf2_sha256$1000000$yIZhpFlZKehDqixIHINhcx$/yGeri4tjZzlI6D3ETxaMOEhAz3DD6PS9RjiSXpnNbo=	2026-03-31 12:48:14.276692+00	t	Hussein	Hussein	Migadde	mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
 \.
 
 
@@ -3298,6 +3298,7 @@ rnh8kesfwguxcv7p59wadk82hlc0qge5	.eJxVjDsOwjAQBe_iGln-7NoxJT1nsPxbHEC2FCcV4u4QKQ
 q4xptfh7fqm6xzbxpov2mhhd9kchq14t	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1vzGzY:xd0BsKSMuRLUDclHfzzK1YU4K3FkfDsRcwqUSZ5gBMs	2026-03-08 16:33:32.80848+00
 yrj01b4637wgm24m2kao3e9a1xva7tke	.eJxVjjsOgzAQRO_iOkb2svbaKdPnDMi_DSQRSHwqxN0DCkXSzrx5mlU0YZnbZpnK2HRZXAWJy28WQ3qV_ijyM_SPoUpDP49drA6kOtupug-5vG8n-ydow9Tua69RGQSTolfGEyu2aGpQBrx2FGq2hRRSYqspYwYfMwMXC9rVBQ3v0hTG-fux9pZReyUJYpIIrkgXgGRGY0lRIdb5HIjrum0fFDlGzw:1vymkD:YqvbxYXufc36mPkzSQIj4V8JpS2CJ6RS2cEb87OvxcQ	2026-03-07 08:15:41.883976+00
 nkpglrefl5yl66ja45iyngyavr0mnhq5	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1w3ywm:AgfOfVm3zK9KDCkN70fRC3Rz4wUmBVqYGthzmWfRl5c	2026-03-21 16:18:08.485411+00
+03pnme8gx0c1a8vswf1d5qkg0ief0vut	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1w7YWv:y3Zgu9kPQPAYfUhpggDJ2dB1oEjYCO0NxlLjxWn9e18	2026-03-31 12:54:13.412005+00
 wz1on7t3goc20swkhzj50jiamou3wew2	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1w2lTp:EPjGlKVu4461W1iT1CEjxENH2OOorUitZRvWLbAHglo	2026-03-18 07:43:13.767194+00
 lgzbqkiffb12nmi4uf8rs4tfnysc0dni	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1w5Iyu:SEHG95kNIA5nnlVGegj7FCadDKYBMzSEChN1KbkbNQM	2026-03-25 07:53:48.696726+00
 kfg2srvo7x07nckj5ir5ro2yz7czkfww	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1w78vA:AACRGtyglcELSEl14LlzxcUWGUcc6Itm8Lu2tSJtVxk	2026-03-30 09:33:32.123897+00
@@ -3308,6 +3309,7 @@ kv3qawx4v0wmuw2ulojvpvz5u0v9w0vh	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225C
 q2trpxtxua3i3zeh5rep28samh9xpfb0	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1w5fxq:3qAt-kbiMpKmd07-7wFE7rwjUvom6S2SqrLgCfzmCeY	2026-03-26 08:26:14.999965+00
 4v3m2m512yr5uw7nu86mih96372h8b3r	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1w4Zy2:N_aGERMj7nwbv7sLhztUJZl9Z21n_v2CbMtdl2Uqths	2026-03-23 07:49:54.096564+00
 ln7yic925ipvjanl20h81ay0dlyzgcv4	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1w5gb9:HMhdr--dDlI3BZu3o-oTrHqi_6qgypEopN7NiNRAAD4	2026-03-26 09:06:51.154673+00
+8xfhcabb0rs03d1mmxdd4cgwgxsyg4ms	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1w7VO3:FwXJLfNL8QqLTa5dz9jpfw3b41tdVCl2YVEzn6d4fXg	2026-03-31 09:32:51.511995+00
 bq2koq1cmr4sqn5ve3iesyq949pj78uo	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1w23aX:N3TFvDI42xijAPQfbAcKymRuLNx0-MazWI6TuJwro1s	2026-03-16 08:51:13.193589+00
 3do05hmlwomd5awgacczt59przsbz917	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1w4xcG:Xlol_XIeIA1KBEsZ8DaUhweLQocPCmrazEHzEljzUhM	2026-03-24 09:05:00.650509+00
 ooxbgugwt0gzx8m5hoydbhov0du83hb3	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1w23vb:i_Th-H8iVuY7zg6Lcuwlq-Hspqokv03Bq47Do6BA3G8	2026-03-16 09:12:59.507012+00
@@ -3521,6 +3523,7 @@ COPY public.inventory_inventoryalert (id, alert_type, title, description, severi
 198	maintenance_due	Maintenance Due: Sym Jet 14 200	Scooter Sym Jet 14 200 (LXMXCA501RXA35871) is due for maintenance. Last maintenance was 91 days ago.	medium	new	\N	\N	f	t	2026-03-20 09:51:53.239879+00	2026-03-20 09:51:53.239905+00	\N	\N	\N	\N	\N	\N	53	1
 199	low_stock	Low Stock: Stand Stop Rubber A	Inventory level for Stand Stop Rubber A (50506-ABA-0000) is below reorder level. Current stock: 2.00, Reorder level: 2.00	medium	new	2.00	2.00	f	t	2026-03-23 07:07:33.155385+00	2026-03-23 07:07:33.155419+00	\N	\N	\N	\N	34	\N	\N	1
 200	low_stock	Low Stock: Valve Ruber Rim	Inventory level for Valve Ruber Rim (211412) is below reorder level. Current stock: 5.00, Reorder level: 5.00	medium	new	5.00	5.00	f	t	2026-03-25 07:54:36.500214+00	2026-03-25 07:54:36.500235+00	\N	\N	\N	\N	47	\N	\N	1
+201	low_stock	Low Stock: Sensor Crox 125	Inventory level for Sensor Crox 125 (44830-XDE-0002) is below reorder level. Current stock: 1.00, Reorder level: 1.00	medium	new	1.00	1.00	f	t	2026-03-31 09:27:19.328077+00	2026-03-31 09:27:19.328099+00	\N	\N	\N	\N	92	\N	\N	1
 \.
 
 
@@ -3669,7 +3672,6 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 190	211412	Valve Ruber Rim		48.00	5.00	20.00	Wheels and Tires		2025-07-02 10:08:29.460588+00	2025-07-02 10:08:29.460609+00	2
 191	90912-M9Q-0000-M1	Radial Ball BRG 6201U Xpro125		3.00	1.00	300.00	Engine & Transmission		2025-07-02 10:22:15.02114+00	2025-07-02 10:22:15.021171+00	2
 153	14781-A01-A000	VALVE COTTER		12.00	0.00	6.32	Engine & Transmission		2025-06-09 12:42:06.466422+00	2025-07-09 16:09:16.855999+00	1
-136	90202-M9Q-000	Special Nut 28 mm		5.00	0.00	29.20	Miscellaneous / Universal Parts		2025-05-06 08:29:16.499241+00	2025-07-10 17:16:56.621506+00	1
 192	E450N	TopBox GIVI		2.00	0.00	3000.00	Frame and Body		2025-07-02 10:23:35.049908+00	2025-07-02 10:23:35.049931+00	2
 193	91302-M9T-0002	O-ring 30.8mm		4.00	1.00	30.00	Engine & Transmission		2025-07-02 10:24:03.4831+00	2025-07-02 10:24:03.48312+00	2
 194	YTX12-BS	Battery		1.00	0.00	600.00	Electrical Components		2025-07-02 10:25:39.914042+00	2025-07-02 10:25:39.914064+00	2
@@ -3818,6 +3820,7 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 62	91302-M9T-0002	O-ring 30.8mm		2.00	2.00	20.00	Engine & Transmission		2025-05-06 07:28:29.595603+00	2026-03-16 08:32:26.301317+00	1
 9	23100-XMA-0000	Drive Belt		8.00	5.00	996.52	Engine & Transmission		2025-05-05 21:28:13.605717+00	2026-03-24 10:29:51.758785+00	1
 302	93903-35240	Tapping Screw 5*12		27.00	0.00	5.00	Bolts & Nuts		2026-01-27 10:24:37.974934+00	2026-03-30 09:21:13.560475+00	1
+136	90202-M9Q-0000	Special Nut 28 mm		5.00	0.00	29.20	Miscellaneous / Universal Parts		2025-05-06 08:29:16.499241+00	2026-03-31 12:49:00.422537+00	1
 52	93903-34340	Tapping Screw 4*12		25.00	5.00	3.00	Bolts & Nuts		2025-05-06 07:20:41.156391+00	2026-03-31 08:24:33.62759+00	1
 56	96001-06022-49	Bolt Xpro125 6*22		18.00	2.00	10.00	Miscellaneous / Universal Parts		2025-05-06 07:23:18.396414+00	2026-03-26 08:16:16.975007+00	1
 7	173469	Gear Oil		13.70	5.00	500.00	Lubricants & Fluids		2025-05-05 21:21:17.375925+00	2026-03-31 08:24:33.550513+00	1
@@ -8150,7 +8153,7 @@ COPY public.users_userprofile (id, phone, "position", bio, date_updated, store_i
 4				2026-03-08 16:12:42.022511+00	1	3				t	25	t	t	
 5				2026-03-08 18:53:13.970492+00	\N	5				t	25	t	t	
 1				2026-03-07 08:06:14.366224+00	\N	1				t	25	t	t	\N
-7	0837288948			2026-03-31 09:16:39.223498+00	\N	7	489 Johannes Ramakhoase Stt	Pretoria	0007	t	50	t	t	avatars/Migadde_Hussein_Madan_DV_2027.jpg
+7	0837288948			2026-03-31 12:48:14.285129+00	\N	7	489 Johannes Ramakhoase Stt	Pretoria	0007	t	50	t	t	avatars/Migadde_Hussein_Madan_DV_2027.jpg
 \.
 
 
@@ -8312,7 +8315,7 @@ SELECT pg_catalog.setval('public.django_migrations_id_seq', 59, true);
 -- Name: inventory_inventoryalert_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_inventoryalert_id_seq', 200, true);
+SELECT pg_catalog.setval('public.inventory_inventoryalert_id_seq', 201, true);
 
 
 --
@@ -10302,5 +10305,5 @@ ALTER DEFAULT PRIVILEGES FOR ROLE "among.the.pines" IN SCHEMA public GRANT ALL O
 -- PostgreSQL database dump complete
 --
 
-\unrestrict PdKM3UIaIHNHJ8nvqilOPq09520mxVXfbLIkSrWsc2A5ol2yX8gFtB0RFbvBpnE
+\unrestrict 60uLWBXe3bDRaDbWNUXOc7Dm2nMoqQCvNaliu6lufD2uNlOusdXabqAZ4UATMqk
 
