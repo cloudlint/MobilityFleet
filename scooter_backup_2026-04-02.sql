@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict 4XnEtGYKRWXOhGQNqwMuVX73Zy2xOzqSpRgpiAi10ndBGswcawzgYEzLcAd90gI
+\restrict J5fALfMgM3thCJCqdO75GXw9yIZsiAvlNV7ZxM8H0ew5rG1242r22wsJ0sTEDhJ
 
 -- Dumped from database version 16.13 (Homebrew)
 -- Dumped by pg_dump version 16.13 (Homebrew)
@@ -2183,7 +2183,7 @@ COPY public.auth_user (id, password, last_login, is_superuser, username, first_n
 3	pbkdf2_sha256$1000000$rpW7xz0ZPTzlEIe5RN57cp$1rAzp9qQRn4uMfs9Ma5wljFHq65Gy343HP8NFRyjijQ=	2026-03-08 16:12:42.013266+00	f	Trymore	Trymore			t	t	2025-05-12 13:07:03+00
 1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2026-03-07 08:06:14.35867+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
 5	pbkdf2_sha256$1000000$mTLcGYKm140nXcfsVWxdNI$at4VLhSFuPGCuliOP9yX0TDt0EysX1YkMm708or6FBc=	2026-03-08 18:53:13.880278+00	f	kato12	Kato	Amos	mmhussein13@yahoo.ca	f	t	2025-05-15 13:37:27.995041+00
-7	pbkdf2_sha256$1000000$yIZhpFlZKehDqixIHINhcx$/yGeri4tjZzlI6D3ETxaMOEhAz3DD6PS9RjiSXpnNbo=	2026-04-02 07:52:56.479875+00	t	Hussein	Hussein	Migadde	mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
+7	pbkdf2_sha256$1000000$yIZhpFlZKehDqixIHINhcx$/yGeri4tjZzlI6D3ETxaMOEhAz3DD6PS9RjiSXpnNbo=	2026-04-02 09:15:55.093798+00	t	Hussein	Hussein	Migadde	mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
 \.
 
 
@@ -3307,6 +3307,7 @@ q7cau6uw8cg31zmzd1susga25xabaof5	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225C
 kv3qawx4v0wmuw2ulojvpvz5u0v9w0vh	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1w7UaD:sA2DnIvvN6_WtpwH8uu3LBukj4BnqzzEKjQyAYtApX4	2026-03-31 08:41:21.531944+00
 31zmewphn75peebe2deeibtlro5v14sr	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1w3XO5:QqYxSrtBdeaLmuoES79latLysEmxMkfrCBgEj69s8Ks	2026-03-20 10:52:29.875692+00
 q2trpxtxua3i3zeh5rep28samh9xpfb0	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1w5fxq:3qAt-kbiMpKmd07-7wFE7rwjUvom6S2SqrLgCfzmCeY	2026-03-26 08:26:14.999965+00
+hdxr9bmfazwd9czwqpd1w9u0918v0kh2	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1w8EEd:tVbjvXEdq2QRhKv6Vvon2U9d7YP6_g7GmN2MaUULFmE	2026-04-02 09:26:07.479427+00
 zyi11ahkb6qienvrj6h1bn9fo6xlf9pf	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1w7s5v:Y6hiJx4FVya-GKEUUB7iOKXJi5fLx3I_BQae6hpGplo	2026-04-01 09:47:39.190192+00
 4v3m2m512yr5uw7nu86mih96372h8b3r	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1w4Zy2:N_aGERMj7nwbv7sLhztUJZl9Z21n_v2CbMtdl2Uqths	2026-03-23 07:49:54.096564+00
 ln7yic925ipvjanl20h81ay0dlyzgcv4	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1w5gb9:HMhdr--dDlI3BZu3o-oTrHqi_6qgypEopN7NiNRAAD4	2026-03-26 09:06:51.154673+00
@@ -3591,9 +3592,9 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 99	42601-X9A-0002	RR Cast Wheel Jet14		2.00	0.00	900.00	Wheels and Tires		2025-05-06 08:04:07.29121+00	2025-05-06 08:04:07.29123+00	1
 34	50506-ABA-0000	Stand Stop Rubber A		2.00	2.00	100.00	Frame and Body		2025-05-05 21:59:14.844519+00	2026-03-20 10:19:14.02063+00	1
 16	90309-M9Q-000-M2	Self Lock Nut		5.00	4.00	20.00	Miscellaneous / Universal Parts		2025-05-05 21:36:48.792632+00	2026-03-16 08:32:26.25821+00	1
-35	3445700	Tyre FF 100/90-14 Pireli Bikewise		2.00	2.00	1000.00	Wheels and Tires		2025-05-05 22:05:17.849359+00	2026-03-26 08:14:14.490815+00	1
 30	5052A-APA-9000	Main Stand SPG.ASSY		6.00	2.00	40.00	Frame and Body		2025-05-05 21:54:55.123104+00	2026-03-20 10:44:20.512684+00	1
 92	44830-XDE-0002	Sensor Crox 125		1.00	1.00	300.00	Electrical Components		2025-05-06 07:56:35.130861+00	2026-03-31 09:18:01.691478+00	1
+35	3445700	Tyre FF 100/90-14 Pireli Bikewise		7.00	2.00	1000.00	Wheels and Tires		2025-05-05 22:05:17.849359+00	2026-04-02 09:18:57.877731+00	1
 101	95801-08035-07	Flange Bolt M8x35		3.00	0.00	10.00	Miscellaneous / Universal Parts		2025-05-06 08:04:58.176295+00	2025-05-06 08:04:58.176315+00	1
 102	22131-M92-0003	Ramp Plate		4.00	1.00	300.00	Engine & Transmission		2025-05-06 08:05:31.71597+00	2025-05-06 08:05:31.715991+00	1
 104	81132-X8A-0000	Luggage Hook		3.00	1.00	50.00	Frame and Body		2025-05-06 08:06:31.708581+00	2025-05-06 08:06:31.708612+00	1
@@ -3832,9 +3833,9 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 83	50535-Z7C-0002	Spring stand xpro125		5.00	1.00	50.00	Frame and Body		2025-05-06 07:47:59.89807+00	2026-03-20 10:47:09.878589+00	1
 1	173460	Engine Oil		146.20	5.00	560.00	Lubricants & Fluids		2025-05-05 19:18:03.334943+00	2026-04-02 07:55:07.520703+00	1
 9	23100-XMA-0000	Drive Belt		7.00	5.00	996.52	Engine & Transmission		2025-05-05 21:28:13.605717+00	2026-04-01 09:27:14.536776+00	1
+38	2902800	Tyre RR 110/80-14” Pireli Bikewise		15.00	5.00	800.00	Wheels and Tires		2025-05-06 06:57:41.482487+00	2026-04-02 09:18:57.792814+00	1
 10	22132-ARA-0000	Slide Piece		52.00	15.00	10.00	Engine & Transmission		2025-05-05 21:28:57.890263+00	2026-04-01 09:27:14.535091+00	1
 8	17211-ADB-0000	Air Filter Element		15.00	5.00	111.80	Consumables and Accessories		2025-05-05 21:25:15.716942+00	2026-04-02 07:55:07.535614+00	1
-38	2902800	Tyre RR 110/80-14” Pireli Bikewise		5.00	5.00	800.00	Wheels and Tires		2025-05-06 06:57:41.482487+00	2026-04-01 09:23:33.003067+00	1
 7	173469	Gear Oil		27.10	5.00	500.00	Lubricants & Fluids		2025-05-05 21:21:17.375925+00	2026-04-02 07:55:07.533884+00	1
 \.
 
@@ -3901,6 +3902,7 @@ COPY public.inventory_purchase (id, invoice_number, invoice_date, due_date, stat
 64	10AIPABB2723	2026-03-06	2026-03-06	paid	1837.50	1935.24		2026-03-06 11:51:45.072906+00	2026-03-06 11:51:45.623782+00	7	1	1	1065.22	40.00	2663.04	239.67	15.00	0.00
 65	10AIPABB4075	2026-03-24	2026-03-24	paid	8110.40	8208.14		2026-03-24 10:25:28.574276+00	2026-03-24 10:25:29.681358+00	7	1	1	4701.68	40.00	11754.21	1057.88	15.00	0.00
 67	INV-142046	2026-03-26	2026-03-26	paid	1655.99	1656.00		2026-03-26 08:53:50.350416+00	2026-03-26 09:00:43.127097+00	7	2	1	0.00	0.00	1190.00	215.99	18.15	250.00
+68	10AIPABB4804	2026-04-02	2026-04-02	paid	15998.49	15998.49		2026-04-02 09:18:57.70501+00	2026-04-02 09:19:59.980815+00	7	1	1	5962.17	30.00	19873.90	2086.76	15.00	0.00
 \.
 
 
@@ -4055,6 +4057,8 @@ COPY public.inventory_purchaseitem (id, description, quantity, unit_price, part_
 160	Bolt Xpro125 6*22 - 96001-06022-49	18.00	39.63	56	65	\N	1
 161	Flange Bolt 6*12 - 95701-06012-07	5.00	1.90	61	65	\N	1
 162	Brake Pads FF - FDB2190EF	10.00	119.00	15	67	\N	1
+163	Tyre RR 110/80-14” Pireli Bikewise - 2902800	10.00	1365.22	38	68	\N	1
+164	Tyre FF 100/90-14 Pireli Bikewise - 3445700	5.00	1244.34	35	68	\N	1
 \.
 
 
@@ -8211,7 +8215,7 @@ COPY public.users_userprofile (id, phone, "position", bio, date_updated, store_i
 4				2026-03-08 16:12:42.022511+00	1	3				t	25	t	t	
 5				2026-03-08 18:53:13.970492+00	\N	5				t	25	t	t	
 1				2026-03-07 08:06:14.366224+00	\N	1				t	25	t	t	\N
-7	0837288948			2026-04-02 07:52:56.611675+00	\N	7	489 Johannes Ramakhoase Stt	Pretoria	0007	t	50	t	t	avatars/Migadde_Hussein_Madan_DV_2027.jpg
+7	0837288948			2026-04-02 09:15:55.101539+00	\N	7	489 Johannes Ramakhoase Stt	Pretoria	0007	t	50	t	t	avatars/Migadde_Hussein_Madan_DV_2027.jpg
 \.
 
 
@@ -8387,14 +8391,14 @@ SELECT pg_catalog.setval('public.inventory_parts_id_seq', 310, true);
 -- Name: inventory_purchase_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_purchase_id_seq', 67, true);
+SELECT pg_catalog.setval('public.inventory_purchase_id_seq', 68, true);
 
 
 --
 -- Name: inventory_purchaseitem_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_purchaseitem_id_seq', 162, true);
+SELECT pg_catalog.setval('public.inventory_purchaseitem_id_seq', 164, true);
 
 
 --
@@ -10363,5 +10367,5 @@ ALTER DEFAULT PRIVILEGES FOR ROLE "among.the.pines" IN SCHEMA public GRANT ALL O
 -- PostgreSQL database dump complete
 --
 
-\unrestrict 4XnEtGYKRWXOhGQNqwMuVX73Zy2xOzqSpRgpiAi10ndBGswcawzgYEzLcAd90gI
+\unrestrict J5fALfMgM3thCJCqdO75GXw9yIZsiAvlNV7ZxM8H0ew5rG1242r22wsJ0sTEDhJ
 
