@@ -9,6 +9,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 from landing import views as landing_views
 from users import views as users_views
+from landing import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -24,6 +25,7 @@ urlpatterns = [
     path('password-reset-confirm/<uidb64>/<token>/', landing_views.password_reset_confirm, name='password_reset_confirm'),
     path('profile/', users_views.staff_profile, name='profile'),
     path('settings/', users_views.staff_settings, name='settings'),
+    path('activate/<uidb64>/<token>/', views.activate, name='activate'),
 ]
 
 # Serve static files in development

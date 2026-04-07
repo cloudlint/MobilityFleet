@@ -1201,9 +1201,9 @@ def export_purchase_quote(request):
         ws.title = "Purchase Quote"
         
         # Define styles
-        header_font = Font(name='Arial', size=12, bold=True)
-        title_font = Font(name='Arial', size=14, bold=True)
-        normal_font = Font(name='Arial', size=11)
+        header_font = Font(name='Arial', size=18, bold=True)
+        title_font = Font(name='Arial', size=18, bold=True)
+        normal_font = Font(name='Arial', size=18)
         
         # Define borders
         thin_border = Border(
@@ -1217,22 +1217,26 @@ def export_purchase_quote(request):
         header_fill = PatternFill(start_color='E0E0E0', end_color='E0E0E0', fill_type='solid')
         
         # Write title and quote information
-        ws['A1'] = 'PURCHASE QUOTE'
+        ws['A1'] = 'PURCHASE ORDER'
         ws['A1'].font = title_font
         ws.merge_cells('A1:D1')
         ws['A1'].alignment = Alignment(horizontal='center')
         
-        ws['A3'] = f'Quote Reference:'
+        ws['A3'] = f'Order Reference:'
         ws['B3'] = quote_ref
         ws['A3'].font = header_font
+        ws['B3'].font = header_font
         
         ws['A4'] = f'Date:'
         ws['B4'] = quote_date
         ws['A4'].font = header_font
+        ws['B4'].font = header_font
+        
         
         ws['A5'] = f'Store:'
         ws['B5'] = store_name
         ws['A5'].font = header_font
+        ws['B5'].font = header_font
         
         # Write column headers (row 7)
         headers = ['Part No.', 'Item Name', 'Quantity', 'Category']
@@ -1280,11 +1284,25 @@ def export_purchase_quote(request):
         # Auto-adjust columns width for better readability
         for col_num, _ in enumerate(headers, 1):
             col_letter = get_column_letter(col_num)
-            # Set a minimum column width, then adjust based on content
-            ws.column_dimensions[col_letter].width = 15
+            # Find the maximum length in this column
+            max_length = len(header)  # Start with header length
             
-        # Set specific column widths
-        ws.column_dimensions['B'].width = 40  # Item Name column wider
+            # Check all rows in this column
+            for row in range(8, row_num):  # rows 8 to last data row
+                cell_value = ws.cell(row=row, column=col_num).value
+                if cell_value:
+                    max_length = max(max_length, len(str(cell_value)))
+
+            # Add a little extra padding (2 characters)
+            adjusted_width = min(max_length + 2, 50)  # Cap at 50 to avoid overly wide columns
+            ws.column_dimensions[col_letter].width = adjusted_width
+
+        # Set specific wider width for Item Name column (optional, since auto-fit will handle it)
+        # But if you want a minimum width:
+        ws.column_dimensions['A'].width = max(ws.column_dimensions['A'].width, 30)
+        ws.column_dimensions['B'].width = max(ws.column_dimensions['B'].width, 30)
+        ws.column_dimensions['C'].width = max(ws.column_dimensions['C'].width, 13)
+        ws.column_dimensions['D'].width = max(ws.column_dimensions['D'].width, 43)
             
         # Create response with Excel data
         buffer = BytesIO()

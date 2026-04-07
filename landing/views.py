@@ -1,3 +1,4 @@
+import ssl
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth import login, authenticate, logout
@@ -6,6 +7,17 @@ from django.contrib import messages
 from django.core.paginator import Paginator
 from .models import Category, Brand, Product, HomepageVideo, RentalCategory, RestorationGallery
 from cart.models import Order
+from django.conf import settings
+
+# Verification email
+from django.contrib.sites.shortcuts import get_current_site
+from django.contrib.auth.tokens import default_token_generator
+from django.core.mail import EmailMessage
+from django.template.loader import render_to_string
+from django.utils.http import urlsafe_base64_encode, urlsafe_base64_decode
+from django.utils.encoding import force_bytes, force_str
+from django.utils.html import strip_tags
+from datetime import datetime
 
 # The following sample data functions will eventually be removed once we have real data in database
 # Kept here temporarily for backwards compatibility
@@ -403,7 +415,7 @@ def register(request):
             return redirect('dashboard:index')
         else:
             return redirect('landing:account')
-    
+        
     if request.method == 'POST':
         username = request.POST.get('username')
         email = request.POST.get('email')
@@ -433,23 +445,50 @@ def register(request):
         
         # Create the user - this will be a regular user (customer), not staff
         try:
+            # Create user with is_active=False until email verification
             user = User.objects.create_user(
                 username=username,
                 email=email,
                 password=password1,
                 first_name=first_name,
                 last_name=last_name,
-                is_staff=False  # Ensure this user is NOT staff
+                is_staff=False,  # Ensure this user is NOT staff
+                is_active=False  # CRITICAL: User must verify email before logging in
             )
             
-            # Create customer profile if there's a customer model
-            # This would be expanded in a real app
+            # USER ACTIVATION - Send verification email
+            current_site = get_current_site(request)
+            mail_subject = 'Please activate your account'
             
-            # Log the user in after registration
-            login(request, user)
-            messages.success(request, f"Welcome to ScootDR, {user.first_name}! Your account has been created.")
-            # Since registration is for customers only, they go to account page
-            return redirect('landing:account')
+            # Prepare context for email template
+            context = {
+                'user': user,
+                'domain': current_site.domain,
+                'site_name': current_site.name,
+                'uid': urlsafe_base64_encode(force_bytes(user.pk)),
+                'token': default_token_generator.make_token(user),
+                'protocol': 'https' if request.is_secure() else 'http',
+                'expire_days': 3, 
+                'current_year': datetime.now().year,
+            }
+            
+            # Render HTML email
+            html_message = render_to_string('landing/email/account_verification_email.html', context)
+            
+            # Create and send email with SSL context
+            to_email = email
+            send_email = EmailMessage(
+                mail_subject,
+                html_message,
+                from_email=settings.DEFAULT_FROM_EMAIL,
+                to=[to_email]
+            )
+            send_email.content_subtype = "html"
+            send_email.send()  # Send the email
+            
+            # Success message - DON'T log the user in here
+            messages.success(request, f"Thank you for registering, {user.first_name}! Please check your email to verify your account.")
+            return redirect('landing:login')  # Redirect to login page
             
         except Exception as e:
             messages.error(request, f"Error creating account: {str(e)}")
@@ -457,6 +496,28 @@ def register(request):
     
     # If not POST, redirect to login page with register tab active
     return redirect('landing:account')
+
+def activate(request, uidb64, token):
+    """Activate user account after email verification"""
+    try:
+        uid = urlsafe_base64_decode(uidb64).decode()
+        user = Account._default_manager.get(pk-uid)
+    except (TypeError, ValueError, OverflowError, Account.DoesNotExist):
+        user = None
+    
+    if user is not None and default_token_generator.check_token(user, token):
+        # Activate the user
+        user.is_active = True
+        user.save()
+        
+        # Log the user in
+        #login(request, user)
+        
+        messages.success(request, f"Welcome to ScootDR, {user.first_name}! Your email has been verified and your account is now active.")
+        return redirect('landing:account')
+    else:
+        messages.error(request, "The activation link is invalid or has expired. Please register again.")
+        return redirect('landing:account')
 
 def logout_view(request):
     """Handle user logout"""

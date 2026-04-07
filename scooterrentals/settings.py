@@ -3,6 +3,8 @@ Django settings for scooterrentals project.
 """
 
 import os
+import ssl
+import certifi
 from pathlib import Path
 from dotenv import load_dotenv
 
@@ -145,13 +147,19 @@ SESSION_COOKIE_AGE = 300  # 5 minutes in seconds
 # Reset expiry time on every request
 SESSION_SAVE_EVERY_REQUEST = True
 
-# Email settings
-EMAIL_BACKEND = os.getenv('EMAIL_BACKEND', 'django.core.mail.backends.console.EmailBackend')
+# SMTP Email settings
+EMAIL_BACKEND = os.getenv('EMAIL_BACKEND', 'django.core.mail.backends.smtp.EmailBackend')  # Changed from console to smtp
 EMAIL_HOST = os.getenv('EMAIL_HOST', 'smtp.gmail.com')
 EMAIL_PORT = int(os.getenv('EMAIL_PORT', 587))
 EMAIL_USE_TLS = os.getenv('EMAIL_USE_TLS', 'True') == 'True'
-EMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER', '')
-EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD', '')
+EMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER')
+EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')
 DEFAULT_FROM_EMAIL = os.getenv('DEFAULT_FROM_EMAIL', 'noreply@scooterrentals.com')
 
+# Optional but recommended
+EMAIL_USE_SSL = False  # Using TLS on port 587
+EMAIL_TIMEOUT = 120  # Timeout in seconds
+
+# Fix SSL certificate issue on Mac
+ssl._create_default_https_context = ssl._create_unverified_context
 
