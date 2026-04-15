@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict M1kDOaHHfIqpEhLYsDiSxLyiW88pMaGK2bT01rAp3lCGGOJLCHAi8eY8LIrXdJY
+\restrict aiyiLJUORCBIhvzbpOHZcffccBHtkBYXxGOqh2wGQMepYbd6k1XOiwu7MW3IGFt
 
 -- Dumped from database version 16.13 (Homebrew)
 -- Dumped by pg_dump version 16.13 (Homebrew)
@@ -2182,7 +2182,7 @@ COPY public.auth_user (id, password, last_login, is_superuser, username, first_n
 6	pbkdf2_sha256$1000000$gW0XaR5oueAWIaUbkUJmuu$kM9m2ZVjqvwD9PcDONNFqkBHovzdnimO8aXLpNkFuQA=	\N	f	Adrich				f	t	2025-06-27 07:30:01.331008+00
 3	pbkdf2_sha256$1000000$rpW7xz0ZPTzlEIe5RN57cp$1rAzp9qQRn4uMfs9Ma5wljFHq65Gy343HP8NFRyjijQ=	2026-03-08 16:12:42.013266+00	f	Trymore	Trymore			t	t	2025-05-12 13:07:03+00
 1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2026-03-07 08:06:14.35867+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
-7	pbkdf2_sha256$1000000$yIZhpFlZKehDqixIHINhcx$/yGeri4tjZzlI6D3ETxaMOEhAz3DD6PS9RjiSXpnNbo=	2026-04-15 08:49:09.25422+00	t	Hussein	Hussein	Migadde	mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
+7	pbkdf2_sha256$1000000$yIZhpFlZKehDqixIHINhcx$/yGeri4tjZzlI6D3ETxaMOEhAz3DD6PS9RjiSXpnNbo=	2026-04-15 10:47:30.770862+00	t	Hussein	Hussein	Migadde	mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
 \.
 
 
@@ -3360,6 +3360,7 @@ yixb7qet07e2xdhu5q4l5whayfxmluc2	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225C
 11h0j2zfzs817geazcso9xm7ismwu4wp	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1w8vqw:JKdTBw8Mmz72AA5nCKUHYDY_IBMdGC8gMoFU6kj6ryA	2026-04-04 08:00:34.977928+00
 whjnib8plir1e7ufuojzd00g6cm6f1qo	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1w8fnM:oB0BUYEPCZCDX_GefTW3uHS92NAmaLzX7MXkPg-zzw8	2026-04-03 14:51:48.53463+00
 xkicz2teb847rp6okgxqhwpjy5mw5i90	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1w8age:UaGt1B5mbqaZw9Uizjo-l-coupL6LG7HzJUdq-Hyjbw	2026-04-03 09:24:32.604055+00
+28ds6bvcfo4sbfxr1g37zcg7w597duld	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1wCxsL:UqL5Amc5Gz_YjQYaGbwNAM4VzWqjm1Rar-oj5JaGhJw	2026-04-15 10:58:41.964474+00
 ooxbgugwt0gzx8m5hoydbhov0du83hb3	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1w23vb:i_Th-H8iVuY7zg6Lcuwlq-Hspqokv03Bq47Do6BA3G8	2026-03-16 09:12:59.507012+00
 xwnihv0x5ripozubysaquf02w9txasnz	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1w4z59:cZdsNkFeulRhOjA7ZNvIc2Ih34RUHCqBR7CWw_B2LiY	2026-03-24 10:38:55.601439+00
 vwde1goegfchvh8jr4gsyekagle3c5wk	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1w8wZ2:GBN1wyyvxiUwZhHgcGNhubK8B8kF8g8OjfGoKsgJb74	2026-04-04 08:46:08.004969+00
@@ -3876,7 +3877,7 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 52	93903-34340	Tapping Screw 4*12		24.00	5.00	3.00	Bolts & Nuts		2025-05-06 07:20:41.156391+00	2026-04-13 09:02:10.702176+00	1
 145	12391-F8A-0001	Head Cover Packing Jet14		1.00	0.00	120.00	Engine & Transmission		2025-05-06 08:33:10.560434+00	2026-04-01 13:26:14.539242+00	1
 83	50535-Z7C-0002	Spring stand xpro125		5.00	1.00	50.00	Frame and Body		2025-05-06 07:47:59.89807+00	2026-03-20 10:47:09.878589+00	1
-9	23100-XMA-0001	Drive Belt		2.00	5.00	996.52	Engine & Transmission		2025-05-05 21:28:13.605717+00	2026-04-13 09:02:10.700152+00	1
+14	43105-ARB-000-A-9	Brake Pads RR		19.00	5.00	140.00	Brakes		2025-05-05 21:33:50.092617+00	2026-04-15 10:50:02.692641+00	1
 7	173469	Gear Oil		25.60	5.00	500.00	Lubricants & Fluids		2025-05-05 21:21:17.375925+00	2026-04-13 09:02:10.692562+00	1
 38	2902800	Tyre RR 110/80-14” Pireli Bikewise		13.00	5.00	800.00	Wheels and Tires		2025-05-06 06:57:41.482487+00	2026-04-09 13:14:48.982251+00	1
 8	17211-ADB-0000	Air Filter Element		10.00	5.00	111.80	Consumables and Accessories		2025-05-05 21:25:15.716942+00	2026-04-13 09:02:10.694507+00	1
@@ -3884,7 +3885,7 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 47	211412	Valve Ruber Rim		100.00	5.00	10.00	Wheels and Tires		2025-05-06 07:15:31.536846+00	2026-04-09 13:14:48.980247+00	1
 20	43121-XJA-0001	Brake Disk RR		2.00	2.00	421.21	Brakes		2025-05-05 21:43:23.364712+00	2026-04-09 13:14:49.048833+00	1
 103	2211A-ARA-0002	Face-Drive Xpro125		2.00	1.00	120.00	Engine & Transmission		2025-05-06 08:06:05.065674+00	2026-04-13 09:02:10.709606+00	1
-14	43105-ARB-000-A-9	Brake Pads RR		9.00	5.00	140.00	Brakes		2025-05-05 21:33:50.092617+00	2026-04-14 10:13:18.14178+00	1
+9	23100-XMA-0001	Drive Belt		12.00	5.00	996.52	Engine & Transmission		2025-05-05 21:28:13.605717+00	2026-04-15 10:50:02.420227+00	1
 311	211412	Valve Ruber Rim		0.00	5.00	30.00	Wheels and Tires		2026-04-07 07:36:01.095745+00	2026-04-07 07:36:57.137737+00	5
 \.
 
@@ -3952,6 +3953,7 @@ COPY public.inventory_purchase (id, invoice_number, invoice_date, due_date, stat
 65	10AIPABB4075	2026-03-24	2026-03-24	paid	8110.40	8208.14		2026-03-24 10:25:28.574276+00	2026-03-24 10:25:29.681358+00	7	1	1	4701.68	40.00	11754.21	1057.88	15.00	0.00
 67	INV-142046	2026-03-26	2026-03-26	paid	1655.99	1656.00		2026-03-26 08:53:50.350416+00	2026-03-26 09:00:43.127097+00	7	2	1	0.00	0.00	1190.00	215.99	18.15	250.00
 68	10AIPABB4804	2026-04-02	2026-04-02	paid	15998.49	15998.49		2026-04-02 09:18:57.70501+00	2026-04-02 09:19:59.980815+00	7	1	1	5962.17	30.00	19873.90	2086.76	15.00	0.00
+69	10AIPABB5770	2026-04-15	2026-04-15	paid	7928.09	7940.84		2026-04-15 10:50:02.172304+00	2026-04-15 10:51:17.739026+00	7	1	1	4546.72	40.00	11366.80	1023.01	15.00	85.00
 \.
 
 
@@ -4108,6 +4110,8 @@ COPY public.inventory_purchaseitem (id, description, quantity, unit_price, part_
 162	Brake Pads FF - FDB2190EF	10.00	119.00	15	67	\N	1
 163	Tyre RR 110/80-14” Pireli Bikewise - 2902800	10.00	1365.22	38	68	\N	1
 164	Tyre FF 100/90-14 Pireli Bikewise - 3445700	5.00	1244.34	35	68	\N	1
+165	Drive Belt - 23100-XMA-0001	10.00	996.52	9	69	\N	1
+166	Brake Pads RR - 43105-ARB-000-A-9	10.00	140.16	14	69	\N	1
 \.
 
 
@@ -8415,7 +8419,7 @@ COPY public.users_userprofile (id, phone, "position", bio, date_updated, store_i
 6				2025-06-27 07:30:02.18664+00	\N	6				t	25	t	t	\N
 4				2026-03-08 16:12:42.022511+00	1	3				t	25	t	t	
 1				2026-03-07 08:06:14.366224+00	\N	1				t	25	t	t	\N
-7	0837288948			2026-04-15 08:49:09.287587+00	\N	7	489 Johannes Ramakhoase Stt	Pretoria	0007	t	50	t	t	avatars/Migadde_Hussein_Madan_DV_2027.jpg
+7	0837288948			2026-04-15 10:47:30.876782+00	\N	7	489 Johannes Ramakhoase Stt	Pretoria	0007	t	50	t	t	avatars/Migadde_Hussein_Madan_DV_2027.jpg
 \.
 
 
@@ -8591,14 +8595,14 @@ SELECT pg_catalog.setval('public.inventory_parts_id_seq', 311, true);
 -- Name: inventory_purchase_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_purchase_id_seq', 68, true);
+SELECT pg_catalog.setval('public.inventory_purchase_id_seq', 69, true);
 
 
 --
 -- Name: inventory_purchaseitem_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_purchaseitem_id_seq', 164, true);
+SELECT pg_catalog.setval('public.inventory_purchaseitem_id_seq', 166, true);
 
 
 --
@@ -10567,5 +10571,5 @@ ALTER DEFAULT PRIVILEGES FOR ROLE "among.the.pines" IN SCHEMA public GRANT ALL O
 -- PostgreSQL database dump complete
 --
 
-\unrestrict M1kDOaHHfIqpEhLYsDiSxLyiW88pMaGK2bT01rAp3lCGGOJLCHAi8eY8LIrXdJY
+\unrestrict aiyiLJUORCBIhvzbpOHZcffccBHtkBYXxGOqh2wGQMepYbd6k1XOiwu7MW3IGFt
 
