@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict izBsZIXiwfr0HRm7ilgcL2I6J4Hp3PmVUZ8cwsssvrMkCWwtJoB5PV9F9yMsUeX
+\restrict ly3f4Yljn9IfUzyIkxpVid60AWlR8Jg3fxS8tBUDseTHoddLKiWyonALRWvY0Un
 
 -- Dumped from database version 16.13 (Homebrew)
 -- Dumped by pg_dump version 16.13 (Homebrew)
@@ -2182,7 +2182,7 @@ COPY public.auth_user (id, password, last_login, is_superuser, username, first_n
 6	pbkdf2_sha256$1000000$gW0XaR5oueAWIaUbkUJmuu$kM9m2ZVjqvwD9PcDONNFqkBHovzdnimO8aXLpNkFuQA=	\N	f	Adrich				f	t	2025-06-27 07:30:01.331008+00
 3	pbkdf2_sha256$1000000$rpW7xz0ZPTzlEIe5RN57cp$1rAzp9qQRn4uMfs9Ma5wljFHq65Gy343HP8NFRyjijQ=	2026-03-08 16:12:42.013266+00	f	Trymore	Trymore			t	t	2025-05-12 13:07:03+00
 1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2026-03-07 08:06:14.35867+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
-7	pbkdf2_sha256$1000000$yIZhpFlZKehDqixIHINhcx$/yGeri4tjZzlI6D3ETxaMOEhAz3DD6PS9RjiSXpnNbo=	2026-05-08 06:57:44.707144+00	t	Hussein	Hussein	Migadde	mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
+7	pbkdf2_sha256$1000000$yIZhpFlZKehDqixIHINhcx$/yGeri4tjZzlI6D3ETxaMOEhAz3DD6PS9RjiSXpnNbo=	2026-05-11 07:32:53.970065+00	t	Hussein	Hussein	Migadde	mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
 \.
 
 
@@ -3333,6 +3333,7 @@ msizwtkffox63amb2h2mov2zijlruasq	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225C
 b5fhd5immk3s3a3dppau7phrvo02j99m	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1w8hnD:H1pcKub__gcQqg8EldJ-FaFyQQ_TU5X9vjz4qbxtfGw	2026-04-03 16:59:47.905437+00
 xouezl1huxyrwhkuxi64n26dbpkxrj56	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1wDJZz:Id2Qy_e3u0TW9SUBKGNMsRMwd7mQzIGqPlNv90tT7oM	2026-04-16 10:09:11.041229+00
 f8ocgj4d3v8646r8tl0h9t0mf74ozpw4	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1wDH30:LySX0J4h4pcDHYJ6Mhd7TE9BM5wsSmi31GphbJbLTj4	2026-04-16 07:26:58.927351+00
+dkpxap9w5zhqn8aut2f0obt25cdh0ssd	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1wMLU2:IPg-Ofj_fPI8aS65gu3aV12AKqjoVKP6ZTVVYVRRubg	2026-05-11 08:00:22.875657+00
 kv3qawx4v0wmuw2ulojvpvz5u0v9w0vh	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1w7UaD:sA2DnIvvN6_WtpwH8uu3LBukj4BnqzzEKjQyAYtApX4	2026-03-31 08:41:21.531944+00
 8z9kxg9s56dfyrvyo4ach3z2j2qp74ho	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1wA0zh:IOzC7yOk_9lcx7JesWTZjPfA9gfrnuTF_XxJD9GWuyA	2026-04-07 07:42:05.331649+00
 31zmewphn75peebe2deeibtlro5v14sr	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1w3XO5:QqYxSrtBdeaLmuoES79latLysEmxMkfrCBgEj69s8Ks	2026-03-20 10:52:29.875692+00
@@ -3661,7 +3662,6 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 53	90754-M9Q-0000-M1	Seal-dust Crox125		5.00	2.00	50.00	Engine & Transmission		2025-05-06 07:21:13.123139+00	2026-02-11 08:38:39.989844+00	1
 45	12361-M9Q-0001	CAP-OIL XPRO125		4.00	2.00	70.00	Engine & Transmission		2025-05-06 07:13:28.577429+00	2026-02-11 08:38:39.993149+00	1
 54	90912-M9Q-0000-M1	Radial Ball BRG 6201U Xpro125		6.00	2.00	50.00	Engine & Transmission		2025-05-06 07:22:00.143143+00	2026-02-11 08:38:39.996583+00	1
-97	14523-Z8G-0000	Gasket-tens Xpro125		1.00	0.00	30.00	Engine & Transmission		2025-05-06 08:02:58.489471+00	2025-05-06 08:02:58.489493+00	1
 96	18000-X9C-0002-K	Exhaust Muffler Assy		0.00	1.00	300.00	Frame and Body		2025-05-06 07:58:48.344813+00	2026-02-26 13:46:27.301025+00	1
 98	44601-X8A-0001	Fr Wheel Jet 14		2.00	0.00	900.00	Wheels and Tires		2025-05-06 08:03:44.128557+00	2025-05-06 08:03:44.128578+00	1
 99	42601-X9A-0002	RR Cast Wheel Jet14		2.00	0.00	900.00	Wheels and Tires		2025-05-06 08:04:07.29121+00	2025-05-06 08:04:07.29123+00	1
@@ -3672,6 +3672,7 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 35	3445700	Tyre FF 100/90-14 Pireli Bikewise		5.00	2.00	1000.00	Wheels and Tires		2025-05-05 22:05:17.849359+00	2026-04-23 07:57:57.896444+00	1
 44	3585A-35A-A000	Start MAG SW SET JET 14		3.00	1.00	300.00	Electrical Components		2025-05-06 07:12:36.605176+00	2026-04-29 15:43:55.46488+00	1
 66	18317-XPA-0001-K	Exhaust Protector Jet14		2.00	0.00	300.00	Frame and Body		2025-05-06 07:30:48.985752+00	2026-05-07 07:28:38.097381+00	1
+97	14523-Z8G-0000	Gasket-tens Xpro125		2.00	0.00	30.00	Engine & Transmission		2025-05-06 08:02:58.489471+00	2026-05-11 07:51:39.084165+00	1
 101	95801-08035-07	Flange Bolt M8x35		3.00	0.00	10.00	Miscellaneous / Universal Parts		2025-05-06 08:04:58.176295+00	2025-05-06 08:04:58.176315+00	1
 102	22131-M92-0003	Ramp Plate		4.00	1.00	300.00	Engine & Transmission		2025-05-06 08:05:31.71597+00	2025-05-06 08:05:31.715991+00	1
 104	81132-X8A-0000	Luggage Hook		3.00	1.00	50.00	Frame and Body		2025-05-06 08:06:31.708581+00	2025-05-06 08:06:31.708612+00	1
@@ -3854,12 +3855,9 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 12	22121-M9B-0000	Weight Roller		73.00	18.00	120.00	Engine & Transmission		2025-05-05 21:31:05.995356+00	2026-05-06 08:24:51.462428+00	1
 254	C0778	Tyre Plug		13.00	5.00	20.00	Wheels & Tyres		2025-09-23 11:27:21.394649+00	2026-04-30 06:45:15.310845+00	1
 247	17211-LEA-000	Air Cleaner Element		0.00	0.00	2500.00	Air/C Assy		2025-08-18 10:19:34.522727+00	2026-05-06 08:34:49.440798+00	1
-287	13101-XJA-0001	Piston Jet 14		0.00	0.00	185.42	Engine & Transmission		2025-11-12 13:10:45.068762+00	2025-11-17 15:56:01.111367+00	1
 155	96700-08020-00	Socket Bolt 8*20		9.00	1.00	14.70	Frame and Body		2025-06-19 12:42:37.82335+00	2025-10-29 17:58:45.874139+00	1
 39	328-1108014144	Tyre RR 110/80-14” Vee Rubber Motorsport		0.00	0.00	700.00	Wheels and Tires		2025-05-06 06:58:05.9813+00	2025-11-06 12:00:14.825884+00	1
 63	SR7055	Carrier Topbox Sym Jet 14		11.00	0.00	2000.00	Miscellaneous / Universal Parts		2025-05-06 07:29:07.250843+00	2025-11-17 07:15:42.021319+00	1
-286	13010-VVC-0000	Piston Ring Set Jet14		0.00	0.00	248.93	Engine & Transmission		2025-11-12 13:10:01.540807+00	2025-11-17 15:56:01.114459+00	1
-288	13111-M4Q-0001	Piston Pin Symphony		0.00	0.00	29.42	Engine & Transmission		2025-11-12 13:11:33.6768+00	2025-11-17 15:56:01.124924+00	1
 289	94601-15000	Piston Pin Clip		0.00	0.00	1.90	Engine & Transmission		2025-11-12 13:12:38.126684+00	2025-11-17 15:56:01.148199+00	1
 290	12100-XJA-0101	Cylinder Jet 14		0.00	0.00	704.45	Engine & Transmission		2025-11-12 13:13:33.72002+00	2025-11-17 15:56:01.150232+00	1
 86	14711-F8A-0000	Intake Valve Jet14		2.00	1.00	60.00	Engine & Transmission		2025-05-06 07:50:56.11066+00	2025-11-17 15:56:01.065143+00	1
@@ -3893,6 +3891,7 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 11	CR7HSA	Spark Plug		9.00	5.00	80.00	Engine & Transmission		2025-05-05 21:30:07.226667+00	2026-05-04 08:28:28.970031+00	1
 7	173469	Gear Oil		25.00	5.00	500.00	Lubricants & Fluids		2025-05-05 21:21:17.375925+00	2026-05-06 08:34:26.651443+00	1
 29	50500-X8A-0002	Main Stand COMP		3.00	1.00	561.36	Frame and Body		2025-05-05 21:54:23.332383+00	2026-03-24 10:25:29.646872+00	1
+287	13101-XJA-0001	Piston Jet 14		1.00	0.00	185.42	Engine & Transmission		2025-11-12 13:10:45.068762+00	2026-05-11 07:51:39.089401+00	1
 145	12391-F8A-0001	Head Cover Packing Jet14		4.00	0.00	120.00	Engine & Transmission		2025-05-06 08:33:10.560434+00	2026-04-23 14:20:14.51422+00	1
 10	22132-ARA-0000	Slide Piece		33.00	15.00	10.00	Engine & Transmission		2025-05-05 21:28:57.890263+00	2026-05-06 08:24:51.612569+00	1
 136	90202-M9Q-0000	Special Nut 28 mm		5.00	0.00	29.20	Miscellaneous / Universal Parts		2025-05-06 08:29:16.499241+00	2026-03-31 12:49:00.422537+00	1
@@ -3914,7 +3913,17 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 103	2211A-ARA-0002	Face-Drive Xpro125		2.00	1.00	120.00	Engine & Transmission		2025-05-06 08:06:05.065674+00	2026-04-13 09:02:10.709606+00	1
 56	96001-06022-49	Bolt Xpro125 6*22		20.00	2.00	10.00	Miscellaneous / Universal Parts		2025-05-06 07:23:18.396414+00	2026-05-06 08:27:23.976833+00	1
 8	17211-ADB-0000	Air Filter Element		19.00	5.00	111.80	Consumables and Accessories		2025-05-05 21:25:15.716942+00	2026-05-06 08:34:26.656606+00	1
+288	13111-M4Q-0001	Piston Pin Symphony		1.00	0.00	29.42	Engine & Transmission		2025-11-12 13:11:33.6768+00	2026-05-11 07:51:39.094506+00	1
+286	13010-VVC-0000	Piston Ring Set Jet14		1.00	0.00	248.93	Engine & Transmission		2025-11-12 13:10:01.540807+00	2026-05-11 07:52:37.793063+00	1
 311	211412	Valve Ruber Rim		0.00	5.00	30.00	Wheels and Tires		2026-04-07 07:36:01.095745+00	2026-04-07 07:36:57.137737+00	5
+313	13000-XJA-0002	Crank Shaft Comp Jet14		0.00	0.00	2351.83	Engine & Transmission		2026-05-11 07:42:17.576555+00	2026-05-11 07:51:39.072205+00	5
+312	13000-XJA-0002	Crank Shaft Comp Jet14		1.00	0.00	2351.83	Engine & Transmission		2026-05-11 07:37:20.015855+00	2026-05-11 07:51:39.076217+00	1
+314	14523-Z8G-0000	Tensioner lifter gasket		0.00	0.00	8.19	Engine & Transmission		2026-05-11 07:43:30.095293+00	2026-05-11 07:51:39.078338+00	5
+315	13101-XJA-0001	Piston Jet14		0.00	0.00	185.42	Engine & Transmission		2026-05-11 07:44:38.844732+00	2026-05-11 07:51:39.086163+00	5
+316	13111-M4Q-0001	Piston Pin		0.00	0.00	29.42	Engine & Transmission		2026-05-11 07:45:45.965151+00	2026-05-11 07:51:39.09104+00	5
+317	12100-XJA-0100	Cylinder Jet14		0.00	0.00	704.45	Engine & Transmission		2026-05-11 07:47:48.642995+00	2026-05-11 07:51:39.096103+00	5
+319	12100-XJA-0100	Cylinder Jet14		1.00	0.00	704.45	Engine & Transmission		2026-05-11 07:51:39.100077+00	2026-05-11 07:51:39.113635+00	1
+318	1310-VVC-0000	Piston Rings Jet14		0.00	0.00	248.93	Engine & Transmission		2026-05-11 07:49:08.430455+00	2026-05-11 07:51:39.115749+00	5
 \.
 
 
@@ -4319,6 +4328,7 @@ COPY public.inventory_stocktransfer (id, transfer_number, transfer_date, status,
 28	ST20260112001	2026-01-12	in_transit		2026-01-12 09:42:08.011055+00	2026-01-12 09:42:08.011079+00	7	5	1
 30	ST20260226001	2026-02-26	in_transit		2026-02-26 13:46:26.990816+00	2026-02-26 13:46:26.990851+00	7	5	1
 31	ST20260407001	2026-04-07	completed		2026-04-07 07:36:57.043807+00	2026-04-07 07:36:57.04383+00	7	1	5
+32	ST20260511001	2026-05-11	completed		2026-05-11 07:51:38.796672+00	2026-05-11 07:51:38.796707+00	7	1	5
 \.
 
 
@@ -4386,6 +4396,12 @@ COPY public.inventory_stocktransferitem (id, quantity, date_added, part_id, stoc
 58	5.00	2026-01-12 09:42:08.219059+00	9	28
 61	2.00	2026-02-26 13:46:27.243943+00	96	30
 62	100.00	2026-04-07 07:36:57.127272+00	311	31
+63	1.00	2026-05-11 07:51:39.010971+00	313	32
+64	1.00	2026-05-11 07:51:39.063042+00	314	32
+65	1.00	2026-05-11 07:51:39.065539+00	315	32
+66	1.00	2026-05-11 07:51:39.06724+00	316	32
+67	1.00	2026-05-11 07:51:39.069057+00	317	32
+68	1.00	2026-05-11 07:51:39.070721+00	318	32
 \.
 
 
@@ -8773,7 +8789,7 @@ COPY public.users_userprofile (id, phone, "position", bio, date_updated, store_i
 6				2025-06-27 07:30:02.18664+00	\N	6				t	25	t	t	\N
 4				2026-03-08 16:12:42.022511+00	1	3				t	25	t	t	
 1				2026-03-07 08:06:14.366224+00	\N	1				t	25	t	t	\N
-7	0837288948			2026-05-08 06:57:44.714778+00	\N	7	489 Johannes Ramakhoase Stt	Pretoria	0007	t	50	t	t	avatars/Migadde_Hussein_Madan_DV_2027.jpg
+7	0837288948			2026-05-11 07:32:54.11378+00	\N	7	489 Johannes Ramakhoase Stt	Pretoria	0007	t	50	t	t	avatars/Migadde_Hussein_Madan_DV_2027.jpg
 \.
 
 
@@ -8942,7 +8958,7 @@ SELECT pg_catalog.setval('public.inventory_inventoryalert_id_seq', 204, true);
 -- Name: inventory_parts_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_parts_id_seq', 311, true);
+SELECT pg_catalog.setval('public.inventory_parts_id_seq', 320, true);
 
 
 --
@@ -8984,14 +9000,14 @@ SELECT pg_catalog.setval('public.inventory_scootermaintenancehistory_id_seq', 1,
 -- Name: inventory_stocktransfer_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_stocktransfer_id_seq', 31, true);
+SELECT pg_catalog.setval('public.inventory_stocktransfer_id_seq', 32, true);
 
 
 --
 -- Name: inventory_stocktransferitem_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_stocktransferitem_id_seq', 62, true);
+SELECT pg_catalog.setval('public.inventory_stocktransferitem_id_seq', 68, true);
 
 
 --
@@ -10925,5 +10941,5 @@ ALTER DEFAULT PRIVILEGES FOR ROLE "among.the.pines" IN SCHEMA public GRANT ALL O
 -- PostgreSQL database dump complete
 --
 
-\unrestrict izBsZIXiwfr0HRm7ilgcL2I6J4Hp3PmVUZ8cwsssvrMkCWwtJoB5PV9F9yMsUeX
+\unrestrict ly3f4Yljn9IfUzyIkxpVid60AWlR8Jg3fxS8tBUDseTHoddLKiWyonALRWvY0Un
 
