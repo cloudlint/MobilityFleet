@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict JntR8lioMGnVesOyMrlg785TJF4cYnReCUCI6dZxoMWfsNy3hbFclwF5LYgGroa
+\restrict tZUpjRhchwdCKXq9jFTRFMPc2zkAzHoXWID1SXU7ivepTPKwjAhrGWF4mhJRZcy
 
 -- Dumped from database version 16.13 (Homebrew)
 -- Dumped by pg_dump version 16.13 (Homebrew)
@@ -2182,7 +2182,7 @@ COPY public.auth_user (id, password, last_login, is_superuser, username, first_n
 6	pbkdf2_sha256$1000000$gW0XaR5oueAWIaUbkUJmuu$kM9m2ZVjqvwD9PcDONNFqkBHovzdnimO8aXLpNkFuQA=	\N	f	Adrich				f	t	2025-06-27 07:30:01.331008+00
 3	pbkdf2_sha256$1000000$rpW7xz0ZPTzlEIe5RN57cp$1rAzp9qQRn4uMfs9Ma5wljFHq65Gy343HP8NFRyjijQ=	2026-03-08 16:12:42.013266+00	f	Trymore	Trymore			t	t	2025-05-12 13:07:03+00
 1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2026-03-07 08:06:14.35867+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
-7	pbkdf2_sha256$1000000$yIZhpFlZKehDqixIHINhcx$/yGeri4tjZzlI6D3ETxaMOEhAz3DD6PS9RjiSXpnNbo=	2026-05-15 07:46:19.139563+00	t	Hussein	Hussein	Migadde	mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
+7	pbkdf2_sha256$1000000$yIZhpFlZKehDqixIHINhcx$/yGeri4tjZzlI6D3ETxaMOEhAz3DD6PS9RjiSXpnNbo=	2026-05-15 11:01:04.100491+00	t	Hussein	Hussein	Migadde	mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
 \.
 
 
@@ -3381,6 +3381,7 @@ uwi2epqyi2b5dhy2n5bi42hr077v0x1r	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225C
 y04ozyw15a7v1kz0eg85trakzxs0c49w	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1wKtAK:liXAO7Bj8BtfbOILoE5e5B4xiVvH1kdBULykrdWtino	2026-05-07 07:34:00.080581+00
 axabnf10aexsjr2j2oqoydpzhfdlpbps	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1wB6se:0-wJYMm2bF0OfEPgUv1t4pYJvnT2w2J0699M2YCjBzM	2026-04-10 08:11:20.165921+00
 cxepscsjx04ii0ilzokas1f2a16tct9s	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1w8aY7:Y0mUCKvMCRj8JrCUj6QZwCJhjhEpPeNGgiW3kr2fEMI	2026-04-03 09:15:43.213146+00
+8tls1p6anp9vvcurawx2r2bcwls7bs9e	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1wNqLZ:P9J7o31si1p4liJ9xJhFnJOw4_lFWOzYnx2JHOQnru4	2026-05-15 11:09:49.35558+00
 3do05hmlwomd5awgacczt59przsbz917	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1w4xcG:Xlol_XIeIA1KBEsZ8DaUhweLQocPCmrazEHzEljzUhM	2026-03-24 09:05:00.650509+00
 yboypbbrm4y9dscpms88encfyct5983m	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1w8hHh:plLon80BUUzl4O-0liPRAWAsU6I3JMnzuWxZjpBR2kE	2026-04-03 16:27:13.317388+00
 yixb7qet07e2xdhu5q4l5whayfxmluc2	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1wBS08:WXZNo_MgBOOiaybwjgQYdiKQJcWORvjXvhlw0R2p1GQ	2026-04-11 06:44:28.113178+00
@@ -3944,6 +3945,7 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 312	13000-XJA-0002	Crank Shaft Comp Jet14		0.00	0.00	2351.83	Engine & Transmission		2026-05-11 07:37:20.015855+00	2026-05-12 13:02:41.226388+00	1
 319	12100-XJA-0100	Cylinder Jet14		0.00	0.00	704.45	Engine & Transmission		2026-05-11 07:51:39.100077+00	2026-05-12 13:02:41.233847+00	1
 8	17211-ADB-0000	Air Filter Element		18.00	5.00	111.80	Consumables and Accessories		2025-05-05 21:25:15.716942+00	2026-05-15 07:49:14.686028+00	1
+323	93904-35340	Tapping Screws516		30.00	0.00	3.48	Bolts & Nuts		2026-05-15 11:03:24.24406+00	2026-05-15 11:04:40.809002+00	1
 \.
 
 
@@ -4017,6 +4019,7 @@ COPY public.inventory_purchase (id, invoice_number, invoice_date, due_date, stat
 74	10AIPABB7095	2026-05-06	2026-05-06	paid	6429.03	6441.77		2026-05-06 08:24:51.265575+00	2026-05-06 08:24:51.624048+00	7	1	1	3677.70	40.00	9194.24	827.48	15.00	85.00
 75	10AIPABB6907	2026-05-06	2026-05-06	paid	1836.44	1836.44		2026-05-06 08:27:23.94826+00	2026-05-06 08:30:39.759001+00	7	1	1	1064.60	40.00	2661.51	239.54	15.00	0.00
 76	10AIPABB7846	2026-05-12	2026-05-12	paid	162.75	175.49		2026-05-12 12:23:56.455258+00	2026-05-12 12:24:20.988495+00	7	1	1	45.07	40.00	112.68	10.14	15.00	85.00
+78	10AIPABB8270	2026-05-16	2026-05-15	paid	72.04	72.04		2026-05-15 11:04:40.759733+00	2026-05-15 11:04:40.838377+00	7	1	1	41.76	40.00	104.40	9.40	15.00	0.00
 \.
 
 
@@ -4190,6 +4193,7 @@ COPY public.inventory_purchaseitem (id, description, quantity, unit_price, part_
 179	Ignition Coil Cap - 30700-T7A-A000	5.00	62.05	26	75	\N	1
 180	Crank Case Gasket - 11394-Z2D-0000	1.00	52.89	321	76	\N	1
 181	R Crankcase Gasket - 11192-XRB-000	1.00	59.79	322	76	\N	1
+182	Tapping Screws516 - 93904-35340	30.00	3.48	323	78	\N	1
 \.
 
 
@@ -8862,7 +8866,7 @@ COPY public.users_userprofile (id, phone, "position", bio, date_updated, store_i
 6				2025-06-27 07:30:02.18664+00	\N	6				t	25	t	t	\N
 4				2026-03-08 16:12:42.022511+00	1	3				t	25	t	t	
 1				2026-03-07 08:06:14.366224+00	\N	1				t	25	t	t	\N
-7	0837288948			2026-05-15 07:46:19.14668+00	\N	7	489 Johannes Ramakhoase Stt	Pretoria	0007	t	50	t	t	avatars/Migadde_Hussein_Madan_DV_2027.jpg
+7	0837288948			2026-05-15 11:01:04.116005+00	\N	7	489 Johannes Ramakhoase Stt	Pretoria	0007	t	50	t	t	avatars/Migadde_Hussein_Madan_DV_2027.jpg
 \.
 
 
@@ -9031,21 +9035,21 @@ SELECT pg_catalog.setval('public.inventory_inventoryalert_id_seq', 215, true);
 -- Name: inventory_parts_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_parts_id_seq', 322, true);
+SELECT pg_catalog.setval('public.inventory_parts_id_seq', 323, true);
 
 
 --
 -- Name: inventory_purchase_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_purchase_id_seq', 76, true);
+SELECT pg_catalog.setval('public.inventory_purchase_id_seq', 78, true);
 
 
 --
 -- Name: inventory_purchaseitem_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_purchaseitem_id_seq', 181, true);
+SELECT pg_catalog.setval('public.inventory_purchaseitem_id_seq', 182, true);
 
 
 --
@@ -11014,5 +11018,5 @@ ALTER DEFAULT PRIVILEGES FOR ROLE "among.the.pines" IN SCHEMA public GRANT ALL O
 -- PostgreSQL database dump complete
 --
 
-\unrestrict JntR8lioMGnVesOyMrlg785TJF4cYnReCUCI6dZxoMWfsNy3hbFclwF5LYgGroa
+\unrestrict tZUpjRhchwdCKXq9jFTRFMPc2zkAzHoXWID1SXU7ivepTPKwjAhrGWF4mhJRZcy
 
