@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict XLbeObour8hmWWzmfkWjt7eooS5vBkmXnGd9kAHaUeZuxxuj9yeDzLUbFPPXOp1
+\restrict u8z4rYr7Npp7UZviIPQuyM9F8VTNxyAbO83qQSYxdUQDP4ZqW8WC9euZRo3Ocnf
 
 -- Dumped from database version 16.13 (Homebrew)
 -- Dumped by pg_dump version 16.13 (Homebrew)
@@ -2182,7 +2182,7 @@ COPY public.auth_user (id, password, last_login, is_superuser, username, first_n
 6	pbkdf2_sha256$1000000$gW0XaR5oueAWIaUbkUJmuu$kM9m2ZVjqvwD9PcDONNFqkBHovzdnimO8aXLpNkFuQA=	\N	f	Adrich				f	t	2025-06-27 07:30:01.331008+00
 3	pbkdf2_sha256$1000000$rpW7xz0ZPTzlEIe5RN57cp$1rAzp9qQRn4uMfs9Ma5wljFHq65Gy343HP8NFRyjijQ=	2026-03-08 16:12:42.013266+00	f	Trymore	Trymore			t	t	2025-05-12 13:07:03+00
 1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2026-03-07 08:06:14.35867+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
-7	pbkdf2_sha256$1000000$yIZhpFlZKehDqixIHINhcx$/yGeri4tjZzlI6D3ETxaMOEhAz3DD6PS9RjiSXpnNbo=	2026-05-25 08:26:33.37925+00	t	Hussein	Hussein	Migadde	mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
+7	pbkdf2_sha256$1000000$yIZhpFlZKehDqixIHINhcx$/yGeri4tjZzlI6D3ETxaMOEhAz3DD6PS9RjiSXpnNbo=	2026-05-25 14:32:16.282464+00	t	Hussein	Hussein	Migadde	mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
 \.
 
 
@@ -3629,6 +3629,7 @@ COPY public.inventory_inventoryalert (id, alert_type, title, description, severi
 213	low_stock	Low Stock: Crank Shaft Comp Jet14	Inventory level for Crank Shaft Comp Jet14 (13000-XJA-0002) is below reorder level. Current stock: 0.00, Reorder level: 0.00	high	new	0.00	0.00	f	t	2026-05-13 07:33:03.856867+00	2026-05-13 07:33:03.856896+00	\N	\N	\N	\N	312	\N	\N	1
 214	low_stock	Low Stock: Cylinder Jet14	Inventory level for Cylinder Jet14 (12100-XJA-0100) is below reorder level. Current stock: 0.00, Reorder level: 0.00	high	new	0.00	0.00	f	t	2026-05-13 07:33:03.924962+00	2026-05-13 07:33:03.924984+00	\N	\N	\N	\N	319	\N	\N	1
 215	low_stock	Low Stock: Brake Disk FR	Inventory level for Brake Disk FR (45121-XMC-0001) is below reorder level. Current stock: 2.00, Reorder level: 2.00	medium	new	2.00	2.00	f	t	2026-05-15 07:39:51.389295+00	2026-05-15 07:39:51.38933+00	\N	\N	\N	\N	19	\N	\N	1
+216	low_stock	Low Stock: EXH Pipe Gasket Fiddle 150	Inventory level for EXH Pipe Gasket Fiddle 150 (18291-Z8G-0000) is below reorder level. Current stock: 1.00, Reorder level: 1.00	medium	new	1.00	1.00	f	t	2026-05-25 14:32:33.66054+00	2026-05-25 14:32:33.660578+00	\N	\N	\N	\N	50	\N	\N	1
 \.
 
 
@@ -3915,12 +3916,11 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 29	50500-X8A-0002	Main Stand COMP		3.00	1.00	561.36	Frame and Body		2025-05-05 21:54:23.332383+00	2026-03-24 10:25:29.646872+00	1
 287	13101-XJA-0001	Piston Jet 14		0.00	0.00	185.42	Engine & Transmission		2025-11-12 13:10:45.068762+00	2026-05-12 13:02:41.230708+00	1
 145	12391-F8A-0001	Head Cover Packing Jet14		4.00	0.00	120.00	Engine & Transmission		2025-05-06 08:33:10.560434+00	2026-04-23 14:20:14.51422+00	1
-20	43121-XJA-0001	Brake Disk RR		0.00	2.00	421.21	Brakes		2025-05-05 21:43:23.364712+00	2026-05-25 08:33:08.95506+00	1
 136	90202-M9Q-0000	Special Nut 28 mm		5.00	0.00	29.20	Miscellaneous / Universal Parts		2025-05-06 08:29:16.499241+00	2026-03-31 12:49:00.422537+00	1
 134	384-BTX7A-BS	Battery Motorsport		7.00	0.00	429.00	Electrical Components		2025-05-06 08:28:03.415966+00	2026-05-04 08:32:36.818287+00	1
-103	2211A-ARA-0002	Face-Drive Xpro125		1.00	1.00	120.00	Engine & Transmission		2025-05-06 08:06:05.065674+00	2026-05-22 10:12:02.603541+00	1
+9	23100-XMA-0001	Drive Belt		10.00	5.00	996.52	Engine & Transmission		2025-05-05 21:28:13.605717+00	2026-05-25 14:40:14.069214+00	1
 291	12191-Z2D-0000	Cylinder Gasket Xpro125		0.00	0.00	42.71	Engine & Transmission		2025-11-12 13:14:16.128185+00	2026-05-12 13:02:41.221424+00	1
-9	23100-XMA-0001	Drive Belt		5.00	5.00	996.52	Engine & Transmission		2025-05-05 21:28:13.605717+00	2026-05-22 10:12:02.595972+00	1
+20	43121-XJA-0001	Brake Disk RR		1.00	2.00	421.21	Brakes		2025-05-05 21:43:23.364712+00	2026-05-25 14:40:14.13885+00	1
 100	95801-08045-04	Flange Bolt 845		6.00	0.00	10.00	Miscellaneous / Universal Parts		2025-05-06 08:04:35.016433+00	2026-03-24 10:25:29.660252+00	1
 116	93404-06012-07	Washer Bolt 6*12		16.00	4.00	20.00	Miscellaneous / Universal Parts		2025-05-06 08:13:38.874667+00	2026-05-07 07:28:38.099359+00	1
 47	211412	Valve Ruber Rim		97.00	5.00	10.00	Wheels and Tires		2025-05-06 07:15:31.536846+00	2026-05-25 08:30:57.674338+00	1
@@ -3930,6 +3930,7 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 1	173460	Engine Oil		112.30	5.00	560.00	Lubricants & Fluids		2025-05-05 19:18:03.334943+00	2026-05-25 08:33:08.951519+00	1
 26	30700-T7A-A000	Ignition Coil Cap		17.00	2.00	62.05	Electrical Components		2025-05-05 21:49:06.538945+00	2026-05-22 10:12:02.5915+00	1
 50	18291-Z8G-0000	EXH Pipe Gasket Fiddle 150		1.00	1.00	3000.00	Engine & Transmission		2025-05-06 07:18:44.623886+00	2026-05-25 08:33:08.956695+00	1
+103	2211A-ARA-0002	Face-Drive Xpro125		4.00	1.00	120.00	Engine & Transmission		2025-05-06 08:06:05.065674+00	2026-05-25 14:40:12.399237+00	1
 14	43105-ARB-000-A-9	Brake Pads RR		22.00	5.00	140.00	Brakes		2025-05-05 21:33:50.092617+00	2026-05-25 08:33:08.953438+00	1
 38	2902800	Tyre RR 110/80-14” Pireli Bikewise		11.00	5.00	800.00	Wheels and Tires		2025-05-06 06:57:41.482487+00	2026-05-25 08:30:57.607049+00	1
 56	96001-06022-49	Bolt Xpro125 6*22		20.00	2.00	10.00	Miscellaneous / Universal Parts		2025-05-06 07:23:18.396414+00	2026-05-06 08:27:23.976833+00	1
@@ -4025,6 +4026,7 @@ COPY public.inventory_purchase (id, invoice_number, invoice_date, due_date, stat
 75	10AIPABB6907	2026-05-06	2026-05-06	paid	1836.44	1836.44		2026-05-06 08:27:23.94826+00	2026-05-06 08:30:39.759001+00	7	1	1	1064.60	40.00	2661.51	239.54	15.00	0.00
 76	10AIPABB7846	2026-05-12	2026-05-12	paid	162.75	175.49		2026-05-12 12:23:56.455258+00	2026-05-12 12:24:20.988495+00	7	1	1	45.07	40.00	112.68	10.14	15.00	85.00
 78	10AIPABB8270	2026-05-16	2026-05-15	paid	72.04	72.04		2026-05-15 11:04:40.759733+00	2026-05-15 11:04:40.838377+00	7	1	1	41.76	40.00	104.40	9.40	15.00	0.00
+79	10AIPABB9188	2026-05-25	2026-05-25	paid	4919.88	5017.62		2026-05-25 14:40:10.494821+00	2026-05-25 14:40:14.31885+00	7	1	1	2852.10	40.00	7130.26	641.72	15.00	0.00
 \.
 
 
@@ -4199,6 +4201,9 @@ COPY public.inventory_purchaseitem (id, description, quantity, unit_price, part_
 180	Crank Case Gasket - 11394-Z2D-0000	1.00	52.89	321	76	\N	1
 181	R Crankcase Gasket - 11192-XRB-000	1.00	59.79	322	76	\N	1
 182	Tapping Screws516 - 93904-35340	30.00	3.48	323	78	\N	1
+183	Face-Drive Xpro125 - 2211A-ARA-0002	3.00	599.33	103	79	\N	1
+184	Drive Belt - 23100-XMA-0001	5.00	996.52	9	79	\N	1
+185	Brake Disk RR - 43121-XJA-0001	1.00	349.67	20	79	\N	1
 \.
 
 
@@ -8990,7 +8995,7 @@ COPY public.users_userprofile (id, phone, "position", bio, date_updated, store_i
 6				2025-06-27 07:30:02.18664+00	\N	6				t	25	t	t	\N
 4				2026-03-08 16:12:42.022511+00	1	3				t	25	t	t	
 1				2026-03-07 08:06:14.366224+00	\N	1				t	25	t	t	\N
-7	0837288948			2026-05-25 08:26:33.458921+00	\N	7	489 Johannes Ramakhoase Stt	Pretoria	0007	t	50	t	t	avatars/Migadde_Hussein_Madan_DV_2027.jpg
+7	0837288948			2026-05-25 14:32:23.037576+00	\N	7	489 Johannes Ramakhoase Stt	Pretoria	0007	t	50	t	t	avatars/Migadde_Hussein_Madan_DV_2027.jpg
 \.
 
 
@@ -9152,7 +9157,7 @@ SELECT pg_catalog.setval('public.django_migrations_id_seq', 59, true);
 -- Name: inventory_inventoryalert_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_inventoryalert_id_seq', 215, true);
+SELECT pg_catalog.setval('public.inventory_inventoryalert_id_seq', 216, true);
 
 
 --
@@ -9166,14 +9171,14 @@ SELECT pg_catalog.setval('public.inventory_parts_id_seq', 323, true);
 -- Name: inventory_purchase_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_purchase_id_seq', 78, true);
+SELECT pg_catalog.setval('public.inventory_purchase_id_seq', 79, true);
 
 
 --
 -- Name: inventory_purchaseitem_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_purchaseitem_id_seq', 182, true);
+SELECT pg_catalog.setval('public.inventory_purchaseitem_id_seq', 185, true);
 
 
 --
@@ -11142,5 +11147,5 @@ ALTER DEFAULT PRIVILEGES FOR ROLE "among.the.pines" IN SCHEMA public GRANT ALL O
 -- PostgreSQL database dump complete
 --
 
-\unrestrict XLbeObour8hmWWzmfkWjt7eooS5vBkmXnGd9kAHaUeZuxxuj9yeDzLUbFPPXOp1
+\unrestrict u8z4rYr7Npp7UZviIPQuyM9F8VTNxyAbO83qQSYxdUQDP4ZqW8WC9euZRo3Ocnf
 
