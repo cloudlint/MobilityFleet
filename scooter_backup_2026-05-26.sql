@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict Pi2LktQjmzuuNoMkDnMZ6qjvk63aj4hjvNtnNHd3iGnkj2PB6ObaitDFbrMyd5L
+\restrict 7032LAyzyc6dJgVDxEK0UbtJ4DUmgcBg4DPCaQRKnJT7a0ltv4R5VizaIKRaHUA
 
 -- Dumped from database version 16.13 (Homebrew)
 -- Dumped by pg_dump version 16.13 (Homebrew)
@@ -2182,7 +2182,7 @@ COPY public.auth_user (id, password, last_login, is_superuser, username, first_n
 6	pbkdf2_sha256$1000000$gW0XaR5oueAWIaUbkUJmuu$kM9m2ZVjqvwD9PcDONNFqkBHovzdnimO8aXLpNkFuQA=	\N	f	Adrich				f	t	2025-06-27 07:30:01.331008+00
 3	pbkdf2_sha256$1000000$rpW7xz0ZPTzlEIe5RN57cp$1rAzp9qQRn4uMfs9Ma5wljFHq65Gy343HP8NFRyjijQ=	2026-03-08 16:12:42.013266+00	f	Trymore	Trymore			t	t	2025-05-12 13:07:03+00
 1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2026-03-07 08:06:14.35867+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
-7	pbkdf2_sha256$1000000$yIZhpFlZKehDqixIHINhcx$/yGeri4tjZzlI6D3ETxaMOEhAz3DD6PS9RjiSXpnNbo=	2026-05-26 07:30:49.630793+00	t	Hussein	Hussein	Migadde	mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
+7	pbkdf2_sha256$1000000$yIZhpFlZKehDqixIHINhcx$/yGeri4tjZzlI6D3ETxaMOEhAz3DD6PS9RjiSXpnNbo=	2026-05-26 10:24:15.200184+00	t	Hussein	Hussein	Migadde	mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
 \.
 
 
@@ -3349,6 +3349,7 @@ c2qcmr537acl410l6qebnbp7r5r2ydjj	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225C
 awuqa3jac9aoxlqscxd6l604utco5lqu	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1wCuSJ:aye99zxYLRpZTkquNzwtcHbcFqM44rLEx7hQkYRC7qk	2026-04-15 07:19:35.112953+00
 5wib5rbeba5wwnrfxw16jpk91cqv2xm3	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1wA1Q1:D1yA74HbGhubX0psvnmXUQLrwb5Oec12VI8ZtlksWKM	2026-04-07 08:09:17.372386+00
 pe1xvenjlbrq1b3iqrhfpl3o0hz6a9py	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1wFSCF:m6xCe0Z72d61MjCJ8k9qFTWypTWxDpNGBBXmu7Dai9A	2026-04-22 07:45:31.260625+00
+9rv7kkglf4v6ne3whdsgx98dlfjaadhj	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1wRp2d:hlRthpCjFEeDmDCHuYwRigDT55UEg21JtfNGzqrM44w	2026-05-26 10:34:43.999971+00
 sr6crrlffyowrcv7dqdhd33vwgj4mkd6	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1wMmlE:2qLUlGsNOK-JZL0raj4JXGGTsxQHMsUXlzNOK7HhkTw	2026-05-12 13:07:56.688965+00
 q2trpxtxua3i3zeh5rep28samh9xpfb0	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1w5fxq:3qAt-kbiMpKmd07-7wFE7rwjUvom6S2SqrLgCfzmCeY	2026-03-26 08:26:14.999965+00
 akc60x8nnef9127ovas1a1m1dgrx11bb	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1wDdzZ:s5q1GSkkNkqBRyr0QxKDItaWrMnZkfOuCpKJTT-AGu0	2026-04-17 07:56:57.15385+00
@@ -3770,7 +3771,6 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 170	30700-T7A-A000	Ignition Coil Cap		22.00	2.00	300.00	Electrical Components		2025-07-02 09:49:18.49115+00	2025-07-02 11:02:07.244071+00	2
 173	50500-X8A-0002	Main Stand COMP		3.00	1.00	600.00	Frame and Body		2025-07-02 09:51:36.670766+00	2025-07-02 11:03:17.758743+00	2
 178	22132-ARA-0000	Slide piece		8.00	2.00	300.00	Engine & Transmission		2025-07-02 09:55:19.391461+00	2025-07-02 11:06:03.536649+00	2
-179	4549-CR7HSA	Spark Plug		22.00	2.00	100.00	Engine & Transmission		2025-07-02 09:55:45.978911+00	2025-07-02 11:06:23.408442+00	2
 182	3445700	Tyre FF 100/90-14		10.00	1.00	900.00	Wheels and Tires		2025-07-02 09:57:49.640058+00	2025-07-02 11:06:56.340759+00	2
 183	2902800	Tyre RR 110/80-14”		7.00	1.00	900.00	Wheels and Tires		2025-07-02 09:58:34.654273+00	2025-07-02 11:07:21.151978+00	2
 186	28250-ARA-0000	Kick Start Spindle		4.00	1.00	450.00	Frame and Body		2025-07-02 10:02:53.230186+00	2025-07-02 11:08:07.762275+00	2
@@ -3821,6 +3821,7 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 227	50535-Z7C-0001	Side stand SPG assy		4.00	1.00	450.00	Frame and Body		2025-07-02 10:53:51.809033+00	2025-07-02 10:53:51.809058+00	2
 228	81200-APA-0000	RR Carrier		2.00	0.00	300.00	Frame and Body		2025-07-02 10:54:19.715472+00	2025-07-02 10:54:19.715494+00	2
 229	35850-L4A-100	Starter MAG SW		1.00	0.00	300.00	Electrical Components		2025-07-02 10:55:57.793596+00	2025-07-02 10:55:57.793631+00	2
+179	4549-CR7HSA	Spark Plug		32.00	2.00	100.00	Engine & Transmission		2025-07-02 09:55:45.978911+00	2026-05-26 10:28:47.595659+00	2
 230	209091	KENDA TYRE 120/70-12		4.00	1.00	800.00	Wheels and Tires		2025-07-02 10:56:21.619059+00	2025-07-02 10:56:21.619082+00	2
 231	209092	KENDA TYRE 130/70-12		4.00	1.00	900.00	w		2025-07-02 10:56:43.473627+00	2025-07-02 10:56:43.473655+00	2
 174	5052A-APA-9000	Main Stand SPG.ASSY		6.00	1.00	800.00	Frame and Body		2025-07-02 09:52:20.984536+00	2025-07-02 11:04:25.752672+00	2
@@ -4017,6 +4018,7 @@ COPY public.inventory_purchase (id, invoice_number, invoice_date, due_date, stat
 63	10AIPABB2667	2026-03-05	2026-03-05	paid	96.71	194.46		2026-03-05 09:47:57.182307+00	2026-03-05 09:47:57.262354+00	7	1	1	56.06	40.00	140.16	12.61	15.00	0.00
 64	10AIPABB2723	2026-03-06	2026-03-06	paid	1837.50	1935.24		2026-03-06 11:51:45.072906+00	2026-03-06 11:51:45.623782+00	7	1	1	1065.22	40.00	2663.04	239.67	15.00	0.00
 65	10AIPABB4075	2026-03-24	2026-03-24	paid	8110.40	8208.14		2026-03-24 10:25:28.574276+00	2026-03-24 10:25:29.681358+00	7	1	1	4701.68	40.00	11754.21	1057.88	15.00	0.00
+83	66903397	2026-05-26	2026-05-26	paid	345.00	345.00		2026-05-26 10:28:47.585231+00	2026-05-26 10:28:47.613549+00	7	5	1	0.00	0.00	300.00	45.00	15.00	0.00
 67	INV-142046	2026-03-26	2026-03-26	paid	1655.99	1656.00		2026-03-26 08:53:50.350416+00	2026-03-26 09:00:43.127097+00	7	2	1	0.00	0.00	1190.00	215.99	18.15	250.00
 68	10AIPABB4804	2026-04-02	2026-04-02	paid	15998.49	15998.49		2026-04-02 09:18:57.70501+00	2026-04-02 09:19:59.980815+00	7	1	1	5962.17	30.00	19873.90	2086.76	15.00	0.00
 69	10AIPABB5770	2026-04-15	2026-04-15	paid	7928.09	7940.84		2026-04-15 10:50:02.172304+00	2026-04-15 10:51:17.739026+00	7	1	1	4546.72	40.00	11366.80	1023.01	15.00	85.00
@@ -4205,6 +4207,7 @@ COPY public.inventory_purchaseitem (id, description, quantity, unit_price, part_
 183	Face-Drive Xpro125 - 2211A-ARA-0002	3.00	599.33	103	79	\N	1
 184	Drive Belt - 23100-XMA-0001	5.00	996.52	9	79	\N	1
 185	Brake Disk RR - 43121-XJA-0001	1.00	349.67	20	79	\N	1
+186	Spark Plug - 4549-CR7HSA	10.00	30.00	179	83	\N	1
 \.
 
 
@@ -9004,7 +9007,7 @@ COPY public.users_userprofile (id, phone, "position", bio, date_updated, store_i
 6				2025-06-27 07:30:02.18664+00	\N	6				t	25	t	t	\N
 4				2026-03-08 16:12:42.022511+00	1	3				t	25	t	t	
 1				2026-03-07 08:06:14.366224+00	\N	1				t	25	t	t	\N
-7	0837288948			2026-05-26 07:30:49.63926+00	\N	7	489 Johannes Ramakhoase Stt	Pretoria	0007	t	50	t	t	avatars/Migadde_Hussein_Madan_DV_2027.jpg
+7	0837288948			2026-05-26 10:24:15.209229+00	\N	7	489 Johannes Ramakhoase Stt	Pretoria	0007	t	50	t	t	avatars/Migadde_Hussein_Madan_DV_2027.jpg
 \.
 
 
@@ -9180,14 +9183,14 @@ SELECT pg_catalog.setval('public.inventory_parts_id_seq', 323, true);
 -- Name: inventory_purchase_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_purchase_id_seq', 79, true);
+SELECT pg_catalog.setval('public.inventory_purchase_id_seq', 83, true);
 
 
 --
 -- Name: inventory_purchaseitem_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_purchaseitem_id_seq', 185, true);
+SELECT pg_catalog.setval('public.inventory_purchaseitem_id_seq', 186, true);
 
 
 --
@@ -11156,5 +11159,5 @@ ALTER DEFAULT PRIVILEGES FOR ROLE "among.the.pines" IN SCHEMA public GRANT ALL O
 -- PostgreSQL database dump complete
 --
 
-\unrestrict Pi2LktQjmzuuNoMkDnMZ6qjvk63aj4hjvNtnNHd3iGnkj2PB6ObaitDFbrMyd5L
+\unrestrict 7032LAyzyc6dJgVDxEK0UbtJ4DUmgcBg4DPCaQRKnJT7a0ltv4R5VizaIKRaHUA
 
