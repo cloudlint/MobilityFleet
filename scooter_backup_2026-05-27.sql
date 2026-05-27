@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict yUPZYt86tSICfDcrYVeLtVN3J0KAWS7LUkxNVgwAv1WGoIyeKnq3SBWPcnIXplQ
+\restrict MGVOWUQs9dDcgmEa6GSJrTGCYALbqdj2a4yHC2YVZamYN0oFAb1Jr65XFY4gLQi
 
 -- Dumped from database version 16.13 (Homebrew)
 -- Dumped by pg_dump version 16.13 (Homebrew)
@@ -2182,7 +2182,7 @@ COPY public.auth_user (id, password, last_login, is_superuser, username, first_n
 6	pbkdf2_sha256$1000000$gW0XaR5oueAWIaUbkUJmuu$kM9m2ZVjqvwD9PcDONNFqkBHovzdnimO8aXLpNkFuQA=	\N	f	Adrich				f	t	2025-06-27 07:30:01.331008+00
 3	pbkdf2_sha256$1000000$rpW7xz0ZPTzlEIe5RN57cp$1rAzp9qQRn4uMfs9Ma5wljFHq65Gy343HP8NFRyjijQ=	2026-03-08 16:12:42.013266+00	f	Trymore	Trymore			t	t	2025-05-12 13:07:03+00
 1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2026-03-07 08:06:14.35867+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
-7	pbkdf2_sha256$1000000$yIZhpFlZKehDqixIHINhcx$/yGeri4tjZzlI6D3ETxaMOEhAz3DD6PS9RjiSXpnNbo=	2026-05-27 08:41:38.52462+00	t	Hussein	Hussein	Migadde	mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
+7	pbkdf2_sha256$1000000$yIZhpFlZKehDqixIHINhcx$/yGeri4tjZzlI6D3ETxaMOEhAz3DD6PS9RjiSXpnNbo=	2026-05-27 11:26:52.313368+00	t	Hussein	Hussein	Migadde	mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
 \.
 
 
@@ -3328,6 +3328,7 @@ bk3fgj4h4f3keptkr74qaq7kc05x88xd	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225C
 cc9hxnew28awpujxnhrnqicrx1mkc9sr	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1wKXrb:V1fJ69IcQv7HAm4OMEfbZ8e3ISsNEGGLLI2kdAqB0Ss	2026-05-06 08:49:15.435437+00
 62ql32zjoedfsj89bwifkpeztezc34zw	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1w5J4i:cDoAdHF2ZGsmViksFf3r9S6tc43w-z-aYIl5-kDFRh0	2026-03-25 07:59:48.839775+00
 q7cau6uw8cg31zmzd1susga25xabaof5	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1w0yTO:ZwChrVcA_QewJc_59CYOTYwLT7hVAp0cQSbyxPxwdNo	2026-03-13 09:11:22.093921+00
+ktkl5v7gmqwgbkqz2jntm7dcn5d8uw5l	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1wSCKJ:L1sHNKfYmBiAWvhgheEpQ2c8d6ej9qQd1gDYCUIvM3w	2026-05-27 11:26:31.900028+00
 zs98vsz483poviybgsnuhwsp401i4p4y	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1wCclo:gBMZkIRi0iwBjsRzBTn2LSKgBd0HbLX_fFaaHMX8Uuc	2026-04-14 12:26:32.780005+00
 jfc91iyoppwszvog533htxdwfpvvdkpx	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1wRmGq:jD1SJ_xhTv1lMWET1oyxXE1hcbzGP7WPdixAH3hHnSI	2026-05-26 07:37:12.758445+00
 msizwtkffox63amb2h2mov2zijlruasq	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1wEmOC:XT-DsAN3awhlFI8vr6JZW-miNdwsKBEPF6167uVDJ_0	2026-04-20 11:07:04.156398+00
@@ -3924,7 +3925,6 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 134	384-BTX7A-BS	Battery Motorsport		7.00	0.00	429.00	Electrical Components		2025-05-06 08:28:03.415966+00	2026-05-04 08:32:36.818287+00	1
 14	43105-ARB-000-A-9	Brake Pads RR		20.00	5.00	140.00	Brakes		2025-05-05 21:33:50.092617+00	2026-05-27 08:47:45.849823+00	1
 291	12191-Z2D-0000	Cylinder Gasket Xpro125		0.00	0.00	42.71	Engine & Transmission		2025-11-12 13:14:16.128185+00	2026-05-12 13:02:41.221424+00	1
-20	43121-XJA-0001	Brake Disk RR		1.00	2.00	421.21	Brakes		2025-05-05 21:43:23.364712+00	2026-05-25 14:40:14.13885+00	1
 100	95801-08045-04	Flange Bolt 845		6.00	0.00	10.00	Miscellaneous / Universal Parts		2025-05-06 08:04:35.016433+00	2026-03-24 10:25:29.660252+00	1
 116	93404-06012-07	Washer Bolt 6*12		16.00	4.00	20.00	Miscellaneous / Universal Parts		2025-05-06 08:13:38.874667+00	2026-05-07 07:28:38.099359+00	1
 47	211412	Valve Ruber Rim		97.00	5.00	10.00	Wheels and Tires		2025-05-06 07:15:31.536846+00	2026-05-25 08:30:57.674338+00	1
@@ -3932,6 +3932,7 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 9	23100-XMA-0001	Drive Belt		9.00	5.00	996.52	Engine & Transmission		2025-05-05 21:28:13.605717+00	2026-05-27 08:47:45.847835+00	1
 302	93903-35240	Tapping Screw 5*12		26.00	0.00	5.00	Bolts & Nuts		2026-01-27 10:24:37.974934+00	2026-04-23 08:00:31.021323+00	1
 11	CR7HSA	Spark Plug		14.00	5.00	80.00	Engine & Transmission		2025-05-05 21:30:07.226667+00	2026-05-27 08:51:11.221339+00	1
+20	43121-XJA-0001	Brake Disk RR		2.00	2.00	421.21	Brakes		2025-05-05 21:43:23.364712+00	2026-05-27 11:21:23.27641+00	1
 50	18291-Z8G-0000	EXH Pipe Gasket Fiddle 150		1.00	1.00	3000.00	Engine & Transmission		2025-05-06 07:18:44.623886+00	2026-05-25 08:33:08.956695+00	1
 103	2211A-ARA-0002	Face-Drive Xpro125		4.00	1.00	120.00	Engine & Transmission		2025-05-06 08:06:05.065674+00	2026-05-25 14:40:12.399237+00	1
 1	173460	Engine Oil		109.90	5.00	560.00	Lubricants & Fluids		2025-05-05 19:18:03.334943+00	2026-05-27 08:47:45.661562+00	1
@@ -4023,6 +4024,7 @@ COPY public.inventory_purchase (id, invoice_number, invoice_date, due_date, stat
 67	INV-142046	2026-03-26	2026-03-26	paid	1655.99	1656.00		2026-03-26 08:53:50.350416+00	2026-03-26 09:00:43.127097+00	7	2	1	0.00	0.00	1190.00	215.99	18.15	250.00
 83	66903397	2026-05-26	2026-05-26	paid	920.00	345.00		2026-05-26 10:28:47.585231+00	2026-05-27 08:50:35.950225+00	7	5	1	0.00	0.00	800.00	120.00	15.00	0.00
 68	10AIPABB4804	2026-04-02	2026-04-02	paid	15998.49	15998.49		2026-04-02 09:18:57.70501+00	2026-04-02 09:19:59.980815+00	7	1	1	5962.17	30.00	19873.90	2086.76	15.00	0.00
+85	10AIPABB9400	2026-05-27	2026-05-27	paid	326.27	339.02		2026-05-27 11:21:23.181638+00	2026-05-27 11:21:23.321598+00	7	1	1	139.87	40.00	349.67	31.47	15.00	85.00
 69	10AIPABB5770	2026-04-15	2026-04-15	paid	7928.09	7940.84		2026-04-15 10:50:02.172304+00	2026-04-15 10:51:17.739026+00	7	1	1	4546.72	40.00	11366.80	1023.01	15.00	85.00
 70	66858136	2026-04-20	2026-04-20	paid	345.00	345.00		2026-04-20 09:16:37.140862+00	2026-04-20 09:16:37.842207+00	7	5	1	0.00	0.00	300.00	45.00	15.00	0.00
 71	10AIPABB6525	2026-04-23	2026-04-23	paid	1767.00	1779.75		2026-04-23 14:20:14.116688+00	2026-04-23 14:20:14.518831+00	7	1	1	975.07	40.00	2437.68	219.39	15.00	85.00
@@ -4211,6 +4213,7 @@ COPY public.inventory_purchaseitem (id, description, quantity, unit_price, part_
 185	Brake Disk RR - 43121-XJA-0001	1.00	349.67	20	79	\N	1
 187	Brake Pads FF - FDB2190EF	10.00	119.00	15	84	\N	1
 186	Spark Plug - CR7HSA	10.00	80.00	11	83	\N	1
+188	Brake Disk RR - 43121-XJA-0001	1.00	349.67	20	85	\N	1
 \.
 
 
@@ -9034,7 +9037,7 @@ COPY public.users_userprofile (id, phone, "position", bio, date_updated, store_i
 6				2025-06-27 07:30:02.18664+00	\N	6				t	25	t	t	\N
 4				2026-03-08 16:12:42.022511+00	1	3				t	25	t	t	
 1				2026-03-07 08:06:14.366224+00	\N	1				t	25	t	t	\N
-7	0837288948			2026-05-27 08:41:38.54839+00	\N	7	489 Johannes Ramakhoase Stt	Pretoria	0007	t	50	t	t	avatars/Migadde_Hussein_Madan_DV_2027.jpg
+7	0837288948			2026-05-27 11:26:52.319674+00	\N	7	489 Johannes Ramakhoase Stt	Pretoria	0007	t	50	t	t	avatars/Migadde_Hussein_Madan_DV_2027.jpg
 \.
 
 
@@ -9210,14 +9213,14 @@ SELECT pg_catalog.setval('public.inventory_parts_id_seq', 323, true);
 -- Name: inventory_purchase_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_purchase_id_seq', 84, true);
+SELECT pg_catalog.setval('public.inventory_purchase_id_seq', 85, true);
 
 
 --
 -- Name: inventory_purchaseitem_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_purchaseitem_id_seq', 187, true);
+SELECT pg_catalog.setval('public.inventory_purchaseitem_id_seq', 188, true);
 
 
 --
@@ -11186,5 +11189,5 @@ ALTER DEFAULT PRIVILEGES FOR ROLE "among.the.pines" IN SCHEMA public GRANT ALL O
 -- PostgreSQL database dump complete
 --
 
-\unrestrict yUPZYt86tSICfDcrYVeLtVN3J0KAWS7LUkxNVgwAv1WGoIyeKnq3SBWPcnIXplQ
+\unrestrict MGVOWUQs9dDcgmEa6GSJrTGCYALbqdj2a4yHC2YVZamYN0oFAb1Jr65XFY4gLQi
 
