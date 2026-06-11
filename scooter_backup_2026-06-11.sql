@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict qEoS5dXbuDJyofYO2dxlwCrmMrJ4MM9Z3PmJt4nt60t0zc1VxbpoLXtUt00rn72
+\restrict 2inGnINhYNTnEBCn6RgsWqpYYuIJrvGOQVuUp3cm3I7IG8cLpJvrD6t9FPwcFW5
 
 -- Dumped from database version 16.13 (Homebrew)
 -- Dumped by pg_dump version 16.13 (Homebrew)
@@ -2182,7 +2182,7 @@ COPY public.auth_user (id, password, last_login, is_superuser, username, first_n
 6	pbkdf2_sha256$1000000$gW0XaR5oueAWIaUbkUJmuu$kM9m2ZVjqvwD9PcDONNFqkBHovzdnimO8aXLpNkFuQA=	\N	f	Adrich				f	t	2025-06-27 07:30:01.331008+00
 3	pbkdf2_sha256$1000000$rpW7xz0ZPTzlEIe5RN57cp$1rAzp9qQRn4uMfs9Ma5wljFHq65Gy343HP8NFRyjijQ=	2026-03-08 16:12:42.013266+00	f	Trymore	Trymore			t	t	2025-05-12 13:07:03+00
 1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2026-03-07 08:06:14.35867+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
-7	pbkdf2_sha256$1000000$yIZhpFlZKehDqixIHINhcx$/yGeri4tjZzlI6D3ETxaMOEhAz3DD6PS9RjiSXpnNbo=	2026-06-10 09:34:18.974473+00	t	Hussein	Hussein	Migadde	mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
+7	pbkdf2_sha256$1000000$yIZhpFlZKehDqixIHINhcx$/yGeri4tjZzlI6D3ETxaMOEhAz3DD6PS9RjiSXpnNbo=	2026-06-11 08:12:20.787295+00	t	Hussein	Hussein	Migadde	mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
 \.
 
 
@@ -3339,6 +3339,7 @@ xouezl1huxyrwhkuxi64n26dbpkxrj56	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225C
 w3dygk2lmsdgw2dvyofrlaafrffk0lx4	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1wWqj6:OJpspOoPQNDWnYF77mQzf1DnK_phfdJ63Je99ptpzWw	2026-06-09 07:23:20.603742+00
 f8ocgj4d3v8646r8tl0h9t0mf74ozpw4	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1wDH30:LySX0J4h4pcDHYJ6Mhd7TE9BM5wsSmi31GphbJbLTj4	2026-04-16 07:26:58.927351+00
 dkpxap9w5zhqn8aut2f0obt25cdh0ssd	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1wMLU2:IPg-Ofj_fPI8aS65gu3aV12AKqjoVKP6ZTVVYVRRubg	2026-05-11 08:00:22.875657+00
+nnn7c6crbsjmmgdsd7dokie6zk8a1dbc	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1wXaWl:Tso0cZ5-0moHXGoWrUf9GE6vImFcvo2aFtM1kpxfk0c	2026-06-11 08:17:39.780786+00
 6v6navdib0r8vi121dh1uekoepr1hs4y	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1wMMkc:baDiyi3yJ_iUfKY5jer2w3bZHZHj7WmbIOyuAfvNAjE	2026-05-11 09:21:34.814978+00
 m872aag0qcs14fg326o4gzq87uj49lna	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1wUhDP:eeKUqTUQCsiCrxKCdPsme-LqAefvIDf3UHXPRftpEgw	2026-06-03 08:49:43.274224+00
 kv3qawx4v0wmuw2ulojvpvz5u0v9w0vh	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1w7UaD:sA2DnIvvN6_WtpwH8uu3LBukj4BnqzzEKjQyAYtApX4	2026-03-31 08:41:21.531944+00
@@ -3404,6 +3405,7 @@ cxepscsjx04ii0ilzokas1f2a16tct9s	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225C
 3do05hmlwomd5awgacczt59przsbz917	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1w4xcG:Xlol_XIeIA1KBEsZ8DaUhweLQocPCmrazEHzEljzUhM	2026-03-24 09:05:00.650509+00
 go7hm4ptvdkrvzqjhtee9izmwtxy0iqu	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1wPcNv:lIGed_Y00QP1CGDZSMlxi0JQvzIdYZBTahVc9Lq-JVs	2026-05-20 08:39:35.986212+00
 l343qniv791ce08xyt3j690dec8vm8zr	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1wUP50:AIaGwvcW5PKa8Fd1w1pfrjvaJe1Q48i5bAM6EtSmKgU	2026-06-02 13:27:50.152863+00
+15chp43zusnm5adpsmvw26d68dbdmp25	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1wXa4c:S102X5XzmyT1pt1a0T5apsvWvOhyGN4izcz1HsMSbTM	2026-06-11 07:48:34.150966+00
 yboypbbrm4y9dscpms88encfyct5983m	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1w8hHh:plLon80BUUzl4O-0liPRAWAsU6I3JMnzuWxZjpBR2kE	2026-04-03 16:27:13.317388+00
 yixb7qet07e2xdhu5q4l5whayfxmluc2	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1wBS08:WXZNo_MgBOOiaybwjgQYdiKQJcWORvjXvhlw0R2p1GQ	2026-04-11 06:44:28.113178+00
 cdjmvc76758ayombmkmztc5wg1cuv9v9	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1wILLX:rE_0IK6M0F7DgN5xVfNfkk4cKl836_btAj-bvwQ56iY	2026-04-30 07:03:03.892374+00
@@ -3418,6 +3420,7 @@ ooxbgugwt0gzx8m5hoydbhov0du83hb3	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225C
 xwnihv0x5ripozubysaquf02w9txasnz	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1w4z59:cZdsNkFeulRhOjA7ZNvIc2Ih34RUHCqBR7CWw_B2LiY	2026-03-24 10:38:55.601439+00
 juf0syhwj6uzwezki69wxawgghxec2mm	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1wLFF2:0iMYPsh1FcptmjBrwXKDhwIfkS7qTI0Q58AOEYj4fPo	2026-05-08 07:08:20.196838+00
 vwde1goegfchvh8jr4gsyekagle3c5wk	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1w8wZ2:GBN1wyyvxiUwZhHgcGNhubK8B8kF8g8OjfGoKsgJb74	2026-04-04 08:46:08.004969+00
+qzl9u0lq6z35xjehorocrsu6hdh4crde	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1wXaIe:6gKJmVLMG8aEk-hRaNdiSev3geSBlFFDJWMTV7xPxOw	2026-06-11 08:03:04.768385+00
 xhmkh0ja2dp180nge32r7kniehofncmi	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1w8b7j:CLSj88g9fmE38Rn-Bz5sLZB-ll1nFZJfrWw2yBMZMl0	2026-04-03 09:52:31.530367+00
 yyz6nrt04gh8tc0mu818ow84286lmwz5	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1w2P7c:3JEUWJSCfryiOwMjeGRde_okGkPH1suv6gb3fxdq_0Y	2026-03-17 07:50:48.516162+00
 fk5p188kn7yj2o32crxm9xrw3ijz0u9b	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1wWWKH:qIWmwwmHnUQm8F9NCifX0DQsM6rwmNl4Mi2NeO7lUlo	2026-06-08 09:36:21.127068+00
@@ -3648,6 +3651,7 @@ COPY public.inventory_inventoryalert (id, alert_type, title, description, severi
 214	low_stock	Low Stock: Cylinder Jet14	Inventory level for Cylinder Jet14 (12100-XJA-0100) is below reorder level. Current stock: 0.00, Reorder level: 0.00	high	new	0.00	0.00	f	t	2026-05-13 07:33:03.924962+00	2026-05-13 07:33:03.924984+00	\N	\N	\N	\N	319	\N	\N	1
 215	low_stock	Low Stock: Brake Disk FR	Inventory level for Brake Disk FR (45121-XMC-0001) is below reorder level. Current stock: 2.00, Reorder level: 2.00	medium	new	2.00	2.00	f	t	2026-05-15 07:39:51.389295+00	2026-05-15 07:39:51.38933+00	\N	\N	\N	\N	19	\N	\N	1
 216	low_stock	Low Stock: EXH Pipe Gasket Fiddle 150	Inventory level for EXH Pipe Gasket Fiddle 150 (18291-Z8G-0000) is below reorder level. Current stock: 1.00, Reorder level: 1.00	medium	new	1.00	1.00	f	t	2026-05-25 14:32:33.66054+00	2026-05-25 14:32:33.660578+00	\N	\N	\N	\N	50	\N	\N	1
+217	low_stock	Low Stock: Exhaust Protector Jet14	Inventory level for Exhaust Protector Jet14 (18317-XPA-0001-K) is below reorder level. Current stock: 0.00, Reorder level: 0.00	high	new	0.00	0.00	f	t	2026-06-11 08:12:20.927691+00	2026-06-11 08:12:20.927728+00	\N	\N	\N	\N	66	\N	\N	1
 \.
 
 
@@ -3713,9 +3717,9 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 30	5052A-APA-9000	Main Stand SPG.ASSY		6.00	2.00	40.00	Frame and Body		2025-05-05 21:54:55.123104+00	2026-03-20 10:44:20.512684+00	1
 35	3445700	Tyre FF 100/90-14 Pireli Bikewise		5.00	2.00	1000.00	Wheels and Tires		2025-05-05 22:05:17.849359+00	2026-04-23 07:57:57.896444+00	1
 44	3585A-35A-A000	Start MAG SW SET JET 14		3.00	1.00	300.00	Electrical Components		2025-05-06 07:12:36.605176+00	2026-04-29 15:43:55.46488+00	1
+66	18317-XPA-0001-K	Exhaust Protector Jet14		0.00	0.00	300.00	Frame and Body		2025-05-06 07:30:48.985752+00	2026-06-11 07:58:03.07597+00	1
 19	45121-XMC-0001	Brake Disk FR		2.00	2.00	500.00	Brakes		2025-05-05 21:42:42.832656+00	2026-05-14 08:01:29.096461+00	1
 97	14523-Z8G-0000	Gasket-tens Xpro125		1.00	0.00	30.00	Engine & Transmission		2025-05-06 08:02:58.489471+00	2026-05-12 13:02:41.219554+00	1
-66	18317-XPA-0001-K	Exhaust Protector Jet14		1.00	0.00	300.00	Frame and Body		2025-05-06 07:30:48.985752+00	2026-06-08 09:25:33.024364+00	1
 101	95801-08035-07	Flange Bolt M8x35		3.00	0.00	10.00	Miscellaneous / Universal Parts		2025-05-06 08:04:58.176295+00	2025-05-06 08:04:58.176315+00	1
 102	22131-M92-0003	Ramp Plate		4.00	1.00	300.00	Engine & Transmission		2025-05-06 08:05:31.71597+00	2025-05-06 08:05:31.715991+00	1
 104	81132-X8A-0000	Luggage Hook		3.00	1.00	50.00	Frame and Body		2025-05-06 08:06:31.708581+00	2025-05-06 08:06:31.708612+00	1
@@ -4337,8 +4341,8 @@ COPY public.inventory_scooter (id, vin, make, model, year, color, status, hourly
 56	LXMXCA501RXA28092	Sym	Jet 14 200	2023	White	available	25.00	400.00	2024-06-25	30775.00	9000	2026-05-06		2025-05-19 07:53:15.182802+00	2026-05-06 08:36:05.699997+00	1	LV 14 JV GP	\N	\N	B
 97	LXMXCA501SXA24095	Sym	Jet 14 200	2025	White	available	650.00	450.00	2025-12-03	33300.00	0	2026-06-08		2025-12-03 08:50:26.869711+00	2026-06-08 09:31:19.524654+00	1	MR 01 HN GP	\N	\N	B
 96	LXMXCA501SXA24092	Sym	Jet 14 200	2025	White	available	650.00	450.00	2025-12-03	33300.00	0	2026-06-09		2025-12-03 08:27:37.129399+00	2026-06-09 07:18:18.537423+00	1	MR 01 HS GP	\N	\N	B
-45	LXMXCA501RXA30421	Sym	Jet 14 200	2023	White	available	25.00	400.00	2024-12-13	30775.00	3187	2026-05-20		2025-05-13 10:36:54.228247+00	2026-05-20 08:31:33.703917+00	1	MB 96 YF GP	\N	\N	B
 50	LXMXCA501PX020380	Sym	Jet 14 200	2023	White	available	25.00	400.00	2024-06-25	30775.00	15640	2026-05-21		2025-05-19 07:37:27.254695+00	2026-05-21 07:50:29.182379+00	1	LV 14 GZ GP	\N	\N	B
+45	LXMXCA501RXA30421	Sym	Jet 14 200	2023	White	available	25.00	400.00	2024-12-13	30775.00	3187	\N		2025-05-13 10:36:54.228247+00	2026-06-11 07:58:02.901878+00	1	MB 96 YF GP	\N	\N	B
 \.
 
 
@@ -5041,6 +5045,7 @@ COPY public.service_jobcard (id, job_card_number, status, priority, description,
 447	JC000424	completed	low	23,750km Service	23750	2026-06-08 11:28:59.683611+00	2026-06-08 11:28:59.83898+00	2026-06-08	2026-06-08	3.00	650.00	0.00		44	7	available	1	service	0.00	0.00	0.00	0.00	0.00	0.00
 448	JC000425	completed	urgent	15,000km Service	14977	2026-06-09 07:18:18.540689+00	2026-06-09 07:18:18.700955+00	2026-06-09	2026-06-09	1.50	650.00	0.00		96	7	available	1	service	0.00	0.00	0.00	0.00	0.00	0.00
 449	JC000426	completed	low	30,000km Service	29923	2026-06-10 09:36:26.954474+00	2026-06-10 09:36:27.142999+00	2026-06-10	2026-06-10	2.00	650.00	0.00		46	7	available	1	service	0.00	0.00	0.00	0.00	0.00	0.00
+450	JC000427	completed	urgent	Exh. Protector	22559	2026-06-11 07:58:02.905121+00	2026-06-11 07:58:03.203703+00	\N	\N	0.50	650.00	0.00		45	7	available	1	service	0.00	0.00	0.00	0.00	0.00	0.00
 \.
 
 
@@ -6549,6 +6554,7 @@ COPY public.service_jobcarditem (id, quantity, unit_price, total_price, date_add
 1626	1.00	119.00	119.00	2026-05-27 08:47:45.879772+00	433	15
 1659	0.80	560.00	448.00	2026-06-03 08:37:29.137561+00	443	1
 1660	1.00	140.00	140.00	2026-06-03 08:37:29.160291+00	443	14
+1694	1.00	300.00	300.00	2026-06-11 07:58:03.118541+00	450	66
 1243	0.80	560.00	448.00	2026-03-17 07:43:50.299047+00	348	1
 1244	0.80	500.00	400.00	2026-03-17 07:43:50.304438+00	348	7
 1245	1.00	111.80	111.80	2026-03-17 07:43:50.307898+00	348	8
@@ -9217,6 +9223,12 @@ COPY public.service_servicechecklist (id, item_name, is_checked, notes, date_cre
 2566	Lights and signals testing	f		2026-06-10 09:36:27.138391+00	2026-06-10 09:36:27.138414+00	449
 2567	Electrical system check	f		2026-06-10 09:36:27.140415+00	2026-06-10 09:36:27.140437+00	449
 2568	Frame and suspension inspection	f		2026-06-10 09:36:27.141809+00	2026-06-10 09:36:27.141827+00	449
+2569	Brake inspection	f		2026-06-11 07:58:03.170236+00	2026-06-11 07:58:03.170261+00	450
+2570	Battery check	f		2026-06-11 07:58:03.173813+00	2026-06-11 07:58:03.173836+00	450
+2571	Tire pressure and condition	f		2026-06-11 07:58:03.193499+00	2026-06-11 07:58:03.193531+00	450
+2572	Lights and signals testing	f		2026-06-11 07:58:03.195138+00	2026-06-11 07:58:03.19516+00	450
+2573	Electrical system check	f		2026-06-11 07:58:03.196797+00	2026-06-11 07:58:03.196829+00	450
+2574	Frame and suspension inspection	f		2026-06-11 07:58:03.202061+00	2026-06-11 07:58:03.202099+00	450
 \.
 
 
@@ -9230,7 +9242,7 @@ COPY public.users_userprofile (id, phone, "position", bio, date_updated, store_i
 6				2025-06-27 07:30:02.18664+00	\N	6				t	25	t	t	\N
 4				2026-03-08 16:12:42.022511+00	1	3				t	25	t	t	
 1				2026-03-07 08:06:14.366224+00	\N	1				t	25	t	t	\N
-7	0837288948			2026-06-10 09:34:18.995126+00	\N	7	489 Johannes Ramakhoase Stt	Pretoria	0007	t	50	t	t	avatars/Migadde_Hussein_Madan_DV_2027.jpg
+7	0837288948			2026-06-11 08:12:20.795509+00	\N	7	489 Johannes Ramakhoase Stt	Pretoria	0007	t	50	t	t	avatars/Migadde_Hussein_Madan_DV_2027.jpg
 \.
 
 
@@ -9392,7 +9404,7 @@ SELECT pg_catalog.setval('public.django_migrations_id_seq', 59, true);
 -- Name: inventory_inventoryalert_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_inventoryalert_id_seq', 216, true);
+SELECT pg_catalog.setval('public.inventory_inventoryalert_id_seq', 217, true);
 
 
 --
@@ -9560,21 +9572,21 @@ SELECT pg_catalog.setval('public.landing_wishlist_products_id_seq', 1, false);
 -- Name: service_jobcard_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.service_jobcard_id_seq', 449, true);
+SELECT pg_catalog.setval('public.service_jobcard_id_seq', 450, true);
 
 
 --
 -- Name: service_jobcarditem_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.service_jobcarditem_id_seq', 1693, true);
+SELECT pg_catalog.setval('public.service_jobcarditem_id_seq', 1694, true);
 
 
 --
 -- Name: service_servicechecklist_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.service_servicechecklist_id_seq', 2568, true);
+SELECT pg_catalog.setval('public.service_servicechecklist_id_seq', 2574, true);
 
 
 --
@@ -11382,5 +11394,5 @@ ALTER DEFAULT PRIVILEGES FOR ROLE "among.the.pines" IN SCHEMA public GRANT ALL O
 -- PostgreSQL database dump complete
 --
 
-\unrestrict qEoS5dXbuDJyofYO2dxlwCrmMrJ4MM9Z3PmJt4nt60t0zc1VxbpoLXtUt00rn72
+\unrestrict 2inGnINhYNTnEBCn6RgsWqpYYuIJrvGOQVuUp3cm3I7IG8cLpJvrD6t9FPwcFW5
 
