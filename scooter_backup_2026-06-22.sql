@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict T9cmqk8djyp0X1J7mkHc9QJeaDtsT6Znz8hUbiCLxeU2jzZr0YcVi1VJCo9bLQ8
+\restrict K47pezOCoxNHUAOFgcKCE5JHUUVHyydgqT1ULRIDcTsxCapegqM2pe2o7nlnMmD
 
 -- Dumped from database version 16.13 (Homebrew)
 -- Dumped by pg_dump version 16.13 (Homebrew)
@@ -2182,7 +2182,7 @@ COPY public.auth_user (id, password, last_login, is_superuser, username, first_n
 6	pbkdf2_sha256$1000000$gW0XaR5oueAWIaUbkUJmuu$kM9m2ZVjqvwD9PcDONNFqkBHovzdnimO8aXLpNkFuQA=	\N	f	Adrich				f	t	2025-06-27 07:30:01.331008+00
 3	pbkdf2_sha256$1000000$rpW7xz0ZPTzlEIe5RN57cp$1rAzp9qQRn4uMfs9Ma5wljFHq65Gy343HP8NFRyjijQ=	2026-03-08 16:12:42.013266+00	f	Trymore	Trymore			t	t	2025-05-12 13:07:03+00
 1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2026-03-07 08:06:14.35867+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
-7	pbkdf2_sha256$1000000$yIZhpFlZKehDqixIHINhcx$/yGeri4tjZzlI6D3ETxaMOEhAz3DD6PS9RjiSXpnNbo=	2026-06-22 06:57:08.511725+00	t	Hussein	Hussein	Migadde	mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
+7	pbkdf2_sha256$1000000$yIZhpFlZKehDqixIHINhcx$/yGeri4tjZzlI6D3ETxaMOEhAz3DD6PS9RjiSXpnNbo=	2026-06-22 11:35:32.579237+00	t	Hussein	Hussein	Migadde	mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
 \.
 
 
@@ -3408,6 +3408,7 @@ y04ozyw15a7v1kz0eg85trakzxs0c49w	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225C
 axabnf10aexsjr2j2oqoydpzhfdlpbps	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1wB6se:0-wJYMm2bF0OfEPgUv1t4pYJvnT2w2J0699M2YCjBzM	2026-04-10 08:11:20.165921+00
 cxepscsjx04ii0ilzokas1f2a16tct9s	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1w8aY7:Y0mUCKvMCRj8JrCUj6QZwCJhjhEpPeNGgiW3kr2fEMI	2026-04-03 09:15:43.213146+00
 8tls1p6anp9vvcurawx2r2bcwls7bs9e	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1wNqLZ:P9J7o31si1p4liJ9xJhFnJOw4_lFWOzYnx2JHOQnru4	2026-05-15 11:09:49.35558+00
+hvlmnjt8us9uvgn0jwe5aykge8o6ky4a	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1wbcoc:HNI9M23bTwMF4WNHX7JFOTdHR8nE8eWve81FLoP6rmk	2026-06-22 11:32:46.180086+00
 3do05hmlwomd5awgacczt59przsbz917	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1w4xcG:Xlol_XIeIA1KBEsZ8DaUhweLQocPCmrazEHzEljzUhM	2026-03-24 09:05:00.650509+00
 go7hm4ptvdkrvzqjhtee9izmwtxy0iqu	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1wPcNv:lIGed_Y00QP1CGDZSMlxi0JQvzIdYZBTahVc9Lq-JVs	2026-05-20 08:39:35.986212+00
 l343qniv791ce08xyt3j690dec8vm8zr	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1wUP50:AIaGwvcW5PKa8Fd1w1pfrjvaJe1Q48i5bAM6EtSmKgU	2026-06-02 13:27:50.152863+00
@@ -3419,6 +3420,7 @@ cdjmvc76758ayombmkmztc5wg1cuv9v9	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225C
 whjnib8plir1e7ufuojzd00g6cm6f1qo	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1w8fnM:oB0BUYEPCZCDX_GefTW3uHS92NAmaLzX7MXkPg-zzw8	2026-04-03 14:51:48.53463+00
 5wv7tfkgsm77x15ajme2xe71shgtx3pe	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1wHfme:iCn-ivvK_da4ZWAA27bfxFZROPGCSDi1-Zg0AXOkK_Q	2026-04-28 10:40:16.160893+00
 xkicz2teb847rp6okgxqhwpjy5mw5i90	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1w8age:UaGt1B5mbqaZw9Uizjo-l-coupL6LG7HzJUdq-Hyjbw	2026-04-03 09:24:32.604055+00
+8byk5ur1b2rots08267cdjkswfdvwh27	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1wbcyR:7cb278fKaWGaKYGpV_CEpiwgGeFlrYBRV9X4a3tGD1Q	2026-06-22 11:42:55.602292+00
 28ds6bvcfo4sbfxr1g37zcg7w597duld	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1wCxsL:UqL5Amc5Gz_YjQYaGbwNAM4VzWqjm1Rar-oj5JaGhJw	2026-04-15 10:58:41.964474+00
 h90ebf6n6bi14gnzf7txj54v50ym0s16	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1wKXjj:ja-CyGe9ww9x77zLmvV0NrljvTjhPhjV_Xwl0IY7HDE	2026-05-06 08:41:07.010227+00
 ooxbgugwt0gzx8m5hoydbhov0du83hb3	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1w23vb:i_Th-H8iVuY7zg6Lcuwlq-Hspqokv03Bq47Do6BA3G8	2026-03-16 09:12:59.507012+00
@@ -3951,7 +3953,6 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 291	12191-Z2D-0000	Cylinder Gasket Xpro125		0.00	0.00	42.71	Engine & Transmission		2025-11-12 13:14:16.128185+00	2026-05-12 13:02:41.221424+00	1
 47	211412	Valve Ruber Rim		90.00	5.00	10.00	Wheels and Tires		2025-05-06 07:15:31.536846+00	2026-06-18 09:03:21.287111+00	1
 100	95801-08045-04	Flange Bolt 845		6.00	0.00	10.00	Miscellaneous / Universal Parts		2025-05-06 08:04:35.016433+00	2026-03-24 10:25:29.660252+00	1
-11	CR7HSA	Spark Plug		9.00	5.00	80.00	Engine & Transmission		2025-05-05 21:30:07.226667+00	2026-06-17 14:53:56.968507+00	1
 134	384-BTX7A-BS	Battery Motorsport		6.00	0.00	429.00	Electrical Components		2025-05-06 08:28:03.415966+00	2026-06-19 15:08:58.965038+00	1
 83	50535-Z7C-0002	Spring stand xpro125		5.00	1.00	50.00	Frame and Body		2025-05-06 07:47:59.89807+00	2026-03-20 10:47:09.878589+00	1
 10	22132-ARA-0000	Slide Piece		39.00	15.00	10.00	Engine & Transmission		2025-05-05 21:28:57.890263+00	2026-06-19 15:47:29.867398+00	1
@@ -3962,6 +3963,7 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 103	2211A-ARA-0002	Face-Drive Xpro125		4.00	1.00	120.00	Engine & Transmission		2025-05-06 08:06:05.065674+00	2026-05-25 14:40:12.399237+00	1
 52	93903-34340	Tapping Screw 4*12		18.00	5.00	3.00	Bolts & Nuts		2025-05-06 07:20:41.156391+00	2026-06-18 09:03:21.382026+00	1
 9	23100-XMA-0001	Drive Belt		9.00	5.00	996.52	Engine & Transmission		2025-05-05 21:28:13.605717+00	2026-06-19 15:47:29.873933+00	1
+11	CR7HSA	Spark Plug		19.00	5.00	80.00	Engine & Transmission		2025-05-05 21:30:07.226667+00	2026-06-22 11:37:12.275759+00	1
 7	173469	Gear Oil		20.50	5.00	500.00	Lubricants & Fluids		2025-05-05 21:21:17.375925+00	2026-06-18 08:56:12.262459+00	1
 116	93404-06012-07	Washer Bolt 6*12		11.00	4.00	20.00	Miscellaneous / Universal Parts		2025-05-06 08:13:38.874667+00	2026-06-22 07:07:08.661949+00	1
 286	13010-VVC-0000	Piston Ring Set Jet14		1.00	0.00	248.93	Engine & Transmission		2025-11-12 13:10:01.540807+00	2026-05-11 07:52:37.793063+00	1
@@ -4060,6 +4062,7 @@ COPY public.inventory_purchase (id, invoice_number, invoice_date, due_date, stat
 78	10AIPABB8270	2026-05-16	2026-05-15	paid	72.04	72.04		2026-05-15 11:04:40.759733+00	2026-05-15 11:04:40.838377+00	7	1	1	41.76	40.00	104.40	9.40	15.00	0.00
 79	10AIPABB9188	2026-05-25	2026-05-25	paid	4919.88	5017.62		2026-05-25 14:40:10.494821+00	2026-05-25 14:40:14.31885+00	7	1	1	2852.10	40.00	7130.26	641.72	15.00	0.00
 87	10AIPABC1693	2026-06-19	2026-06-19	paid	7430.39	7461.77		2026-06-19 15:47:29.795405+00	2026-06-22 06:58:01.44875+00	7	1	1	4258.20	40.00	10645.49	958.09	15.00	85.00
+88	66934865	2026-06-22	2026-06-22	paid	345.00	345.00		2026-06-22 11:37:12.131383+00	2026-06-22 11:37:12.331797+00	7	1	1	0.00	0.00	300.00	45.00	15.00	0.00
 \.
 
 
@@ -4230,6 +4233,7 @@ COPY public.inventory_purchaseitem (id, description, quantity, unit_price, part_
 198	Ignition Coil Cap - 30700-T7A-A000	10.00	62.05	26	87	\N	1
 199	Drive Belt - 23100-XMA-0001	5.00	996.52	9	87	\N	1
 200	Air Filter Element - 17211-ADB-0000	10.00	111.80	8	87	\N	1
+201	Spark Plug - CR7HSA	10.00	30.00	11	88	\N	1
 189	Exhaust Protector Jet14 - 18317-XPA-0001-K	3.00	393.47	66	86	\N	1
 190	Flange Bolt 6*12 - 95701-06012-07	10.00	1.90	61	86	\N	1
 191	Brake Pads RR - 43105-ARB-000-A-9	10.00	140.16	14	86	\N	1
@@ -9379,7 +9383,7 @@ COPY public.users_userprofile (id, phone, "position", bio, date_updated, store_i
 6				2025-06-27 07:30:02.18664+00	\N	6				t	25	t	t	\N
 4				2026-03-08 16:12:42.022511+00	1	3				t	25	t	t	
 1				2026-03-07 08:06:14.366224+00	\N	1				t	25	t	t	\N
-7	0837288948			2026-06-22 06:57:08.520442+00	\N	7	489 Johannes Ramakhoase Stt	Pretoria	0007	t	50	t	t	avatars/Migadde_Hussein_Madan_DV_2027.jpg
+7	0837288948			2026-06-22 11:35:32.587371+00	\N	7	489 Johannes Ramakhoase Stt	Pretoria	0007	t	50	t	t	avatars/Migadde_Hussein_Madan_DV_2027.jpg
 \.
 
 
@@ -9555,14 +9559,14 @@ SELECT pg_catalog.setval('public.inventory_parts_id_seq', 323, true);
 -- Name: inventory_purchase_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_purchase_id_seq', 87, true);
+SELECT pg_catalog.setval('public.inventory_purchase_id_seq', 88, true);
 
 
 --
 -- Name: inventory_purchaseitem_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_purchaseitem_id_seq', 200, true);
+SELECT pg_catalog.setval('public.inventory_purchaseitem_id_seq', 201, true);
 
 
 --
@@ -11531,5 +11535,5 @@ ALTER DEFAULT PRIVILEGES FOR ROLE "among.the.pines" IN SCHEMA public GRANT ALL O
 -- PostgreSQL database dump complete
 --
 
-\unrestrict T9cmqk8djyp0X1J7mkHc9QJeaDtsT6Znz8hUbiCLxeU2jzZr0YcVi1VJCo9bLQ8
+\unrestrict K47pezOCoxNHUAOFgcKCE5JHUUVHyydgqT1ULRIDcTsxCapegqM2pe2o7nlnMmD
 
