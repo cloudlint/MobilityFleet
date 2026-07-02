@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict nlNOu8CLlRYQdWN6fq4AKOs7EwxhQV5xcjAXrHFUVWaMMV16Bk2JKEwgnQ7xMhR
+\restrict ApkgvQXXj6HljP555FWreuteH8DeKYu7nPISHZuvELjCD2DKGSCLtwN1web21Mf
 
 -- Dumped from database version 16.13 (Homebrew)
 -- Dumped by pg_dump version 16.13 (Homebrew)
@@ -2182,7 +2182,7 @@ COPY public.auth_user (id, password, last_login, is_superuser, username, first_n
 6	pbkdf2_sha256$1000000$gW0XaR5oueAWIaUbkUJmuu$kM9m2ZVjqvwD9PcDONNFqkBHovzdnimO8aXLpNkFuQA=	\N	f	Adrich				f	t	2025-06-27 07:30:01.331008+00
 3	pbkdf2_sha256$1000000$rpW7xz0ZPTzlEIe5RN57cp$1rAzp9qQRn4uMfs9Ma5wljFHq65Gy343HP8NFRyjijQ=	2026-03-08 16:12:42.013266+00	f	Trymore	Trymore			t	t	2025-05-12 13:07:03+00
 1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2026-03-07 08:06:14.35867+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
-7	pbkdf2_sha256$1000000$yIZhpFlZKehDqixIHINhcx$/yGeri4tjZzlI6D3ETxaMOEhAz3DD6PS9RjiSXpnNbo=	2026-07-01 15:18:02.137671+00	t	Hussein	Hussein	Migadde	mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
+7	pbkdf2_sha256$1000000$yIZhpFlZKehDqixIHINhcx$/yGeri4tjZzlI6D3ETxaMOEhAz3DD6PS9RjiSXpnNbo=	2026-07-02 08:51:11.495406+00	t	Hussein	Hussein	Migadde	mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
 \.
 
 
@@ -3444,6 +3444,7 @@ mj4w52yss9b919lpuv9t328hy4muj7kg	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225C
 z622ltyqlv6bf6xy5izajbdg92tg32vb	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1wd4JH:LqyQjQbpd6qmmufleabRBpB1N_sYzjiVGbYujnRCmfA	2026-06-26 11:06:23.117196+00
 xe14lojoyz9w4scoc7fiwkx1cgt3josj	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1weqzG:STQTUF4aN3eTcQcMmxwl_6zum7Blc21IMqWAZyss7wA	2026-07-01 09:17:06.052677+00
 zijtkzqxfu8i9cbmkzau9opkwchsteo2	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1we7nh:T6TPWZzvI0Zgyd13YEpbmCxO0t0CTQgNk8XMuev1dxI	2026-06-29 09:02:09.147004+00
+4l5gomroylyci8qplc5rtmv4i8x49syw	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1wfD8h:kgIPy_qNDlzpZ3TlH66ZUPgflXSBGb478UZFg5PiCss	2026-07-02 08:56:19.98984+00
 5sdyw5773hpu6b8451kc79jjkwoh8yx0	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1weB5L:OcaFJXkGXJSfzYrllkbOZTFwixgSGhjrK-tFnIZs1kM	2026-06-29 12:32:35.672799+00
 5xnnftx06zagkg72omraxy8kaafjhkyi	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1werMt:oS0xZ1VPkAMpYudnrOJIPyYGZxdHnHBQuGbECpls3LQ	2026-07-01 09:41:31.910638+00
 03vflb9cl12jfqs3lhxfmsw0ms9zje0y	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225CJpZ-a9jQVclxrWkecwEbsyyy6_LGJ65XYIemJ7dJ56W-Yp8iPhpx383im_b2f7d1Bx1H0NEcjJogWgAqEwSR2TL8l4suCd0ZZUoZJ2ipBdAaGFw1hydtpAlOzzBevWOFs:1weX4z:CnYwrU2v8ftMUj46RbHtlgz3jzRr4y8ZpthaJ0e0_T4	2026-06-30 12:01:41.373583+00
@@ -3673,6 +3674,7 @@ COPY public.inventory_inventoryalert (id, alert_type, title, description, severi
 216	low_stock	Low Stock: EXH Pipe Gasket Fiddle 150	Inventory level for EXH Pipe Gasket Fiddle 150 (18291-Z8G-0000) is below reorder level. Current stock: 1.00, Reorder level: 1.00	medium	new	1.00	1.00	f	t	2026-05-25 14:32:33.66054+00	2026-05-25 14:32:33.660578+00	\N	\N	\N	\N	50	\N	\N	1
 217	low_stock	Low Stock: Exhaust Protector Jet14	Inventory level for Exhaust Protector Jet14 (18317-XPA-0001-K) is below reorder level. Current stock: 0.00, Reorder level: 0.00	high	new	0.00	0.00	f	t	2026-06-11 08:12:20.927691+00	2026-06-11 08:12:20.927728+00	\N	\N	\N	\N	66	\N	\N	1
 218	low_stock	Low Stock: Headlight Assy Jet14 NEW	Inventory level for Headlight Assy Jet14 NEW (33100-X8C-000) is below reorder level. Current stock: 0.00, Reorder level: 0.00	high	new	0.00	0.00	f	t	2026-07-01 09:24:27.919579+00	2026-07-01 09:24:27.9196+00	\N	\N	\N	\N	324	\N	\N	1
+219	low_stock	Low Stock: Headlight Assy Jet14	Inventory level for Headlight Assy Jet14 (33100-X8A-0001) is below reorder level. Current stock: 0.00, Reorder level: 0.00	high	new	0.00	0.00	f	t	2026-07-02 08:39:40.126193+00	2026-07-02 08:39:40.126213+00	\N	\N	\N	\N	119	\N	\N	1
 \.
 
 
@@ -3959,7 +3961,6 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 20	43121-XJA-0001	Brake Disk RR		4.00	2.00	421.21	Brakes		2025-05-05 21:43:23.364712+00	2026-06-19 15:47:29.860243+00	1
 50	18291-Z8G-0000	EXH Pipe Gasket Fiddle 150		5.00	1.00	3000.00	Engine & Transmission		2025-05-06 07:18:44.623886+00	2026-06-17 14:57:32.366015+00	1
 291	12191-Z2D-0000	Cylinder Gasket Xpro125		0.00	0.00	42.71	Engine & Transmission		2025-11-12 13:14:16.128185+00	2026-05-12 13:02:41.221424+00	1
-47	211412	Valve Ruber Rim		90.00	5.00	10.00	Wheels and Tires		2025-05-06 07:15:31.536846+00	2026-06-18 09:03:21.287111+00	1
 100	95801-08045-04	Flange Bolt 845		6.00	0.00	10.00	Miscellaneous / Universal Parts		2025-05-06 08:04:35.016433+00	2026-03-24 10:25:29.660252+00	1
 83	50535-Z7C-0002	Spring stand xpro125		5.00	1.00	50.00	Frame and Body		2025-05-06 07:47:59.89807+00	2026-03-20 10:47:09.878589+00	1
 302	93903-35240	Tapping Screw 5*12		26.00	0.00	5.00	Bolts & Nuts		2026-01-27 10:24:37.974934+00	2026-04-23 08:00:31.021323+00	1
@@ -3984,6 +3985,7 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 11	CR7HSA	Spark Plug		17.00	5.00	80.00	Engine & Transmission		2025-05-05 21:30:07.226667+00	2026-06-30 11:56:29.512773+00	1
 10	22132-ARA-0000	Slide Piece		36.00	15.00	10.00	Engine & Transmission		2025-05-05 21:28:57.890263+00	2026-06-30 11:56:29.518191+00	1
 134	384-BTX7A-BS	Battery Motorsport		5.00	0.00	429.00	Electrical Components		2025-05-06 08:28:03.415966+00	2026-07-01 07:49:28.704835+00	1
+47	211412	Valve Ruber Rim		89.00	5.00	10.00	Wheels and Tires		2025-05-06 07:15:31.536846+00	2026-07-02 08:45:33.560105+00	1
 321	11394-Z2D-0000	Crank Case Gasket		0.00	0.00	52.89	Engine & Transmission		2026-05-11 10:16:26.113777+00	2026-05-12 13:02:41.223386+00	1
 322	11192-XRB-000	R Crankcase Gasket		0.00	0.00	59.79	Engine & Transmission		2026-05-11 10:17:53.169661+00	2026-05-12 13:02:41.225004+00	1
 312	13000-XJA-0002	Crank Shaft Comp Jet14		0.00	0.00	2351.83	Engine & Transmission		2026-05-11 07:37:20.015855+00	2026-05-12 13:02:41.226388+00	1
@@ -3995,7 +3997,7 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 61	95701-06012-07	Flange Bolt 6*12		7.00	0.00	10.00	Miscellaneous / Universal Parts		2025-05-06 07:27:57.530288+00	2026-06-30 11:56:29.519862+00	1
 14	43105-ARB-000-A-9	Brake Pads RR		15.00	5.00	140.00	Brakes		2025-05-05 21:33:50.092617+00	2026-07-01 07:50:27.072386+00	1
 324	33100-X8C-000	Headlight Assy Jet14 NEW		0.00	0.00	2000.00	Lighting and Indicators		2026-07-01 09:12:05.066202+00	2026-07-01 09:12:05.066223+00	1
-119	33100-X8A-0001	Headlight Assy Jet14		0.00	0.00	1900.00	Lighting and Indicators		2025-05-06 08:16:55.432802+00	2026-07-01 15:23:04.776365+00	1
+119	33100-X8A-0001	Headlight Assy Jet14		1.00	0.00	1900.00	Lighting and Indicators		2025-05-06 08:16:55.432802+00	2026-07-02 08:42:15.249438+00	1
 \.
 
 
@@ -4077,6 +4079,7 @@ COPY public.inventory_purchase (id, invoice_number, invoice_date, due_date, stat
 79	10AIPABB9188	2026-05-25	2026-05-25	paid	4919.88	5017.62		2026-05-25 14:40:10.494821+00	2026-05-25 14:40:14.31885+00	7	1	1	2852.10	40.00	7130.26	641.72	15.00	0.00
 87	10AIPABC1693	2026-06-19	2026-06-19	paid	7430.39	7461.77		2026-06-19 15:47:29.795405+00	2026-06-22 06:58:01.44875+00	7	1	1	4258.20	40.00	10645.49	958.09	15.00	85.00
 88	66934865	2026-06-22	2026-06-22	paid	345.00	345.00		2026-06-22 11:37:12.131383+00	2026-06-22 11:37:12.331797+00	7	1	1	0.00	0.00	300.00	45.00	15.00	0.00
+90	10AIPABC2791	2026-07-02	2026-07-02	paid	2080.16	2092.91		2026-07-02 08:42:15.22789+00	2026-07-02 08:42:15.275878+00	7	1	1	1156.61	40.00	2891.53	260.24	15.00	85.00
 \.
 
 
@@ -4270,6 +4273,7 @@ COPY public.inventory_purchaseitem (id, description, quantity, unit_price, part_
 195	Brake Disk RR - 43121-XJA-0001	3.00	340.67	20	87	\N	1
 196	Brake Pads RR - 43105-ARB-000-A-9	10.00	140.16	14	87	\N	1
 197	Slide Piece - 22132-ARA-0000	33.00	4.86	10	87	\N	1
+202	Headlight Assy Jet14 - 33100-X8A-0001	1.00	2891.53	119	90	\N	1
 \.
 
 
@@ -9543,7 +9547,7 @@ COPY public.users_userprofile (id, phone, "position", bio, date_updated, store_i
 6				2025-06-27 07:30:02.18664+00	\N	6				t	25	t	t	\N
 4				2026-03-08 16:12:42.022511+00	1	3				t	25	t	t	
 1				2026-03-07 08:06:14.366224+00	\N	1				t	25	t	t	\N
-7	0837288948			2026-07-01 15:18:02.148764+00	\N	7	489 Johannes Ramakhoase Stt	Pretoria	0007	t	50	t	t	avatars/Migadde_Hussein_Madan_DV_2027.jpg
+7	0837288948			2026-07-02 08:51:11.502241+00	\N	7	489 Johannes Ramakhoase Stt	Pretoria	0007	t	50	t	t	avatars/Migadde_Hussein_Madan_DV_2027.jpg
 \.
 
 
@@ -9705,7 +9709,7 @@ SELECT pg_catalog.setval('public.django_migrations_id_seq', 59, true);
 -- Name: inventory_inventoryalert_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_inventoryalert_id_seq', 218, true);
+SELECT pg_catalog.setval('public.inventory_inventoryalert_id_seq', 219, true);
 
 
 --
@@ -9719,14 +9723,14 @@ SELECT pg_catalog.setval('public.inventory_parts_id_seq', 324, true);
 -- Name: inventory_purchase_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_purchase_id_seq', 88, true);
+SELECT pg_catalog.setval('public.inventory_purchase_id_seq', 90, true);
 
 
 --
 -- Name: inventory_purchaseitem_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_purchaseitem_id_seq', 201, true);
+SELECT pg_catalog.setval('public.inventory_purchaseitem_id_seq', 202, true);
 
 
 --
@@ -11688,5 +11692,5 @@ GRANT ALL ON SCHEMA public TO PUBLIC;
 -- PostgreSQL database dump complete
 --
 
-\unrestrict nlNOu8CLlRYQdWN6fq4AKOs7EwxhQV5xcjAXrHFUVWaMMV16Bk2JKEwgnQ7xMhR
+\unrestrict ApkgvQXXj6HljP555FWreuteH8DeKYu7nPISHZuvELjCD2DKGSCLtwN1web21Mf
 
