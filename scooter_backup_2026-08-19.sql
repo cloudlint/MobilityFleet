@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict YHDG2nSbDrDQgUARG6KLLEoMXQWuuIMzMFsmpW5VUIDv4C6r0wZKRTwMxPlsNVr
+\restrict 70nDcdKPWs4Rk1A4FUjYhNQOsMLgDyNWZeJf5udJOETWBZATgCQimPMBkrdsFrT
 
 -- Dumped from database version 16.15 (Homebrew)
 -- Dumped by pg_dump version 16.15 (Homebrew)
@@ -2182,7 +2182,7 @@ COPY public.auth_user (id, password, last_login, is_superuser, username, first_n
 6	pbkdf2_sha256$1000000$gW0XaR5oueAWIaUbkUJmuu$kM9m2ZVjqvwD9PcDONNFqkBHovzdnimO8aXLpNkFuQA=	\N	f	Adrich				f	t	2025-06-27 07:30:01.331008+00
 3	pbkdf2_sha256$1000000$rpW7xz0ZPTzlEIe5RN57cp$1rAzp9qQRn4uMfs9Ma5wljFHq65Gy343HP8NFRyjijQ=	2026-03-08 16:12:42.013266+00	f	Trymore	Trymore			t	t	2025-05-12 13:07:03+00
 7	pbkdf2_sha256$1000000$yIZhpFlZKehDqixIHINhcx$/yGeri4tjZzlI6D3ETxaMOEhAz3DD6PS9RjiSXpnNbo=	2026-08-14 08:34:59.556439+00	t	Hussein	Hussein	Migadde	mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
-1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2026-08-19 07:48:48.9155+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
+1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2026-08-19 09:04:24.265794+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
 \.
 
 
@@ -3486,6 +3486,7 @@ bqx4rylo8p5nkqrrbkjfh976zo95eorr	.eJxVjDsOwyAQBe9CHSEWxC9l-pwBLSwEJxFIxq6s3D225C
 ebmx67c526rlwliwodd1mls7od7ye9lw	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1wvuPZ:V30VDl4biRtVTsL6Yib4q8Y2BcJRKfUUTue5s8cQwlI	2026-08-17 10:22:45.897927+00
 6vgnfr93kcds9f1clixkwhkgbqgrevre	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1wwQpM:f1zo0V8wDRqJhVqMrGeJMKI5ONV5nmwfDbSG6ZF49NM	2026-08-18 20:59:32.602538+00
 n3ke6x4d4sqsspkdzjpr91xo4jpmk2k6	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1wwb5l:teEY_sBcuylcGj77L9YfeciLX9WajwCH9t-PRLZfljU	2026-08-19 07:57:09.785413+00
+vrrk20wkatekqozqke5g317ue5mcoyiz	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1wwcOA:7SxBFdLTQPaMllISu9SIMPkh-LUiY9z6hrbhnbi_W5M	2026-08-19 09:20:14.741748+00
 \.
 
 
@@ -4052,6 +4053,13 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 47	211412	Valve Ruber Rim		76.00	5.00	10.00	Wheels and Tires		2025-05-06 07:15:31.536846+00	2026-08-18 20:54:19.001096+00	1
 1	173460	Engine Oil		51.10	5.00	560.00	Lubricants & Fluids		2025-05-05 19:18:03.334943+00	2026-08-19 07:50:13.62451+00	1
 14	43105-ARB-000-A-9	Brake Pads RR		14.00	5.00	140.16	Brakes		2025-05-05 21:33:50.092617+00	2026-08-19 07:50:13.628654+00	1
+332	TyroWhRPL	Helmet-SGI Tyro White RPL		1.00	0.00	3000.00	Accessories		2026-08-19 09:07:28.386925+00	2026-08-19 09:07:28.38695+00	1
+333	GLV-RFXSPTBK-3x-Large	Rfx Sport Evo		1.00	0.00	2000.00	Accessories		2026-08-19 09:09:53.024492+00	2026-08-19 09:09:53.024516+00	1
+334	GLV-RFXSPTBK-Small/08	Rfx Sport Evo		1.00	0.00	2000.00	Accessories		2026-08-19 09:10:56.693935+00	2026-08-19 09:10:56.693959+00	1
+335	GLV-RFXSPTBK-2x-Large/12	Rfx Sport Evo		1.00	0.00	2000.00	Accessories		2026-08-19 09:11:41.513378+00	2026-08-19 09:11:41.513401+00	1
+336	GLV-RFXSPTBK-Medium/09	Rfx Sport Evo		1.00	0.00	2000.00	Accessories		2026-08-19 09:12:18.130927+00	2026-08-19 09:12:18.130964+00	1
+337	GLV-RFXSPTBK-Large/10	Rfx Sport Evo		1.00	0.00	2000.00	Accessories		2026-08-19 09:13:04.791084+00	2026-08-19 09:13:04.791108+00	1
+338	GLV-RFXSPTBK-X-Large/11	Rfx Sport Evo		1.00	0.00	2000.00	Accessories		2026-08-19 09:13:43.95585+00	2026-08-19 09:13:43.955875+00	1
 \.
 
 
@@ -10354,7 +10362,7 @@ COPY public.users_userprofile (id, phone, "position", bio, date_updated, store_i
 6				2025-06-27 07:30:02.18664+00	\N	6				t	25	t	t	\N
 4				2026-03-08 16:12:42.022511+00	1	3				t	25	t	t	
 7	0837288948			2026-08-14 08:34:59.63446+00	\N	7	489 Johannes Ramakhoase Stt	Pretoria	0007	t	50	t	t	avatars/Migadde_Hussein_Madan_DV_2027.jpg
-1				2026-08-19 07:48:48.923843+00	\N	1				t	25	t	t	
+1				2026-08-19 09:04:24.288399+00	\N	1				t	25	t	t	
 \.
 
 
@@ -10523,7 +10531,7 @@ SELECT pg_catalog.setval('public.inventory_inventoryalert_id_seq', 228, true);
 -- Name: inventory_parts_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_parts_id_seq', 331, true);
+SELECT pg_catalog.setval('public.inventory_parts_id_seq', 338, true);
 
 
 --
@@ -12499,5 +12507,5 @@ GRANT ALL ON SCHEMA public TO PUBLIC;
 -- PostgreSQL database dump complete
 --
 
-\unrestrict YHDG2nSbDrDQgUARG6KLLEoMXQWuuIMzMFsmpW5VUIDv4C6r0wZKRTwMxPlsNVr
+\unrestrict 70nDcdKPWs4Rk1A4FUjYhNQOsMLgDyNWZeJf5udJOETWBZATgCQimPMBkrdsFrT
 
