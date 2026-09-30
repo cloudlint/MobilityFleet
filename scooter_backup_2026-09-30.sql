@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict 7zGnbNDfELATBsrxeFBFgrqdfDc4v3ko1Ma6Rm1Mi85YfjeEKuqUsoLr22ihKM9
+\restrict SxuMx7KHHmBX36ywVA5dz6mGddSgkEihm3jsztqngyEkZXlKzJrTfhNTx0RfFCe
 
 -- Dumped from database version 16.15 (Homebrew)
 -- Dumped by pg_dump version 16.15 (Homebrew)
@@ -2182,7 +2182,7 @@ COPY public.auth_user (id, password, last_login, is_superuser, username, first_n
 6	pbkdf2_sha256$1000000$gW0XaR5oueAWIaUbkUJmuu$kM9m2ZVjqvwD9PcDONNFqkBHovzdnimO8aXLpNkFuQA=	\N	f	Adrich				f	t	2025-06-27 07:30:01.331008+00
 3	pbkdf2_sha256$1000000$rpW7xz0ZPTzlEIe5RN57cp$1rAzp9qQRn4uMfs9Ma5wljFHq65Gy343HP8NFRyjijQ=	2026-03-08 16:12:42.013266+00	f	Trymore	Trymore			t	t	2025-05-12 13:07:03+00
 7	pbkdf2_sha256$1000000$yIZhpFlZKehDqixIHINhcx$/yGeri4tjZzlI6D3ETxaMOEhAz3DD6PS9RjiSXpnNbo=	2026-08-14 08:34:59.556439+00	t	Hussein	Hussein	Migadde	mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
-1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2026-09-28 11:16:50.797479+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
+1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2026-09-30 08:43:03.592535+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
 \.
 
 
@@ -3515,6 +3515,7 @@ pfybscwzhn5j0l9l5q4wncmxbbrleepo	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdK
 bcgpuxhct4qkr1y11jwrcou9xaws5v39	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1x6QIQ:eFQMK0_mhx0cPPZpYeL7BfybV48Pxsh1YAZ4Nf5f2TA	2026-09-15 10:26:50.04042+00
 xopkz5skr3ldzfvfx0rs71e9ft2c632w	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xB7Z8:whbrQFlVOilRUbkxwuFitKmQtJT6mR3YY9_EMfZDQFo	2026-09-28 09:27:30.912409+00
 ci5tqsfki8izblu331d0wiyrtz2ultb4	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1x7TmD:exjlAvOzUg0RcWuUxvkSMJ74wSgpEK3VNoaFgzucdIM	2026-09-18 08:21:57.818057+00
+atu47omzajzx0wahodaczc6kbdrp8l92	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xBpvy:RzdnIo33Osp_veGv7EnaQiE7OtMrYu3tCZjwAvxX1tc	2026-09-30 08:50:02.470718+00
 u2fbru16sb86dl7hkywbcz2fyyy1c6ln	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1x8Z53:WpJjl_LvBcKFz2-rVVxEt1VgXHPKy26TqXkawq1A3-w	2026-09-21 08:13:53.206541+00
 u3q22gzd34nfcc59f953hy47vbhzy6v5	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1x8xJA:pYGU-kR-jzRcPRlaufabowhbO3e3quWDDZkNCK5wNqE	2026-09-22 10:06:04.052834+00
 30ehk7bazuiam894q0c0wx01ss0hhpsm	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xA0Gl:AxkeNyWC6JrzdKy6iBSSfvr8eCRV_s_wfAKJiV-xBaQ	2026-09-25 07:27:55.688934+00
@@ -3773,6 +3774,7 @@ COPY public.inventory_inventoryalert (id, alert_type, title, description, severi
 238	low_stock	Low Stock: Tensioner Lifter Assy	Inventory level for Tensioner Lifter Assy (14520-GY6-9011-M1) is below reorder level. Current stock: 0.00, Reorder level: 0.00	high	new	0.00	0.00	f	t	2026-09-22 12:07:46.534624+00	2026-09-22 12:07:46.534643+00	\N	\N	\N	\N	361	\N	\N	1
 239	low_stock	Low Stock: Mission Cover Gasket	Inventory level for Mission Cover Gasket (21395-Z2D-0000) is below reorder level. Current stock: 0.00, Reorder level: 0.00	high	new	0.00	0.00	f	t	2026-09-22 12:07:46.53927+00	2026-09-22 12:07:46.53929+00	\N	\N	\N	\N	362	\N	\N	1
 240	low_stock	Low Stock: L.Crank Case COMP	Inventory level for L.Crank Case COMP (11200-ARA-0007) is below reorder level. Current stock: 0.00, Reorder level: 0.00	high	new	0.00	0.00	f	t	2026-09-22 12:07:46.546514+00	2026-09-22 12:07:46.546533+00	\N	\N	\N	\N	355	\N	\N	1
+241	maintenance_due	Maintenance Due: Sym Jet14	Scooter Sym Jet14 (LXMXCA501SXA22583) is due for maintenance. Last maintenance was 91 days ago.	medium	new	\N	\N	f	t	2026-09-30 08:43:04.338681+00	2026-09-30 08:43:04.338701+00	\N	\N	\N	\N	\N	\N	95	1
 \.
 
 
@@ -4115,7 +4117,6 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 38	2902800	Tyre RR 110/80-14” Pireli Bikewise		10.00	5.00	800.00	Wheels and Tires		2025-05-06 06:57:41.482487+00	2026-09-22 09:58:59.271256+00	1
 361	14520-GY6-9011-M1	Tensioner Lifter Assy		0.00	0.00	50.00	Engine & Transmission		2026-09-22 11:20:48.574626+00	2026-09-22 11:20:48.574656+00	1
 97	14523-Z8G-0000	Gasket-tens Xpro125		3.00	0.00	30.00	Engine & Transmission		2025-05-06 08:02:58.489471+00	2026-09-23 10:00:15.20173+00	1
-1	173460	Engine Oil		189.70	5.00	71.43	Lubricants & Fluids		2025-05-05 19:18:03.334943+00	2026-09-28 09:07:42.038663+00	1
 7	173469	Gear Oil		18.80	5.00	500.00	Lubricants & Fluids		2025-05-05 21:21:17.375925+00	2026-09-28 09:07:42.04139+00	1
 103	2211A-ARA-0002	Face-Drive Xpro125		1.00	1.00	120.00	Engine & Transmission		2025-05-06 08:06:05.065674+00	2026-09-28 11:18:17.652036+00	1
 154	12251-XJA-0000	Cylinder Head Gasket Jet14		3.00	0.00	48.18	Engine & Transmission		2025-06-09 12:42:57.17773+00	2026-09-23 10:00:15.307802+00	1
@@ -4123,6 +4124,8 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 356	90201-GY6-9000	Lock nut 22mm		1.00	0.00	10.00	Engine & Transmission		2026-09-22 11:01:14.083046+00	2026-09-23 10:16:30.192985+00	1
 358	14610-F8A-0001	Cam Chain Guide		1.00	0.00	5.00	Engine & Transmission		2026-09-22 11:17:10.175209+00	2026-09-23 10:16:30.197534+00	1
 359	14401-M92-0031-M2	Cam Chain		1.00	0.00	20.00	Engine & Transmission		2026-09-22 11:18:22.105091+00	2026-09-23 10:16:30.201174+00	1
+1	173460	Engine Oil		188.90	5.00	71.43	Lubricants & Fluids		2025-05-05 19:18:03.334943+00	2026-09-30 08:44:35.120782+00	1
+14	43105-ARB-000-A-9	Brake Pads RR		25.00	5.00	140.16	Brakes		2025-05-05 21:33:50.092617+00	2026-09-30 08:44:35.141438+00	1
 360	14510-F8A-0001	Cam Chain Tensioner		1.00	0.00	20.00	Engine & Transmission		2026-09-22 11:19:29.76369+00	2026-09-23 10:16:30.20524+00	1
 8	17211-ADB-0000	Air Filter Element		11.00	5.00	111.80	Consumables and Accessories		2025-05-05 21:25:15.716942+00	2026-09-28 08:49:47.717713+00	1
 355	11200-ARA-0007	L.Crank Case COMP		0.00	0.00	7000.00	Engine & Transmission		2026-09-22 10:59:18.626624+00	2026-09-22 10:59:18.626654+00	1
@@ -4132,7 +4135,6 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 11	CR7HSA	Spark Plug		9.00	5.00	30.00	Engine & Transmission		2025-05-05 21:30:07.226667+00	2026-09-28 08:49:47.721773+00	1
 9	23100-XMA-0001	Drive Belt		5.00	5.00	996.52	Engine & Transmission		2025-05-05 21:28:13.605717+00	2026-09-28 08:49:47.723689+00	1
 20	43121-XJA-0001-K	Brake Disk RR		5.00	2.00	349.67	Brakes		2025-05-05 21:43:23.364712+00	2026-09-28 08:49:47.725314+00	1
-14	43105-ARB-000-A-9	Brake Pads RR		26.00	5.00	140.16	Brakes		2025-05-05 21:33:50.092617+00	2026-09-28 08:49:47.726838+00	1
 10	22132-ARA-0000	Slide Piece		18.00	15.00	10.00	Engine & Transmission		2025-05-05 21:28:57.890263+00	2026-09-28 08:49:47.730777+00	1
 \.
 
@@ -4556,7 +4558,6 @@ COPY public.inventory_scooter (id, vin, make, model, year, color, status, hourly
 48	LXMXCA501RXA35905	Sym	Jet 14 200	2024	White	available	25.00	400.00	2025-02-13	30775.00	1080	2026-08-24		2025-05-16 15:34:16.53836+00	2026-08-24 17:46:44.807737+00	1	MG 15 TC GP	\N	\N	B
 96	LXMXCA501SXA24092	Sym	Jet 14 200	2025	White	available	650.00	450.00	2025-12-03	33300.00	0	2026-08-27		2025-12-03 08:27:37.129399+00	2026-08-27 07:51:54.611129+00	1	MR 01 HS GP	\N	\N	B
 105	LXMXCA501SXA24078	Sym	Jet 14	2025	White	available	300.00	650.00	2026-05-05	23000.00	1050	2026-08-27		2026-05-05 11:27:35.643443+00	2026-08-27 07:53:41.509804+00	1	MR 01 JH GP	\N	\N	B
-56	LXMXCA501RXA28092	Sym	Jet 14 200	2023	White	available	25.00	400.00	2024-06-25	30775.00	9000	2026-09-04		2025-05-19 07:53:15.182802+00	2026-09-04 11:31:20.399511+00	1	LV 14 JV GP	\N	\N	B
 8	LXMXCA501RXA35901	Sym	Jet 14 200	2023	White	available	25.00	100.00	2025-04-01	30779.00	0	2026-09-11		2025-05-08 08:05:29.886307+00	2026-09-11 10:44:46.845322+00	1	MG 15 TV GP	\N	\N	B
 11	LXMXCA501PX020390	Sym	Jet 14 200	2024	White	available	25.00	450.00	2024-06-25	30779.00	7886	2026-09-08		2025-05-09 07:56:30.169421+00	2026-09-08 14:33:18.732164+00	1	LV 14 CT GP	\N	\N	B
 44	LXMXCA501RXA35844	Sym	Jet 14 200	2023	White	available	25.00	400.00	2024-12-13	30775.00	3166	2026-09-09		2025-05-13 10:34:38.237491+00	2026-09-09 15:32:10.945084+00	1	MB 96 WY GP	\N	\N	B
@@ -4575,6 +4576,7 @@ COPY public.inventory_scooter (id, vin, make, model, year, color, status, hourly
 4	LXMXCA501PX020331	Sym	Jet 14 200	2023	White	retired	25.00	650.00	2023-11-27	30779.00	26300	2026-07-10		2025-05-07 18:09:10.565414+00	2026-09-23 10:55:03.494048+00	1	LL 74 SS GP	\N	\N	B
 20	LXMXCA501MX024462	Sym	Jet 14 200	2022	White	retired	25.00	100.00	2022-12-05	30775.00	35973	2026-07-07		2025-05-13 08:32:40.992422+00	2026-09-23 10:55:19.189799+00	1	KP 13 ZF GP	\N	\N	B
 102	LXMXCA501SXA24101	Sym	Jet 14 200	2025	White	retired	650.00	450.00	2025-10-21	31300.00	0	2025-12-08		2025-12-08 09:21:07.085051+00	2026-09-23 10:56:11.24398+00	1	MR 01 KG GP	\N	\N	B
+56	LXMXCA501RXA28092	Sym	Jet 14 200	2023	White	available	25.00	400.00	2024-06-25	30775.00	9000	2026-09-30		2025-05-19 07:53:15.182802+00	2026-09-30 08:44:35.016511+00	1	LV 14 JV GP	\N	\N	B
 114	LXMXCA501TXA34535	Sym	Jet 14	2026	White	available	650.00	100.00	2026-08-12	33000.00	0	2026-08-12		2026-08-12 12:42:30.377327+00	2026-08-12 12:46:28.165621+00	1	ND 17 PT GP	\N	\N	B
 47	LXMXCA501PXA21918	Sym	Jet 14 200	2023	White	available	25.00	400.00	2024-12-13	30775.00	8972	2026-08-14		2025-05-14 13:50:47.360817+00	2026-08-14 08:37:20.870635+00	1	LV 14 LL GP	\N	\N	B
 52	LXMXCA501RXA35909	Sym	Jet 14 200	2023	White	available	25.00	400.00	2025-04-01	30775.00	0	2026-08-18		2025-05-19 07:46:04.566374+00	2026-08-18 20:51:14.079865+00	1	MG 15 SK GP	\N	\N	B
@@ -5436,6 +5438,7 @@ COPY public.service_jobcard (id, job_card_number, status, priority, description,
 582	JC000559	completed	low	1,000km Service	1059	2026-09-17 12:09:23.714171+00	2026-09-17 12:09:23.989144+00	2026-09-17	2026-09-17	1.50	650.00	0.00		113	7	available	1	service	0.00	0.00	0.00	0.00	0.00	0.00
 590	JC000567	completed	low	48,000km Service	48060	2026-09-28 08:49:47.525712+00	2026-09-28 08:49:47.83193+00	2026-09-28	2026-09-28	3.00	650.00	0.00		43	7	available	1	service	0.00	0.00	0.00	0.00	0.00	0.00
 593	JC000570	completed	low	Movable Drive Face	33789	2026-09-28 11:18:17.612074+00	2026-09-28 11:18:17.670403+00	2026-09-28	2026-09-28	1.50	650.00	0.00		41	3	available	1	service	0.00	0.00	0.00	0.00	0.00	0.00
+594	JC000571	completed	low	27,000km Service	26668	2026-09-30 08:44:35.02048+00	2026-09-30 08:44:35.233713+00	2026-09-30	2026-09-30	2.00	650.00	0.00		56	7	available	1	service	0.00	0.00	0.00	0.00	0.00	0.00
 583	JC000560	completed	low	15,000km Service	11920	2026-09-18 08:16:33.746879+00	2026-09-18 08:16:39.104409+00	2026-09-18	2026-09-18	2.50	650.00	0.00		104	7	available	1	service	0.00	0.00	0.00	0.00	0.00	0.00
 584	JC000561	completed	low	15,000km Service	14912	2026-09-21 08:07:33.273247+00	2026-09-21 08:07:36.819996+00	2026-09-21	2026-09-21	1.50	650.00	0.00		101	7	available	1	service	0.00	0.00	0.00	0.00	0.00	0.00
 577	JC000554	completed	low	1,000km Service	1019	2026-09-14 13:36:00.775181+00	2026-09-14 13:36:00.838035+00	2026-09-14	2026-09-14	1.50	650.00	0.00		107	7	available	1	service	0.00	0.00	0.00	0.00	0.00	0.00
@@ -7645,6 +7648,8 @@ COPY public.service_jobcarditem (id, quantity, unit_price, total_price, date_add
 2236	0.80	71.43	57.14	2026-09-28 09:07:42.044082+00	592	1
 2237	0.30	500.00	150.00	2026-09-28 09:07:42.049088+00	592	7
 2238	1.00	120.00	120.00	2026-09-28 11:18:17.654064+00	593	103
+2239	0.80	71.43	57.14	2026-09-30 08:44:35.146222+00	594	1
+2240	1.00	140.16	140.16	2026-09-30 08:44:35.18957+00	594	14
 \.
 
 
@@ -11031,6 +11036,12 @@ COPY public.service_servicechecklist (id, item_name, is_checked, notes, date_cre
 3430	Lights and signals testing	f		2026-09-28 11:18:17.665716+00	2026-09-28 11:18:17.665746+00	593
 3431	Electrical system check	f		2026-09-28 11:18:17.667289+00	2026-09-28 11:18:17.66731+00	593
 3432	Frame and suspension inspection	f		2026-09-28 11:18:17.668946+00	2026-09-28 11:18:17.668967+00	593
+3433	Brake inspection	f		2026-09-30 08:44:35.194233+00	2026-09-30 08:44:35.194257+00	594
+3434	Battery check	f		2026-09-30 08:44:35.225438+00	2026-09-30 08:44:35.22546+00	594
+3435	Tire pressure and condition	f		2026-09-30 08:44:35.22742+00	2026-09-30 08:44:35.227443+00	594
+3436	Lights and signals testing	f		2026-09-30 08:44:35.22931+00	2026-09-30 08:44:35.229334+00	594
+3437	Electrical system check	f		2026-09-30 08:44:35.230886+00	2026-09-30 08:44:35.230906+00	594
+3438	Frame and suspension inspection	f		2026-09-30 08:44:35.232274+00	2026-09-30 08:44:35.232293+00	594
 \.
 
 
@@ -11044,7 +11055,7 @@ COPY public.users_userprofile (id, phone, "position", bio, date_updated, store_i
 6				2025-06-27 07:30:02.18664+00	\N	6				t	25	t	t	\N
 4				2026-03-08 16:12:42.022511+00	1	3				t	25	t	t	
 7	0837288948			2026-08-14 08:34:59.63446+00	\N	7	489 Johannes Ramakhoase Stt	Pretoria	0007	t	50	t	t	avatars/Migadde_Hussein_Madan_DV_2027.jpg
-1				2026-09-28 11:16:50.813562+00	\N	1				t	25	t	t	
+1				2026-09-30 08:43:03.673287+00	\N	1				t	25	t	t	
 \.
 
 
@@ -11206,7 +11217,7 @@ SELECT pg_catalog.setval('public.django_migrations_id_seq', 59, true);
 -- Name: inventory_inventoryalert_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_inventoryalert_id_seq', 240, true);
+SELECT pg_catalog.setval('public.inventory_inventoryalert_id_seq', 241, true);
 
 
 --
@@ -11374,21 +11385,21 @@ SELECT pg_catalog.setval('public.landing_wishlist_products_id_seq', 1, false);
 -- Name: service_jobcard_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.service_jobcard_id_seq', 593, true);
+SELECT pg_catalog.setval('public.service_jobcard_id_seq', 594, true);
 
 
 --
 -- Name: service_jobcarditem_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.service_jobcarditem_id_seq', 2238, true);
+SELECT pg_catalog.setval('public.service_jobcarditem_id_seq', 2240, true);
 
 
 --
 -- Name: service_servicechecklist_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.service_servicechecklist_id_seq', 3432, true);
+SELECT pg_catalog.setval('public.service_servicechecklist_id_seq', 3438, true);
 
 
 --
@@ -13189,5 +13200,5 @@ GRANT ALL ON SCHEMA public TO PUBLIC;
 -- PostgreSQL database dump complete
 --
 
-\unrestrict 7zGnbNDfELATBsrxeFBFgrqdfDc4v3ko1Ma6Rm1Mi85YfjeEKuqUsoLr22ihKM9
+\unrestrict SxuMx7KHHmBX36ywVA5dz6mGddSgkEihm3jsztqngyEkZXlKzJrTfhNTx0RfFCe
 
