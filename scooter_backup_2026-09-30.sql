@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict SxuMx7KHHmBX36ywVA5dz6mGddSgkEihm3jsztqngyEkZXlKzJrTfhNTx0RfFCe
+\restrict C565PRCXIz8DhRBg43GrDsl6WVAi0Slyh3HxqlRNbWunX16dnnPJTmSPcb53bTs
 
 -- Dumped from database version 16.15 (Homebrew)
 -- Dumped by pg_dump version 16.15 (Homebrew)
@@ -2182,7 +2182,7 @@ COPY public.auth_user (id, password, last_login, is_superuser, username, first_n
 6	pbkdf2_sha256$1000000$gW0XaR5oueAWIaUbkUJmuu$kM9m2ZVjqvwD9PcDONNFqkBHovzdnimO8aXLpNkFuQA=	\N	f	Adrich				f	t	2025-06-27 07:30:01.331008+00
 3	pbkdf2_sha256$1000000$rpW7xz0ZPTzlEIe5RN57cp$1rAzp9qQRn4uMfs9Ma5wljFHq65Gy343HP8NFRyjijQ=	2026-03-08 16:12:42.013266+00	f	Trymore	Trymore			t	t	2025-05-12 13:07:03+00
 7	pbkdf2_sha256$1000000$yIZhpFlZKehDqixIHINhcx$/yGeri4tjZzlI6D3ETxaMOEhAz3DD6PS9RjiSXpnNbo=	2026-08-14 08:34:59.556439+00	t	Hussein	Hussein	Migadde	mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
-1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2026-09-30 08:43:03.592535+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
+1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2026-09-30 11:15:19.83+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
 \.
 
 
@@ -3522,6 +3522,7 @@ u3q22gzd34nfcc59f953hy47vbhzy6v5	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdK
 rneggcqnxxbzzj41vpzyo7lpm6szpszb	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xB7m8:trGLq_4zUfDBsOwPT4rmhSzXLZNmc0m8dIN-m-PiyH0	2026-09-28 09:40:56.906894+00
 myv83gjdesehkcy23sviuoa35622oma9	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1x9KsW:P9ywc57FGwM_Az4WIVYalKIzturwl4aAP3H4NRmD9Q0	2026-09-23 11:16:08.534675+00
 gkpfgftxqg0u8c16rw3n68lh828k8h7r	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1x8ZcP:jb5cY0vMg8uPDnoWFgjYRhWlwdXkXBnSYPvT3BDLlMw	2026-09-21 08:48:21.449415+00
+npagckz1punfdh36sxgvy08sx4dnemtr	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xBsLb:klqDoOrfo_5zSyC4kpoY6ZswCat51KDSyldeu18hEv0	2026-09-30 11:24:39.506428+00
 9yw0spkcqq7l4sj3q7uyiiy5f58bpspn	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1x6S7c:o5KzKv7y5egW1hY635q6mpo8C-bZqfktBgm3KiBAxAg	2026-09-15 12:23:48.495619+00
 g5i754svh0wahcau8mlpbf35cfnjh714	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1x8dCL:z-EiPPJHtERnwWLpfyPkduK19I6aEH9rfeYxsdK0jgI	2026-09-21 12:37:41.815357+00
 aile4rdt7p191n1m37b0k9xcu6g7kbot	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1x6TAP:Md7MyvrcMnqs6eAMIuPN-ifTY0ss1EmScBZMLHJr3N0	2026-09-15 13:30:45.320845+00
@@ -4073,7 +4074,6 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 145	12391-F8A-0001	Head Cover Packing Jet14		6.00	0.00	135.05	Engine & Transmission		2025-05-06 08:33:10.560434+00	2026-08-28 13:51:17.755393+00	1
 89	35111-XGA-0001	Key blank Jet14		4.00	1.00	200.00	Locks and Security		2025-05-06 07:52:47.129684+00	2026-08-14 08:41:41.184679+00	1
 328	94050-06040	Flange Nut 6mm		10.00	0.00	5.25	Bolts & Nuts		2026-07-08 07:53:23.068504+00	2026-09-03 10:01:21.948231+00	1
-116	93404-06012-07	Washer Bolt 6*12		13.00	4.00	20.00	Miscellaneous / Universal Parts		2025-05-06 08:13:38.874667+00	2026-08-17 10:17:44.12726+00	1
 254	C0778	Tyre Plug		6.00	5.00	20.00	Wheels & Tyres		2025-09-23 11:27:21.394649+00	2026-09-08 14:31:08.977047+00	1
 136	90202-M9Q-0000	Special Nut 28 mm		4.00	0.00	29.20	Miscellaneous / Universal Parts		2025-05-06 08:29:16.499241+00	2026-09-10 12:20:34.198313+00	1
 48	Brake Fluid	Brake Fluid		3.90	1.00	50.00	Lubricants & Fluids		2025-05-06 07:16:30.892695+00	2026-08-27 07:48:05.46135+00	1
@@ -4087,6 +4087,7 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 322	11192-XRB-000	R Crankcase Gasket		2.00	0.00	59.79	Engine & Transmission		2026-05-11 10:17:53.169661+00	2026-09-23 10:00:15.329579+00	1
 312	13000-XJA-0002	Crank Shaft Comp Jet14		1.00	0.00	2351.83	Engine & Transmission		2026-05-11 07:37:20.015855+00	2026-09-23 10:16:30.187917+00	1
 117	22300-ANT-0001	Plate Xpro125		2.00	0.00	763.92	Engine & Transmission		2025-05-06 08:14:07.124182+00	2026-09-28 08:49:47.728403+00	1
+116	93404-06012-07	Washer Bolt 6*12		20.00	4.00	14.25	Miscellaneous / Universal Parts		2025-05-06 08:13:38.874667+00	2026-09-30 11:17:13.562709+00	1
 340	SGI-CRE-WH-M	SGI Core White-M Helmet		1.00	0.00	749.40	Accessories		2026-08-19 10:03:47.095393+00	2026-08-19 10:03:47.095416+00	1
 341	SGI-CRE-WH-XL	SGI Core White - XL Helmet		1.00	0.00	749.40	Accessories		2026-08-19 10:04:55.024854+00	2026-08-19 10:04:55.024878+00	1
 335	GLV-RFXSPTBK-2x-Large/12	Rfx Sport Evo		1.00	0.00	700.00	Accessories		2026-08-19 09:11:41.513378+00	2026-08-19 10:08:05.481805+00	1
@@ -4238,6 +4239,7 @@ COPY public.inventory_purchase (id, invoice_number, invoice_date, due_date, stat
 111	10AIPABD0558	2026-09-16	2026-09-16	paid	952.59	952.59		2026-09-16 09:28:10.259735+00	2026-09-16 09:28:10.419793+00	1	1	1	552.22	40.00	1380.56	124.25	15.00	0.00
 112	10AIPABD1549	2026-09-23	2026-09-23	paid	528.09	540.84		2026-09-23 10:00:13.768514+00	2026-09-23 10:00:15.333215+00	1	1	1	256.86	40.00	642.16	57.79	15.00	85.00
 115	INV-149799	2026-09-25	2026-09-25	paid	1618.50	1656.00		2026-09-25 07:22:25.18502+00	2026-09-25 07:22:25.226781+00	1	2	1	0.00	0.00	1190.00	178.50	15.00	250.00
+116	10AIPABD2065	2026-09-30	2026-09-30	paid	68.83	68.83		2026-09-30 11:16:43.812499+00	2026-09-30 11:16:44.005234+00	1	1	1	39.90	40.00	99.75	8.98	15.00	0.00
 \.
 
 
@@ -4481,6 +4483,7 @@ COPY public.inventory_purchaseitem (id, description, quantity, unit_price, part_
 254	Mission Cover Gasket - 21395-Z2D-0000	2.00	64.08	362	113	\N	1
 255	Cylinder Jet 14 - 12100-XJA-0101	1.00	704.45	290	113	\N	1
 256	Brake Pads FF - FDB2190EF	10.00	119.00	15	115	\N	1
+257	Washer Bolt 6*12 - 93404-06012-07	7.00	14.25	116	116	\N	1
 \.
 
 
@@ -11055,7 +11058,7 @@ COPY public.users_userprofile (id, phone, "position", bio, date_updated, store_i
 6				2025-06-27 07:30:02.18664+00	\N	6				t	25	t	t	\N
 4				2026-03-08 16:12:42.022511+00	1	3				t	25	t	t	
 7	0837288948			2026-08-14 08:34:59.63446+00	\N	7	489 Johannes Ramakhoase Stt	Pretoria	0007	t	50	t	t	avatars/Migadde_Hussein_Madan_DV_2027.jpg
-1				2026-09-30 08:43:03.673287+00	\N	1				t	25	t	t	
+1				2026-09-30 11:15:19.838054+00	\N	1				t	25	t	t	
 \.
 
 
@@ -11231,14 +11234,14 @@ SELECT pg_catalog.setval('public.inventory_parts_id_seq', 362, true);
 -- Name: inventory_purchase_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_purchase_id_seq', 115, true);
+SELECT pg_catalog.setval('public.inventory_purchase_id_seq', 116, true);
 
 
 --
 -- Name: inventory_purchaseitem_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_purchaseitem_id_seq', 256, true);
+SELECT pg_catalog.setval('public.inventory_purchaseitem_id_seq', 257, true);
 
 
 --
@@ -13200,5 +13203,5 @@ GRANT ALL ON SCHEMA public TO PUBLIC;
 -- PostgreSQL database dump complete
 --
 
-\unrestrict SxuMx7KHHmBX36ywVA5dz6mGddSgkEihm3jsztqngyEkZXlKzJrTfhNTx0RfFCe
+\unrestrict C565PRCXIz8DhRBg43GrDsl6WVAi0Slyh3HxqlRNbWunX16dnnPJTmSPcb53bTs
 
