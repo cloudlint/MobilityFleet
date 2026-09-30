@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict C565PRCXIz8DhRBg43GrDsl6WVAi0Slyh3HxqlRNbWunX16dnnPJTmSPcb53bTs
+\restrict Qsbn7McAkxd8rGKZ4oLIla7riEdZBwdAichysMcjwZYTXvAeW391Z1ld6iPCB6d
 
 -- Dumped from database version 16.15 (Homebrew)
 -- Dumped by pg_dump version 16.15 (Homebrew)
@@ -2182,7 +2182,7 @@ COPY public.auth_user (id, password, last_login, is_superuser, username, first_n
 6	pbkdf2_sha256$1000000$gW0XaR5oueAWIaUbkUJmuu$kM9m2ZVjqvwD9PcDONNFqkBHovzdnimO8aXLpNkFuQA=	\N	f	Adrich				f	t	2025-06-27 07:30:01.331008+00
 3	pbkdf2_sha256$1000000$rpW7xz0ZPTzlEIe5RN57cp$1rAzp9qQRn4uMfs9Ma5wljFHq65Gy343HP8NFRyjijQ=	2026-03-08 16:12:42.013266+00	f	Trymore	Trymore			t	t	2025-05-12 13:07:03+00
 7	pbkdf2_sha256$1000000$yIZhpFlZKehDqixIHINhcx$/yGeri4tjZzlI6D3ETxaMOEhAz3DD6PS9RjiSXpnNbo=	2026-08-14 08:34:59.556439+00	t	Hussein	Hussein	Migadde	mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
-1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2026-09-30 11:15:19.83+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
+1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2026-09-30 13:03:38.9825+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
 \.
 
 
@@ -3509,6 +3509,7 @@ jtwnk7z4wmn31z0f2z0h8xn6wbnuu3xe	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdK
 tkp02gbsc4z9tltfx8mm6zqctj7lm9i0	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1x4KJM:pSoAAyr-zeh7ls2E_U-k-xSQ1UhKsEKlIzGCz6Je9PQ	2026-09-09 15:39:08.593419+00
 f1mp7899j9bd2uhrhz56hkl250ar0aj9	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1x4bKa:UeWO2k2gFDVrR1nljkxrpfyloO6_cMjyLLl3NzrIfK8	2026-09-10 09:49:32.926034+00
 ee434zgi5aptahw1tc65p0j8v75dqpgk	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1x4dlo:03d-fkAziOV2v5lwNfrQ_hAo-ubotQ0Ly9oENboreS8	2026-09-10 12:25:48.47792+00
+soa0115zz3ioenji8sp52ft70fshjuph	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xBtyt:Qv4tOIoSjzDWEPR0Ew2kARSAkXUEjIExdUT6S6ohfSM	2026-09-30 13:09:19.622009+00
 fhwykoxzhuzv80p8ylmczvsk3882s4ps	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1x7Avn:1vyvpAjkgKle_WPvVmZtbNEMIVK7gzLeVYXNRSu9x1s	2026-09-17 12:14:35.079561+00
 n8ajc8bgj0al7uxhh9n820nwg9syaj2l	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1x8zMS:xsHPNUOmKgHc1oLj68mJOxI3Vc7WZzF3XhayKwwQezo	2026-09-22 12:17:36.238454+00
 pfybscwzhn5j0l9l5q4wncmxbbrleepo	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1x6lzT:_0fSP3CPaB0o-LPZRuxV3j86XkgYV-ZmPl1Lg5FvHig	2026-09-16 09:36:43.161509+00
@@ -3776,6 +3777,8 @@ COPY public.inventory_inventoryalert (id, alert_type, title, description, severi
 239	low_stock	Low Stock: Mission Cover Gasket	Inventory level for Mission Cover Gasket (21395-Z2D-0000) is below reorder level. Current stock: 0.00, Reorder level: 0.00	high	new	0.00	0.00	f	t	2026-09-22 12:07:46.53927+00	2026-09-22 12:07:46.53929+00	\N	\N	\N	\N	362	\N	\N	1
 240	low_stock	Low Stock: L.Crank Case COMP	Inventory level for L.Crank Case COMP (11200-ARA-0007) is below reorder level. Current stock: 0.00, Reorder level: 0.00	high	new	0.00	0.00	f	t	2026-09-22 12:07:46.546514+00	2026-09-22 12:07:46.546533+00	\N	\N	\N	\N	355	\N	\N	1
 241	maintenance_due	Maintenance Due: Sym Jet14	Scooter Sym Jet14 (LXMXCA501SXA22583) is due for maintenance. Last maintenance was 91 days ago.	medium	new	\N	\N	f	t	2026-09-30 08:43:04.338681+00	2026-09-30 08:43:04.338701+00	\N	\N	\N	\N	\N	\N	95	1
+242	low_stock	Low Stock: Final gear	Inventory level for Final gear (23432-AJF-0000) is below reorder level. Current stock: 0.00, Reorder level: 0.00	high	new	0.00	0.00	f	t	2026-09-30 13:03:39.172246+00	2026-09-30 13:03:39.172266+00	\N	\N	\N	\N	364	\N	\N	1
+243	low_stock	Low Stock: Drive Shaft	Inventory level for Drive Shaft (23411-A61-0000) is below reorder level. Current stock: 0.00, Reorder level: 0.00	high	new	0.00	0.00	f	t	2026-09-30 13:03:39.18084+00	2026-09-30 13:03:39.180862+00	\N	\N	\N	\N	363	\N	\N	1
 \.
 
 
@@ -4117,9 +4120,10 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 47	211412	Valve Ruber Rim		71.00	5.00	10.00	Wheels and Tires		2025-05-06 07:15:31.536846+00	2026-09-22 09:58:59.269756+00	1
 38	2902800	Tyre RR 110/80-14” Pireli Bikewise		10.00	5.00	800.00	Wheels and Tires		2025-05-06 06:57:41.482487+00	2026-09-22 09:58:59.271256+00	1
 361	14520-GY6-9011-M1	Tensioner Lifter Assy		0.00	0.00	50.00	Engine & Transmission		2026-09-22 11:20:48.574626+00	2026-09-22 11:20:48.574656+00	1
+364	23432-AJF-0000	Final gear		0.00	0.00	200.00	Engine & Transmission		2026-09-30 11:52:31.662711+00	2026-09-30 11:52:31.662737+00	1
 97	14523-Z8G-0000	Gasket-tens Xpro125		3.00	0.00	30.00	Engine & Transmission		2025-05-06 08:02:58.489471+00	2026-09-23 10:00:15.20173+00	1
+103	2211A-ARA-0002	Face-Drive Xpro125		2.00	1.00	120.00	Engine & Transmission		2025-05-06 08:06:05.065674+00	2026-09-30 13:04:04.098415+00	1
 7	173469	Gear Oil		18.80	5.00	500.00	Lubricants & Fluids		2025-05-05 21:21:17.375925+00	2026-09-28 09:07:42.04139+00	1
-103	2211A-ARA-0002	Face-Drive Xpro125		1.00	1.00	120.00	Engine & Transmission		2025-05-06 08:06:05.065674+00	2026-09-28 11:18:17.652036+00	1
 154	12251-XJA-0000	Cylinder Head Gasket Jet14		3.00	0.00	48.18	Engine & Transmission		2025-06-09 12:42:57.17773+00	2026-09-23 10:00:15.307802+00	1
 289	94601-15000	Piston Pin Clip		2.00	0.00	1.90	Engine & Transmission		2025-11-12 13:12:38.126684+00	2026-09-23 10:00:15.311285+00	1
 356	90201-GY6-9000	Lock nut 22mm		1.00	0.00	10.00	Engine & Transmission		2026-09-22 11:01:14.083046+00	2026-09-23 10:16:30.192985+00	1
@@ -4128,6 +4132,7 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 1	173460	Engine Oil		188.90	5.00	71.43	Lubricants & Fluids		2025-05-05 19:18:03.334943+00	2026-09-30 08:44:35.120782+00	1
 14	43105-ARB-000-A-9	Brake Pads RR		25.00	5.00	140.16	Brakes		2025-05-05 21:33:50.092617+00	2026-09-30 08:44:35.141438+00	1
 360	14510-F8A-0001	Cam Chain Tensioner		1.00	0.00	20.00	Engine & Transmission		2026-09-22 11:19:29.76369+00	2026-09-23 10:16:30.20524+00	1
+363	23411-A61-0000	Drive Shaft		0.00	0.00	400.00	Engine & Transmission		2026-09-30 11:48:14.904437+00	2026-09-30 11:48:14.904461+00	1
 8	17211-ADB-0000	Air Filter Element		11.00	5.00	111.80	Consumables and Accessories		2025-05-05 21:25:15.716942+00	2026-09-28 08:49:47.717713+00	1
 355	11200-ARA-0007	L.Crank Case COMP		0.00	0.00	7000.00	Engine & Transmission		2026-09-22 10:59:18.626624+00	2026-09-22 10:59:18.626654+00	1
 362	21395-Z2D-0000	Mission Cover Gasket		2.00	0.00	5.00	Engine & Transmission		2026-09-22 11:24:26.896834+00	2026-09-23 10:16:30.212216+00	1
@@ -11058,7 +11063,7 @@ COPY public.users_userprofile (id, phone, "position", bio, date_updated, store_i
 6				2025-06-27 07:30:02.18664+00	\N	6				t	25	t	t	\N
 4				2026-03-08 16:12:42.022511+00	1	3				t	25	t	t	
 7	0837288948			2026-08-14 08:34:59.63446+00	\N	7	489 Johannes Ramakhoase Stt	Pretoria	0007	t	50	t	t	avatars/Migadde_Hussein_Madan_DV_2027.jpg
-1				2026-09-30 11:15:19.838054+00	\N	1				t	25	t	t	
+1				2026-09-30 13:03:38.988326+00	\N	1				t	25	t	t	
 \.
 
 
@@ -11220,14 +11225,14 @@ SELECT pg_catalog.setval('public.django_migrations_id_seq', 59, true);
 -- Name: inventory_inventoryalert_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_inventoryalert_id_seq', 241, true);
+SELECT pg_catalog.setval('public.inventory_inventoryalert_id_seq', 243, true);
 
 
 --
 -- Name: inventory_parts_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_parts_id_seq', 362, true);
+SELECT pg_catalog.setval('public.inventory_parts_id_seq', 364, true);
 
 
 --
@@ -13203,5 +13208,5 @@ GRANT ALL ON SCHEMA public TO PUBLIC;
 -- PostgreSQL database dump complete
 --
 
-\unrestrict C565PRCXIz8DhRBg43GrDsl6WVAi0Slyh3HxqlRNbWunX16dnnPJTmSPcb53bTs
+\unrestrict Qsbn7McAkxd8rGKZ4oLIla7riEdZBwdAichysMcjwZYTXvAeW391Z1ld6iPCB6d
 
