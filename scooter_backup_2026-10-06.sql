@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict fmmpXp7fSQn906EKgRxANBe3dXabx0EFeVWQ49RWDRssElsdTXfryhEhdDh2B2X
+\restrict GtalVz8rU2jmQBwPTEjVt80bCDIQLw1Ldm6K2XWOCb6KnLouNSvxdCqIxstf62R
 
 -- Dumped from database version 16.15
 -- Dumped by pg_dump version 16.15
@@ -2182,7 +2182,7 @@ COPY public.auth_user (id, password, last_login, is_superuser, username, first_n
 6	pbkdf2_sha256$1000000$gW0XaR5oueAWIaUbkUJmuu$kM9m2ZVjqvwD9PcDONNFqkBHovzdnimO8aXLpNkFuQA=	\N	f	Adrich				f	t	2025-06-27 07:30:01.331008+00
 3	pbkdf2_sha256$1000000$rpW7xz0ZPTzlEIe5RN57cp$1rAzp9qQRn4uMfs9Ma5wljFHq65Gy343HP8NFRyjijQ=	2026-03-08 16:12:42.013266+00	f	Trymore	Trymore			t	t	2025-05-12 13:07:03+00
 7	pbkdf2_sha256$1000000$yIZhpFlZKehDqixIHINhcx$/yGeri4tjZzlI6D3ETxaMOEhAz3DD6PS9RjiSXpnNbo=	2026-08-14 08:34:59.556439+00	t	Hussein	Hussein	Migadde	mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
-1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2026-10-02 08:11:36.475847+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
+1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2026-10-06 12:25:21.134532+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
 \.
 
 
@@ -3531,6 +3531,10 @@ ayfkb2hlvclx4zpef7yw7hwahm7cmo9h	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdK
 q1ucqee04s8yihj4mn7cxd6zfu9mmp3g	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xCNqR:42wL-wVncHTOFisU_ZoEe7CTPmwcqUSr9KL2SzKWUwo	2026-10-01 21:02:35.517288+00
 iwvidz42ieumgo3q8ip3m0u69j5o5jbr	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xCY4Z:X2yN2iGVskVNoE1jDhkyyGL2HJJyl8y4LOLKlaXZNKg	2026-10-02 07:57:51.685866+00
 u7x3dkandvmhw2ok1d197coj67phl9zv	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xCYSy:7yK9k0jML9PbsvoEumYDaq8wQbyXymnLJU3ok1jNtr4	2026-10-02 08:23:04.291291+00
+ijl4yap0ih84gkjmvkw8urx7h3kkyqbw	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xDahN:segGP1qOyA5T3RMP3HjWpl8yoht7dEoP7yAjn-wDv_w	2026-10-05 04:58:13.572183+00
+vvhjwefskbikprjshggghy0xwacu4hc0	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xE47N:CFfh9eWfeb0vIm22k64NiNJa5V7xYAA0EuWN_t28wwk	2026-10-06 12:23:01.705977+00
+2pqh7qgl9m2el97wi2b2kscazbd0mrev	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xDgym:EPip9hWds8JDzkSLtG6BdqlflWbfNCnAb2y9mJ47LZs	2026-10-05 11:40:36.68702+00
+oj4n68qrthrle1novhxrpwcluin4jxfg	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xE4HO:H_cqWsDASt9bm_hbWeZCtTQh6HRCM4sGnHFQB4JnZUQ	2026-10-06 12:33:22.18686+00
 \.
 
 
@@ -4051,7 +4055,6 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 56	96001-06022-49	Bolt Xpro125 6*22		19.00	2.00	10.00	Miscellaneous / Universal Parts		2025-05-06 07:23:18.396414+00	2026-06-22 07:07:08.674123+00	1
 100	95801-08045-04	Flange Bolt 845		6.00	0.00	10.00	Miscellaneous / Universal Parts		2025-05-06 08:04:35.016433+00	2026-03-24 10:25:29.660252+00	1
 302	93903-35240	Tapping Screw 5*12		26.00	0.00	5.00	Bolts & Nuts		2026-01-27 10:24:37.974934+00	2026-04-23 08:00:31.021323+00	1
-286	13010-VVC-0000	Piston Ring Set Jet14		1.00	0.00	248.93	Engine & Transmission		2025-11-12 13:10:01.540807+00	2026-05-11 07:52:37.793063+00	1
 311	211412	Valve Ruber Rim		0.00	5.00	30.00	Wheels and Tires		2026-04-07 07:36:01.095745+00	2026-04-07 07:36:57.137737+00	5
 313	13000-XJA-0002	Crank Shaft Comp Jet14		0.00	0.00	2351.83	Engine & Transmission		2026-05-11 07:42:17.576555+00	2026-05-11 07:51:39.072205+00	5
 314	14523-Z8G-0000	Tensioner lifter gasket		0.00	0.00	8.19	Engine & Transmission		2026-05-11 07:43:30.095293+00	2026-05-11 07:51:39.078338+00	5
@@ -4146,6 +4149,7 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 365	14520-H6T-0001	Tensioner Lifter		1.00	0.00	562.30	Engine & Transmission		2026-10-02 08:15:15.322903+00	2026-10-02 08:16:43.39179+00	1
 1	173460	Engine Oil		186.50	5.00	71.43	Lubricants & Fluids		2025-05-05 19:18:03.334943+00	2026-10-02 08:01:05.608806+00	1
 7	173469	Gear Oil		18.20	5.00	500.00	Lubricants & Fluids		2025-05-05 21:21:17.375925+00	2026-10-02 08:01:05.614194+00	1
+286	13010-VVC-0000	Piston Ring Set Jet14		2.00	0.00	248.93	Engine & Transmission		2025-11-12 13:10:01.540807+00	2026-10-06 12:17:57.278164+00	1
 \.
 
 
@@ -4251,6 +4255,7 @@ COPY public.inventory_purchase (id, invoice_number, invoice_date, due_date, stat
 116	10AIPABD2065	2026-09-30	2026-09-30	paid	68.83	68.83		2026-09-30 11:16:43.812499+00	2026-09-30 11:16:44.005234+00	1	1	1	39.90	40.00	99.75	8.98	15.00	0.00
 118	10AIPABD2230	2026-10-01	2026-10-01	paid	591.72	604.47		2026-10-02 08:03:45.082291+00	2026-10-02 08:03:45.151458+00	1	1	1	293.75	40.00	734.38	66.09	15.00	85.00
 119	10AIPABD2363	2026-10-02	2026-10-02	paid	387.99	387.99		2026-10-02 08:16:43.381979+00	2026-10-02 08:16:43.397683+00	1	1	1	224.92	40.00	562.30	50.61	15.00	0.00
+120	10AIPABD2648	2026-10-06	2026-10-06	paid	256.76	269.51		2026-10-06 12:17:57.199934+00	2026-10-06 12:17:57.368719+00	1	1	1	99.57	40.00	248.93	22.40	15.00	85.00
 \.
 
 
@@ -4498,6 +4503,7 @@ COPY public.inventory_purchaseitem (id, description, quantity, unit_price, part_
 260	Drive Shaft - 23411-A61-0000	1.00	369.38	363	118	\N	1
 261	Final gear - 23432-AJF-0000	1.00	365.00	364	118	\N	1
 262	Tensioner Lifter - 14520-H6T-0001	1.00	562.30	365	119	\N	1
+263	Piston Ring Set Jet14 - 13010-VVC-0000	1.00	248.93	286	120	\N	1
 \.
 
 
@@ -11100,7 +11106,7 @@ COPY public.users_userprofile (id, phone, "position", bio, date_updated, store_i
 6				2025-06-27 07:30:02.18664+00	\N	6				t	25	t	t	\N
 4				2026-03-08 16:12:42.022511+00	1	3				t	25	t	t	
 7	0837288948			2026-08-14 08:34:59.63446+00	\N	7	489 Johannes Ramakhoase Stt	Pretoria	0007	t	50	t	t	avatars/Migadde_Hussein_Madan_DV_2027.jpg
-1				2026-10-02 08:11:36.483665+00	\N	1				t	25	t	t	
+1				2026-10-06 12:25:21.142431+00	\N	1				t	25	t	t	
 \.
 
 
@@ -11276,14 +11282,14 @@ SELECT pg_catalog.setval('public.inventory_parts_id_seq', 365, true);
 -- Name: inventory_purchase_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_purchase_id_seq', 119, true);
+SELECT pg_catalog.setval('public.inventory_purchase_id_seq', 120, true);
 
 
 --
 -- Name: inventory_purchaseitem_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_purchaseitem_id_seq', 262, true);
+SELECT pg_catalog.setval('public.inventory_purchaseitem_id_seq', 263, true);
 
 
 --
@@ -13245,5 +13251,5 @@ GRANT ALL ON SCHEMA public TO PUBLIC;
 -- PostgreSQL database dump complete
 --
 
-\unrestrict fmmpXp7fSQn906EKgRxANBe3dXabx0EFeVWQ49RWDRssElsdTXfryhEhdDh2B2X
+\unrestrict GtalVz8rU2jmQBwPTEjVt80bCDIQLw1Ldm6K2XWOCb6KnLouNSvxdCqIxstf62R
 
