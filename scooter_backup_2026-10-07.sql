@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict hgBCsvcdtn5YcbyYGL3fBtSC5dHQaGctiqItvDKye5o0jmS9cid57deFZ9Vm95x
+\restrict fcenS73azjrCFjZ2WFkUt6iBcabqeVspDHu3F76gQFbOoDh1RfQfaeLg0AcH8xL
 
 -- Dumped from database version 16.15
 -- Dumped by pg_dump version 16.15
@@ -2182,7 +2182,7 @@ COPY public.auth_user (id, password, last_login, is_superuser, username, first_n
 6	pbkdf2_sha256$1000000$gW0XaR5oueAWIaUbkUJmuu$kM9m2ZVjqvwD9PcDONNFqkBHovzdnimO8aXLpNkFuQA=	\N	f	Adrich				f	t	2025-06-27 07:30:01.331008+00
 3	pbkdf2_sha256$1000000$rpW7xz0ZPTzlEIe5RN57cp$1rAzp9qQRn4uMfs9Ma5wljFHq65Gy343HP8NFRyjijQ=	2026-03-08 16:12:42.013266+00	f	Trymore	Trymore			t	t	2025-05-12 13:07:03+00
 7	pbkdf2_sha256$1000000$yIZhpFlZKehDqixIHINhcx$/yGeri4tjZzlI6D3ETxaMOEhAz3DD6PS9RjiSXpnNbo=	2026-08-14 08:34:59.556439+00	t	Hussein	Hussein	Migadde	mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
-1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2026-10-07 08:21:16.837341+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
+1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2026-10-07 14:18:35.563918+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
 \.
 
 
@@ -3539,6 +3539,8 @@ oj4n68qrthrle1novhxrpwcluin4jxfg	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdK
 g6czqu6j1yhjjkv6bug3xrzkupz76qon	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xELpy:f9yR3Jek2hjtiPA-WZWHNFKEXWWJ-wXM1lyrM5dpJRQ	2026-10-07 07:18:14.451103+00
 3jsu85n01k4k9nfymt20tqhqo4odrlik	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xEMnL:3QcHqxi8iITGYzdgj2qh1ddEe83KfQ7q1_kg3leh9oY	2026-10-07 08:19:35.402626+00
 om908zpom9uk6sx7j8vh8vn8f0y0r3to	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xEMvb:xixs6_oB44gFJFu1WeaUM-N0VrAgPlCY-Dtfr7vWBzY	2026-10-07 08:28:07.011165+00
+bam2wfbksf6n122sswzddkopvil1faw5	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xEQd3:ovyHOpfEQMNKh10e9W6W0k_aezmz-poeRLX_pj-_cOk	2026-10-07 12:25:13.998955+00
+ah7t4a9ia2js9tvr73ceg9v22g5sfy9l	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xEQxU:qmd44sOA8fALSOX9MmMjQNWFTMeCbHvsxbPBobmkh4A	2026-10-07 12:46:20.341205+00
 \.
 
 
@@ -3790,6 +3792,10 @@ COPY public.inventory_inventoryalert (id, alert_type, title, description, severi
 241	maintenance_due	Maintenance Due: Sym Jet14	Scooter Sym Jet14 (LXMXCA501SXA22583) is due for maintenance. Last maintenance was 91 days ago.	medium	new	\N	\N	f	t	2026-09-30 08:43:04.338681+00	2026-09-30 08:43:04.338701+00	\N	\N	\N	\N	\N	\N	95	1
 242	low_stock	Low Stock: Final gear	Inventory level for Final gear (23432-AJF-0000) is below reorder level. Current stock: 0.00, Reorder level: 0.00	high	new	0.00	0.00	f	t	2026-09-30 13:03:39.172246+00	2026-09-30 13:03:39.172266+00	\N	\N	\N	\N	364	\N	\N	1
 243	low_stock	Low Stock: Drive Shaft	Inventory level for Drive Shaft (23411-A61-0000) is below reorder level. Current stock: 0.00, Reorder level: 0.00	high	new	0.00	0.00	f	t	2026-09-30 13:03:39.18084+00	2026-09-30 13:03:39.180862+00	\N	\N	\N	\N	363	\N	\N	1
+244	low_stock	Low Stock: SGI Core White - Large Helmet	Inventory level for SGI Core White - Large Helmet (SGI-CRE-WH-L) is below reorder level. Current stock: 0.00, Reorder level: 0.00	high	new	0.00	0.00	f	t	2026-10-07 12:29:07.844067+00	2026-10-07 12:29:07.84409+00	\N	\N	\N	\N	339	\N	\N	1
+245	low_stock	Low Stock: Pants	Inventory level for Pants (Lanpants-34) is below reorder level. Current stock: 0.00, Reorder level: 0.00	high	new	0.00	0.00	f	t	2026-10-07 12:29:07.877341+00	2026-10-07 12:29:07.877378+00	\N	\N	\N	\N	344	\N	\N	1
+246	low_stock	Low Stock: Jackets	Inventory level for Jackets (Lanjack-Medium) is below reorder level. Current stock: 0.00, Reorder level: 0.00	high	new	0.00	0.00	f	t	2026-10-07 12:29:07.897537+00	2026-10-07 12:29:07.897566+00	\N	\N	\N	\N	350	\N	\N	1
+247	low_stock	Low Stock: Rfx Sport Evo	Inventory level for Rfx Sport Evo (GLV-RFXSPTBK-Medium/09) is below reorder level. Current stock: 0.00, Reorder level: 0.00	high	new	0.00	0.00	f	t	2026-10-07 12:29:07.903208+00	2026-10-07 12:29:07.903226+00	\N	\N	\N	\N	336	\N	\N	1
 \.
 
 
@@ -4091,7 +4097,6 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 136	90202-M9Q-0000	Special Nut 28 mm		4.00	0.00	29.20	Miscellaneous / Universal Parts		2025-05-06 08:29:16.499241+00	2026-09-10 12:20:34.198313+00	1
 48	Brake Fluid	Brake Fluid		3.90	1.00	50.00	Lubricants & Fluids		2025-05-06 07:16:30.892695+00	2026-08-27 07:48:05.46135+00	1
 332	TyroWhRPL	Helmet-SGI Tyro White RPL		1.00	0.00	749.40	Accessories		2026-08-19 09:07:28.386925+00	2026-08-19 10:01:43.161157+00	1
-339	SGI-CRE-WH-L	SGI Core White - Large Helmet		1.00	0.00	749.40	Accessories		2026-08-19 10:02:50.459778+00	2026-08-19 10:02:50.459803+00	1
 26	30700-T7A-A000	Ignition Coil Cap		20.00	2.00	62.05	Electrical Components		2025-05-05 21:49:06.538945+00	2026-09-16 09:28:10.415382+00	1
 287	13101-XJA-0001	Piston Jet 14		1.00	0.00	185.42	Engine & Transmission		2025-11-12 13:10:45.068762+00	2026-09-23 10:00:15.315921+00	1
 291	12191-Z2D-0000	Cylinder Gasket Xpro125		2.00	0.00	42.71	Engine & Transmission		2025-11-12 13:14:16.128185+00	2026-09-23 10:00:15.319853+00	1
@@ -4106,17 +4111,15 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 335	GLV-RFXSPTBK-2x-Large/12	Rfx Sport Evo		1.00	0.00	700.00	Accessories		2026-08-19 09:11:41.513378+00	2026-08-19 10:08:05.481805+00	1
 333	GLV-RFXSPTBK-3x-Large	Rfx Sport Evo		1.00	0.00	700.00	Accessories		2026-08-19 09:09:53.024492+00	2026-08-19 10:08:19.761757+00	1
 337	GLV-RFXSPTBK-Large/10	Rfx Sport Evo		1.00	0.00	700.00	Accessories		2026-08-19 09:13:04.791084+00	2026-08-19 10:08:33.152254+00	1
-336	GLV-RFXSPTBK-Medium/09	Rfx Sport Evo		1.00	0.00	700.00	Accessories		2026-08-19 09:12:18.130927+00	2026-08-19 10:08:52.708693+00	1
+339	SGI-CRE-WH-L	SGI Core White - Large Helmet		0.00	0.00	749.40	Accessories		2026-08-19 10:02:50.459778+00	2026-10-07 12:17:31.192822+00	1
 334	GLV-RFXSPTBK-Small/08	Rfx Sport Evo		1.00	0.00	700.00	Accessories		2026-08-19 09:10:56.693935+00	2026-08-19 10:09:08.412338+00	1
 338	GLV-RFXSPTBK-X-Large/11	Rfx Sport Evo		1.00	0.00	700.00	Accessories		2026-08-19 09:13:43.95585+00	2026-08-19 10:09:21.416117+00	1
-344	Lanpants-34	Pants		1.00	0.00	600.00	Accessories		2026-08-27 08:54:32.024927+00	2026-08-27 08:54:32.024959+00	1
 342	50351-ARA-0103	Engine hanger COMP		0.00	0.00	600.00	Frame and Body		2026-08-25 15:24:59.296443+00	2026-08-25 15:26:53.411073+00	1
 345	Lanpants-36	Pants		1.00	0.00	600.00	Accessories		2026-08-27 08:54:57.483577+00	2026-08-27 08:54:57.483613+00	1
 346	Lanpants-38	Pants		1.00	0.00	600.00	Accessories		2026-08-27 08:55:22.320986+00	2026-08-27 08:55:22.32101+00	1
 347	Lanpants-40	Pants		1.00	0.00	600.00	Accessories		2026-08-27 08:55:45.323387+00	2026-08-27 08:55:45.323411+00	1
 348	Lanpants-42	Pants		1.00	0.00	600.00	Accessories		2026-08-27 08:56:05.276602+00	2026-08-27 08:56:05.276636+00	1
 349	Lanjack-Large	Jackets		1.00	0.00	600.00	Accessories		2026-08-27 08:57:01.700074+00	2026-08-27 08:57:01.700108+00	1
-350	Lanjack-Medium	Jackets		1.00	0.00	600.00	Accessories		2026-08-27 08:57:41.533824+00	2026-08-27 08:57:41.533846+00	1
 351	Lanjack-XLarge	Jackets		1.00	0.00	600.00	Accessories		2026-08-27 08:58:20.353338+00	2026-08-27 08:58:20.353377+00	1
 352	Lanjack-XXLarge	Jackets		1.00	0.00	600.00	Accessories		2026-08-27 08:59:03.117345+00	2026-08-27 08:59:03.117369+00	1
 343	11102-M9Q-3000	Eng. hanger rubber bush		6.00	0.00	96.47	Engine		2026-08-27 08:11:38.591078+00	2026-08-28 13:51:17.780669+00	1
@@ -4150,10 +4153,17 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 243	XD10F	Ignition Coil Cap		7.00	0.00	34.78	Electrical Components		2025-07-29 11:22:45.243579+00	2026-10-02 07:56:16.310857+00	1
 365	14520-H6T-0001	Tensioner Lifter		1.00	0.00	562.30	Engine & Transmission		2026-10-02 08:15:15.322903+00	2026-10-02 08:16:43.39179+00	1
 7	173469	Gear Oil		18.20	5.00	500.00	Lubricants & Fluids		2025-05-05 21:21:17.375925+00	2026-10-02 08:01:05.614194+00	1
+367	GLV-RFXSPTBK-Medium/09	Rfx Sport Evo		1.00	0.00	700.00	Accessories		2026-10-07 12:17:31.18095+00	2026-10-07 12:17:31.183302+00	7
 1	173460	Engine Oil		184.90	5.00	71.43	Lubricants & Fluids		2025-05-05 19:18:03.334943+00	2026-10-07 07:13:02.623547+00	1
 15	FDB2190EF	Brake Pads FF		14.00	5.00	119.00	Brakes		2025-05-05 21:34:44.654682+00	2026-10-07 07:13:02.629146+00	1
 14	43105-ARB-000-A-9	Brake Pads RR		24.00	5.00	140.16	Brakes		2025-05-05 21:33:50.092617+00	2026-10-07 08:14:23.911018+00	1
+344	Lanpants-34	Pants		0.00	0.00	600.00	Accessories		2026-08-27 08:54:32.024927+00	2026-10-07 12:17:31.185677+00	1
 286	13010-VVC-0000	Piston Ring Set Jet14		2.00	0.00	248.93	Engine & Transmission		2025-11-12 13:10:01.540807+00	2026-10-07 08:22:56.404413+00	1
+350	Lanjack-Medium	Jackets		0.00	0.00	600.00	Accessories		2026-08-27 08:57:41.533824+00	2026-10-07 12:17:31.144738+00	1
+366	Lanjack-Medium	Jackets		1.00	0.00	600.00	Accessories		2026-10-07 12:17:31.149824+00	2026-10-07 12:17:31.175426+00	7
+336	GLV-RFXSPTBK-Medium/09	Rfx Sport Evo		0.00	0.00	700.00	Accessories		2026-08-19 09:12:18.130927+00	2026-10-07 12:17:31.177395+00	1
+368	Lanpants-34	Pants		1.00	0.00	600.00	Accessories		2026-10-07 12:17:31.189315+00	2026-10-07 12:17:31.191128+00	7
+369	SGI-CRE-WH-L	SGI Core White - Large Helmet		1.00	0.00	749.40	Accessories		2026-10-07 12:17:31.196334+00	2026-10-07 12:17:31.198155+00	7
 \.
 
 
@@ -4681,6 +4691,7 @@ COPY public.inventory_stocktransfer (id, transfer_number, transfer_date, status,
 30	ST20260226001	2026-02-26	in_transit		2026-02-26 13:46:26.990816+00	2026-02-26 13:46:26.990851+00	7	5	1
 31	ST20260407001	2026-04-07	completed		2026-04-07 07:36:57.043807+00	2026-04-07 07:36:57.04383+00	7	1	5
 33	ST20260902001	2026-09-02	completed		2026-09-02 08:17:10.52705+00	2026-09-02 08:17:10.527071+00	1	1	5
+34	ST20261007001	2026-09-07	pending	Kigwane Rachuene(95050296) Full PPE issued.	2026-10-07 12:17:31.006643+00	2026-10-07 12:17:31.006667+00	1	7	1
 \.
 
 
@@ -4749,6 +4760,10 @@ COPY public.inventory_stocktransferitem (id, quantity, date_added, part_id, stoc
 61	2.00	2026-02-26 13:46:27.243943+00	96	30
 62	100.00	2026-04-07 07:36:57.127272+00	311	31
 69	10.00	2026-09-02 08:17:10.545824+00	353	33
+70	1.00	2026-10-07 12:17:31.084823+00	350	34
+71	1.00	2026-10-07 12:17:31.138341+00	336	34
+72	1.00	2026-10-07 12:17:31.140229+00	344	34
+73	1.00	2026-10-07 12:17:31.142641+00	339	34
 \.
 
 
@@ -4763,6 +4778,7 @@ COPY public.inventory_store (id, name, location, contact_person, phone, email, i
 4	Bloemfontein	66 President Steyn Avenue, Westdenem 9301	Adrich	0682572929	pete@scoottdr.co.za	t	2025-06-26 19:59:00.588663+00
 5	Cape Town	16 Newmarket St, Foreshore, Cape Town, 8000	Samantha	021 448 5564	parts@scootdr.co.za	t	2025-06-26 19:59:38.40029+00
 6	Trymore' Parts	Kempton Park	Trymore	0738650171	trymoremavidze@gmail.com	t	2025-07-04 16:41:44.030249+00
+7	Lancet PPE	Pencardia 2 Building Pretorius St	Fezile	0124830100	fezile@lancet.co.za	t	2026-10-07 12:13:38.939842+00
 \.
 
 
@@ -11137,7 +11153,7 @@ COPY public.users_userprofile (id, phone, "position", bio, date_updated, store_i
 6				2025-06-27 07:30:02.18664+00	\N	6				t	25	t	t	\N
 4				2026-03-08 16:12:42.022511+00	1	3				t	25	t	t	
 7	0837288948			2026-08-14 08:34:59.63446+00	\N	7	489 Johannes Ramakhoase Stt	Pretoria	0007	t	50	t	t	avatars/Migadde_Hussein_Madan_DV_2027.jpg
-1				2026-10-07 08:21:16.84455+00	\N	1				t	25	t	t	
+1				2026-10-07 14:18:35.570697+00	\N	1				t	25	t	t	
 \.
 
 
@@ -11299,14 +11315,14 @@ SELECT pg_catalog.setval('public.django_migrations_id_seq', 59, true);
 -- Name: inventory_inventoryalert_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_inventoryalert_id_seq', 243, true);
+SELECT pg_catalog.setval('public.inventory_inventoryalert_id_seq', 247, true);
 
 
 --
 -- Name: inventory_parts_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_parts_id_seq', 365, true);
+SELECT pg_catalog.setval('public.inventory_parts_id_seq', 369, true);
 
 
 --
@@ -11348,21 +11364,21 @@ SELECT pg_catalog.setval('public.inventory_scootermaintenancehistory_id_seq', 1,
 -- Name: inventory_stocktransfer_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_stocktransfer_id_seq', 33, true);
+SELECT pg_catalog.setval('public.inventory_stocktransfer_id_seq', 34, true);
 
 
 --
 -- Name: inventory_stocktransferitem_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_stocktransferitem_id_seq', 69, true);
+SELECT pg_catalog.setval('public.inventory_stocktransferitem_id_seq', 73, true);
 
 
 --
 -- Name: inventory_store_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_store_id_seq', 6, true);
+SELECT pg_catalog.setval('public.inventory_store_id_seq', 7, true);
 
 
 --
@@ -13282,5 +13298,5 @@ GRANT ALL ON SCHEMA public TO PUBLIC;
 -- PostgreSQL database dump complete
 --
 
-\unrestrict hgBCsvcdtn5YcbyYGL3fBtSC5dHQaGctiqItvDKye5o0jmS9cid57deFZ9Vm95x
+\unrestrict fcenS73azjrCFjZ2WFkUt6iBcabqeVspDHu3F76gQFbOoDh1RfQfaeLg0AcH8xL
 
