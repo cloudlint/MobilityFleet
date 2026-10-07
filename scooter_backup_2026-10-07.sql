@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict g9SdVSnIqaQnF68gavYRhESM3UgKIeSxgsLUHxcQe7FQCga2NrIyGsJfTBsGTkd
+\restrict hgBCsvcdtn5YcbyYGL3fBtSC5dHQaGctiqItvDKye5o0jmS9cid57deFZ9Vm95x
 
 -- Dumped from database version 16.15
 -- Dumped by pg_dump version 16.15
@@ -2182,7 +2182,7 @@ COPY public.auth_user (id, password, last_login, is_superuser, username, first_n
 6	pbkdf2_sha256$1000000$gW0XaR5oueAWIaUbkUJmuu$kM9m2ZVjqvwD9PcDONNFqkBHovzdnimO8aXLpNkFuQA=	\N	f	Adrich				f	t	2025-06-27 07:30:01.331008+00
 3	pbkdf2_sha256$1000000$rpW7xz0ZPTzlEIe5RN57cp$1rAzp9qQRn4uMfs9Ma5wljFHq65Gy343HP8NFRyjijQ=	2026-03-08 16:12:42.013266+00	f	Trymore	Trymore			t	t	2025-05-12 13:07:03+00
 7	pbkdf2_sha256$1000000$yIZhpFlZKehDqixIHINhcx$/yGeri4tjZzlI6D3ETxaMOEhAz3DD6PS9RjiSXpnNbo=	2026-08-14 08:34:59.556439+00	t	Hussein	Hussein	Migadde	mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
-1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2026-10-07 08:13:08.417018+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
+1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2026-10-07 08:21:16.837341+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
 \.
 
 
@@ -3538,6 +3538,7 @@ vvhjwefskbikprjshggghy0xwacu4hc0	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdK
 oj4n68qrthrle1novhxrpwcluin4jxfg	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xE4HO:H_cqWsDASt9bm_hbWeZCtTQh6HRCM4sGnHFQB4JnZUQ	2026-10-06 12:33:22.18686+00
 g6czqu6j1yhjjkv6bug3xrzkupz76qon	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xELpy:f9yR3Jek2hjtiPA-WZWHNFKEXWWJ-wXM1lyrM5dpJRQ	2026-10-07 07:18:14.451103+00
 3jsu85n01k4k9nfymt20tqhqo4odrlik	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xEMnL:3QcHqxi8iITGYzdgj2qh1ddEe83KfQ7q1_kg3leh9oY	2026-10-07 08:19:35.402626+00
+om908zpom9uk6sx7j8vh8vn8f0y0r3to	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xEMvb:xixs6_oB44gFJFu1WeaUM-N0VrAgPlCY-Dtfr7vWBzY	2026-10-07 08:28:07.011165+00
 \.
 
 
@@ -4149,10 +4150,10 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 243	XD10F	Ignition Coil Cap		7.00	0.00	34.78	Electrical Components		2025-07-29 11:22:45.243579+00	2026-10-02 07:56:16.310857+00	1
 365	14520-H6T-0001	Tensioner Lifter		1.00	0.00	562.30	Engine & Transmission		2026-10-02 08:15:15.322903+00	2026-10-02 08:16:43.39179+00	1
 7	173469	Gear Oil		18.20	5.00	500.00	Lubricants & Fluids		2025-05-05 21:21:17.375925+00	2026-10-02 08:01:05.614194+00	1
-286	13010-VVC-0000	Piston Ring Set Jet14		2.00	0.00	248.93	Engine & Transmission		2025-11-12 13:10:01.540807+00	2026-10-06 12:17:57.278164+00	1
 1	173460	Engine Oil		184.90	5.00	71.43	Lubricants & Fluids		2025-05-05 19:18:03.334943+00	2026-10-07 07:13:02.623547+00	1
 15	FDB2190EF	Brake Pads FF		14.00	5.00	119.00	Brakes		2025-05-05 21:34:44.654682+00	2026-10-07 07:13:02.629146+00	1
 14	43105-ARB-000-A-9	Brake Pads RR		24.00	5.00	140.16	Brakes		2025-05-05 21:33:50.092617+00	2026-10-07 08:14:23.911018+00	1
+286	13010-VVC-0000	Piston Ring Set Jet14		2.00	0.00	248.93	Engine & Transmission		2025-11-12 13:10:01.540807+00	2026-10-07 08:22:56.404413+00	1
 \.
 
 
@@ -4259,6 +4260,7 @@ COPY public.inventory_purchase (id, invoice_number, invoice_date, due_date, stat
 118	10AIPABD2230	2026-10-01	2026-10-01	paid	591.72	604.47		2026-10-02 08:03:45.082291+00	2026-10-02 08:03:45.151458+00	1	1	1	293.75	40.00	734.38	66.09	15.00	85.00
 119	10AIPABD2363	2026-10-02	2026-10-02	paid	387.99	387.99		2026-10-02 08:16:43.381979+00	2026-10-02 08:16:43.397683+00	1	1	1	224.92	40.00	562.30	50.61	15.00	0.00
 120	10AIPABD2648	2026-10-06	2026-10-06	paid	256.76	269.51		2026-10-06 12:17:57.199934+00	2026-10-06 12:17:57.368719+00	1	1	1	99.57	40.00	248.93	22.40	15.00	85.00
+121	10AIPABD2801	2026-10-07	2026-10-07	paid	256.76	269.51		2026-10-07 08:22:30.678352+00	2026-10-07 08:22:30.770768+00	1	1	1	99.57	40.00	248.93	22.40	15.00	85.00
 \.
 
 
@@ -4507,6 +4509,7 @@ COPY public.inventory_purchaseitem (id, description, quantity, unit_price, part_
 261	Final gear - 23432-AJF-0000	1.00	365.00	364	118	\N	1
 262	Tensioner Lifter - 14520-H6T-0001	1.00	562.30	365	119	\N	1
 263	Piston Ring Set Jet14 - 13010-VVC-0000	1.00	248.93	286	120	\N	1
+264	Piston Ring Set Jet14 - 13010-VVC-0000	1.00	248.93	286	121	\N	1
 \.
 
 
@@ -11134,7 +11137,7 @@ COPY public.users_userprofile (id, phone, "position", bio, date_updated, store_i
 6				2025-06-27 07:30:02.18664+00	\N	6				t	25	t	t	\N
 4				2026-03-08 16:12:42.022511+00	1	3				t	25	t	t	
 7	0837288948			2026-08-14 08:34:59.63446+00	\N	7	489 Johannes Ramakhoase Stt	Pretoria	0007	t	50	t	t	avatars/Migadde_Hussein_Madan_DV_2027.jpg
-1				2026-10-07 08:13:08.423843+00	\N	1				t	25	t	t	
+1				2026-10-07 08:21:16.84455+00	\N	1				t	25	t	t	
 \.
 
 
@@ -11310,14 +11313,14 @@ SELECT pg_catalog.setval('public.inventory_parts_id_seq', 365, true);
 -- Name: inventory_purchase_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_purchase_id_seq', 120, true);
+SELECT pg_catalog.setval('public.inventory_purchase_id_seq', 121, true);
 
 
 --
 -- Name: inventory_purchaseitem_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_purchaseitem_id_seq', 263, true);
+SELECT pg_catalog.setval('public.inventory_purchaseitem_id_seq', 264, true);
 
 
 --
@@ -13279,5 +13282,5 @@ GRANT ALL ON SCHEMA public TO PUBLIC;
 -- PostgreSQL database dump complete
 --
 
-\unrestrict g9SdVSnIqaQnF68gavYRhESM3UgKIeSxgsLUHxcQe7FQCga2NrIyGsJfTBsGTkd
+\unrestrict hgBCsvcdtn5YcbyYGL3fBtSC5dHQaGctiqItvDKye5o0jmS9cid57deFZ9Vm95x
 
