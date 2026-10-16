@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict EbDOrJZGNzFGQfSy3TGIIYY2QM8JdOK4bWzNcMh5sZyKo46YoTMgbIolGGyv3Tl
+\restrict d5IHiGGTfeNxPP5i572QbX0owvNvNvntiuh1tJckdeEfJ8SluRZaxHnCpc0wrQE
 
 -- Dumped from database version 16.15
 -- Dumped by pg_dump version 16.15
@@ -2182,7 +2182,7 @@ COPY public.auth_user (id, password, last_login, is_superuser, username, first_n
 6	pbkdf2_sha256$1000000$gW0XaR5oueAWIaUbkUJmuu$kM9m2ZVjqvwD9PcDONNFqkBHovzdnimO8aXLpNkFuQA=	\N	f	Adrich				f	t	2025-06-27 07:30:01.331008+00
 3	pbkdf2_sha256$1000000$rpW7xz0ZPTzlEIe5RN57cp$1rAzp9qQRn4uMfs9Ma5wljFHq65Gy343HP8NFRyjijQ=	2026-03-08 16:12:42.013266+00	f	Trymore	Trymore			t	t	2025-05-12 13:07:03+00
 7	pbkdf2_sha256$1000000$yIZhpFlZKehDqixIHINhcx$/yGeri4tjZzlI6D3ETxaMOEhAz3DD6PS9RjiSXpnNbo=	2026-08-14 08:34:59.556439+00	t	Hussein	Hussein	Migadde	mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
-1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2026-10-16 07:36:48.6437+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
+1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2026-10-16 07:53:36.334889+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
 \.
 
 
@@ -3532,6 +3532,7 @@ q1ucqee04s8yihj4mn7cxd6zfu9mmp3g	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdK
 iwvidz42ieumgo3q8ip3m0u69j5o5jbr	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xCY4Z:X2yN2iGVskVNoE1jDhkyyGL2HJJyl8y4LOLKlaXZNKg	2026-10-02 07:57:51.685866+00
 u7x3dkandvmhw2ok1d197coj67phl9zv	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xCYSy:7yK9k0jML9PbsvoEumYDaq8wQbyXymnLJU3ok1jNtr4	2026-10-02 08:23:04.291291+00
 ijl4yap0ih84gkjmvkw8urx7h3kkyqbw	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xDahN:segGP1qOyA5T3RMP3HjWpl8yoht7dEoP7yAjn-wDv_w	2026-10-05 04:58:13.572183+00
+cmepmg72qg7rjtqwkoz5hp7jcp8ktzuo	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xHcsy:CRqMjfLZxJlMbzvnNzlfwduRzhceQweCoJrbnrKf3GA	2026-10-16 08:06:52.081911+00
 7ljf7q2f4v2lj14iza8g4n0byypeg3nv	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xGvF8:QRDD1_FWnES6awxfcAxSmdHszZR3lYVO-swVlNEPvdo	2026-10-14 09:30:50.547021+00
 vvhjwefskbikprjshggghy0xwacu4hc0	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xE47N:CFfh9eWfeb0vIm22k64NiNJa5V7xYAA0EuWN_t28wwk	2026-10-06 12:23:01.705977+00
 3daocxtg5kl2kuk6vydh9jo6g4250d0h	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xELgx:xIyGQIHPrHFwZrQDcI7eXXCm5d0WcdJQLbZAYYiDHTo	2026-10-07 07:08:55.521158+00
@@ -4149,7 +4150,6 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 12	22121-M9B-0000	Weight Roller		18.00	18.00	120.00	Engine & Transmission		2025-05-05 21:31:05.995356+00	2026-10-15 17:20:57.301249+00	1
 344	Lanpants-34	Pants		0.00	0.00	600.00	Accessories		2026-08-27 08:54:32.024927+00	2026-10-07 12:17:31.185677+00	1
 286	13010-VVC-0000	Piston Ring Set Jet14		2.00	0.00	248.93	Engine & Transmission		2025-11-12 13:10:01.540807+00	2026-10-07 08:22:56.404413+00	1
-350	Lanjack-Medium	Jackets		0.00	0.00	600.00	Accessories		2026-08-27 08:57:41.533824+00	2026-10-07 12:17:31.144738+00	1
 366	Lanjack-Medium	Jackets		1.00	0.00	600.00	Accessories		2026-10-07 12:17:31.149824+00	2026-10-07 12:17:31.175426+00	7
 364	23432-AJF-0000	Final gear		2.00	0.00	365.00	Engine & Transmission		2026-09-30 11:52:31.662711+00	2026-10-13 16:52:27.65913+00	1
 368	Lanpants-34	Pants		1.00	0.00	600.00	Accessories		2026-10-07 12:17:31.189315+00	2026-10-07 12:17:31.191128+00	7
@@ -4165,6 +4165,7 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 14	43105-ARB-000-A-9	Brake Pads RR		18.00	5.00	140.16	Brakes		2025-05-05 21:33:50.092617+00	2026-10-16 07:47:39.841602+00	1
 102	22131-M92-0003	Ramp Plate		3.00	1.00	300.00	Engine & Transmission		2025-05-06 08:05:31.71597+00	2026-10-13 16:39:54.814878+00	1
 7	173469	Gear Oil		14.80	5.00	500.00	Lubricants & Fluids		2025-05-05 21:21:17.375925+00	2026-10-16 07:45:18.250467+00	1
+350	Lanjack-Medium	Jackets		2.00	0.00	600.00	Accessories		2026-08-27 08:57:41.533824+00	2026-10-16 08:01:43.150765+00	1
 10	22132-ARA-0000	Slide Piece		9.00	15.00	10.00	Engine & Transmission		2025-05-05 21:28:57.890263+00	2026-10-15 17:20:57.299715+00	1
 8	17211-ADB-0000	Air Filter Element		3.00	5.00	111.80	Consumables and Accessories		2025-05-05 21:25:15.716942+00	2026-10-16 07:45:18.253103+00	1
 362	21395-Z2D-0000	Mission Cover Gasket		1.00	0.00	5.00	Engine & Transmission		2026-09-22 11:24:26.896834+00	2026-10-13 16:57:52.850869+00	1
@@ -11346,7 +11347,7 @@ COPY public.users_userprofile (id, phone, "position", bio, date_updated, store_i
 6				2025-06-27 07:30:02.18664+00	\N	6				t	25	t	t	\N
 4				2026-03-08 16:12:42.022511+00	1	3				t	25	t	t	
 7	0837288948			2026-08-14 08:34:59.63446+00	\N	7	489 Johannes Ramakhoase Stt	Pretoria	0007	t	50	t	t	avatars/Migadde_Hussein_Madan_DV_2027.jpg
-1				2026-10-16 07:36:50.277649+00	\N	1				t	25	t	t	
+1				2026-10-16 07:53:36.341899+00	\N	1				t	25	t	t	
 \.
 
 
@@ -13491,5 +13492,5 @@ GRANT ALL ON SCHEMA public TO PUBLIC;
 -- PostgreSQL database dump complete
 --
 
-\unrestrict EbDOrJZGNzFGQfSy3TGIIYY2QM8JdOK4bWzNcMh5sZyKo46YoTMgbIolGGyv3Tl
+\unrestrict d5IHiGGTfeNxPP5i572QbX0owvNvNvntiuh1tJckdeEfJ8SluRZaxHnCpc0wrQE
 
