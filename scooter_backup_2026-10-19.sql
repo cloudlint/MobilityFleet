@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict BjdLDILWydr4iM6rdCx1xV8HWH8jFxRzDa5fFSIcmpKxe14SbfWnRf7OOVhe2MW
+\restrict Bh1ULz8l2OhRxNTcdki1O3GbcAceICEIqQIrb9UFB0aJRnJeJOTsjZk6nztKIiA
 
 -- Dumped from database version 16.15
 -- Dumped by pg_dump version 16.15
@@ -2182,7 +2182,7 @@ COPY public.auth_user (id, password, last_login, is_superuser, username, first_n
 6	pbkdf2_sha256$1000000$gW0XaR5oueAWIaUbkUJmuu$kM9m2ZVjqvwD9PcDONNFqkBHovzdnimO8aXLpNkFuQA=	\N	f	Adrich				f	t	2025-06-27 07:30:01.331008+00
 3	pbkdf2_sha256$1000000$rpW7xz0ZPTzlEIe5RN57cp$1rAzp9qQRn4uMfs9Ma5wljFHq65Gy343HP8NFRyjijQ=	2026-03-08 16:12:42.013266+00	f	Trymore	Trymore			t	t	2025-05-12 13:07:03+00
 7	pbkdf2_sha256$1000000$yIZhpFlZKehDqixIHINhcx$/yGeri4tjZzlI6D3ETxaMOEhAz3DD6PS9RjiSXpnNbo=	2026-08-14 08:34:59.556439+00	t	Hussein	Hussein	Migadde	mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
-1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2026-10-19 08:40:52.38415+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
+1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2026-10-19 09:20:16.181259+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
 \.
 
 
@@ -3546,6 +3546,7 @@ t4yoowcl84drws70lmkhwqxew8ei9203	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdK
 g6czqu6j1yhjjkv6bug3xrzkupz76qon	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xELpy:f9yR3Jek2hjtiPA-WZWHNFKEXWWJ-wXM1lyrM5dpJRQ	2026-10-07 07:18:14.451103+00
 i67vw5w6zj6qg24p2rxp5wmv5t1ty610	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xGfvE:oqXJJdWs2Czk5NnDnGvF_a3J3WFJ8y2gwOUdFR5SKgI	2026-10-13 17:09:16.760482+00
 3jsu85n01k4k9nfymt20tqhqo4odrlik	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xEMnL:3QcHqxi8iITGYzdgj2qh1ddEe83KfQ7q1_kg3leh9oY	2026-10-07 08:19:35.402626+00
+b028svmibo1l7ohyhivkodn7h6n92888	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xIjcL:84obeOWkphLzjc4nDX8DCVLWf1KIt9EkZ_RhNij-MgY	2026-10-19 09:30:17.972601+00
 om908zpom9uk6sx7j8vh8vn8f0y0r3to	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xEMvb:xixs6_oB44gFJFu1WeaUM-N0VrAgPlCY-Dtfr7vWBzY	2026-10-07 08:28:07.011165+00
 bam2wfbksf6n122sswzddkopvil1faw5	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xEQd3:ovyHOpfEQMNKh10e9W6W0k_aezmz-poeRLX_pj-_cOk	2026-10-07 12:25:13.998955+00
 ah7t4a9ia2js9tvr73ceg9v22g5sfy9l	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xEQxU:qmd44sOA8fALSOX9MmMjQNWFTMeCbHvsxbPBobmkh4A	2026-10-07 12:46:20.341205+00
@@ -4147,7 +4148,7 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 367	GLV-RFXSPTBK-Medium/09	Rfx Sport Evo		1.00	0.00	700.00	Accessories		2026-10-07 12:17:31.18095+00	2026-10-07 12:17:31.183302+00	7
 363	23411-A61-0000	Drive Shaft		1.00	0.00	369.38	Engine & Transmission		2026-09-30 11:48:14.904437+00	2026-10-13 16:59:58.844403+00	1
 336	GLV-RFXSPTBK-Medium/09	Rfx Sport Evo		2.00	0.00	700.00	Accessories		2026-08-19 09:12:18.130927+00	2026-10-12 12:12:26.158868+00	1
-12	22121-M9B-0000	Weight Roller		18.00	18.00	120.00	Engine & Transmission		2025-05-05 21:31:05.995356+00	2026-10-15 17:20:57.301249+00	1
+9	23100-XMA-0001	Drive Belt		12.00	5.00	996.52	Engine & Transmission		2025-05-05 21:28:13.605717+00	2026-10-19 09:22:59.352353+00	1
 344	Lanpants-34	Pants		0.00	0.00	600.00	Accessories		2026-08-27 08:54:32.024927+00	2026-10-07 12:17:31.185677+00	1
 286	13010-VVC-0000	Piston Ring Set Jet14		2.00	0.00	248.93	Engine & Transmission		2025-11-12 13:10:01.540807+00	2026-10-07 08:22:56.404413+00	1
 30	5052A-APA-9000	Main Stand SPG.ASSY		6.00	2.00	49.35	Frame and Body		2025-05-05 21:54:55.123104+00	2026-10-19 08:29:25.721955+00	1
@@ -4162,14 +4163,14 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 16	90309-M9Q-000-M2	Self Lock Nut		3.00	4.00	20.00	Miscellaneous / Universal Parts		2025-05-05 21:36:48.792632+00	2026-10-19 08:29:25.724283+00	1
 14	43105-ARB-000-A-9	Brake Pads RR		17.00	5.00	140.16	Brakes		2025-05-05 21:33:50.092617+00	2026-10-19 08:25:04.981321+00	1
 11	CR7HSA	Spark Plug		5.00	5.00	30.00	Engine & Transmission		2025-05-05 21:30:07.226667+00	2026-10-15 17:20:57.291833+00	1
-9	23100-XMA-0001	Drive Belt		2.00	5.00	996.52	Engine & Transmission		2025-05-05 21:28:13.605717+00	2026-10-15 17:20:57.298062+00	1
 137	91003-M8Q-0000	Radial Ball Bearing		1.00	0.00	50.00	Engine & Transmission		2025-05-06 08:29:41.197184+00	2026-10-13 16:58:54.882507+00	1
+10	22132-ARA-0000	Slide Piece		39.00	15.00	4.86	Engine & Transmission		2025-05-05 21:28:57.890263+00	2026-10-19 09:24:39.076127+00	1
 1	173460	Engine Oil		173.70	5.00	71.43	Lubricants & Fluids		2025-05-05 19:18:03.334943+00	2026-10-19 08:26:58.68736+00	1
 102	22131-M92-0003	Ramp Plate		3.00	1.00	300.00	Engine & Transmission		2025-05-06 08:05:31.71597+00	2026-10-13 16:39:54.814878+00	1
 7	173469	Gear Oil		14.80	5.00	500.00	Lubricants & Fluids		2025-05-05 21:21:17.375925+00	2026-10-16 07:45:18.250467+00	1
 350	Lanjack-Medium	Jackets		2.00	0.00	600.00	Accessories		2026-08-27 08:57:41.533824+00	2026-10-16 08:01:43.150765+00	1
-10	22132-ARA-0000	Slide Piece		9.00	15.00	10.00	Engine & Transmission		2025-05-05 21:28:57.890263+00	2026-10-15 17:20:57.299715+00	1
-8	17211-ADB-0000	Air Filter Element		3.00	5.00	111.80	Consumables and Accessories		2025-05-05 21:25:15.716942+00	2026-10-16 07:45:18.253103+00	1
+8	17211-ADB-0000	Air Filter Element		13.00	5.00	111.80	Consumables and Accessories		2025-05-05 21:25:15.716942+00	2026-10-19 09:22:59.359283+00	1
+12	22121-M9B-0000	Weight Roller		78.00	18.00	22.34	Engine & Transmission		2025-05-05 21:31:05.995356+00	2026-10-19 09:23:42.000082+00	1
 362	21395-Z2D-0000	Mission Cover Gasket		1.00	0.00	5.00	Engine & Transmission		2026-09-22 11:24:26.896834+00	2026-10-13 16:57:52.850869+00	1
 15	FDB2190EF	Brake Pads FF		10.00	5.00	119.00	Brakes		2025-05-05 21:34:44.654682+00	2026-10-16 07:43:15.566566+00	1
 \.
@@ -4279,6 +4280,7 @@ COPY public.inventory_purchase (id, invoice_number, invoice_date, due_date, stat
 119	10AIPABD2363	2026-10-02	2026-10-02	paid	387.99	387.99		2026-10-02 08:16:43.381979+00	2026-10-02 08:16:43.397683+00	1	1	1	224.92	40.00	562.30	50.61	15.00	0.00
 120	10AIPABD2648	2026-10-06	2026-10-06	paid	256.76	269.51		2026-10-06 12:17:57.199934+00	2026-10-06 12:17:57.368719+00	1	1	1	99.57	40.00	248.93	22.40	15.00	85.00
 121	10AIPABD2801	2026-10-07	2026-10-07	paid	256.76	269.51		2026-10-07 08:22:30.678352+00	2026-10-07 08:22:30.770768+00	1	1	1	99.57	40.00	248.93	22.40	15.00	85.00
+122	10AIPABD4041	2026-10-19	2026-10-19	paid	8767.89	8782.14		2026-10-19 09:22:59.221957+00	2026-10-19 09:22:59.362418+00	1	1	1	5027.76	40.00	12569.40	1131.25	15.00	95.00
 \.
 
 
@@ -4528,6 +4530,10 @@ COPY public.inventory_purchaseitem (id, description, quantity, unit_price, part_
 262	Tensioner Lifter - 14520-H6T-0001	1.00	562.30	365	119	\N	1
 263	Piston Ring Set Jet14 - 13010-VVC-0000	1.00	248.93	286	120	\N	1
 264	Piston Ring Set Jet14 - 13010-VVC-0000	1.00	248.93	286	121	\N	1
+265	Weight Roller - 22121-M9B-0000	60.00	22.34	12	122	\N	1
+266	Drive Belt - 23100-XMA-0001	10.00	996.52	9	122	\N	1
+267	Slide Piece - 22132-ARA-0000	30.00	4.86	10	122	\N	1
+268	Air Filter Element - 17211-ADB-0000	10.00	111.80	8	122	\N	1
 \.
 
 
@@ -11377,7 +11383,7 @@ COPY public.users_userprofile (id, phone, "position", bio, date_updated, store_i
 6				2025-06-27 07:30:02.18664+00	\N	6				t	25	t	t	\N
 4				2026-03-08 16:12:42.022511+00	1	3				t	25	t	t	
 7	0837288948			2026-08-14 08:34:59.63446+00	\N	7	489 Johannes Ramakhoase Stt	Pretoria	0007	t	50	t	t	avatars/Migadde_Hussein_Madan_DV_2027.jpg
-1				2026-10-19 08:40:52.392607+00	\N	1				t	25	t	t	
+1				2026-10-19 09:20:16.271978+00	\N	1				t	25	t	t	
 \.
 
 
@@ -11553,14 +11559,14 @@ SELECT pg_catalog.setval('public.inventory_parts_id_seq', 369, true);
 -- Name: inventory_purchase_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_purchase_id_seq', 121, true);
+SELECT pg_catalog.setval('public.inventory_purchase_id_seq', 122, true);
 
 
 --
 -- Name: inventory_purchaseitem_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_purchaseitem_id_seq', 264, true);
+SELECT pg_catalog.setval('public.inventory_purchaseitem_id_seq', 268, true);
 
 
 --
@@ -13522,5 +13528,5 @@ GRANT ALL ON SCHEMA public TO PUBLIC;
 -- PostgreSQL database dump complete
 --
 
-\unrestrict BjdLDILWydr4iM6rdCx1xV8HWH8jFxRzDa5fFSIcmpKxe14SbfWnRf7OOVhe2MW
+\unrestrict Bh1ULz8l2OhRxNTcdki1O3GbcAceICEIqQIrb9UFB0aJRnJeJOTsjZk6nztKIiA
 
