@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict Bh1ULz8l2OhRxNTcdki1O3GbcAceICEIqQIrb9UFB0aJRnJeJOTsjZk6nztKIiA
+\restrict JO6vIUtVfbvZa17Mz8g2DRg8joALwDK18Ja9kTVuWVTgMwjNOhP29IqqlSBUryk
 
 -- Dumped from database version 16.15
 -- Dumped by pg_dump version 16.15
@@ -2182,7 +2182,7 @@ COPY public.auth_user (id, password, last_login, is_superuser, username, first_n
 6	pbkdf2_sha256$1000000$gW0XaR5oueAWIaUbkUJmuu$kM9m2ZVjqvwD9PcDONNFqkBHovzdnimO8aXLpNkFuQA=	\N	f	Adrich				f	t	2025-06-27 07:30:01.331008+00
 3	pbkdf2_sha256$1000000$rpW7xz0ZPTzlEIe5RN57cp$1rAzp9qQRn4uMfs9Ma5wljFHq65Gy343HP8NFRyjijQ=	2026-03-08 16:12:42.013266+00	f	Trymore	Trymore			t	t	2025-05-12 13:07:03+00
 7	pbkdf2_sha256$1000000$yIZhpFlZKehDqixIHINhcx$/yGeri4tjZzlI6D3ETxaMOEhAz3DD6PS9RjiSXpnNbo=	2026-08-14 08:34:59.556439+00	t	Hussein	Hussein	Migadde	mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
-1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2026-10-19 09:20:16.181259+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
+1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2026-10-20 10:27:10.697363+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
 \.
 
 
@@ -3540,6 +3540,7 @@ vvhjwefskbikprjshggghy0xwacu4hc0	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdK
 j4mzhg2zjzub4jk1cajsygh2tqbrypld	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xEoBX:n3J-beurJllfeY7Z0O7mZTJBLR61b9-eg0Bd_p-hfh0	2026-10-08 13:34:23.625394+00
 4wxgk2mhnne3chc68eptlvdt1pwhx1fn	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xHcfk:3UZqsoGKNLv5PjvP9m1OcKyjoxc3OME0UOlac7XWWWM	2026-10-16 07:53:12.124839+00
 e5odhwwp7w07eb1uaarz1wphygzfrfp4	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xIikK:2-OTH49B4j-pDqFOPgW8g8s_uI8iIbNg56gkeaMfcSo	2026-10-19 08:34:28.482525+00
+igg0drobt9sgqnygt6rirj6bhwrkj3cc	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xJ76o:UVy7rBOu3RSBkrdb1F5MuHeUgFDGOKo6yxckyHxvwM0	2026-10-20 10:35:18.132958+00
 2pqh7qgl9m2el97wi2b2kscazbd0mrev	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xDgym:EPip9hWds8JDzkSLtG6BdqlflWbfNCnAb2y9mJ47LZs	2026-10-05 11:40:36.68702+00
 oj4n68qrthrle1novhxrpwcluin4jxfg	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xE4HO:H_cqWsDASt9bm_hbWeZCtTQh6HRCM4sGnHFQB4JnZUQ	2026-10-06 12:33:22.18686+00
 t4yoowcl84drws70lmkhwqxew8ei9203	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xIixT:j5U_lREN_I3ymtHF3kSGsdHyjRNTG7qeEINE6Sn7ps0	2026-10-19 08:48:03.999712+00
@@ -4162,7 +4163,6 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 290	12100-XJA-0101	Cylinder Jet 14		0.00	0.00	704.45	Engine & Transmission		2025-11-12 13:13:33.72002+00	2026-10-12 12:29:59.892335+00	1
 16	90309-M9Q-000-M2	Self Lock Nut		3.00	4.00	20.00	Miscellaneous / Universal Parts		2025-05-05 21:36:48.792632+00	2026-10-19 08:29:25.724283+00	1
 14	43105-ARB-000-A-9	Brake Pads RR		17.00	5.00	140.16	Brakes		2025-05-05 21:33:50.092617+00	2026-10-19 08:25:04.981321+00	1
-11	CR7HSA	Spark Plug		5.00	5.00	30.00	Engine & Transmission		2025-05-05 21:30:07.226667+00	2026-10-15 17:20:57.291833+00	1
 137	91003-M8Q-0000	Radial Ball Bearing		1.00	0.00	50.00	Engine & Transmission		2025-05-06 08:29:41.197184+00	2026-10-13 16:58:54.882507+00	1
 10	22132-ARA-0000	Slide Piece		39.00	15.00	4.86	Engine & Transmission		2025-05-05 21:28:57.890263+00	2026-10-19 09:24:39.076127+00	1
 1	173460	Engine Oil		173.70	5.00	71.43	Lubricants & Fluids		2025-05-05 19:18:03.334943+00	2026-10-19 08:26:58.68736+00	1
@@ -4173,6 +4173,7 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 12	22121-M9B-0000	Weight Roller		78.00	18.00	22.34	Engine & Transmission		2025-05-05 21:31:05.995356+00	2026-10-19 09:23:42.000082+00	1
 362	21395-Z2D-0000	Mission Cover Gasket		1.00	0.00	5.00	Engine & Transmission		2026-09-22 11:24:26.896834+00	2026-10-13 16:57:52.850869+00	1
 15	FDB2190EF	Brake Pads FF		10.00	5.00	119.00	Brakes		2025-05-05 21:34:44.654682+00	2026-10-16 07:43:15.566566+00	1
+11	CR7HSA	Spark Plug		15.00	5.00	30.00	Engine & Transmission		2025-05-05 21:30:07.226667+00	2026-10-20 10:29:33.15071+00	1
 \.
 
 
@@ -4281,6 +4282,7 @@ COPY public.inventory_purchase (id, invoice_number, invoice_date, due_date, stat
 120	10AIPABD2648	2026-10-06	2026-10-06	paid	256.76	269.51		2026-10-06 12:17:57.199934+00	2026-10-06 12:17:57.368719+00	1	1	1	99.57	40.00	248.93	22.40	15.00	85.00
 121	10AIPABD2801	2026-10-07	2026-10-07	paid	256.76	269.51		2026-10-07 08:22:30.678352+00	2026-10-07 08:22:30.770768+00	1	1	1	99.57	40.00	248.93	22.40	15.00	85.00
 122	10AIPABD4041	2026-10-19	2026-10-19	paid	8767.89	8782.14		2026-10-19 09:22:59.221957+00	2026-10-19 09:22:59.362418+00	1	1	1	5027.76	40.00	12569.40	1131.25	15.00	95.00
+123	67075878	2026-10-20	2026-10-20	paid	345.00	345.00		2026-10-20 10:29:04.872996+00	2026-10-20 10:29:33.197222+00	1	5	1	0.00	0.00	300.00	45.00	15.00	0.00
 \.
 
 
@@ -4534,6 +4536,7 @@ COPY public.inventory_purchaseitem (id, description, quantity, unit_price, part_
 266	Drive Belt - 23100-XMA-0001	10.00	996.52	9	122	\N	1
 267	Slide Piece - 22132-ARA-0000	30.00	4.86	10	122	\N	1
 268	Air Filter Element - 17211-ADB-0000	10.00	111.80	8	122	\N	1
+269	Spark Plug - CR7HSA	10.00	30.00	11	123	\N	1
 \.
 
 
@@ -11383,7 +11386,7 @@ COPY public.users_userprofile (id, phone, "position", bio, date_updated, store_i
 6				2025-06-27 07:30:02.18664+00	\N	6				t	25	t	t	\N
 4				2026-03-08 16:12:42.022511+00	1	3				t	25	t	t	
 7	0837288948			2026-08-14 08:34:59.63446+00	\N	7	489 Johannes Ramakhoase Stt	Pretoria	0007	t	50	t	t	avatars/Migadde_Hussein_Madan_DV_2027.jpg
-1				2026-10-19 09:20:16.271978+00	\N	1				t	25	t	t	
+1				2026-10-20 10:27:10.786229+00	\N	1				t	25	t	t	
 \.
 
 
@@ -11559,14 +11562,14 @@ SELECT pg_catalog.setval('public.inventory_parts_id_seq', 369, true);
 -- Name: inventory_purchase_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_purchase_id_seq', 122, true);
+SELECT pg_catalog.setval('public.inventory_purchase_id_seq', 123, true);
 
 
 --
 -- Name: inventory_purchaseitem_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_purchaseitem_id_seq', 268, true);
+SELECT pg_catalog.setval('public.inventory_purchaseitem_id_seq', 269, true);
 
 
 --
@@ -13528,5 +13531,5 @@ GRANT ALL ON SCHEMA public TO PUBLIC;
 -- PostgreSQL database dump complete
 --
 
-\unrestrict Bh1ULz8l2OhRxNTcdki1O3GbcAceICEIqQIrb9UFB0aJRnJeJOTsjZk6nztKIiA
+\unrestrict JO6vIUtVfbvZa17Mz8g2DRg8joALwDK18Ja9kTVuWVTgMwjNOhP29IqqlSBUryk
 
