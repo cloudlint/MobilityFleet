@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict xYh85JkUxysAXcJlD5WpRr6es1pNWuzZOFAyz09BfB139uVy8i5LvjFfu9zq4P7
+\restrict oFJdh0efwXQW8EbxWE3Zv1x4VhsmIlBGRwOR7nQZ9DPHwiqkApM2hM0V1X0Y0H6
 
 -- Dumped from database version 16.15
 -- Dumped by pg_dump version 16.15
@@ -2182,7 +2182,7 @@ COPY public.auth_user (id, password, last_login, is_superuser, username, first_n
 6	pbkdf2_sha256$1000000$gW0XaR5oueAWIaUbkUJmuu$kM9m2ZVjqvwD9PcDONNFqkBHovzdnimO8aXLpNkFuQA=	\N	f	Adrich				f	t	2025-06-27 07:30:01.331008+00
 3	pbkdf2_sha256$1000000$rpW7xz0ZPTzlEIe5RN57cp$1rAzp9qQRn4uMfs9Ma5wljFHq65Gy343HP8NFRyjijQ=	2026-03-08 16:12:42.013266+00	f	Trymore	Trymore			t	t	2025-05-12 13:07:03+00
 7	pbkdf2_sha256$1000000$yIZhpFlZKehDqixIHINhcx$/yGeri4tjZzlI6D3ETxaMOEhAz3DD6PS9RjiSXpnNbo=	2026-08-14 08:34:59.556439+00	t	Hussein	Hussein	Migadde	mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
-1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2026-10-26 08:39:39.816343+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
+1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2026-10-26 10:08:17.078684+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
 \.
 
 
@@ -3553,6 +3553,7 @@ di8slxthmx4tnbxce40jzaj66av813nj	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdK
 i67vw5w6zj6qg24p2rxp5wmv5t1ty610	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xGfvE:oqXJJdWs2Czk5NnDnGvF_a3J3WFJ8y2gwOUdFR5SKgI	2026-10-13 17:09:16.760482+00
 3jsu85n01k4k9nfymt20tqhqo4odrlik	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xEMnL:3QcHqxi8iITGYzdgj2qh1ddEe83KfQ7q1_kg3leh9oY	2026-10-07 08:19:35.402626+00
 iolzugs9pcrmi79u5zbnuvl6ss791dl0	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xJoQi:C7VqcvhFgaCu6F_unHgifKGfxE2LjSTuoV2xlN0O5fg	2026-10-22 08:50:44.53656+00
+rhdib01ru9epiajv9i0esbpv2xm6zgkk	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xLHgE:JHNqBJS8L9iLRN5ECRKoAQOeZ82tP79Cruww2Pc0sHA	2026-10-26 10:16:50.584092+00
 b028svmibo1l7ohyhivkodn7h6n92888	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xIjcL:84obeOWkphLzjc4nDX8DCVLWf1KIt9EkZ_RhNij-MgY	2026-10-19 09:30:17.972601+00
 om908zpom9uk6sx7j8vh8vn8f0y0r3to	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xEMvb:xixs6_oB44gFJFu1WeaUM-N0VrAgPlCY-Dtfr7vWBzY	2026-10-07 08:28:07.011165+00
 bam2wfbksf6n122sswzddkopvil1faw5	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xEQd3:ovyHOpfEQMNKh10e9W6W0k_aezmz-poeRLX_pj-_cOk	2026-10-07 12:25:13.998955+00
@@ -4674,6 +4675,7 @@ COPY public.inventory_scooter (id, vin, make, model, year, color, status, hourly
 40	LXMXCA501RXA30428	Sym	Jet 14 200	2023	White	available	25.00	400.00	2024-12-13	30775.00	4444	2026-10-22		2025-05-13 10:23:59.922266+00	2026-10-22 07:48:27.911341+00	1	MB 96 XY GP	\N	\N	B
 113	LXMXCA501TXA34527	Sym	Jet 14	2026	White	available	650.00	100.00	2026-08-12	33000.00	0	2026-10-23		2026-08-12 12:40:13.121471+00	2026-10-23 09:24:01.301982+00	1	ND 17 TK GP	\N	\N	B
 9	LXMXCA501RXA35882	Sym	Jet 14 200	2023	White	available	25.00	100.00	2025-04-01	30779.00	0	2026-10-26		2025-05-08 08:07:17.503582+00	2026-10-26 08:48:28.992624+00	1	MG 15 XL GP	\N	\N	B
+115	LXMXCA501TXA34533	Sym	Jet14	2025	White	available	120.00	300.00	2026-10-26	33000.00	0	2026-10-26		2026-10-26 10:11:33.560483+00	2026-10-26 10:11:33.560503+00	1	NF 98 CL GP	\N	\N	B
 \.
 
 
@@ -11469,7 +11471,7 @@ COPY public.users_userprofile (id, phone, "position", bio, date_updated, store_i
 6				2025-06-27 07:30:02.18664+00	\N	6				t	25	t	t	\N
 4				2026-03-08 16:12:42.022511+00	1	3				t	25	t	t	
 7	0837288948			2026-08-14 08:34:59.63446+00	\N	7	489 Johannes Ramakhoase Stt	Pretoria	0007	t	50	t	t	avatars/Migadde_Hussein_Madan_DV_2027.jpg
-1				2026-10-26 08:39:39.879352+00	\N	1				t	25	t	t	
+1				2026-10-26 10:08:17.086192+00	\N	1				t	25	t	t	
 \.
 
 
@@ -11659,7 +11661,7 @@ SELECT pg_catalog.setval('public.inventory_purchaseitem_id_seq', 270, true);
 -- Name: inventory_scooter_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_scooter_id_seq', 114, true);
+SELECT pg_catalog.setval('public.inventory_scooter_id_seq', 115, true);
 
 
 --
@@ -13614,5 +13616,5 @@ GRANT ALL ON SCHEMA public TO PUBLIC;
 -- PostgreSQL database dump complete
 --
 
-\unrestrict xYh85JkUxysAXcJlD5WpRr6es1pNWuzZOFAyz09BfB139uVy8i5LvjFfu9zq4P7
+\unrestrict oFJdh0efwXQW8EbxWE3Zv1x4VhsmIlBGRwOR7nQZ9DPHwiqkApM2hM0V1X0Y0H6
 
