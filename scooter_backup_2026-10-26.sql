@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict C6FpX7MEYNBack22KUyJMlgqkZnxRaiPwk9vgU34gvxcRDhpjxMuFeFJ1joZHtP
+\restrict KY6XMZf55nexOuhGeMw3xtpKtVAnITr4SejnZHz2LfUevkUMsHrk96N52Gj99Rg
 
 -- Dumped from database version 16.15
 -- Dumped by pg_dump version 16.15
@@ -2182,7 +2182,7 @@ COPY public.auth_user (id, password, last_login, is_superuser, username, first_n
 6	pbkdf2_sha256$1000000$gW0XaR5oueAWIaUbkUJmuu$kM9m2ZVjqvwD9PcDONNFqkBHovzdnimO8aXLpNkFuQA=	\N	f	Adrich				f	t	2025-06-27 07:30:01.331008+00
 3	pbkdf2_sha256$1000000$rpW7xz0ZPTzlEIe5RN57cp$1rAzp9qQRn4uMfs9Ma5wljFHq65Gy343HP8NFRyjijQ=	2026-03-08 16:12:42.013266+00	f	Trymore	Trymore			t	t	2025-05-12 13:07:03+00
 7	pbkdf2_sha256$1000000$yIZhpFlZKehDqixIHINhcx$/yGeri4tjZzlI6D3ETxaMOEhAz3DD6PS9RjiSXpnNbo=	2026-08-14 08:34:59.556439+00	t	Hussein	Hussein	Migadde	mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
-1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2026-10-26 12:39:56.754079+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
+1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2026-10-26 14:21:10.992015+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
 \.
 
 
@@ -3545,6 +3545,7 @@ j4mzhg2zjzub4jk1cajsygh2tqbrypld	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdK
 e5odhwwp7w07eb1uaarz1wphygzfrfp4	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xIikK:2-OTH49B4j-pDqFOPgW8g8s_uI8iIbNg56gkeaMfcSo	2026-10-19 08:34:28.482525+00
 igg0drobt9sgqnygt6rirj6bhwrkj3cc	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xJ76o:UVy7rBOu3RSBkrdb1F5MuHeUgFDGOKo6yxckyHxvwM0	2026-10-20 10:35:18.132958+00
 2pqh7qgl9m2el97wi2b2kscazbd0mrev	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xDgym:EPip9hWds8JDzkSLtG6BdqlflWbfNCnAb2y9mJ47LZs	2026-10-05 11:40:36.68702+00
+u0kent66bfbed3p97ss3xo2alrk55f7p	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xLLZs:bJVbx8fvEMDhC-x0zPHSy8u1CGLaWzaVAPFYrV9YeXI	2026-10-26 14:26:32.452765+00
 oj4n68qrthrle1novhxrpwcluin4jxfg	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xE4HO:H_cqWsDASt9bm_hbWeZCtTQh6HRCM4sGnHFQB4JnZUQ	2026-10-06 12:33:22.18686+00
 t4yoowcl84drws70lmkhwqxew8ei9203	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xIixT:j5U_lREN_I3ymtHF3kSGsdHyjRNTG7qeEINE6Sn7ps0	2026-10-19 08:48:03.999712+00
 g6czqu6j1yhjjkv6bug3xrzkupz76qon	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xELpy:f9yR3Jek2hjtiPA-WZWHNFKEXWWJ-wXM1lyrM5dpJRQ	2026-10-07 07:18:14.451103+00
@@ -3555,7 +3556,7 @@ i67vw5w6zj6qg24p2rxp5wmv5t1ty610	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdK
 iolzugs9pcrmi79u5zbnuvl6ss791dl0	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xJoQi:C7VqcvhFgaCu6F_unHgifKGfxE2LjSTuoV2xlN0O5fg	2026-10-22 08:50:44.53656+00
 rhdib01ru9epiajv9i0esbpv2xm6zgkk	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xLHgE:JHNqBJS8L9iLRN5ECRKoAQOeZ82tP79Cruww2Pc0sHA	2026-10-26 10:16:50.584092+00
 b028svmibo1l7ohyhivkodn7h6n92888	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xIjcL:84obeOWkphLzjc4nDX8DCVLWf1KIt9EkZ_RhNij-MgY	2026-10-19 09:30:17.972601+00
-o2rm6ad5qim5jzt07ib24cadlslqg3ud	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xLK2I:Ntg7_2deX-NdfaDT-MZ0cDgaI-g2B-2cHMsghMIFglk	2026-10-26 12:47:46.283299+00
+o2rm6ad5qim5jzt07ib24cadlslqg3ud	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xLK4a:x_UkxUL13K0_9NmnYIhvFMdL3DoaBNu98v6fGlz3nMA	2026-10-26 12:50:08.549042+00
 om908zpom9uk6sx7j8vh8vn8f0y0r3to	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xEMvb:xixs6_oB44gFJFu1WeaUM-N0VrAgPlCY-Dtfr7vWBzY	2026-10-07 08:28:07.011165+00
 bam2wfbksf6n122sswzddkopvil1faw5	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xEQd3:ovyHOpfEQMNKh10e9W6W0k_aezmz-poeRLX_pj-_cOk	2026-10-07 12:25:13.998955+00
 ah7t4a9ia2js9tvr73ceg9v22g5sfy9l	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xEQxU:qmd44sOA8fALSOX9MmMjQNWFTMeCbHvsxbPBobmkh4A	2026-10-07 12:46:20.341205+00
@@ -3819,6 +3820,7 @@ COPY public.inventory_inventoryalert (id, alert_type, title, description, severi
 250	low_stock	Low Stock: SGI Core White - XL Helmet	Inventory level for SGI Core White - XL Helmet (SGI-CRE-WH-XL) is below reorder level. Current stock: 0.00, Reorder level: 0.00	high	new	0.00	0.00	f	t	2026-10-22 08:42:03.805664+00	2026-10-22 08:42:03.805687+00	\N	\N	\N	\N	341	\N	\N	1
 251	low_stock	Low Stock: Helmet-SGI Tyro White RPL	Inventory level for Helmet-SGI Tyro White RPL (TyroWhRPL-Small) is below reorder level. Current stock: 0.00, Reorder level: 0.00	high	new	0.00	0.00	f	t	2026-10-22 08:42:03.812454+00	2026-10-22 08:42:03.812481+00	\N	\N	\N	\N	332	\N	\N	1
 252	low_stock	Low Stock: Tyre Plug	Inventory level for Tyre Plug (C0778) is below reorder level. Current stock: 5.00, Reorder level: 5.00	medium	new	5.00	5.00	f	t	2026-10-26 08:39:40.309758+00	2026-10-26 08:39:40.3098+00	\N	\N	\N	\N	254	\N	\N	1
+253	low_stock	Low Stock: Carrier Topbox Sym Jet 14	Inventory level for Carrier Topbox Sym Jet 14 (SR7055) is below reorder level. Current stock: 0.00, Reorder level: 0.00	high	new	0.00	0.00	f	t	2026-10-26 14:21:11.246569+00	2026-10-26 14:21:11.246589+00	\N	\N	\N	\N	63	\N	\N	1
 \.
 
 
@@ -4106,7 +4108,6 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 50	18291-Z8G-0000	EXH Pipe Gasket Fiddle 150		3.00	1.00	3000.00	Engine & Transmission		2025-05-06 07:18:44.623886+00	2026-08-27 07:48:05.45758+00	1
 94	81141-X8A-0100	Inner Box Lid		4.00	1.00	212.72	Frame and Body		2025-05-06 07:57:44.331085+00	2026-08-04 09:35:45.517574+00	1
 330	PA295A-WT	Top Box White		0.00	0.00	1500.00	Top Box		2026-08-04 09:39:52.796893+00	2026-08-12 12:53:46.62586+00	1
-63	SR7055	Carrier Topbox Sym Jet 14		1.00	0.00	2000.00	Miscellaneous / Universal Parts		2025-05-06 07:29:07.250843+00	2026-08-12 12:53:46.628562+00	1
 145	12391-F8A-0001	Head Cover Packing Jet14		6.00	0.00	135.05	Engine & Transmission		2025-05-06 08:33:10.560434+00	2026-08-28 13:51:17.755393+00	1
 89	35111-XGA-0001	Key blank Jet14		4.00	1.00	200.00	Locks and Security		2025-05-06 07:52:47.129684+00	2026-08-14 08:41:41.184679+00	1
 328	94050-06040	Flange Nut 6mm		10.00	0.00	5.25	Bolts & Nuts		2026-07-08 07:53:23.068504+00	2026-09-03 10:01:21.948231+00	1
@@ -4126,6 +4127,7 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 291	12191-Z2D-0000	Cylinder Gasket Xpro125		1.00	0.00	42.71	Engine & Transmission		2025-11-12 13:14:16.128185+00	2026-10-12 12:29:59.91764+00	1
 61	95701-06012-07	Flange Bolt 6*12		3.00	0.00	10.00	Miscellaneous / Universal Parts		2025-05-06 07:27:57.530288+00	2026-10-16 07:39:54.679569+00	1
 62	91302-M9T-0002	O-ring 30.8mm		6.00	2.00	20.00	Engine & Transmission		2025-05-06 07:28:29.595603+00	2026-10-16 07:39:54.804973+00	1
+63	SR7055	Carrier Topbox Sym Jet 14		0.00	0.00	2000.00	Miscellaneous / Universal Parts		2025-05-06 07:29:07.250843+00	2026-10-26 13:57:37.90513+00	1
 339	SGI-CRE-WH-L	SGI Core White - Large Helmet		0.00	0.00	749.40	Accessories		2026-08-19 10:02:50.459778+00	2026-10-22 07:50:41.995179+00	1
 341	SGI-CRE-WH-XL	SGI Core White - XL Helmet		0.00	0.00	749.40	Accessories		2026-08-19 10:04:55.024854+00	2026-10-22 07:50:42.08387+00	1
 332	TyroWhRPL-Small	Helmet-SGI Tyro White RPL		0.00	0.00	749.40	Accessories		2026-08-19 09:07:28.386925+00	2026-10-22 07:50:42.089989+00	1
@@ -4666,6 +4668,7 @@ COPY public.inventory_scooter (id, vin, make, model, year, color, status, hourly
 101	LXMXCA501SXA24091	Sym	Jet 14 200	2025	White	available	650.00	450.00	2025-10-21	31300.00	0	2026-10-07		2025-12-05 09:49:31.807414+00	2026-10-07 08:14:23.824549+00	1	MR 01 JD GP	\N	\N	B
 7	LXMXCA501RXA35903	Sym	Jet 14 200	2023	White	available	25.00	100.00	2025-04-01	30779.00	0	2026-10-12		2025-05-08 08:02:35.264864+00	2026-10-12 12:14:04.773728+00	1	MG 15 PN GP	\N	\N	B
 41	LXMXCA501RXA35850	Sym	Jet 14 200	2023	White	available	25.00	400.00	2024-12-13	30775.00	3006	2026-10-26		2025-05-13 10:29:46.651512+00	2026-10-26 12:42:43.447798+00	1	MB 96 ZX GP	\N	\N	B
+115	LXMXCA501TXA34533	Sym	Jet14	2025	White	available	120.00	300.00	2026-10-26	33000.00	0	2026-10-26		2026-10-26 10:11:33.560483+00	2026-10-26 13:57:37.513782+00	1	NF 98 CL GP	\N	\N	B
 16	LXMXCA501MX024488	Sym	Jet 14 200	2023	White	available	25.00	100.00	2023-01-18	30779.00	20635	2026-10-13		2025-05-12 12:15:51.437705+00	2026-10-13 17:04:16.38687+00	1	KP 13 SM GP	\N	\N	B
 100	LXMXCA501SXA24090	Sym	Jet 14 200	1983	White	available	650.00	450.00	2025-10-21	31300.00	1010	2026-10-14		2025-12-05 09:48:25.145274+00	2026-10-14 09:22:41.210027+00	1	MR 01 KR GP	\N	\N	B
 109	LXMXCA501TXA34518	Sym	Jet 14	2026	White	available	650.00	100.00	2026-08-12	33000.00	0	2026-10-14		2026-08-12 12:36:37.840439+00	2026-10-14 09:25:23.508348+00	1	ND 17 VP GP	\N	\N	B
@@ -4676,7 +4679,6 @@ COPY public.inventory_scooter (id, vin, make, model, year, color, status, hourly
 40	LXMXCA501RXA30428	Sym	Jet 14 200	2023	White	available	25.00	400.00	2024-12-13	30775.00	4444	2026-10-22		2025-05-13 10:23:59.922266+00	2026-10-22 07:48:27.911341+00	1	MB 96 XY GP	\N	\N	B
 113	LXMXCA501TXA34527	Sym	Jet 14	2026	White	available	650.00	100.00	2026-08-12	33000.00	0	2026-10-23		2026-08-12 12:40:13.121471+00	2026-10-23 09:24:01.301982+00	1	ND 17 TK GP	\N	\N	B
 9	LXMXCA501RXA35882	Sym	Jet 14 200	2023	White	available	25.00	100.00	2025-04-01	30779.00	0	2026-10-26		2025-05-08 08:07:17.503582+00	2026-10-26 08:48:28.992624+00	1	MG 15 XL GP	\N	\N	B
-115	LXMXCA501TXA34533	Sym	Jet14	2025	White	available	120.00	300.00	2026-10-26	33000.00	0	2026-10-26		2026-10-26 10:11:33.560483+00	2026-10-26 10:11:33.560503+00	1	NF 98 CL GP	\N	\N	B
 \.
 
 
@@ -5545,6 +5547,7 @@ COPY public.service_jobcard (id, job_card_number, status, priority, description,
 600	JC000577	completed	urgent	RR Brake Pads	16137	2026-10-07 08:14:23.867776+00	2026-10-07 08:14:23.970451+00	2026-10-07	2026-10-07	0.50	650.00	0.00		101	7	available	1	service	0.00	0.00	0.00	0.00	0.00	0.00
 611	JC000587	completed	low	3,000km Service	2941	2026-10-14 09:25:23.511041+00	2026-10-14 09:25:23.545636+00	2026-10-14	2026-10-14	1.50	650.00	0.00		109	7	available	1	service	0.00	0.00	0.00	0.00	0.00	0.00
 619	JC000595	completed	low	Main Stand SPG	47099	2026-10-19 08:29:25.631312+00	2026-10-19 08:29:25.776008+00	2026-10-19	2026-10-19	0.50	650.00	0.00		25	7	available	1	service	0.00	0.00	0.00	0.00	0.00	0.00
+627	JC000603	completed	low	PDI	1	2026-10-26 13:57:37.550839+00	2026-10-26 13:57:38.07769+00	2026-10-26	2026-10-26	2.00	650.00	0.00		115	7	available	1	service	0.00	0.00	0.00	0.00	0.00	0.00
 601	JC000578	completed	low	24,000km Service	23956	2026-10-08 13:29:12.235664+00	2026-10-08 13:29:12.466031+00	2026-10-08	2026-10-08	3.00	650.00	0.00		96	7	available	1	service	0.00	0.00	0.00	0.00	0.00	0.00
 602	JC000579	completed	low	RR Brake Pads	35206	2026-10-12 12:14:04.779733+00	2026-10-12 12:14:04.917414+00	2026-10-12	2026-10-12	0.50	650.00	0.00		7	7	available	1	service	0.00	0.00	0.00	0.00	0.00	0.00
 605	JC000582	completed	low	23,000km Service	23980	2026-10-13 16:39:54.630061+00	2026-10-13 16:39:54.892699+00	2026-10-13	2026-10-13	3.00	650.00	0.00		52	7	available	1	service	0.00	0.00	0.00	0.00	0.00	0.00
@@ -7896,6 +7899,7 @@ COPY public.service_jobcarditem (id, quantity, unit_price, total_price, date_add
 2377	1.00	996.52	996.52	2026-10-26 12:42:43.605428+00	626	9
 2378	1.00	140.16	140.16	2026-10-26 12:42:43.608938+00	626	14
 2379	1.00	349.67	349.67	2026-10-26 12:42:43.613076+00	626	20
+2380	1.00	2000.00	2000.00	2026-10-26 13:57:37.947823+00	627	63
 \.
 
 
@@ -11474,6 +11478,12 @@ COPY public.service_servicechecklist (id, item_name, is_checked, notes, date_cre
 3628	Lights and signals testing	f		2026-10-26 12:42:43.621697+00	2026-10-26 12:42:43.621715+00	626
 3629	Electrical system check	f		2026-10-26 12:42:43.622954+00	2026-10-26 12:42:43.62297+00	626
 3630	Frame and suspension inspection	f		2026-10-26 12:42:43.624165+00	2026-10-26 12:42:43.624181+00	626
+3631	Brake inspection	f		2026-10-26 13:57:37.979052+00	2026-10-26 13:57:37.979081+00	627
+3632	Battery check	f		2026-10-26 13:57:38.021061+00	2026-10-26 13:57:38.021083+00	627
+3633	Tire pressure and condition	f		2026-10-26 13:57:38.0231+00	2026-10-26 13:57:38.023151+00	627
+3634	Lights and signals testing	f		2026-10-26 13:57:38.025356+00	2026-10-26 13:57:38.025378+00	627
+3635	Electrical system check	f		2026-10-26 13:57:38.026874+00	2026-10-26 13:57:38.026894+00	627
+3636	Frame and suspension inspection	f		2026-10-26 13:57:38.029622+00	2026-10-26 13:57:38.029907+00	627
 \.
 
 
@@ -11487,7 +11497,7 @@ COPY public.users_userprofile (id, phone, "position", bio, date_updated, store_i
 6				2025-06-27 07:30:02.18664+00	\N	6				t	25	t	t	\N
 4				2026-03-08 16:12:42.022511+00	1	3				t	25	t	t	
 7	0837288948			2026-08-14 08:34:59.63446+00	\N	7	489 Johannes Ramakhoase Stt	Pretoria	0007	t	50	t	t	avatars/Migadde_Hussein_Madan_DV_2027.jpg
-1				2026-10-26 12:39:56.764586+00	\N	1				t	25	t	t	
+1				2026-10-26 14:21:11.013104+00	\N	1				t	25	t	t	
 \.
 
 
@@ -11649,7 +11659,7 @@ SELECT pg_catalog.setval('public.django_migrations_id_seq', 59, true);
 -- Name: inventory_inventoryalert_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_inventoryalert_id_seq', 252, true);
+SELECT pg_catalog.setval('public.inventory_inventoryalert_id_seq', 253, true);
 
 
 --
@@ -11817,21 +11827,21 @@ SELECT pg_catalog.setval('public.landing_wishlist_products_id_seq', 1, false);
 -- Name: service_jobcard_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.service_jobcard_id_seq', 626, true);
+SELECT pg_catalog.setval('public.service_jobcard_id_seq', 627, true);
 
 
 --
 -- Name: service_jobcarditem_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.service_jobcarditem_id_seq', 2379, true);
+SELECT pg_catalog.setval('public.service_jobcarditem_id_seq', 2380, true);
 
 
 --
 -- Name: service_servicechecklist_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.service_servicechecklist_id_seq', 3630, true);
+SELECT pg_catalog.setval('public.service_servicechecklist_id_seq', 3636, true);
 
 
 --
@@ -13632,5 +13642,5 @@ GRANT ALL ON SCHEMA public TO PUBLIC;
 -- PostgreSQL database dump complete
 --
 
-\unrestrict C6FpX7MEYNBack22KUyJMlgqkZnxRaiPwk9vgU34gvxcRDhpjxMuFeFJ1joZHtP
+\unrestrict KY6XMZf55nexOuhGeMw3xtpKtVAnITr4SejnZHz2LfUevkUMsHrk96N52Gj99Rg
 
