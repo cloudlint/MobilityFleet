@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict cVD4DtCfnZj8UARnzz0O3KPmOP2jwyHVDRXW7S60ln01HkG0L7ZUEPh0hg4yDWA
+\restrict Qw7zomqcbBPzM0Z6RFNAiuaZ8Fn24PBz18yRQhF77dLYZH4fUDAnGRErYYXGidD
 
 -- Dumped from database version 16.15
 -- Dumped by pg_dump version 16.15
@@ -3537,6 +3537,7 @@ cmepmg72qg7rjtqwkoz5hp7jcp8ktzuo	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdK
 7ljf7q2f4v2lj14iza8g4n0byypeg3nv	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xGvF8:QRDD1_FWnES6awxfcAxSmdHszZR3lYVO-swVlNEPvdo	2026-10-14 09:30:50.547021+00
 wpxzuck4lot276w1aa08rd0xw6foebb6	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xMmv8:Ib0xawqdsSWYAtZ8fPrvYd8NnM4Y6nta_OJsMVP0eyk	2026-10-30 13:50:26.46349+00
 mjldn2ooapi405ph2byhe1x319oi4kma	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xJS1u:x35uX1XViYaXxKQcw1Px5cuSi90q_IGmMTFn5UMGU5s	2026-10-21 08:55:38.989497+00
+zltjz0clffpwiqq847am2lf2hwuvvl5p	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xTLam:PRA3QBLVRgLd95X_X059Aj60B-gUs-PMp8YXh7y_aMc	2026-11-17 16:04:32.762704+00
 w577stb2lsiui3utcy9uxewv7p12hxp5	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xPH4g:2tz_nFJHCf6vYzzEoZgQukkuYQvW3Vvaw4AIc9Y_DV8	2026-11-06 10:26:34.912877+00
 vvhjwefskbikprjshggghy0xwacu4hc0	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xE47N:CFfh9eWfeb0vIm22k64NiNJa5V7xYAA0EuWN_t28wwk	2026-10-06 12:23:01.705977+00
 3daocxtg5kl2kuk6vydh9jo6g4250d0h	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xELgx:xIyGQIHPrHFwZrQDcI7eXXCm5d0WcdJQLbZAYYiDHTo	2026-10-07 07:08:55.521158+00
@@ -3547,7 +3548,6 @@ j4mzhg2zjzub4jk1cajsygh2tqbrypld	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdK
 t0hpvjqgniv2d71ualkxeyq68wlchgyn	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xRpM5:F1r2yT2jWG6QRUy9PoGySdtEkEwlQFuhkFNECHZI_Rk	2026-11-13 11:27:05.842267+00
 e5odhwwp7w07eb1uaarz1wphygzfrfp4	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xIikK:2-OTH49B4j-pDqFOPgW8g8s_uI8iIbNg56gkeaMfcSo	2026-10-19 08:34:28.482525+00
 igg0drobt9sgqnygt6rirj6bhwrkj3cc	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xJ76o:UVy7rBOu3RSBkrdb1F5MuHeUgFDGOKo6yxckyHxvwM0	2026-10-20 10:35:18.132958+00
-zltjz0clffpwiqq847am2lf2hwuvvl5p	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xTLUI:jBkEElUcWIH7CWqSKZRAcxSXpPDTuxDxA3a-E4gRvYg	2026-11-17 15:57:50.797595+00
 2pqh7qgl9m2el97wi2b2kscazbd0mrev	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xDgym:EPip9hWds8JDzkSLtG6BdqlflWbfNCnAb2y9mJ47LZs	2026-10-05 11:40:36.68702+00
 u0kent66bfbed3p97ss3xo2alrk55f7p	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xLLZs:bJVbx8fvEMDhC-x0zPHSy8u1CGLaWzaVAPFYrV9YeXI	2026-10-26 14:26:32.452765+00
 oj4n68qrthrle1novhxrpwcluin4jxfg	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xE4HO:H_cqWsDASt9bm_hbWeZCtTQh6HRCM4sGnHFQB4JnZUQ	2026-10-06 12:33:22.18686+00
@@ -3846,6 +3846,8 @@ COPY public.inventory_inventoryalert (id, alert_type, title, description, severi
 254	low_stock	Low Stock: Bolt-Disk FR Crox125	Inventory level for Bolt-Disk FR Crox125 (90106-N02-0002) is below reorder level. Current stock: 2.00, Reorder level: 2.00	medium	new	2.00	2.00	f	t	2026-11-05 08:25:53.607979+00	2026-11-05 08:25:53.607999+00	\N	\N	\N	\N	55	\N	\N	1
 255	low_stock	Low Stock: Brake Pads RR Citycom 300 ABS	Inventory level for Brake Pads RR Citycom 300 ABS (FDB2142EF) is below reorder level. Current stock: 0.00, Reorder level: 0.00	high	new	0.00	0.00	f	t	2026-11-13 10:46:35.837519+00	2026-11-13 10:46:35.837563+00	\N	\N	\N	\N	329	\N	\N	1
 256	low_stock	Low Stock: RR Cushion UN Rubber bush	Inventory level for RR Cushion UN Rubber bush (11203-M9Q-3000) is below reorder level. Current stock: 0.00, Reorder level: 0.00	high	new	0.00	0.00	f	t	2026-11-17 08:50:50.08327+00	2026-11-17 08:50:50.083295+00	\N	\N	\N	\N	375	\N	\N	1
+257	low_stock	Low Stock: Exhaust Valve Jet 14	Inventory level for Exhaust Valve Jet 14 (14721-F8A-0000) is below reorder level. Current stock: 1.00, Reorder level: 1.00	medium	new	1.00	1.00	f	t	2026-11-17 15:58:25.229171+00	2026-11-17 15:58:25.229234+00	\N	\N	\N	\N	87	\N	\N	1
+258	low_stock	Low Stock: Intake Valve Jet14	Inventory level for Intake Valve Jet14 (14711-F8A-0000) is below reorder level. Current stock: 1.00, Reorder level: 1.00	medium	new	1.00	1.00	f	t	2026-11-17 15:58:25.284527+00	2026-11-17 15:58:25.284549+00	\N	\N	\N	\N	86	\N	\N	1
 \.
 
 
@@ -4195,6 +4197,7 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 350	Lanjack-Medium	Jackets		2.00	0.00	600.00	Accessories		2026-08-27 08:57:41.533824+00	2026-10-16 08:01:43.150765+00	1
 7	173469	Gear Oil		10.00	5.00	500.00	Lubricants & Fluids		2025-05-05 21:21:17.375925+00	2026-11-17 15:48:37.529997+00	1
 14	43105-ARB-000-A-9	Brake Pads RR		23.00	5.00	140.16	Brakes		2025-05-05 21:33:50.092617+00	2026-11-16 12:56:20.184024+00	1
+11	CR7HSA	Spark Plug		19.00	5.00	30.00	Engine & Transmission		2025-05-05 21:30:07.226667+00	2026-11-17 15:57:39.772621+00	1
 38	2902800	Tyre RR 110/80-14” Pireli Bikewise		8.00	5.00	800.00	Wheels and Tires		2025-05-06 06:57:41.482487+00	2026-10-30 10:11:39.831829+00	1
 103	2211A-ARA-0002	Face-Drive Xpro125		3.00	1.00	120.00	Engine & Transmission		2025-05-06 08:06:05.065674+00	2026-11-09 08:04:20.186015+00	1
 365	14520-H6T-0001	Tensioner Lifter		0.00	0.00	562.30	Engine & Transmission		2026-10-02 08:15:15.322903+00	2026-10-21 09:39:52.580149+00	1
@@ -4207,7 +4210,6 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 8	17211-ADB-0000	Air Filter Element		19.00	5.00	111.80	Consumables and Accessories		2025-05-05 21:25:15.716942+00	2026-11-16 10:30:51.699411+00	1
 35	3445700	Tyre FF 100/90-14 Pireli Bikewise		2.00	2.00	1000.00	Wheels and Tires		2025-05-05 22:05:17.849359+00	2026-11-13 10:47:35.574957+00	1
 20	43121-XJA-0001-K	Brake Disk RR		5.00	2.00	349.67	Brakes		2025-05-05 21:43:23.364712+00	2026-11-16 10:30:51.706223+00	1
-11	CR7HSA	Spark Plug		9.00	5.00	30.00	Engine & Transmission		2025-05-05 21:30:07.226667+00	2026-11-11 16:37:13.107654+00	1
 10	22132-ARA-0000	Slide Piece		27.00	15.00	4.86	Engine & Transmission		2025-05-05 21:28:57.890263+00	2026-11-11 16:37:13.114613+00	1
 356	90201-GY6-9000	Lock nut 22mm		0.00	0.00	10.00	Engine & Transmission		2026-09-22 11:01:14.083046+00	2026-11-17 15:48:37.492885+00	1
 289	94601-15000	Piston Pin Clip		6.00	0.00	1.90	Engine & Transmission		2025-11-12 13:12:38.126684+00	2026-11-13 10:57:45.84879+00	1
@@ -4333,6 +4335,7 @@ COPY public.inventory_purchase (id, invoice_number, invoice_date, due_date, stat
 125	10AIPABD6116	2026-11-09	2026-11-09	paid	4128.35	4142.59		2026-11-09 08:04:20.080627+00	2026-11-09 08:04:20.197585+00	1	1	1	2338.17	40.00	5845.43	526.09	15.00	95.00
 126	10AIPABD6672	2026-11-13	2026-11-13	paid	40.50	40.50		2026-11-13 10:57:45.790821+00	2026-11-13 10:57:45.87535+00	1	1	1	23.48	40.00	58.70	5.28	15.00	0.00
 127	10AIPABD7020	2026-11-16	2026-11-16	paid	5365.29	5379.55		2026-11-16 10:30:51.553706+00	2026-11-16 10:30:51.710194+00	1	1	1	3055.24	40.00	7638.10	687.43	15.00	95.00
+129	67106800	2026-11-17	2026-11-17	paid	345.00	345.00		2026-11-17 15:57:39.699489+00	2026-11-17 15:57:39.779998+00	1	5	1	0.00	0.00	300.00	45.00	15.00	0.00
 \.
 
 
@@ -4600,6 +4603,7 @@ COPY public.inventory_purchaseitem (id, description, quantity, unit_price, part_
 280	Air Filter Element - 17211-ADB-0000	10.00	111.80	8	127	\N	1
 281	EXH Pipe Gasket Fiddle 150 - 18291-Z8G-0000	5.00	15.33	50	127	\N	1
 282	Brake Disk RR - 43121-XJA-0001-K	5.00	349.67	20	127	\N	1
+283	Spark Plug - CR7HSA	10.00	30.00	11	129	\N	1
 \.
 
 
@@ -12066,7 +12070,7 @@ SELECT pg_catalog.setval('public.django_migrations_id_seq', 59, true);
 -- Name: inventory_inventoryalert_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_inventoryalert_id_seq', 256, true);
+SELECT pg_catalog.setval('public.inventory_inventoryalert_id_seq', 258, true);
 
 
 --
@@ -12080,14 +12084,14 @@ SELECT pg_catalog.setval('public.inventory_parts_id_seq', 375, true);
 -- Name: inventory_purchase_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_purchase_id_seq', 127, true);
+SELECT pg_catalog.setval('public.inventory_purchase_id_seq', 129, true);
 
 
 --
 -- Name: inventory_purchaseitem_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_purchaseitem_id_seq', 282, true);
+SELECT pg_catalog.setval('public.inventory_purchaseitem_id_seq', 283, true);
 
 
 --
@@ -14049,5 +14053,5 @@ GRANT ALL ON SCHEMA public TO PUBLIC;
 -- PostgreSQL database dump complete
 --
 
-\unrestrict cVD4DtCfnZj8UARnzz0O3KPmOP2jwyHVDRXW7S60ln01HkG0L7ZUEPh0hg4yDWA
+\unrestrict Qw7zomqcbBPzM0Z6RFNAiuaZ8Fn24PBz18yRQhF77dLYZH4fUDAnGRErYYXGidD
 
