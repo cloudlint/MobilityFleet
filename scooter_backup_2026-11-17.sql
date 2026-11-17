@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict J3wlMLMNczrjTyAvG8dQ06yXULRmqeewleM7Rkr2P3gaIBdQGln6OrboGJ9ZsA0
+\restrict 62FZkcV09Qe84kw9lZScjJfOJCZHwRdOgHf2m0YD2KWqduLwx7c1jHnd7vKWTNA
 
 -- Dumped from database version 16.15
 -- Dumped by pg_dump version 16.15
@@ -2182,7 +2182,7 @@ COPY public.auth_user (id, password, last_login, is_superuser, username, first_n
 6	pbkdf2_sha256$1000000$gW0XaR5oueAWIaUbkUJmuu$kM9m2ZVjqvwD9PcDONNFqkBHovzdnimO8aXLpNkFuQA=	\N	f	Adrich				f	t	2025-06-27 07:30:01.331008+00
 3	pbkdf2_sha256$1000000$rpW7xz0ZPTzlEIe5RN57cp$1rAzp9qQRn4uMfs9Ma5wljFHq65Gy343HP8NFRyjijQ=	2026-03-08 16:12:42.013266+00	f	Trymore	Trymore			t	t	2025-05-12 13:07:03+00
 7	pbkdf2_sha256$1000000$yIZhpFlZKehDqixIHINhcx$/yGeri4tjZzlI6D3ETxaMOEhAz3DD6PS9RjiSXpnNbo=	2026-08-14 08:34:59.556439+00	t	Hussein	Hussein	Migadde	mmhussein13@gmail.com	t	t	2025-08-13 06:59:11.45477+00
-1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2026-11-16 12:54:16.121828+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
+1	pbkdf2_sha256$1000000$d8ktIdodJScXs02GNexfXz$0A0iB3GcOehbMrk+K2BoXKCFEqR8tgJ6AmCxeg3JYeo=	2026-11-17 08:50:49.860315+00	t	hussein			mmhussein13@outlook.com	t	t	2025-05-05 18:53:55+00
 \.
 
 
@@ -3565,6 +3565,7 @@ wwhibsncg2bvh2wnzexx7m2xmxnrds6s	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdK
 eogxu7yzq4ct4hdm8tyji6xw2ixtemcp	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xQkKa:TTrJfYo5ByejzZ4yXOCJetYSsnJNEHr9KlrVkXlhA4w	2026-11-10 11:53:04.649486+00
 0ji8o8itc5g5qthbql7cho4dxbz23wkc	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xRBKC:-jElZaE2MYyDTzL9RbPgKaDUglrRRO15XwKJQlZChkI	2026-11-11 16:42:28.942743+00
 07wzkedguyicixma14vi2xzztb6ugtb4	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xPHvG:U_vd2Cb1d7k8T3_2PGdLTbTs-H6TJy5BaR7ifYjx2i8	2026-11-06 11:20:54.789248+00
+g7zi5ts6jm3kgooe7n4zr3r9wualy4ma	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xTEw5:OaJVFWBhImP1qbLN0_r80mwSoRW60Y3ik6jSbREWSqs	2026-11-17 08:58:05.670857+00
 u7q0uyoxlls7u9w32a5zn95qwzkz4grx	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xMjaQ:YEhafw_2UudYzltYQjXQQjbLmXVgUVbR46Mv14htocE	2026-10-30 10:16:50.116597+00
 3jsu85n01k4k9nfymt20tqhqo4odrlik	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xEMnL:3QcHqxi8iITGYzdgj2qh1ddEe83KfQ7q1_kg3leh9oY	2026-10-07 08:19:35.402626+00
 iolzugs9pcrmi79u5zbnuvl6ss791dl0	.eJxVjEEOwiAQRe_C2hDqgAMu3XuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1FnNajD7xaJH6luQO5Ub01zq8s8Rb0peqddX5uk52V3_w4K9fKtMQC4BB4hYMTM4gmsRU4wUMgnDISWogmZAVDIsRF3JJMRxHpjWb0_1HM3sw:1xJoQi:C7VqcvhFgaCu6F_unHgifKGfxE2LjSTuoV2xlN0O5fg	2026-10-22 08:50:44.53656+00
@@ -3843,6 +3844,7 @@ COPY public.inventory_inventoryalert (id, alert_type, title, description, severi
 253	low_stock	Low Stock: Carrier Topbox Sym Jet 14	Inventory level for Carrier Topbox Sym Jet 14 (SR7055) is below reorder level. Current stock: 0.00, Reorder level: 0.00	high	new	0.00	0.00	f	t	2026-10-26 14:21:11.246569+00	2026-10-26 14:21:11.246589+00	\N	\N	\N	\N	63	\N	\N	1
 254	low_stock	Low Stock: Bolt-Disk FR Crox125	Inventory level for Bolt-Disk FR Crox125 (90106-N02-0002) is below reorder level. Current stock: 2.00, Reorder level: 2.00	medium	new	2.00	2.00	f	t	2026-11-05 08:25:53.607979+00	2026-11-05 08:25:53.607999+00	\N	\N	\N	\N	55	\N	\N	1
 255	low_stock	Low Stock: Brake Pads RR Citycom 300 ABS	Inventory level for Brake Pads RR Citycom 300 ABS (FDB2142EF) is below reorder level. Current stock: 0.00, Reorder level: 0.00	high	new	0.00	0.00	f	t	2026-11-13 10:46:35.837519+00	2026-11-13 10:46:35.837563+00	\N	\N	\N	\N	329	\N	\N	1
+256	low_stock	Low Stock: RR Cushion UN Rubber bush	Inventory level for RR Cushion UN Rubber bush (11203-M9Q-3000) is below reorder level. Current stock: 0.00, Reorder level: 0.00	high	new	0.00	0.00	f	t	2026-11-17 08:50:50.08327+00	2026-11-17 08:50:50.083295+00	\N	\N	\N	\N	375	\N	\N	1
 \.
 
 
@@ -4196,6 +4198,7 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 102	22131-M92-0003	Ramp Plate		3.00	1.00	300.00	Engine & Transmission		2025-05-06 08:05:31.71597+00	2026-10-13 16:39:54.814878+00	1
 47	211412	Valve Ruber Rim		66.00	5.00	10.00	Wheels and Tires		2025-05-06 07:15:31.536846+00	2026-11-13 10:47:35.635205+00	1
 350	Lanjack-Medium	Jackets		2.00	0.00	600.00	Accessories		2026-08-27 08:57:41.533824+00	2026-10-16 08:01:43.150765+00	1
+1	173460	Engine Oil		151.10	5.00	71.43	Lubricants & Fluids		2025-05-05 19:18:03.334943+00	2026-11-17 08:52:01.203657+00	1
 14	43105-ARB-000-A-9	Brake Pads RR		23.00	5.00	140.16	Brakes		2025-05-05 21:33:50.092617+00	2026-11-16 12:56:20.184024+00	1
 362	21395-Z2D-0000	Mission Cover Gasket		1.00	0.00	5.00	Engine & Transmission		2026-09-22 11:24:26.896834+00	2026-10-13 16:57:52.850869+00	1
 38	2902800	Tyre RR 110/80-14” Pireli Bikewise		8.00	5.00	800.00	Wheels and Tires		2025-05-06 06:57:41.482487+00	2026-10-30 10:11:39.831829+00	1
@@ -4212,10 +4215,10 @@ COPY public.inventory_parts (id, part_number, name, description, current_stock, 
 20	43121-XJA-0001-K	Brake Disk RR		5.00	2.00	349.67	Brakes		2025-05-05 21:43:23.364712+00	2026-11-16 10:30:51.706223+00	1
 11	CR7HSA	Spark Plug		9.00	5.00	30.00	Engine & Transmission		2025-05-05 21:30:07.226667+00	2026-11-11 16:37:13.107654+00	1
 10	22132-ARA-0000	Slide Piece		27.00	15.00	4.86	Engine & Transmission		2025-05-05 21:28:57.890263+00	2026-11-11 16:37:13.114613+00	1
-1	173460	Engine Oil		151.90	5.00	71.43	Lubricants & Fluids		2025-05-05 19:18:03.334943+00	2026-11-16 12:56:20.138826+00	1
 289	94601-15000	Piston Pin Clip		6.00	0.00	1.90	Engine & Transmission		2025-11-12 13:12:38.126684+00	2026-11-13 10:57:45.84879+00	1
 15	FDB2190EF	Brake Pads FF		2.00	5.00	119.00	Brakes		2025-05-05 21:34:44.654682+00	2026-11-13 11:21:34.417151+00	1
 374	51404-APA-0000	Seal Dust		2.00	0.00	25.55	Engine & Transmission		2026-11-13 10:56:03.920447+00	2026-11-13 10:57:45.840423+00	1
+375	11203-M9Q-3000	RR Cushion UN Rubber bush		0.00	0.00	20.00	Engine & Transmission		2026-11-17 08:39:19.334278+00	2026-11-17 08:39:19.334314+00	1
 \.
 
 
@@ -4672,7 +4675,6 @@ COPY public.inventory_scooter (id, vin, make, model, year, color, status, hourly
 4	LXMXCA501PX020331	Sym	Jet 14 200	2023	White	retired	25.00	650.00	2023-11-27	30779.00	26300	2026-07-10		2025-05-07 18:09:10.565414+00	2026-09-23 10:55:03.494048+00	1	LL 74 SS GP	\N	\N	B
 20	LXMXCA501MX024462	Sym	Jet 14 200	2022	White	retired	25.00	100.00	2022-12-05	30775.00	35973	2026-07-07		2025-05-13 08:32:40.992422+00	2026-09-23 10:55:19.189799+00	1	KP 13 ZF GP	\N	\N	B
 102	LXMXCA501SXA24101	Sym	Jet 14 200	2025	White	retired	650.00	450.00	2025-10-21	31300.00	0	2025-12-08		2025-12-08 09:21:07.085051+00	2026-09-23 10:56:11.24398+00	1	MR 01 KG GP	\N	\N	B
-114	LXMXCA501TXA34535	Sym	Jet 14	2026	White	available	650.00	100.00	2026-08-12	33000.00	0	2026-10-02		2026-08-12 12:42:30.377327+00	2026-10-02 07:57:31.892415+00	1	ND 17 PT GP	\N	\N	B
 11	LXMXCA501PX020390	Sym	Jet 14 200	2024	White	available	25.00	450.00	2024-06-25	30779.00	7886	2026-11-13		2025-05-09 07:56:30.169421+00	2026-11-13 10:53:24.389527+00	1	LV 14 CT GP	\N	\N	B
 45	LXMXCA501RXA30421	Sym	Jet 14 200	2023	White	available	25.00	400.00	2024-12-13	30775.00	3187	2026-10-12		2025-05-13 10:36:54.228247+00	2026-10-12 12:17:09.464951+00	1	MB 96 YF GP	\N	\N	B
 52	LXMXCA501RXA35909	Sym	Jet 14 200	2023	White	available	25.00	400.00	2025-04-01	30775.00	0	2026-10-13		2025-05-19 07:46:04.566374+00	2026-10-13 16:39:54.610469+00	1	MG 15 SK GP	\N	\N	B
@@ -4685,6 +4687,7 @@ COPY public.inventory_scooter (id, vin, make, model, year, color, status, hourly
 58	LXMXCA501RXA35907	Sym	Jet 14 200	2023	White	available	25.00	400.00	2025-04-01	30775.00	0	2026-10-26		2025-05-19 07:56:38.900562+00	2026-10-26 08:42:29.472931+00	1	MG 15 TK GP	\N	\N	B
 104	LXMXCA501SXA24094	Sym	Jet 14 200	2025	White	available	650.00	450.00	2025-12-11	31300.00	0	2026-10-26		2025-12-11 12:48:24.281567+00	2026-10-26 08:46:13.44299+00	1	MR 01 HX GP	\N	\N	B
 42	LXMXCA501RXA35851	Sym	Jet 14 200	2023	White	available	25.00	400.00	2024-12-13	30775.00	3024	2026-10-28		2025-05-13 10:31:12.4208+00	2026-10-28 07:35:25.043721+00	1	MB 96 XT GP	\N	\N	B
+114	LXMXCA501TXA34535	Sym	Jet 14	2026	White	available	650.00	100.00	2026-08-12	33000.00	0	2026-11-17		2026-08-12 12:42:30.377327+00	2026-11-17 08:52:01.008+00	1	ND 17 PT GP	\N	\N	B
 56	LXMXCA501RXA28092	Sym	Jet 14 200	2023	White	available	25.00	400.00	2024-06-25	30775.00	9000	2026-11-03		2025-05-19 07:53:15.182802+00	2026-11-03 07:41:54.223816+00	1	LV 14 JV GP	\N	\N	B
 10	LXMXCA501RXA35845	Sym	Jet 14 200	2023	White	available	25.00	100.00	2025-04-01	30779.00	0	2026-11-05		2025-05-08 08:09:31.39539+00	2026-11-05 08:53:49.171805+00	1	MG 15 WR GP	\N	\N	B
 46	LXMXCA501RXA35854	Sym	Jet 14 200	2023	White	available	25.00	400.00	2024-12-13	30775.00	6081	2026-11-06		2025-05-13 10:38:34.123366+00	2026-11-06 11:00:45.138935+00	1	MB 96 XF GP	\N	\N	B
@@ -5615,6 +5618,7 @@ COPY public.service_jobcard (id, job_card_number, status, priority, description,
 653	JC000629	completed	low	30,000km Service	30026	2026-11-13 10:53:24.435681+00	2026-11-13 10:53:24.554117+00	2026-11-13	2026-11-13	1.50	650.00	0.00		11	3	available	1	service	0.00	0.00	0.00	0.00	0.00	0.00
 654	JC000630	completed	low	6,000km Service	5724	2026-11-16 07:47:44.09209+00	2026-11-16 07:47:44.364083+00	2026-11-16	2026-11-16	2.00	650.00	0.00		107	7	available	1	service	0.00	0.00	0.00	0.00	0.00	0.00
 650	JC000626	completed	low	48,000km Service	48035	2026-11-11 16:37:12.780298+00	2026-11-13 11:20:18.219625+00	2026-11-11	2026-11-11	3.00	650.00	0.00		25	7	available	\N	service	0.00	0.00	0.00	0.00	0.00	0.00
+657	JC000633	completed	urgent	3,000km Service	3089	2026-11-17 08:52:01.011683+00	2026-11-17 08:52:01.311477+00	2026-11-17	2026-11-17	1.50	650.00	0.00		114	7	available	1	service	0.00	0.00	0.00	0.00	0.00	0.00
 656	JC000632	completed	urgent	3,000km Service	3024	2026-11-16 12:56:20.098108+00	2026-11-16 12:56:20.211256+00	2026-11-16	2026-11-16	1.50	650.00	0.00		108	7	available	1	service	0.00	0.00	0.00	0.00	0.00	0.00
 614	JC000590	completed	urgent	30,000km Service	30016	2026-10-16 07:42:03.013895+00	2026-10-16 07:42:04.410562+00	2026-10-16	2026-10-16	2.00	650.00	0.00		47	7	available	1	service	0.00	0.00	0.00	0.00	0.00	0.00
 599	JC000576	completed	low	39,000km Service	39089	2026-10-07 07:13:02.590194+00	2026-10-07 07:13:02.660357+00	2026-10-07	2026-10-07	2.00	650.00	0.00		50	7	available	1	service	0.00	0.00	0.00	0.00	0.00	0.00
@@ -8093,6 +8097,7 @@ COPY public.service_jobcarditem (id, quantity, unit_price, total_price, date_add
 2505	0.80	71.43	57.14	2026-11-16 12:56:20.186426+00	656	1
 2506	0.30	500.00	150.00	2026-11-16 12:56:20.192427+00	656	7
 2507	1.00	140.16	140.16	2026-11-16 12:56:20.196442+00	656	14
+2508	0.80	71.43	57.14	2026-11-17 08:52:01.228824+00	657	1
 \.
 
 
@@ -11851,6 +11856,12 @@ COPY public.service_servicechecklist (id, item_name, is_checked, notes, date_cre
 3808	Lights and signals testing	f		2026-11-16 12:56:20.206795+00	2026-11-16 12:56:20.206817+00	656
 3809	Electrical system check	f		2026-11-16 12:56:20.208304+00	2026-11-16 12:56:20.208324+00	656
 3810	Frame and suspension inspection	f		2026-11-16 12:56:20.209796+00	2026-11-16 12:56:20.209814+00	656
+3811	Brake inspection	f		2026-11-17 08:52:01.253425+00	2026-11-17 08:52:01.253445+00	657
+3812	Battery check	f		2026-11-17 08:52:01.303158+00	2026-11-17 08:52:01.303194+00	657
+3813	Tire pressure and condition	f		2026-11-17 08:52:01.305493+00	2026-11-17 08:52:01.305515+00	657
+3814	Lights and signals testing	f		2026-11-17 08:52:01.307062+00	2026-11-17 08:52:01.30708+00	657
+3815	Electrical system check	f		2026-11-17 08:52:01.3085+00	2026-11-17 08:52:01.308522+00	657
+3816	Frame and suspension inspection	f		2026-11-17 08:52:01.309984+00	2026-11-17 08:52:01.31+00	657
 \.
 
 
@@ -11864,7 +11875,7 @@ COPY public.users_userprofile (id, phone, "position", bio, date_updated, store_i
 6				2025-06-27 07:30:02.18664+00	\N	6				t	25	t	t	\N
 4				2026-03-08 16:12:42.022511+00	1	3				t	25	t	t	
 7	0837288948			2026-08-14 08:34:59.63446+00	\N	7	489 Johannes Ramakhoase Stt	Pretoria	0007	t	50	t	t	avatars/Migadde_Hussein_Madan_DV_2027.jpg
-1				2026-11-16 12:54:16.130201+00	\N	1				t	25	t	t	
+1				2026-11-17 08:50:49.869207+00	\N	1				t	25	t	t	
 \.
 
 
@@ -12026,14 +12037,14 @@ SELECT pg_catalog.setval('public.django_migrations_id_seq', 59, true);
 -- Name: inventory_inventoryalert_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_inventoryalert_id_seq', 255, true);
+SELECT pg_catalog.setval('public.inventory_inventoryalert_id_seq', 256, true);
 
 
 --
 -- Name: inventory_parts_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.inventory_parts_id_seq', 374, true);
+SELECT pg_catalog.setval('public.inventory_parts_id_seq', 375, true);
 
 
 --
@@ -12194,21 +12205,21 @@ SELECT pg_catalog.setval('public.landing_wishlist_products_id_seq', 1, false);
 -- Name: service_jobcard_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.service_jobcard_id_seq', 656, true);
+SELECT pg_catalog.setval('public.service_jobcard_id_seq', 657, true);
 
 
 --
 -- Name: service_jobcarditem_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.service_jobcarditem_id_seq', 2507, true);
+SELECT pg_catalog.setval('public.service_jobcarditem_id_seq', 2508, true);
 
 
 --
 -- Name: service_servicechecklist_id_seq; Type: SEQUENCE SET; Schema: public; Owner: scooteruser
 --
 
-SELECT pg_catalog.setval('public.service_servicechecklist_id_seq', 3810, true);
+SELECT pg_catalog.setval('public.service_servicechecklist_id_seq', 3816, true);
 
 
 --
@@ -14009,5 +14020,5 @@ GRANT ALL ON SCHEMA public TO PUBLIC;
 -- PostgreSQL database dump complete
 --
 
-\unrestrict J3wlMLMNczrjTyAvG8dQ06yXULRmqeewleM7Rkr2P3gaIBdQGln6OrboGJ9ZsA0
+\unrestrict 62FZkcV09Qe84kw9lZScjJfOJCZHwRdOgHf2m0YD2KWqduLwx7c1jHnd7vKWTNA
 
